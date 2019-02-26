@@ -350,6 +350,10 @@ p {
     opacity: 0.5;
 }
 
+.opacity-full {
+    opacity: 1;
+}
+
 /* drop shadow */
 
 .ds {
@@ -569,10 +573,14 @@ p {
 
 .up {
     opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
 
 .is-animating .up {
     opacity: 0;
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
 }
 
 /* transitions */
@@ -748,7 +756,7 @@ img.lazy-loaded {
 }
 
 footer img,
-img.decentral-navbar-brand,
+img.jaxx-navbar-brand,
 img.decentral-logo,
 #avatars img {
     opacity: 1;
@@ -762,6 +770,11 @@ img.decentral-logo,
     margin: 0 0 0 10px;
     width: 185px;
     width: 35px;
+}
+.jaxx-navbar-brand {
+	height: auto;
+	margin: 10px 10px 0;
+	width: 85px;
 }
 
 .decentral-logo {
@@ -787,6 +800,15 @@ img.decentral-logo,
 }
 
 /*===== Home ======*/
+
+/*images ===========*/
+
+.bg--home-banner {
+    background: url(/assets/img/jaxx-3-phone-bottom.png) center top;
+    background-size: contain;
+    box-shadow: 2px 2px 10px grey;
+}
+
 
 .banner-right {
     display: -webkit-box;
@@ -1315,6 +1337,12 @@ footer li a {
 }
 
 @media screen and (max-width: 601px) {
+      /*reduce navbar logo and mobile menu size*/
+    .navbar-brand .jaxx-navbar-brand {
+        height: auto;
+        margin: 10px 5px 0;
+        width: 68px;
+    }
     .site-title {
         font-size: 54px;
         font-size: 48px;

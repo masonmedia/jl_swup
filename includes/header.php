@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/main.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <!--cookies banner-->
     <link rel="stylesheet" href="/assets/css/cookieconsent.min.css">
     <script>            
@@ -77,7 +77,8 @@
        <!--nav-->
         <nav id="menu" class="navbar fixed-top navbar-expand-lg down down-med">
             <a class="navbar-brand" href="/">
-                <img class="decentral-navbar-brand" src="/assets/img/decentral_D_logo_white.png" alt="Decentral Inc.">
+            <!--<img class="decentral-navbar-brand" src="/assets/img/decentral_D_logo_white.png" alt="Decentral Inc.">-->
+                <img class="jaxx-navbar-brand" src="/assets/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).png" alt="Jaxx Liberty">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="wrapper-menu">
@@ -92,19 +93,19 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about.php">About</a>
+                        <a class="nav-link" href="/features.php">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/features.php">Jaxx Liberty</a>
+                        <a class="nav-link" href="/downloads.php">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/partner-network.php">Partner Network</a>
+                        <a class="nav-link" href="/security.php">Security</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.php">Contact</a>
+                        <a class="nav-link" href="/">Support</a>
                     </li>
                 </ul>
             </div>
