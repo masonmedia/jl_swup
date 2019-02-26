@@ -13,7 +13,7 @@ include 'includes/header.php';
         <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 mt-5">Jaxx Liberty</h1>
-            <h2 class="site-title knockout-gradient font-weight-bold zoom zoom-med">Your all-in-one digital asset wallet.</h2>
+            <h2 class="site-title knockout-gradient font-weight-bold zoom zoom-med">Your multi-platform, multi-currency digital asset wallet.</h2>
             <h3 class="h4 zoom zoom-med-slow">Securely manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash, all for free.</h3>
             <!--button container-->
             <div class="container-fluid pt-3">

@@ -490,6 +490,7 @@ p {
     transition: .5s;
     -webkit-transition-delay: .4s;
     transition-delay: .4s;
+    transition-delay: .4s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
@@ -758,7 +759,7 @@ img.lazy-loaded {
 footer img,
 img.jaxx-navbar-brand,
 img.decentral-logo,
-#avatars img {
+#features .w-75 {
     opacity: 1;
 }
 
