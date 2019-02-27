@@ -1,6 +1,8 @@
 //onload fade in
 TweenMax.to($("body"), 1.3, {autoAlpha:1, ease: Power3.easeInOut});
 
+//TweenMax.staggerFrom(".btn", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
+
 $(document).ready(function() {
     //swup 
       const swup = new Swup({
@@ -12,7 +14,7 @@ $(document).ready(function() {
     
     //GSAP menu timeline
     
-    TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7)}, 0.1);
+    TweenMax.staggerFrom(".navbar-brand, .nav-item", 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7), force3D:true}, 0.1);
        
     //bs carousel
     $('.carousel').carousel({
@@ -61,7 +63,7 @@ $(document).ready(function() {
             .setTween(stagger2)
             .addTo(controller);
     }); 
-    
+  
     $(".stagger-down").each(function() {
 
       var stagger3 = TweenMax.staggerFrom($(this).find(".slide-down"), 1, {
@@ -99,8 +101,7 @@ $(document).ready(function() {
             .addTo(controller);
     }); 
     
-        //timeline animation -- not using
-        $(".animate-link").click(function(){
+        $(".animate-out").click(function(){
           TweenMax.to("h1, h2, h3, .h4, li, p, i, hr", 0.5, {opacity:0, delay: 0, x:-100, ease:Back.easeIn}, 0.1);
           TweenMax.to("img", 2, {opacity:0, scale:0, delay: 0, ease:Back.easeIn}, 0.1);
         });
@@ -204,11 +205,6 @@ document.addEventListener('swup:contentReplaced', function () {
             .setTween(stagger3)
             .addTo(controller);
     }); 
-    
-    $(".animate-link").click(function(){
-      TweenMax.to("h1, h2, h3, .h4, li, p, i, hr", 0.5, {opacity:0, delay: 0, x:-100, ease:Back.easeIn}, 0.1);
-      TweenMax.to("img", 2, {opacity:0, scale:0, delay: 0, ease:Back.easeIn}, 0.1);
-    });
     
     //lazyload reinit
     $(".lazy").recliner({

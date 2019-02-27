@@ -47,7 +47,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-slow">Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-home.png" alt="Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-home.png" alt="Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -178,7 +178,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white px-5 pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
-                    <h2 class="section-title py-3 right">24/7 customer support.</h2>
+                    <h2 class="section-title py-3 right">Enjoy 24/7 customer support.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
                     <p class="p-big py-3 right right-low">Get free world-class support from our User Success Team, via email or social media, available 24/7.</p>
                 </div>
@@ -194,8 +194,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
               <div class="offset-lg-2"></div>
-               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center o-12 slide-right">
-                    <img class="w-75 ds right lazy" data-src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
+               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 right">
+                    <img class="w-75 ds right right-med lazy" data-src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
                     <h2 class="section-title pb-3 pt-5 slide-right">Wherever you are.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-right">
                     <p class="p-big pt-3 mb-0 slide-right">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>

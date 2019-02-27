@@ -10,7 +10,8 @@ include 'includes/header.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
   <div class="row d-flex min-700-lg relative text-light py-5 px-0 stagger-right">
-        <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">
+        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">
+<!--        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">-->
         <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 mt-5 right">Jaxx Liberty</h1>
             <h2 class="site-title knockout-gradient font-weight-bold zoom zoom-med">Your multi-platform, multi-currency digital asset wallet.</h2>
@@ -57,8 +58,8 @@ include 'includes/header.php';
          <section>
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg d-flex flex-column justify-content-center align-items-center down down-med">
-                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie.jpeg" alt="Welcome to Decentral Inc.">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company." title="Decentral Inc.">-->
+<!--                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie.jpeg" alt="Welcome to Decentral Inc.">-->
+                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">
                 </div>
             </div>
         </section>
@@ -287,7 +288,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and <a href="/partnerships.php"><span class="orange">partners</span></a> around the world. Join the Jaxx Liberty community today.</p>
                     <div class="up up-slow">
-                        <a href="/contact.php"><p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="/contact.php" class="animate-out"><p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div><!--end row-->

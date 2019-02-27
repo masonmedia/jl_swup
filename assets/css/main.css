@@ -532,18 +532,17 @@ p {
     transition: 1.8s;
 }
 
+
 /*fade-down*/
 
 .down {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    opacity: 1;
 }
 
 .is-animating .down {
     -webkit-transform: translateY(-150px);
     transform: translateY(-150px);
-    opacity: 0;
 }
 
 /*fade right*/
@@ -756,7 +755,8 @@ img.lazy-loaded {
 
 footer img,
 img.jaxx-navbar-brand,
-img.decentral-logo {
+img.decentral-logo,
+#features .w-75 {
     opacity: 1;
 }
 /*#features .w-75*/

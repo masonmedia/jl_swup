@@ -14,11 +14,9 @@ include 'includes/header.php';
     <div class="row d-flex min-700-lg py-5 text-light relative">
 <!--       <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
        <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-group-people.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left p-5">
+        <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts-title p-5">
             <h1 class="h4 mt-3 zoom">Security</h1>
-            <h2 class="site-title knockout-gradient font-weight-bold zoom zoom-med">Your safety is our mission.</h2>           
-            <!--<a href="#sec-1"><i class="fa fa-angle-down knockout-gradient p-0 slide-right"></i></a>-->
-            <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
+            <h2 class="site-title font-weight-bold zoom zoom-med">Your security is our priority.</h2>         <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
         <div class="offset-lg-5"></div>
     </div>
@@ -31,10 +29,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-500 bg-white py-5 relative stagger-down">
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 down">
-                    <h1 class="h4 slide-down">Transforming the way you invest</h1>
-                    <h2 class="section-title font-weight-bold slide-down">Securely manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash, all for free.</h2>
+                    <h1 class="h4 slide-down">Secure by Default</h1>
+                    <h2 class="section-title font-weight-bold slide-down">We built Jaxx Liberty with security in mind - to keep your digital assets safe every time you use our products. Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.</h2>
                     <div class="down down-med">
-                        <a href="https://jaxx.io" target="_blank"><p class="p-btn mt-2 slide-down">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="#sec-2" target="_blank"><p class="p-btn mt-2 slide-down">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                 </div>
                 <div class="offset-lg-4"></div>
@@ -48,41 +46,48 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
-
+        
+        <!--sec features-->
+        
         <section>
-            <div class="row d-flex min-500 bg-white py-5 stagger-right">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
-                    <h1 class="h4 slide-right">Features</h1>
-                    <h2 class="section-title font-weight-bold slide-right">Get the latest blockchain headline news, real-time market data, check your portfolio, and exchange between digital assets all in one convenient place.</h2>
-                    <div class="right right-med">
-                        <a href="https://jaxx.io/features" target="_blank"><p class="p-btn mt-2 slide-right">Explore more features <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+            <div id="sec-2" class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 slide-right">Security features</h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">It starts with a seed.</h3>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
+                    <p class="p-big pt-3 m-0 slide-right">When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.</p>
+                    <div class="right right-slow">
+                        <a href="#sec-3"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
-                <div class="offset-lg-4"></div>
             </div>
         </section>
 
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-phone-hand-car-2.jpg" alt="Jaxx Liberty is packed with features. Visit jaxx.io for more information.">
+<!--                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-phone-hand-car-2.jpg" alt="Jaxx Liberty is packed with features. Visit jaxx.io for more information.">-->
+                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-iphone-X-white-grey-bg.jpg" alt="Jaxx Liberty is packed with features. Visit jaxx.io for more information.">
                 </div>
             </div>
         </section>     
 
-        <!--security-->
+        <!--everything stays on device-->
         
         <section>
-            <div class="row d-flex min-500 bg-white py-5 stagger-down">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 down">
-                    <h1 class="h4 slide-down">Security</h1>
-                    <h2 class="section-title font-weight-bold slide-down">Enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.</h2>
-                    <div class="down down-med">
-                        <a href="https://jaxx.io/security" target="_blank"><p class="p-btn mt-2 slide-down">Find out more <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+            <div id="sec-2" class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 slide-right">You're in control</h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">Everything stays on-device.</h3>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
+                    <p class="p-big pt-3 m-0 slide-right">Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server. We believe you should be in complete control.</p>
+                    <div class="right right-slow">
+                        <a href="#sec-3"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
-                <div class="offset-lg-4"></div>
-            </div>  
+            </div>
         </section>
 
         <section>
@@ -93,48 +98,53 @@ include 'includes/header.php';
             </div>
         </section>
 
-        <!--support-->
-
+        <!--Password-->
+        
         <section>
-            <div class="row d-flex min-500 bg-white py-5 stagger-right">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
-                    <h1 class="h4 slide-right">Support</h1>
-                    <h2 class="section-title font-weight-bold slide-right">Jaxx Liberty's world class User Success Team is available to answer all of your questions through our written channels, 24/7.</h2>
-                    <div class="right right-med">
-                        <a href="https://support.decentral.ca/hc/en-us" target="_blank"><p class="p-btn mt-2 slide-right">Here for you <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+            <div id="sec-2" class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 slide-right">Password protection</h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">Now add a second layer of encryption.</h3>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
+                    <p class="p-big pt-3 m-0 slide-right">Jaxx Liberty allows you to set a password to further enhance the security of your backup phrase, which encrypts everything within it. This gives you a second layer of security should your device ever be lost or stolen.</p>
+                    <div class="right right-slow">
+                        <a href="#sec-3"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
-                <div class="offset-lg-4"></div>
             </div>
         </section>
 
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">
                 </div>
             </div>
         </section>
 
-        <!--ecosystem-->
-
+        <!--Password-->
+        
         <section>
-            <div class="row d-flex min-500 bg-white py-5 stagger-down">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 down">
-                    <h1 class="h4 slide-down">Community</h1>
-                    <h2 class="section-title font-weight-bold slide-down">Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</h2>
-                    <div class="down down-med">
-                        <a href="https://jaxx.io/community" target="_blank"><p class="p-btn mt-2 slide-down">Join the community <i class="fa fa-angle-right fa-btn orange"></i></p></a>
-                    </div> 
+            <div id="sec-2" class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 slide-right">Multi-platform</h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">Secure across platforms.</h3>
                 </div>
-                <div class="offset-lg-4"></div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
+                    <p class="p-big pt-3 m-0 slide-right">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.</p>
+                    <div class="right right-slow">
+                        <a href="#sec-3"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                    </div>
+                </div>
             </div>
         </section>
 
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-friends.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
+<!--                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-laptop-hands.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">-->
+                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
                 </div>
             </div>
         </section>
