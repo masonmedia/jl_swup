@@ -9,6 +9,10 @@ $(document).ready(function() {
         scrollFriction: .3,
         scrollAcceleration: .04
     });
+    
+    //GSAP menu timeline
+    
+    TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7)}, 0.1);
        
     //bs carousel
     $('.carousel').carousel({
@@ -77,6 +81,24 @@ $(document).ready(function() {
             .addTo(controller);
     }); 
     
+    $(".stagger-fade").each(function() {
+
+      var stagger3 = TweenMax.staggerFrom($(this).find(".fade-in"), 1, {
+          opacity:0,    
+          delay:0,
+          ease: Back.easeInOut.config(1.7)
+      },
+      0.1);
+
+        var fadeDown = new ScrollMagic.Scene({
+                triggerElement: this,
+                triggerHook: 'onEnter',
+                reverse: true
+            })
+            .setTween(stagger3)
+            .addTo(controller);
+    }); 
+    
         //timeline animation -- not using
         $(".animate-link").click(function(){
           TweenMax.to("h1, h2, h3, .h4, li, p, i, hr", 0.5, {opacity:0, delay: 0, x:-100, ease:Back.easeIn}, 0.1);
@@ -118,7 +140,11 @@ $(document).ready(function() {
 
 document.addEventListener('swup:contentReplaced', function () {
     
-    //gsap reinit
+    //GSAP menu timeline
+    
+    TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7)}, 0.1);
+    
+    //scroll magic + gsap reinit
     
     var controller = new ScrollMagic.Controller();
 
