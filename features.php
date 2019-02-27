@@ -258,79 +258,71 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-palm-desk.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                <div class="col-lg-12 min-700-lg">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-ipad-palm-desk.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
                 </div>
             </div>
         </section>
 
         <!--more features-->
-                <div class="row d-flex p-5 bg-light stagger-right">
-                    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                        <h2 class="section-title py-3 slide-right">More to explore.</h2>
-                        <hr class="hr-big border-0 bg-orange m-0 slide-right">
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Customize your home screen.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">Drag and drop the homepage modules to create a personalized interface.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Password strength checker.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">Having a strong password is crucial. In Jaxx Liberty you can see how strong or weak your password is in real time.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Touch and face ID.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">We’ve added more ways for you to secure your digital assets: Face ID, Fingerprint and Pattern unlocking on iOS and Android.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">QR code support.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3">QR code support simplifies in-person transactions.</p>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Fast.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">Get the latest headline news, real-time market data, check your portfolio, and exchange between digital assets any time you want, almost instantly.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Trusted.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">Multi-asset.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3 pr-4 border-right">Enjoy support for more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                        <h4 class="py-3">100% free.</h4>
-                        <hr class="hr-big border-0 bg-orange m-0">
-                        <p class="p-big py-3">Jaxx Liberty is a free service that has no sign-up, conducts no registration, and requires no personal information to access your digital assets.</p>
-                    </div>
+               
+            <section>
+            <div class="row d-flex p-5 bg-light stagger-right">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
+                    <h2 class="section-title py-3 slide-right">More to explore.</h2>
+                    <hr class="hr-big border-0 bg-orange m-0 slide-right">
                 </div>
-                <!--end row-->
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Customize your home screen.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">Drag and drop the homepage modules to create a personalized interface.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Password strength checker.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">Having a strong password is crucial. In Jaxx Liberty you can see how strong or weak your password is in real time.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Touch and face ID.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">We’ve added more ways for you to secure your digital assets: Face ID, Fingerprint and Pattern unlocking on iOS and Android.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">QR code support.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3">QR code support simplifies in-person transactions.</p>
+                </div>
 
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Fast.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">Get the latest headline news, real-time market data, check your portfolio, and exchange between digital assets any time you want, almost instantly.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Trusted.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">Multi-asset.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3 pr-4 border-right">Enjoy support for more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
+                    <h4 class="py-3">100% free.</h4>
+                    <hr class="hr-big border-0 bg-orange m-0">
+                    <p class="p-big py-3">Jaxx Liberty is a free service that has no sign-up, conducts no registration, and requires no personal information to access your digital assets.</p>
+                </div>
+            </div><!--end row-->
+        </section>
+                
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
-                </div>
-            </div>
-        </section>       
-
-<!--
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-clay-iphone-ipad-myjaxx.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
+                <div class="col-lg-12 min-700-lg">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
                 </div>
             </div>
         </section>
--->
 
     </div><!--end main container-->
 </main>
