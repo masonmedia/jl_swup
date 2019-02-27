@@ -1,6 +1,6 @@
  <!--footer-->
         <footer>
-            <div class="container-fluid p-0 stagger-down">
+            <div class="container-fluid p-0 relative stagger-down">
                 <div class="row d-flex d-flex justify-content-center align-items-end text-secondary bg-light text-secondary px-3 pt-5">
                    <div class="col-lg-3 col-md-6 px-4 py-3 skew down">
                         <ul class="list-unstyled w-100 slide-down">

@@ -58,8 +58,9 @@ include 'includes/header.php';
          <section>
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg d-flex flex-column justify-content-center align-items-center">
-                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">
-<!--                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device-black.jpg" alt="Welcome to Jaxx Liberty.">-->
+<!--                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">-->
+                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
+<!--                   <img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
         </section>
@@ -151,16 +152,6 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
-        
-<!--
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="We champion the decentralized movement by building technology that empowers." title="Decentral team">
-                </div>
-            </div>
-        </section>
--->
 
         <!--testimonials-->
 
@@ -272,7 +263,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-lap-laptop-coffee.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-lap-laptop-coffee.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
                 </div>
             </div>
         </section>
@@ -295,7 +286,7 @@ include 'includes/header.php';
 
              <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-community-red.jpeg" alt="Join the Decentral community">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-community-red.jpeg" alt="Join the Decentral community">
                 </div>
             </div>
         </section>
