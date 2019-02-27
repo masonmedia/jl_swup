@@ -58,7 +58,6 @@ include 'includes/header.php';
          <section>
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg d-flex flex-column justify-content-center align-items-center down down-med">
-<!--                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie.jpeg" alt="Welcome to Decentral Inc.">-->
                    <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">
                 </div>
             </div>
@@ -84,7 +83,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty is the leading multi-platform digital asset wallet." title="Jaxx Liberty">
+                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie.jpeg" alt="Welcome to Decentral Inc.">
                 </div>
             </div>
         </section>
