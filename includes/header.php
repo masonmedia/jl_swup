@@ -102,10 +102,13 @@
                         <a class="nav-link" href="/security.php">Security</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/community.php">Community</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Support</a>
+                        <a class="nav-link" href="https://support.decentral.ca/hc/en-us" target="_blank">Support</a>
                     </li>
                 </ul>
             </div>

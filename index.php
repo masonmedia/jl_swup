@@ -139,7 +139,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
                     <p class="p-big pt-3 m-0 slide-right">With Jaxx Liberty, you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.</p>
                     <div class="right right-slow">
-                        <a href="/features.php"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="/security.php"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div>
@@ -148,8 +148,8 @@ include 'includes/header.php';
        <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg">
-<!--                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-multi-device-2-security.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
+                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">-->
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
                 </div>
             </div>
         </section>
@@ -242,7 +242,32 @@ include 'includes/header.php';
                 </div><!--end slide-->
               </div>
             </div><!--end carousel-->
-        </section>       
+        </section>  
+        
+        <!--Our friends-->
+
+        <section>
+            <div class="row d-flex p-5 min-500 bg-white stagger-up">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
+                    <h2 class="h4 slide-up">Our friends</h2>
+                    <h3 class="section-title m-0 slide-up">Home to the top digital assets.</h3>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
+                    <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
+                    <div class="up up-slow">
+                        <a href="/features.php" target="_blank"><p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                    </div>
+                </div>
+            </div><!--end row-->
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light">
+                <div class="col-lg-12 min-700-lg up up-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-apple-4-iphones-min.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
+                </div>
+            </div>
+        </section>             
 
         <!--support-->
 

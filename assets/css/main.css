@@ -756,7 +756,8 @@ img.lazy-loaded {
 footer img,
 img.jaxx-navbar-brand,
 img.decentral-logo,
-#features .w-75 {
+#features .w-75,
+#blogAPI img {
     opacity: 1;
 }
 /*#features .w-75*/
@@ -1047,6 +1048,46 @@ input:checked + .slider:before {
     width: 200px;
 }
 
+/*community json blog API data --> columns =========*/
+
+.columns--blog {
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 1px dotted lightgrey;
+    padding: 20px 20px 0;
+}
+.columns--blog img {
+    width: 100%;
+    height: auto;
+}
+.columns--blog h2:first-of-type {
+    margin: 0 0 10px;
+}
+.columns--blog h2 {
+    border-top: 1px dotted lightgrey;
+/*    border-bottom: 1px dotted lightgrey;*/
+    color: #ff6902;
+    margin: 20px 0 20px;
+    padding: 20px 0 10px;
+}
+.columns--blog h3,
+.columns--blog h4,
+.columns--blog h5 {
+    border-top: 1px dotted lightgrey;
+    border-bottom: 1px dotted lightgrey;
+    padding: 20px 0;
+    margin: 0 0 20px;
+}
+.columns--blog p::first-line {
+    color: darkgrey;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.blog-button-container hr {
+    display: none;
+}
+
 /* nav ======================*/
 
 nav,
@@ -1312,7 +1353,10 @@ footer li a {
         padding: .375rem .75rem;
         padding: 5px 10px;
     }
-
+    /* features + community column count*/
+    .columns {
+        column-count: 2;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1435,6 +1479,10 @@ footer li a {
         -ms-flex-align: center;
         align-items: center;
     }
+    /* features + community page column count*/
+        .columns {
+            column-count: 1;
+        }
 }
 
 /* make features page modal 80% width */
