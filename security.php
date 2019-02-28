@@ -13,7 +13,7 @@ include 'includes/header.php';
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
        <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
-        <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts-title p-5">
+        <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
             <h1 class="h4 mt-3 zoom">Jaxx Liberty security</h1>
             <h2 class="site-title font-weight-bold zoom zoom-med">Your security is our priority.</h2>         <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
@@ -70,7 +70,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-white-grey-bg.jpg" alt="Jaxx Liberty is packed with features. Visit jaxx.io for more information.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="Jaxx Liberty is packed with features. Visit jaxx.io for more information.">
                 </div>
             </div>
         </section>     
@@ -130,7 +130,7 @@ include 'includes/header.php';
         <!--Password-->
         
         <section>
-            <div id="sec-2" class="row d-flex p-5 min-500 bg-white stagger-right">
+            <div id="sec-6" class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Multi-platform</h2>
                     <h3 class="section-title text-dark mb-0 slide-right">Secure across platforms.</h3>
@@ -138,7 +138,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
                     <p class="p-big pt-3 m-0 slide-right">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.</p>
                     <div class="right right-slow">
-                        <a href="#sec-3"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="#sec-7"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ include 'includes/header.php';
         <!--multidevice + download-->
         
         <section>
-            <div class="row bg-white min-500 py-5 stagger-right">
+            <div id="sec-7" class="row bg-white min-500 py-5 stagger-right">
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
                     <h2 class="h4 slide-right">Download</h2>
                     
@@ -171,7 +171,7 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div class="right right-med">
-                        <a href="https://jaxx.io/downloads" target="_blank"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads.php" target="_blank"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
                <div class="offset-lg-4"></div>

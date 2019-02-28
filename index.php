@@ -9,13 +9,13 @@ include 'includes/header.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-  <div class="row d-flex min-700-lg relative text-light py-5 px-0 stagger-right">
-        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">
-<!--        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">-->
-        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
-            <h1 class="h4 mt-5 right">Jaxx Liberty</h1>
-            <h2 class="site-title knockout-gradient font-weight-bold zoom zoom-med">Your multi-platform, multi-currency digital asset wallet.</h2>
-            <h3 class="h4 zoom zoom-med-slow">Securely manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash, all for free.</h3>
+  <div class="row d-flex min-100 min--100 relative py-5 px-0 stagger-right">
+<!--        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">-->
+        <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery.jpg" alt="Welcome to Jaxx Liberty.">
+            <div style="transform: rotate(-36deg);" class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
+            <h1 class="hidden">Jaxx Liberty</h1>
+            <h2 class="site-title font-weight-bold mt-5 zoom zoom-med">Your multi-platform, multi-currency digital asset wallet.</h2>
+            <!--<h3 class="h4 zoom zoom-med-slow">Securely manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash, all for free.</h3>-->
             <!--button container-->
             <div class="container-fluid pt-3">
                 <div class="row d-flex">
@@ -42,11 +42,12 @@ include 'includes/header.php';
         <section>
             <div id="sec-1" class="row d-flex p-5 min-500 bg-white relative stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 slide-down">Send, receive, exchange, and learn</h2>
+                    <h2 class="h4 slide-down">Jaxx Liberty</h2>
                     <h3 class="section-title text-dark slide-down">The leading multi-platform digital asset wallet.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Ranked among the top digital asset wallets, with thousands of users and over 3000 daily transactions, Jaxx Liberty is an industry leading investment tool that is reshaping the way people invest, learn about blockchain, and manage digital assets.</p>
+                    <p class="p-big pt-3 m-0 slide-down">With thousands of users and over 3000 daily transactions, Jaxx Liberty is an industry leading investment tool that is reshaping the way people invest, learn about blockchain, and manage digital assets.</p>
+<!--                    Ranked among the top digital asset wallets...-->
                     <!--Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads. With this release, we've made major updates we think you'll love.  -->
                     <div class="down down-slow">
                         <a href="/features.php"><p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i></p></a>
@@ -58,8 +59,7 @@ include 'includes/header.php';
          <section>
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg d-flex flex-column justify-content-center align-items-center">
-<!--                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device.jpg" alt="Welcome to Jaxx Liberty.">-->
-                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
 <!--                   <img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
@@ -85,7 +85,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg">
-                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
+                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
                 </div>
             </div>
         </section>
@@ -170,7 +170,7 @@ include 'includes/header.php';
         <!-- carousel-->
 
         <section>
-            <div id="testimonials" class="carousel slide carousel-fade relative" data-ride="carousel" data-aos="fade" data-aos-easing="ease-in-out-quart" data-aos-duration="1000">
+            <div id="testimonials" class="carousel slide carousel-fade relative up up-med" data-ride="carousel" data-aos="fade" data-aos-easing="ease-in-out-quart" data-aos-duration="1000">
               <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-black-cubes.jpeg" alt="Decentral is an innovation hub for disruptive and decentralized technologies." title="Decentral testimonials">
               <ol class="carousel-indicators">
                 <li data-target="#testimonials" data-slide-to="0" class="active"></li>
@@ -248,8 +248,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4 slide-up">Support</h2>
-                    <h3 class="section-title m-0 slide-up">World class user support.<span class="d-table">24/7, 365.</span></h3>
+                    <h2 class="h4 slide-up">We're here to help</h2>
+                    <h3 class="section-title m-0 slide-up">World class customer support.<span class="d-table">24/7, 365.</span></h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty's User Success Team is available to answer all of your questions through our written channels, 24/7.</p>
