@@ -753,13 +753,22 @@ img.lazy-loaded {
     opacity: 1;
 }
 
+/*remove lazy class treatment from standard/smaller/modal imgs*/
+
 footer img,
 img.jaxx-navbar-brand,
 img.decentral-logo,
 #features .w-75,
-#blogAPI img {
+#blogAPI img,
+#coinLogos img {
     opacity: 1;
 }
+
+/* community page coin logo imgs */
+.coin-logo {
+    width: 140px;
+}
+
 /*#features .w-75*/
 
 
