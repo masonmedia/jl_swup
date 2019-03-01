@@ -139,7 +139,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
                     <p class="p-big pt-3 m-0 slide-right">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.</p>
                     <div class="right right-slow">
-                        <a href="#sec-7"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="#sec-7"><p class="p-btn mt-3 slide-right">Download <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div>

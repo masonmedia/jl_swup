@@ -131,7 +131,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-apple-4-iphones-min.jpg" alt="">
 <!--                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">-->
                 </div>
             </div>
@@ -574,7 +574,6 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-<!--                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-girl-laptop-phone-2.jpg" alt="">-->
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="">
                 </div>
             </div>

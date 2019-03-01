@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-    <!--banner-->
+<!--banner-->
 
     <div role="banner" class="container-fluid p-0">
-        <div class="row d-flex min-700-lg py-5 text-light relative">
-            <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
+        <div class="row d-flex min-700-lg relative py-5 text-light">
+           <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
             <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
                 <h1 class="h4 mt-3 zoom">Jaxx Liberty Change Log</h1>
@@ -23,11 +23,16 @@ include 'includes/header.php';
         </div>
     </div>
 
-    <main id="sec-1" role="main">
-        <div class="container-fluid relative bg-light">
-            <div class="row d-flex">
-                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white p-5">
+<!--main body-->
+
+<main>
+    <div id="sec-1" class="container-fluid p-0 text-secondary">
+
+        <!--intro-->
+        
+        <section>
+            <div id="sec-4" class="row d-flex relative p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left p-3 right">
                         <div class="wrap border-bottom w-100 pb-3">
                             <h1 class="section-title font-weight-bold pb-2 m-0">Change Log</h1>
                         </div>
@@ -506,16 +511,14 @@ include 'includes/header.php';
                                 Keys
                             </p>
                         </div>
-                    
-                    </div><!--end wrap-->
+              
                 </div>
-                <!--end col-->
             </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </main>
+        </section>
 
+    </div><!--end main container-->
+</main>
+    
 <?php
 
 include 'includes/footer.php';

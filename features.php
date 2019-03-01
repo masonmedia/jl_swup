@@ -286,7 +286,7 @@ include 'includes/header.php';
                 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
                 </div>
             </div>

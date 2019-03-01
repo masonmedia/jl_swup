@@ -7,9 +7,9 @@
                             <li class="h4 font-weight-bold">Company</li>
                             <hr class="hr-big border-0 bg-secondary ">
                             <li><a href="/about.php">About</a></li>
-                            <li><a href="/partner-network.php">Partner Network</a></li>
-                            <li><a href="/about.php">Team</a></li>
-                            <li><a href="/about.php">History</a></li>
+                            <li><a href="/community.php">Community</a></li>
+                            <li><a href="/about.php">Blog</a></li>
+                            <li><a href="https://decentral.ca">Decentral</a></li>
                         </ul>
                     </div>
                     
