@@ -27,7 +27,7 @@
             <div class="row d-flex">
                 <!--table of contents-->
                 <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 rounded p-4">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots px-5 pb-5 pt-4 shadow">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots px-5 pb-5 pt-4">
                         <h2 class="h5 pt-3 pb-4 m-0 text-secondary border-bottom w-100">Last updated: February 20, 2019</h2>
                         <h3 class="section-title pt-3 pb-4 mb-3 border-bottom w-100">Table of Contents</h3>
                         <h4 class="mb-0 font-weight-bold py-2"><a href="#basics">1. Background</a></h4>
@@ -66,7 +66,7 @@
                     <div id="basics"></div>
                 </div>
                 <!--col 1-->
-                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
+                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
                         <h2 class="section-title pb-3">1. Background</h2>
                         <!--1 basics-->
@@ -90,7 +90,7 @@
                 <!--end col-->
 
                 <!--col-->
-                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
+                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
                         <h2 class="section-title pb-3">2. Privacy</h2>
                         <!--2.1-->
@@ -125,7 +125,7 @@
                 <!--end col-->
 
                 <!--col-->
-                <div id="ob-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
+                <div id="ob-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
                         <h2 class="section-title pb-3">3. Obligations</h2>
                         <!--3.1-->
@@ -158,7 +158,7 @@
                 </div>
                 <!--end col-->
                 <!--col 3-->
-                <div id="c-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
+                <div id="c-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
                         <h2 class="section-title pb-3">4. Constraints</h2>
                         <!--4.1-->
@@ -179,7 +179,7 @@
                 <!--end col-->
 
                 <!--col 5-->
-                <div id="i-1" class="col-xl-12 col-md-12 d-flex flex-column justify-content-center align-items-center p-4 pb-5 mb-4">
+                <div id="i-1" class="col-xl-12 col-md-12 d-flex flex-column justify-content-center align-items-center px-4 pb-4 pt-0 mb-4">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start border rounded w-100 h-100 border rounded bg-white bg-dots p-5">
                         <h2 class="section-title pb-3">5. Interpretation</h2>
                         <!--5.1-->

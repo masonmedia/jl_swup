@@ -20,7 +20,7 @@
                             <li><a href="/legal/terms-current.php">Terms of Service</a></li>
                             <li><a href="/legal/intellectual-property.php">Intellectual Property</a></li>
                             <li><a href="/changeLog.php">Changelog</a></li>
-                            <li><a href="https://blog.jaxx.io" target="_blank">Blog</a></li>
+                            <li><a href="/thirdparties-current.php">Third Party Agreements</a></li>
                         </ul>
                     </div>
                     

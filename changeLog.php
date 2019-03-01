@@ -1,4 +1,3 @@
-
 <?php
 
 $title = "Jaxx Liberty | Changelog";
@@ -13,8 +12,8 @@ include 'includes/header.php';
 
     <div role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg py-5 text-light relative">
-           <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
-           <div class="offset-lg-2"></div>
+            <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
+            <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
                 <h1 class="h4 mt-3 zoom">Jaxx Liberty Change Log</h1>
                 <h2 class="site-title font-weight-bold zoom zoom-med">Jaxx Liberty updates and improvements.</h2>
@@ -258,7 +257,7 @@ include 'includes/header.php';
 
                     <div class="wrap border-bottom pb-3">
                         <img class="jaxx-logo-text d-inline mr-2 align-bottom" src="/img/Jaxx_Legacy_Logo.svg" alt="Jaxx Legacy">
-                        <h1 class="font-weight-bold font-italic pb-2 m-0">Change Log</h1>
+                        <h1 class="section-title pb-2 m-0">Jaxx Classic Change Log</h1>
                     </div>
                     <div>
                         <h3 class="orange border-bottom py-3">1.3.17</h3>

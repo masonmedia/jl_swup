@@ -1,5 +1,5 @@
 <?php 
-$title = "Jaxx Liberty | Terms of Service";
+$title = "Jaxx Liberty | Intellectual Property";
 $metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/includes/header.php";
@@ -13,8 +13,8 @@ include_once($path);
            <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-terms.jpeg" alt="Jaxx Liberty changes, updates, and improvements.">
            <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-                <h1 class="h4 mt-3 zoom">Jaxx Liberty Intellectual Property</h1>
-                <h2 class="site-title font-weight-bold zoom zoom-med">This is our agreement with you.</h2>
+                <h1 class="h4 mt-3 zoom">Jaxx Liberty</h1>
+                <h2 class="site-title font-weight-bold zoom zoom-med">Intellectual Property</h2>
                 <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
             </div>
             <div class="offset-lg-2"></div>
@@ -23,11 +23,11 @@ include_once($path);
 
     <main id="sec-1" role="main">
         <!--container-->
-        <div class="container-fluid bg-light">
+        <div class="container-fluid bg-light relative">
             <div class="row d-flex">
                 <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 p-4">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
-                        <h2 class="section-sub-title border-bottom w-100 mb-3 pb-4">Intellectual Property</h2>
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white p-5">
+                        <h2 class="section-title border-bottom w-100 mb-3 pb-4">Intellectual Property</h2>
                         <!--intro-->
                         <h3 class="h4 font-weight-bold py-2">Introduction</h3>
                         <p><a href="/legal/terms-current.html" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="800"><span class="orange font-weight-bold">Section 3.4</span></a> of our terms of service, entitled “Respect Others’ Work”, refers to third-party rights-holders. Some of these require that we distribute, in all copies or substantial portions of Jaxx Liberty, certain notices relating to their intellectual property.</p>
