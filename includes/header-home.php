@@ -71,8 +71,6 @@
           },
         })});
     </script>
-    <!-- Zendesk Widget script -->
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
 </head>
 <body>
     <div id="swup" class="transition-fade">

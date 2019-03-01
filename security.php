@@ -19,6 +19,7 @@ include 'includes/header.php';
         </div>
         <div class="offset-lg-5"></div>
     </div>
+</div>
 
 <!--main body-->
 

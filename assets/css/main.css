@@ -502,7 +502,6 @@ p {
 /*zoom [fade-in-right]*/
 
 .zoom {
-    opacity: 1;
     -webkit-transition: .5s;
     transition: .5s;
     -webkit-transform: translateX(0);
@@ -512,7 +511,6 @@ p {
 }
 
 .is-animating .zoom {
-    opacity: 0;
     -webkit-transform: translateX(-150px);
     transform: translateX(-150px);
 }
@@ -745,8 +743,8 @@ html.is-animating .transition-wipe {
 
 img {
     opacity: 0;
-    -webkit-transition: opacity .5s ease-in;
-    transition: opacity .5s ease-in;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 img.lazy-loaded {
@@ -758,7 +756,7 @@ img.lazy-loaded {
 footer img,
 img.jaxx-navbar-brand,
 img.decentral-logo,
-#features .w-75,
+#features img,
 #blogAPI img,
 #coinLogos img {
     opacity: 1;
@@ -766,7 +764,7 @@ img.decentral-logo,
 
 /* community page coin logo imgs */
 .coin-logo {
-    width: 140px;
+    width: 120px;
 }
 
 /*#features .w-75*/
@@ -991,7 +989,7 @@ input:checked + .slider:before {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: transparent;
+/*    color: transparent;*/
     /* text-shadow: 0 1px 0 #fff; */
     text-shadow: none;
     opacity: 1;

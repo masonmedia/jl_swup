@@ -17,9 +17,9 @@
                         <ul class="list-unstyled w-100 slide-down">
                             <li class="h4 font-weight-bold">Jaxx Liberty</li>
                             <hr class="hr-big border-0 bg-secondary">
-                            <li><a href="https://jaxx.io/features" target="_blank">Features</a></li>
-                            <li><a href="https://jaxx.io/community" target="_blank">Community</a></li>
-                            <li><a href="https://support.decentral.ca/hc/en-us" target="_blank">Jaxx Support</a></li>
+                            <li><a href="/terms-current.php">Terms of Service</a></li>
+                            <li><a href="/intellectual-property.php">Intellectual Property</a></li>
+                            <li><a href="/changeLog.php">Changelog</a></li>
                             <li><a href="https://blog.jaxx.io" target="_blank">Blog</a></li>
                         </ul>
                     </div>

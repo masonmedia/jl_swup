@@ -20,6 +20,7 @@ include 'includes/header.php';
         </div>
         <div class="offset-lg-5"></div>
     </div>
+</div>
 
 <!--main body-->
 
@@ -59,7 +60,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light px-5 pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-port.png" alt="View your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-port.png" alt="View your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">View your portfolio.</h2>
@@ -81,7 +82,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-slow">Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-news.png" alt="Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-news.png" alt="Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -93,7 +94,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light px-5 pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-markets.png" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-markets.png" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Track market data.</h2>
@@ -115,7 +116,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-slow">Easily customize your Jaxx Liberty wallet module, scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-wallets.png" alt="Easily customize your Jaxx Liberty wallet module.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-wallets.png" alt="Easily customize your Jaxx Liberty wallet module.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -127,7 +128,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light px-5 pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Search the blockchain.</h2>
@@ -149,7 +150,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-backup.png" alt="">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -161,7 +162,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light px-5 pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="w-75 m-auto ds right lazy" data-src="/assets/img/jaxx-feat-phone-case-shapeshift.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                    <img class="w-75 m-auto ds right" src="/assets/img/jaxx-feat-phone-case-shapeshift.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Exchange between assets.</h2>
@@ -183,7 +184,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-low">Get free world-class support from our User Success Team, via email or social media, available 24/7.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="w-75 right lazy" data-src="/assets/img/jaxx-feat-phone-case-support.png" alt="Jaxx Liberty 24/7 support.">
+                    <img class="w-75 right" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Jaxx Liberty 24/7 support.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -194,8 +195,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
               <div class="offset-lg-2"></div>
-               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 right">
-                    <img class="w-75 ds right right-med lazy" data-src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
+               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 slide-right">
+                    <img class="w-75 ds right right-med" src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
                     <h2 class="section-title pb-3 pt-5 slide-right">Wherever you are.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-right">
                     <p class="p-big pt-3 mb-0 slide-right">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
@@ -221,45 +222,12 @@ include 'includes/header.php';
             </div>
         </section>
         
-        <!--download-->
-       
-<!--
-        <section>
-            <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
-               <div class="offset-lg-2"></div>
-               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="img-full m-auto ds right lazy" data-src="/assets/img/jaxx-multi-device-shopify.png" alt="Take Jaxx Liberty wherever you go.">
-                </div>
-                <div class="col-lg-4 banner-left px-5 pt-3 right">
-                    <h2 class="section-title py-3 slide-right">Wherever you are.</h2>
-                    <hr class="hr-big border-0 bg-orange m-0 slide-right">
-                    <p class="p-big pt-3 mb-0 slide-right">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
-                    <div class="slide-down">
-                        <div class="btn-group dropup">
-                            <p id="download" class="p-btn mt-3 orange slide-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Start Now <i class="fa fa-angle-right fa-btn orange"></i></p>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank" onclick="googleAnalyticsTrigger('Android', 'Home_Section2')">Android</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">iOS</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Chrome</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')" href="/downloads.php">Desktop</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-               <div class="offset-lg-2"></div>
-            </div>
-        </section>
--->
-        
         <!--IPAD-->
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-ipad-palm-desk.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-palm-desk.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
                 </div>
             </div>
         </section>
@@ -319,7 +287,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-support-jump.jpeg" alt="Enjoy free 24/7 support from our world-class User Success Team.">
                 </div>
             </div>
         </section>

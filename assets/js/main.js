@@ -1,5 +1,5 @@
 //onload fade in
-TweenMax.to($("body"), 1.3, {autoAlpha:1, ease: Power3.easeInOut});
+TweenMax.to($("body"), 1.5, {autoAlpha:1, ease: Power3.easeInOut});
 
 //TweenMax.staggerFrom(".btn", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
 
@@ -15,6 +15,36 @@ $(document).ready(function() {
     //GSAP menu timeline
     
     TweenMax.staggerFrom(".navbar-brand, .nav-item", 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7), force3D:true}, 0.1);
+    
+    //zendesk widget options
+    window.zESettings = {
+      webWidget: {
+          launcher: {
+                  label: {
+                    'en-US': 'Help',
+                    'fr': 'Besoin d\'aide'
+                  }
+                },
+          helpCenter: {
+          title: {
+            'en-US': 'Jaxx Liberty Support',
+            'fr': 'Recherche d\'aide'
+          },
+              messageButton: {'*': 'Get in touch'
+          }
+        },
+        color: {
+          theme: '#fff',
+          launcher: '#264277',
+          launcherText: '#fff',
+          button: '#ff6902',
+          resultLists: '#ff6902',
+          header: '#ff6902',
+          title: '#fff',
+          articleLinks: '#ff6902'
+        }
+      }
+    };
        
     //bs carousel
     $('.carousel').carousel({
@@ -188,13 +218,43 @@ $(document).ready(function() {
 });//end doc ready
 
 
-//swup reinit plugins
+//swup reinit plugins *************************
 
 document.addEventListener('swup:contentReplaced', function () {
     
     //GSAP menu timeline
     
     TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {autoAlpha:0, x: -50, ease: Back.easeInOut.config(1.7)}, 0.1);
+    
+    //zendesk widget options
+    window.zESettings = {
+      webWidget: {
+          launcher: {
+                  label: {
+                    'en-US': 'Help?',
+                    'fr': 'Besoin d\'aide?'
+                  }
+                },
+          helpCenter: {
+          title: {
+            'en-US': 'Jaxx Liberty Support',
+            'fr': 'Recherche d\'aide'
+          },
+              messageButton: {'*': 'Get in touch'
+          }
+        },
+        color: {
+          theme: '#fff',
+          launcher: '#264277',
+          launcherText: '#fff',
+          button: '#ff6902',
+          resultLists: '#ff6902',
+          header: '#ff6902',
+          title: '#fff',
+          articleLinks: '#ff6902'
+        }
+      }
+    };
     
     //scroll magic + gsap reinit
     

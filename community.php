@@ -12,7 +12,6 @@ include 'includes/header.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
-<!--       <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" src="/assets/img/jaxx-partners.jpeg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
        <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-community-banner.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
@@ -22,6 +21,7 @@ include 'includes/header.php';
         </div>
         <div class="offset-lg-2"></div>
     </div>
+</div>
 
 <!--main body-->
 
@@ -36,10 +36,6 @@ include 'includes/header.php';
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center right">
                     <h2 class="h4 slide-right">Connecting, informing, sharing</h2>
                     <h3 class="section-title text-dark mb-0 slide-right">Working together to unite blockchain projects around the globe.</h3>
-<!--
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
--->
                     <p class="p-big pt-3 m-0 slide-right"><span class="font-weight-bold orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
                     <div class="right right-slow">
                         <a href="#sec-2"><p class="p-btn mt-3 slide-right">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
@@ -52,6 +48,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
+<!--                   <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-women-garage.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="">
                 </div>
             </div>
@@ -60,7 +57,7 @@ include 'includes/header.php';
         <!--social-->
         
         <section>
-            <div class="row d-flex min-500 bg-white stagger-right">
+            <div id="sec-2" class="row d-flex min-500 bg-white stagger-right">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
                     <h2 class="h4 mt-4 slide-right">The Decentral Ecosystem</h2>
@@ -133,9 +130,9 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
-<!--                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">-->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+<!--                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">-->
                 </div>
             </div>
         </section>
@@ -319,7 +316,7 @@ include 'includes/header.php';
                                                 <div class="accordion w-100 rounded" id="coinAccordion">
                                                     <div class="card border-0">
                                                         <div class="card-header bg-light border-0" id="headingOne">
-                                                            <button class="btn btn-lg btn-secondary mt-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Read More</button>
+                                                            <button class="btn btn-lg btn-secondary mt-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">See More</button>
                                                         </div>
                                                         <!--collapse content-->
                                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#coinAccordion">
@@ -552,9 +549,9 @@ include 'includes/header.php';
         
         <section>
             <div id="sec-7" class="row bg-white min-500 py-5 stagger-right">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
                     <h2 class="h4 slide-right">Download</h2>
-                    
                     <div class="right right-med">
                         <h3 class="section-title font-weight-bold slide-right">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</h3>
                     </div>
@@ -567,17 +564,18 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div class="right right-med">
-                        <a href="/downloads.php" target="_blank"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads.php" target="_blank"><p class="p-btn pt-3 mt-2 slide-right">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
-               <div class="offset-lg-4"></div>
+               <div class="offset-lg-2"></div>
             </div>
         </section>
 
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="">
+<!--                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-girl-laptop-phone-2.jpg" alt="">-->
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="">
                 </div>
             </div>
         </section>

@@ -2,14 +2,14 @@
 
 $title = "Jaxx Liberty | Home";
 
-include 'includes/header.php';
+include 'includes/header-home.php';
 
 ?>
 
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-  <div class="row d-flex min-100 min--100 relative py-5 px-0 stagger-right">
+  <div class="row d-flex min-100 min--100 relative py-5 px-0">
 <!--        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">-->
         <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery.jpg" alt="Welcome to Jaxx Liberty.">
             <div style="transform: rotate(-36deg);" class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
@@ -23,7 +23,7 @@ include 'includes/header.php';
                        <a href="#sec-1"><p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p></a>
                     </div>
                     <div class="col-xs-6 zoom zoom-slow">
-                        <a href="https://jaxx.io/downloads" target="_blank"><p class="p-btn mb-1 border-0 p-0">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
+                        <a href="/downloads.php" target="_blank"><p class="p-btn mb-1 border-0 p-0">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
                     </div>
                 </div>
             </div>
@@ -58,8 +58,8 @@ include 'includes/header.php';
 
          <section>
              <div class="row d-flex bg-white relative">
-                <div class="col-lg-12 min-700-lg d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
 <!--                   <img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
@@ -84,8 +84,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
-                   <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                   <img class="img-full absolute z-0 right-0 lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
                 </div>
             </div>
         </section>
@@ -122,8 +122,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
-                   <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg" alt="Welcome to Decentral Inc.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                   <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg" alt="Welcome to Decentral Inc.">
                 </div>
             </div>
         </section>
@@ -147,9 +147,9 @@ include 'includes/header.php';
 
        <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">-->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
                 </div>
             </div>
         </section>
@@ -263,7 +263,7 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg up up-med">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-apple-4-iphones-min.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
                 </div>
             </div>
@@ -288,8 +288,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-lap-laptop-coffee.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-lap-laptop-coffee.jpg" alt="Get help from the world class Jaxx Liberty User Success Team.">
                 </div>
             </div>
         </section>
@@ -311,8 +311,8 @@ include 'includes/header.php';
             </div><!--end row-->
 
              <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-community-red.jpeg" alt="Join the Decentral community">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-community-red.jpeg" alt="Join the Decentral community">
                 </div>
             </div>
         </section>
