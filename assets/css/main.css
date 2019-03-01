@@ -1050,6 +1050,10 @@ input:checked + .slider:before {
 
 /* 404 page D logo */
 
+.title-404 {
+    font-size: 30vmin;
+}
+
 .d {
     height: auto;
     width: 200px;
