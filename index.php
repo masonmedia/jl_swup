@@ -10,15 +10,19 @@ include 'includes/header-home.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
   <div class="row d-flex min-100 min--100 relative py-5 px-0">
-<!--        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-tablet-chair-right.jpg" alt="Welcome to Jaxx Liberty.">-->
-        <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery.jpg" alt="Welcome to Jaxx Liberty.">
-            <div style="transform: rotate(-36deg);" class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
-            <h1 class="hidden">Jaxx Liberty</h1>
-            <h2 class="site-title font-weight-bold mt-5 zoom zoom-med">Your multi-platform, multi-currency digital asset wallet.</h2>
-            <!--<h3 class="h4 zoom zoom-med-slow">Securely manage and exchange more than 85 digital assets including Bitcoin, Ethereum, Litecoin, and Dash, all for free.</h3>-->
+        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
+            <!--style="transform: rotate(-36deg);"-->
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
+            <h1 class="h4 knockout-gradient mt-5">Jaxx Liberty</h1>
+            <h2 class="site-title knockout-gradient font-weight-bold pt-2 zoom zoom-med">
+                Your multi-platform,
+                <span class="d-table">multi-currency</span>
+                <span class="d-table">digital asset</span>
+                <span class="d-table">wallet.</span>
+            </h2>
             <!--button container-->
-            <div class="container-fluid pt-3">
-                <div class="row d-flex">
+            <div class="container-fluid pt-2">
+                <div class="row d-flex d-sm-flex-column">
                     <div class="col-xs-6 pr-3 zoom zoom-slow">
                        <a href="#sec-1"><p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p></a>
                     </div>
@@ -28,7 +32,7 @@ include 'includes/header-home.php';
                 </div>
             </div>
         </div>
-        <div class="offset-lg-7"></div>
+        <div class="offset-lg-6"></div>
     </div>    
 </div><!--end banner-->
 

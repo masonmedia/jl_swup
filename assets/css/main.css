@@ -763,12 +763,12 @@ img.decentral-logo,
 }
 
 /* community page coin logo imgs */
+
 .coin-logo {
     width: 120px;
 }
 
 /*#features .w-75*/
-
 
 /* decentral logo ======================*/
 
@@ -778,10 +778,11 @@ img.decentral-logo,
     width: 185px;
     width: 35px;
 }
+
 .jaxx-navbar-brand {
-	height: auto;
-	margin: 10px 10px 0;
-	width: 85px;
+    height: auto;
+    margin: 10px 10px 0;
+    width: 85px;
 }
 
 .decentral-logo {
@@ -809,13 +810,6 @@ img.decentral-logo,
 /*===== Home ======*/
 
 /*images ===========*/
-
-.bg--home-banner {
-    background: url(/assets/img/jaxx-3-phone-bottom.png) center top;
-    background-size: contain;
-    box-shadow: 2px 2px 10px grey;
-}
-
 
 .banner-right {
     display: -webkit-box;
@@ -989,7 +983,7 @@ input:checked + .slider:before {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-/*    color: transparent;*/
+    /*    color: transparent;*/
     /* text-shadow: 0 1px 0 #fff; */
     text-shadow: none;
     opacity: 1;
@@ -1062,25 +1056,32 @@ input:checked + .slider:before {
 /*community json blog API data --> columns =========*/
 
 .columns--blog {
+    -webkit-column-count: 4;
     column-count: 4;
+    -webkit-column-gap: 30px;
     column-gap: 30px;
+    -webkit-column-rule: 1px dotted lightgrey;
     column-rule: 1px dotted lightgrey;
     padding: 20px 20px 0;
 }
+
 .columns--blog img {
     width: 100%;
     height: auto;
 }
+
 .columns--blog h2:first-of-type {
     margin: 0 0 10px;
 }
+
 .columns--blog h2 {
     border-top: 1px dotted lightgrey;
-/*    border-bottom: 1px dotted lightgrey;*/
+    /*    border-bottom: 1px dotted lightgrey;*/
     color: #ff6902;
     margin: 20px 0 20px;
     padding: 20px 0 10px;
 }
+
 .columns--blog h3,
 .columns--blog h4,
 .columns--blog h5 {
@@ -1089,6 +1090,7 @@ input:checked + .slider:before {
     padding: 20px 0;
     margin: 0 0 20px;
 }
+
 .columns--blog p::first-line {
     color: darkgrey;
     font-style: italic;
@@ -1366,6 +1368,7 @@ footer li a {
     }
     /* features + community column count*/
     .columns {
+        -webkit-column-count: 2;
         column-count: 2;
     }
 }
@@ -1391,16 +1394,22 @@ footer li a {
 }
 
 @media screen and (max-width: 601px) {
-      /*reduce navbar logo and mobile menu size*/
+
+    /*utilities*/
+    .d-sm-flex-column {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+    /*reduce navbar logo and mobile menu size*/
     .navbar-brand .jaxx-navbar-brand {
         height: auto;
         margin: 10px 5px 0;
-        width: 68px;
+        width: 77px;
     }
     .site-title {
-        font-size: 54px;
-        font-size: 48px;
-        font-size: 13vmin;
+        font-size: 42px;
     }
     p {
         font-size: 19px;
@@ -1491,9 +1500,10 @@ footer li a {
         align-items: center;
     }
     /* features + community page column count*/
-        .columns {
-            column-count: 1;
-        }
+    .columns {
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
 }
 
 /* make features page modal 80% width */

@@ -1,38 +1,33 @@
-<?php 
-    $title = "Jaxx Liberty | Intellectual Property";
+ <?php 
+    $title = "Jaxx Liberty | Terms of Service";
     $metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/includes/header.php";
     include_once($path);
-?> 
+?>          
+   
+    <!--banner-->
 
-<!--banner-->
-
-    <div role="banner" class="container-fluid p-0">
-        <div class="row d-flex min-700-lg relative py-5 text-light">
+    <div role="banner" class="container-fluid p-0 relative">
+        <div class="row d-flex min-700-lg py-5 text-light">
            <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-terms.jpeg" alt="Jaxx Liberty changes, updates, and improvements.">
            <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-                <h1 class="h4 mt-3 zoom">Jaxx Liberty</h1>
-                <h2 class="site-title font-weight-bold zoom zoom-med">Intellectual Property</h2>
+                <h1 class="h4 mt-3 zoom">Jaxx Liberty Terms of Service</h1>
+                <h2 class="site-title font-weight-bold zoom zoom-med">This is our agreement with you.</h2>
                 <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
             </div>
             <div class="offset-lg-2"></div>
         </div>
     </div>
 
-<!--main body-->
-
-<main>
-    <div id="sec-1" class="container-fluid p-0 text-secondary">
-
-        <!--intro-->
-        
-        <section>
-            <div id="sec-4" class="row d-flex relative p-5 min-500 bg-white stagger-right">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                   
-                   <div id="contents" class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white p-5">
+    <main id="sec-1" role="main">
+        <!--container-->
+        <div class="container-fluid relative bg-light">
+            <div class="row d-flex">
+                <!--table of contents-->
+                <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center rounded p-4">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots px-5 pb-5 pt-4">
                         <h2 class="h5 pt-3 pb-4 m-0 text-secondary border-bottom w-100">Last updated: February 20, 2019</h2>
                         <h3 class="section-title pt-3 pb-4 mb-3 border-bottom w-100">Table of Contents</h3>
                         <h4 class="mb-0 font-weight-bold py-2"><a href="#basics">1. Background</a></h4>
@@ -67,10 +62,13 @@
                             <li class="py-2 ml-2"><a href="#i-2">5.2 Dispute resolution</a></li>
                             <li class="py-2 ml-2"><a href="#i-3">5.3 Nailing down our agreement</a></li>
                         </ul>
-
-                        <!--background-->
-
-                        <h2 id="basics" class="section-title pb-3 pt-4">1. Background</h2>
+                    </div>
+                    <div id="basics"></div>
+                </div>
+                <!--col 1-->
+                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
+                        <h2 class="section-title pb-3">1. Background</h2>
                         <!--1 basics-->
                         <!--1.1-->
                         <h4 class="text-secondary border-bottom w-100 mb-3 pb-3">(1.1 What - 1.2 How - 1.3 Who)</h4>
@@ -86,11 +84,15 @@
                         <p>You're at least 18 years old, at least the age of majority where you reside, and control or own the device running Jaxx Liberty. No Canadian or U.S. governments has embargoed, designated as "terrorist supporting", or prohibited or restricted you or the place you live. You can't assign the agreement to anyone.</p>
                         <p>This agreement is between you and us: it binds no one else. The app store or other download intermediary where you obtained Jaxx Liberty does have the right to enforce this agreement's terms as a third-party beneficiary. But no download intermediary has any responsibility for Jaxx Liberty -- not its content, not its maintenance or support, not product liability or consumer law or regulatory compliance, not intellectual property infringement.</p>
                         <h5 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h5>
-                        <div id="privacy"></div>
-                    
-                        <!--privacy-->
+                    </div><!--end wrap-->
+                    <div id="privacy"></div>
+                </div>
+                <!--end col-->
 
-                        <h2 class="section-title pb-3 pt-4">2. Privacy</h2>
+                <!--col-->
+                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
+                        <h2 class="section-title pb-3">2. Privacy</h2>
                         <!--2.1-->
                         <h4 class="text-secondary border-bottom w-100 mb-3 pb-3">(2.1 Approach - 2.2 Collection - 2.3 Retention - 2.4 Permissions)</h4>
                         <p><span class="font-weight-bold">2.1 Pro-privacy approach: </span>The best way to respect your privacy is to avoid snooping. Our pro-privacy stance requires us to avoid collecting or exposing, “personal information”: anything that could identify you, whether on its own or when combined with other information. Your mnemonic phrase is stored, and your private keys derived, on your device only. We can’t access them. You can always take them elsewhere. You’re never locked into Jaxx Liberty.</p>
@@ -117,11 +119,15 @@
                         <!--2.4-->
                         <p><span class="font-weight-bold">2.4. App permissions: </span>Jaxx Liberty’s mobile editions seek camera permissions. This is to read a QR code, and store it on-device, in order to pair another Jaxx Liberty instance or scan a blockchain address. Jaxx Liberty uses those permissions carefully: it uses the camera only for those purposes and only at your prompting, and never sends anything off-device.</p>
                         <h5 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h5>
-                        <div id="obligations"></div>
-                        
-                        <!--obligations-->
-                    
-                        <h2 class="section-title pb-3 pt-4">3. Obligations</h2>
+                    </div><!--end wrap-->
+                    <div id="obligations"></div>
+                </div>
+                <!--end col-->
+
+                <!--col-->
+                <div id="ob-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
+                        <h2 class="section-title pb-3">3. Obligations</h2>
                         <!--3.1-->
                         <h4 class="text-secondary border-bottom w-100 mb-3 pb-3">(3.1 Take responsibility - 3.2 Act prudently - 3.3 Play nicely - 3.4 Respect others' work)</h4>
                         <p><span class="font-weight-bold">3.1. Take Responsibility: </span>We can provide Jaxx Liberty because you take responsibility for what you do with it. So the following are fundamental to our agreement:</p>
@@ -147,10 +153,14 @@
                         <p>You may, yourself, choose to give us feedback. We'll assume you've allowed us to use and keep your feedback, incorporate it, and hold a non-exclusive perpetual licence in it without royalty or obligation.</p>
                         <p>Third parties provide information, software libraries, and services that Jaxx Liberty uses or is partly built on. We assert no copyright in the RSS feeds we pass through, market data we parse, or third-party software libraries. Please refer to and respect relevant third-party licenses.</p>
                         <h5 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h5>
-                        
-                        <!--constraints-->
-                        
-                        <h2 class="section-title pb-3 pt-4">4. Constraints</h2>
+                    </div><!--end wrap-->
+                    <div id="constraints"></div>
+                </div>
+                <!--end col-->
+                <!--col 3-->
+                <div id="c-1" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-4 pb-4 pt-0">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-white bg-dots p-5">
+                        <h2 class="section-title pb-3">4. Constraints</h2>
                         <!--4.1-->
                         <h4 class="text-secondary border-bottom w-100 mb-3 pb-3">(4.1 No guarantees - 4.2 Moving parts - 4.3 Blockchain interaction)</h4>
                         <p id="c-2"><span class="font-weight-bold">4.1. No Guarantees: </span>Jaxx Liberty software, services, and support are provided at no cost, as is and, to the greatest extent laws allow, without any warranty at all. We don't warrant Jaxx Liberty is of merchantable quality or fit for your purpose, even if you've notified us of the purpose. Nor can we warrant that Jaxx Liberty is bug-free: bugs are inevitable. We work hard to rank and squash them.</p>
@@ -164,10 +174,14 @@
                         <p>We can't guarantee transfer instructions will be acted on and your transactions stored on a blockchain -- nor that, once stored, they remain there. Many blockchain networks require transaction fees, like mining fees, which if set too low or high may result in your incurring losses. We can't be responsible for these.</p>
                         <p>Jaxx Liberty's market information reflects a point in time for underlying data fluctuating constantly. Sending transfer instructions involves a longer period: the data values reflected in your transactions will differ accordingly. We're not responsible for that difference.</p>
                         <h5 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h5>
-                        
-                        <!--interpretation-->
-                        
-                        <h2 class="section-title pb-3 pt-4">5. Interpretation</h2>
+                    </div><!--end wrap-->
+                </div>
+                <!--end col-->
+
+                <!--col 5-->
+                <div id="i-1" class="col-xl-12 col-md-12 d-flex flex-column justify-content-center align-items-center px-4 pb-4 pt-0 mb-4">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start border rounded w-100 h-100 border rounded bg-white bg-dots p-5">
+                        <h2 class="section-title pb-3">5. Interpretation</h2>
                         <!--5.1-->
                         <h4 class="text-secondary border-bottom w-100 mb-3 pb-3">(5.1 Enforcing selectively - 5.2 Dispute resolution - 5.3 Nailing down our agreement)</h4>
                         <p id="i-2"><span class="font-weight-bold">5.1. Enforcing Selectively: </span>Failing to assert a right under this agreement doesn't waive the right to assert another right, or the same right, next time.</p>
@@ -177,15 +191,16 @@
                         <p id="i-4"><span class="font-weight-bold">5.3. Nailing Down our Agreement: </span>This is the whole agreement between you and Decentral. We'll push any updates to Jaxx Liberty, identify them in release notes, show the change date, and archive the previous version online. Unless the change is immaterial or to your clear advantage, we'll propose it 30 days in advance, so you have time to reject the change by ceasing use.</p>
                         <p>This agreement supersedes any other agreement or representation, however communicated, and can be amended only if both parties agree, in writing, with copy to <a href="mailto:legal@decentral.ca"><span class="orange">legal@decentral.ca</span></a>. Where we provide this agreement in more than one language and they don't precisely agree, the English-language version takes precedent. Les parties aux présentes conviennent que cette entente soit rédigée en anglais.</p>
                         <h5 class="font-weight-bold"><a href="#contents">Return to table of contents</a></h5>
-                    
-                    </div><!--end wrap-->
-                </div><!--end col-->
-            </div><!--end row-->
-        </section>
-
-    </div><!--end main container-->
-</main>
-
+                    </div>
+                    <!--end wrap-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!-- end container --> 
+    </main>
+       
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/includes/footer.php";

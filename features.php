@@ -195,7 +195,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
               <div class="offset-lg-2"></div>
-               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 slide-right">
+               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 right">
                     <img class="w-75 ds right right-med" src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
                     <h2 class="section-title pb-3 pt-5 slide-right">Wherever you are.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-right">

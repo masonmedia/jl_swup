@@ -47,7 +47,7 @@ include 'includes/header.php';
                     <h3 class="section-title text-dark mb-0 slide-down">Working together to unite blockchain projects around the globe.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovation hub for disruptive and decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class="font-weight-bold text-dark">purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.</p>
+                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovation hub for disruptive and decentralized technologies. Decentral was home to Canada’s first two-way Bitcoin ATM and from time to time hosts community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class="font-weight-bold text-dark">purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.</p>
                     <!-- Button trigger modal -->
                     <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#values"><p class="p-btn mt-3 slide-down">Explore our values <i class="fa fa-angle-right fa-btn orange"></i></p></button>
                 </div>
@@ -136,8 +136,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-<!--                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg" alt="Jaxx Liberty">-->
-                <img class="img-full absolute z-0 left-0 filter-dark lazy" data-src="/assets/img/jaxx-iphones-clay-3-black.jpg" alt="About Decentral">
+                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphones-clay-3-black.jpg" alt="About Decentral">
                 </div>
             </div>
         </section>
@@ -206,7 +205,7 @@ include 'includes/header.php';
                     <div class="timeline-item">
                         <h2 class="h5 orange pb-2">2</h2>
                         <h3 class="h1">Early 2013</h3>
-                        <p>Anthony Di Iorio founds and is elected first Executive Director of the Bitcoin Alliance of Canada (now <a href="http://blockchainassociation.ca" target="_blank"><span class="orange">“Blockchain Association”</span>)</a></p>
+                        <p>Anthony Di Iorio founds and is elected first Executive Director of the Bitcoin Alliance of Canada (now <a href="https://digitalchamber.org/canada/" target="_blank"><span class="orange">“Chamber of Digital Commerce Canada”</span>)</a></p>
                         <p>Kryptokit is conceived and development begins. Kryptokit becomes the first Bitcoin wallet browser extension on release.</p>
                         <hr class="mb-0 mt-4">
                     </div>
@@ -324,257 +323,12 @@ include 'includes/header.php';
                     <h3 class="section-title text-dark mb-0 slide-right">Leading the blockchain market into 2019.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Located in downtown Toronto, Decentral is an innovation hub for disruptive and decentralized technologies. Decentral is home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.</p>
+                    <p class="p-big pt-3 m-0 slide-right">Located in downtown Toronto, Decentral is an innovation hub for disruptive and decentralized technologies. We are building relationships with a range of companies in a wide variety of sectors that collectively are creating economic opportunity, and empowering individuals worldwide with financial liberty.</p>
                     <div class="right right-slow">
-                        <!-- Button trigger modal -->
-                        <button class="bg-white border-0 p-0" data-toggle="modal" data-target="#team"><p class="p-btn mt-3 slide-right">Meet the team <i class="fa fa-angle-right fa-btn orange"></i></p></button>
+                        <a href="https://decentral.ca" target="_blank"><p class="p-btn mt-3 slide-right">Find out more <i class="fa fa-angle-right fa-btn orange"></i></p></a>
                     </div>
                 </div>
             </div><!--end row-->
-        
-            <!-- team modal -->
-            <div class="modal fade" id="team" tabindex="-1" role="dialog" aria-labelledby="team" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header border-0">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                       <!-- Rounded switch -->
-                        <label aria-hidden="true" class="switch">
-                          <input type="checkbox checked">
-                          <span class="slider round"></span>
-                        </label>
-                    </button>
-                  </div>
-                  <div class="modal-body px-5 pt-0">
-                        <!--avatars-->
-                        <div id="avatars" class="row">
-                            <div class="offset-lg-2"></div>
-                            <div class="col-lg-8 pb-4 mb-3 d-flex flex-column justify-content-center align-items-center text-center">
-                               <h2 class="h4">Decentral</h2>
-                                <h3 class="site-title knockout-gradient font-weight-bold mt-0">Meet the team.</h3>   
-                                <img class="w-50 mb-4 rounded-circle shadow-lg" src="/assets/img/team_decentral/avatar-anthony.png" alt="Cartoon avatar of Anthony Di Iorio" title="Anthony Di Iorio">
-                                <h4>Anthony Di Iorio</h4>
-                                <p class="p-big">Founder & CEO</p>
-                                <p>Anthony Di Iorio is a serial entrepreneur, venture capitalist, community organizer, and thought leader in the field of digital currencies, blockchain and decentralized technologies. Anthony is the Founder and CEO of Decentral Inc.</p>
-                            </div>
-                            <div class="offset-lg-2"></div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-1 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative z-2 p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-bram.png" alt="Cartoon avatar of Bram Abramson" title="Bram Abramson">
-                                    <p class="p-big my-3">Bram Abramson</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-kirby.png" alt="Cartoon avatar of Kirby Chicas" title="Kirby Chicas">
-                                    <p class="p-big my-3">Kirby Chicas</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-alex.png" alt="Cartoon avatar of Alexandru Culea" title="Alexandru Culea">
-                                    <p class="p-big my-3">Alexandru Culea</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-1 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative z-2 p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-andrei.png" alt="Cartoon avatar of Andrei Daniliuc" title="Andrei Daniliuc">
-                                    <p class="p-big my-3">Andrei Daniliuc</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-rhonda.png" alt="Cartoon avatar of Rhonda Fairman" title="Rhonda Fairman">
-                                    <p class="p-big my-3">Rhonda Fairman</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-paolo.png" alt="Cartoon avatar of Paolo Frescura" title="Paolo Frescura">
-                                    <p class="p-big my-3">Paolo Frescura</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-di2.png" alt="Cartoon avatar of Di Gallo" title="Di Gallo">
-                                    <p class="p-big my-3">Di Gallo</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-1 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative z-2 p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-anik.png" alt="Cartoon avatar of Anik Ghosh" title="Anik Ghosh">
-                                    <p class="p-big my-3">Anik Ghosh</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-adam2.png" alt="Cartoon avatar of Adam Jacobs" title="Adam Jacobs">
-                                    <p class="p-big my-3">Adam Jacobs</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-nick.png" alt="Cartoon avatar of Nick Lacroix" title="Nick Lacroix">
-                                    <p class="p-big my-3">Nick Lacroix</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-tyler.png" alt="Cartoon avatar of Tyler MacDonald" title="Tyler MacDonald">
-                                    <p class="p-big my-3">Tyler MacDonald</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-raz.png" alt="Cartoon avatar of Razvan Marin" title="Razvan Marin">
-                                    <p class="p-big my-3">Razvan Marin</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow p-1 bg-white" src="/assets/img/team_decentral/avatar-andrew-min.png" alt="Cartoon avatar of Andrew Mason" title="Andrew Mason">
-                                    <p class="p-big my-3">Andrew Mason</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-lucian.png" alt="Cartoon avatar of Lucian Mocanu" title="Lucian Mocanu">
-                                    <p class="p-big my-3">Lucian Mocanu</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-1 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative z-2 p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-jon.png" alt="Cartoon avatar of Jon Newlands" title="Jon Newlands">
-                                    <p class="p-big my-3">Jon Newlands</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-sheldon.png" alt="Cartoon avatar of Sheldon Norton" title="Sheldon Norton">
-                                    <p class="p-big my-3">Sheldon Norton</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-pas.png" alt="Cartoon avatar of Bogdan Pascu" title="Bogdan Pascu">
-                                    <p class="p-big my-3">Bogdan Pascu</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-marc.png" alt="Cartoon avatar of Marc Roopchand" title="Marc Roopchand">
-                                    <p class="p-big my-3">Marc Roopchand</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-danielbeard.png" alt="Cartoon avatar of Daniel Shakhmundes" title="Daniel Shakhmundes">
-                                    <p class="p-big my-3">Daniel Shakhmundes</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-1 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative z-2 p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-oliver.png" alt="Cartoon avatar of Oliver Soriano" title="Oliver Soriano">
-                                    <p class="p-big my-3">Oliver Soriano</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-maxwell.png" alt="Cartoon avatar of Maxwell Stennett" title="Maxwell Stennett">
-                                    <p class="p-big my-3">Maxwell Stennett</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-thageesan.png" alt="Cartoon avatar of Thageesan Thanabalasingam" title="Thageesan Thanabalasingam">
-                                    <p class="p-big my-3">Thageesan Thanabalasingam</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-anges.png" alt="Cartoon avatar of Agnes Veres" title="Agnes Veres">
-                                    <p class="p-big my-3">Agnes Veres</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-shu.png" alt="Cartoon avatar of Shu Wang" title="Shu Wang">
-                                    <p class="p-big my-3">Shu Wang</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-maggie.png" alt="Cartoon avatar of Maggie Xu" title="Maggie Xu">
-                                    <p class="p-big my-3">Maggie Xu</p>    
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-3">
-                                <div class="h-50 w-75 absolute z-0 top-0 shadow bg-lightgrey"></div>
-                                <div class="relative p-3">
-                                    <img class="w-75 rounded-circle shadow" src="/assets/img/team_decentral/avatar-warren.png" alt="Cartoon avatar of Warren Yen" title="Warren Yen">
-                                    <p class="p-big my-3">Warren Yen</p>
-                                </div>
-                            </div>
-                            <div class="offset-lg-3"></div>
-                        </div><!--end avatars row-->       	
-                  </div><!--end modal content-->
-                  <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div><!--end modal-->
         </section>
 
         <section>
@@ -595,7 +349,7 @@ include 'includes/header.php';
                     <p class="p-big pt-3 m-0 slide-down">Decentral is leading the blockchain movement in Canada and around the world. We're changing the way people think about the exchange of value.</p>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">We're looking to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly and we're actively seeking a variety of candidates for various roles. If you would like to work for the largest blockchain startup in Canada, submit your resume below.</p>
+                    <p class="p-big pt-3 m-0 slide-down">We're looking to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly and we're actively seeking a variety of candidates for various roles. If you would like to work for the startup at the heart of blockchain in Canada, submit your resume below.</p>
                     <div class="down down-slow">
                         <a href="mailto:careers@decentral.ca"><p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>

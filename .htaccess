@@ -41,7 +41,7 @@ Redirect 301 /legal.html https://www.jaxx.io.ca/legal/terms-current
 RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
 
 # Redirects people from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
-RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads.html [R,L]
+RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
 
 # Set custom 404 error page
 ErrorDocument 404 /404.html

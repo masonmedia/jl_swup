@@ -15,7 +15,7 @@ include 'includes/header.php';
        <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
         <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
             <h1 class="h4 mt-3 zoom">Jaxx Liberty security</h1>
-            <h2 class="site-title font-weight-bold zoom zoom-med">Your security is our priority.</h2>         <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
+            <h2 class="site-title font-weight-bold zoom zoom-med">Your security is our priority.</h2>         <a href="#sec-1"><button class="p-btn orange bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
         </div>
         <div class="offset-lg-5"></div>
     </div>
@@ -148,7 +148,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-clay-iphone-ipad-myjaxx.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
                 </div>
             </div>
         </section>

@@ -164,6 +164,11 @@ $(document).ready(function() {
             live: true          // auto bind lazy loading to ajax loaded elements
         });
     
+        //rellax js parallax
+      // Also can pass in optional settings block
+      var rellax = new Rellax('.rellax');
+       
+    
         //jaxx blog API call
         $(document).ready(function() {
         var blogButtonContainer = document.getElementById("blog-button-container");

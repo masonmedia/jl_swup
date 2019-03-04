@@ -141,7 +141,7 @@ include 'includes/header.php';
         
         <section>
             <!--row 3 Our Asset Network-->
-                <div id="coinLogos" class="row bg-light p-5">
+                <div id="coinLogos" class="row bg-light px-3 py-5">
                     <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center px-5 pt-0 pb-5">
                        <h2 class="section-title">Our asset network.</h2>
                         <hr class="hr-big border-0 bg-orange">
