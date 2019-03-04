@@ -768,7 +768,17 @@ img.decentral-logo,
     width: 120px;
 }
 
-/*#features .w-75*/
+/*features phone case imgs*/
+
+.feat-phone {
+    width: 300px;
+}
+
+@media (min-width: 1200px) {
+.feat-phone {
+    width: 400px;
+    }
+}
 
 /* decentral logo ======================*/
 
@@ -968,7 +978,7 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-/* Rounded sliders */
+/* modal Rounded close sliders */
 
 .slider.round {
     border-radius: 34px;
@@ -996,7 +1006,7 @@ input:checked + .slider:before {
     width: 150px;
 }
 
-/* history timeline ======================*/
+/* about page history timeline ======================*/
 
 .timeline-item {
     /*  padding: 3em 2em 2em;*/
@@ -1031,16 +1041,6 @@ input:checked + .slider:before {
     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0))) 1 100%;
     border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0)) 1 100%;
 }
-
-/*old decentral bitcoin img*/
-
-/*
-.bg--team-2014 {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(https://cointelegraph.com/storage/uploads/view/c6d74a6da5659a65c31fb4fa3177b84b.jpg) center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://cointelegraph.com/storage/uploads/view/c6d74a6da5659a65c31fb4fa3177b84b.jpg) center;
-    background-size: cover;
-}
-*/
 
 /* 404 page D logo */
 
@@ -1500,6 +1500,7 @@ footer li a {
         align-items: center;
     }
     /* features + community page column count*/
+    
     .columns {
         -webkit-column-count: 1;
         column-count: 1;
