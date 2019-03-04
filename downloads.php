@@ -25,11 +25,8 @@ include 'includes/header.php';
                     <!--jaxx liberty chrome-->
                     <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                 </div><!--end button nest row--> 
-                
-                <!--desktop dropdown--> 
-                <div class="btn-group">
-                  <h4 class="dropdown-toggle mr-2 pt-4 down down-med" href="#" data-toggle="modal" data-target="#desktopModal">Desktop Versions</h4>
-                </div><!--end button group-->
+                <!--desktop modal trigger--> 
+                <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#desktopModal"><p class="p-btn text-secondary mt-4 slide-down">Desktop versions <i class="fa fa-angle-right fa-btn"></i></p></button>                
             </div><!--end col-->
             <div class="offset-lg-2"></div>
         </div><!--end row-->

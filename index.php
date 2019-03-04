@@ -13,12 +13,12 @@ include 'includes/header-home.php';
         <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
             <!--style="transform: rotate(-36deg);"-->
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
-            <h1 class="h4 knockout-gradient mt-5">Jaxx Liberty</h1>
-            <h2 class="site-title knockout-gradient font-weight-bold pt-2 zoom zoom-med">
+            <h1 class="h4 knockout-gradient mt-3 zoom">Jaxx Liberty</h1>
+            <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
                 Your multi-platform,
-                <span class="d-table">multi-currency</span>
-                <span class="d-table">digital asset</span>
-                <span class="d-table">wallet.</span>
+                <span class="knockout-gradient">multi-currency</span>
+                <span class="knockout-gradient">digital asset</span>
+                <span class="knockout-gradient">wallet.</span>
             </h2>
             <!--button container-->
             <div class="container-fluid pt-2">
@@ -105,19 +105,16 @@ include 'includes/header-home.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
                     <p class="p-big pt-3 m-0 slide-down">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</p>
                     <div class="slide-down">
-                        <div class="btn-group dropright">
-                            <p id="download" class="p-btn mt-3 orange" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Start Now <i class="fa fa-angle-right fa-btn orange"></i></p>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank" onclick="googleAnalyticsTrigger('Android', 'Home_Section2')">Android</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">iOS</a>
-                            <div class="dropdown-divider"></div>
-                            <!--chrome extension-->
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Chrome</a>
-                            <div class="dropdown-divider"></div>
-                            <!--desktop-->
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')" href="/downloads.php">Desktop</a>
-                            </div>
+                        <div class="row d-flex d-sm-flex-column py-4 pl-3 slide-right">
+                            <!--jaxx liberty google store-->
+                            <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Decentral_JaxxLiberty')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
+                            <!--jaxx liberty itunes-->
+                            <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes App Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
+                            <!--jaxx liberty chrome-->
+                            <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
+                        </div><!--end button nest row--> 
+                        <div class="right right-med p-0">
+                            <a href="/downloads.php" target="_blank"><p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                         </div>  
                     </div>
                 </div>

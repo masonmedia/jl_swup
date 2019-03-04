@@ -26,7 +26,7 @@ include 'includes/header.php';
         <div class="row d-flex min-700-lg relative py-5 ts stagger-right">
             <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" src="/assets/img/decentral-toronto-skyline.jpeg" alt="About Decentral">
             <div class="col-lg-9 d-flex flex-column justify-content-end align-items-start text-left text-light p-5">
-                <h1 class="h4 mt-3 zoom">About Decentral</h1>
+                <h1 class="h4 mt-4 zoom">About Decentral</h1>
                 <h2 class="site-title text-light font-weight-bold zoom zoom-med">On a mission to create opportunity and empower individuals around the world.</h2>
                 <a href="#sec-1"><button class="p-btn bg-trans orange border-0 mb-1 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a>
             </div>
@@ -351,7 +351,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
                     <p class="p-big pt-3 m-0 slide-down">We're looking to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly and we're actively seeking a variety of candidates for various roles. If you would like to work for the startup at the heart of blockchain in Canada, submit your resume below.</p>
                     <div class="down down-slow">
-                        <a href="mailto:careers@decentral.ca"><p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="mailto:careers@decentral.ca"><p class="p-btn mt-3 slide-down">Get in touch <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div><!--end row-->

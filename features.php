@@ -29,7 +29,7 @@ include 'includes/header.php';
 
         <section>
            <div class="row d-flex relative bg-orange text-light stagger-right">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5 down down-med">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5 right">
                     <h2 class="section-title font-weight-bold text-light slide-right">It's easy to get started. And it's free.</h2>
                     <hr class="hr-big border-0 bg-light slide-right">
                     <h3 class="pt-2 font-weight-light slide-right">Putting you in control of your digital assets.</h3>
