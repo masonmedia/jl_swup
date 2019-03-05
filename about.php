@@ -1,6 +1,6 @@
 <?php
 
-$title = "Decentral Inc. | About Us";
+$title = "Jaxx Liberty | About Us";
 
 include 'includes/header.php';
 

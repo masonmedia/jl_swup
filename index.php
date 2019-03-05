@@ -10,14 +10,14 @@ include 'includes/header-home.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
   <div class="row d-flex min-100 min--100 relative py-5 px-0">
-        <img class="img-full absolute z-0 right-0 up up-med lazy" data-src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
+        <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
             <!--style="transform: rotate(-36deg);"-->
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 knockout-gradient mt-3 zoom">Jaxx Liberty</h1>
             <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
                 Your multi-platform,
                 <span class="knockout-gradient">multi-currency</span>
-                <span class="knockout-gradient">digital asset</span>
+                <span class="d-table knockout-gradient">digital asset</span>
                 <span class="knockout-gradient">wallet.</span>
             </h2>
             <!--button container-->
@@ -27,7 +27,7 @@ include 'includes/header-home.php';
                        <a href="#sec-1"><p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p></a>
                     </div>
                     <div class="col-xs-6 zoom zoom-slow">
-                        <a href="/downloads.php" target="_blank"><p class="p-btn mb-1 border-0 p-0">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
+                        <a href="/downloads.php"><p class="p-btn mb-1 border-0 p-0">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
                     </div>
                 </div>
             </div>

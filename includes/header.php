@@ -8,17 +8,16 @@
        echo $title; 
     } 
     else { 
-       echo "Decentral Inc. | Canada's Leading Blockchain Startup"; 
+       echo "Jaxx Liberty | Home"; 
     } ?></title>
     <!--core meta data-->
-    <!--<meta name="description" content="Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.">-->
     <meta name="description" content="<?php
 
     if(isset($metaD) && !empty($metaD)) { 
        echo $metaD; 
     } 
     else { 
-       echo "Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies."; 
+       echo "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome."; 
     } ?>" />
     <meta name="keywords" content="Decentral,Jaxx Liberty,Blockchain,Cryptocurrency,Anthony Di Iorio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,7 +28,8 @@
     <!-- Place favicon.ico in the root directory -->
     <!-- Open Graph Meta Data -->
     <meta property="og:description" content="Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.">
-    <meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">
+<!--    <meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">-->
+    <meta property="og:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <meta property="og:site_name" content="decentral.ca">
     <meta property="og:title" content="Decentral Inc. is Canada's leading blockchain company.">
     <meta property="og:type" content="website">
@@ -40,12 +40,89 @@
     <meta name="twitter:creator" content="Decentral">
     <meta name="twitter:title" content="Decentral Inc. is Canada's leading blockchain company.">
     <meta name="twitter:description" content="Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.">
-    <meta name="twitter:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">
+    <meta name="twitter:image" content="https://jaxx.io/assets/img/jaxx-android-tablet-pc.jpg">
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!--json.ld-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+              {
+              "@type": "SoftwareApplication",
+              "operatingSystem": "All",
+              "name": "Jaxx Liberty",
+              "@id":"http://jaxx.io",
+              "applicationCategory": "https://schema.org/DigitalWalletApplication",
+              "url": "https://www.jaxx.io",
+              "downloadUrl": "https://www.jaxx.io/downloads",
+              "featureList": "https://www.jaxx.io/features",
+              "sameAs": [
+                "https://www.facebook.com/JaxxWallet",
+                "https://twitter.com/jaxx_io",
+                "https://twitter.com/Jaxx_Support",
+                "https://www.instagram.com/jaxx_io/",
+                "https://www.reddit.com/r/jaxx/"
+              ],
+              "image": [
+                "https://jaxx.io/assets/img/jaxx-iphone-X-4-gallery.jpg",
+                "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
+                "https://jaxx.io/assets/img/jaxx-apple-4-iphones-min.jpg",
+                "https://jaxx.io/assets/img/decentral-toronto-skyline.jpeg",
+                "https://jaxx.io/assets/img/jaxx-iphones-clay-3-black.jpg"
+               ],
+              "offers": {
+                "@type": "AggregateOffer",
+                "lowPrice": "0.00",
+                "highPrice": "0.00",
+                "priceCurrency": "All"
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": "You've heard the news. Jaxx Liberty is out. Ready to make the move?",
+                "description": "Jaxx users, you've heard the news -- Jaxx Liberty is out. Ready to make the move from Jaxx Classic to the new Jaxx Liberty? Here's how to do it in less than 2 minutes. Jaxx Liberty is a multi-platform, multi-currency digital asset wallet. Find out more at https://jaxx.io.",
+                "thumbnailUrl": "https:/jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
+                 "uploadDate": "2018-10-31T00:00:00+00:00",
+                 "contentUrl": "https://www.youtube.com/watch?v=A5WYbV7rDDU&t=1s",
+                 "embedUrl": "https://www.youtube.com/embed/A5WYbV7rDDU"
+              },
+              {
+              "@context":"https://schema.org",
+              "@type":"ItemList",
+              "itemListElement":[
+                {
+                  "@type":"ListItem",
+                  "position":1,
+                  "url":"https://blog.jaxx.io/bch/"
+                },
+                {
+                  "@type":"ListItem",
+                  "position":2,
+                  "url":"https://blog.jaxx.io/all-in-on-jaxx-liberty/"
+                },
+                {
+                  "@type":"ListItem",
+                  "position":3,
+                  "url":"https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/"
+                }
+              ]
+            }
+            ]
+        }
+    </script> 
+<!--
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "applicationCategory": "FinanceApplication",
+                "ratingValue": "4.4"
+            },  
+-->
+   
     <!--cookies banner-->
     <link rel="stylesheet" href="/assets/css/cookieconsent.min.css">
     <script>            
@@ -76,6 +153,7 @@
 </head>
 <body>
     <div id="swup" class="transition-fade">
+      
        <!--nav-->
         <nav id="menu" class="navbar fixed-top navbar-expand-lg down down-med">
             <a class="navbar-brand" href="/">

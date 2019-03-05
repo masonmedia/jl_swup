@@ -1,3 +1,14 @@
+
+   // https://trevorfox.com/2017/03/json-ld-files-with-javascript/ --> 
+   //Add a schema tag to your
+//   $.getJSON( "/your-schema-file.jsonld", function( data ) {
+//     $( "<script/>", {
+//       "type": "application/ld+json",
+//       "html": JSON.stringify(data)
+//     }).appendTo( "head" );
+//   });
+
+
 //onload fade in
 TweenMax.to($("body"), 1.5, {autoAlpha:1, ease: Power3.easeInOut});
 

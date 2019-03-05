@@ -751,8 +751,9 @@ img.lazy-loaded {
     opacity: 1;
 }
 
-/*remove lazy class treatment from standard/smaller/modal imgs*/
+/*remove lazy class treatment from home page banner, features phones, and modal imgs*/
 
+#banner img,
 footer img,
 img.jaxx-navbar-brand,
 img.decentral-logo,
