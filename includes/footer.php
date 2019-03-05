@@ -28,10 +28,10 @@
                         <ul class="list-unstyled w-100 slide-down">
                             <li class="h4 font-weight-bold">Download</li>
                             <hr class="hr-big border-0 bg-secondary">
-                            <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx">Android</a></li>
-                            <li><a href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8">iOS</a></li>
-                            <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne">Chrome</a></li>
-                            <li><a href="https://jaxx.io/downloads" target="_blank">Desktop</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">Android</a></li>
+                            <li><a href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">iOS</a></li>
+                            <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Chrome</a></li>
+                            <li><a href="/downloads.php">Desktop</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew down">
