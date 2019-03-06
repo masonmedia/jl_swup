@@ -17,7 +17,7 @@ include 'includes/header.php';
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
                 <h1 class="h4 mt-3 zoom">Jaxx Liberty Change Log</h1>
                 <h2 class="site-title font-weight-bold zoom zoom-med">Jaxx Liberty updates and improvements.</h2>
-                <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
+                <a href="#sec-1"><button class="p-btn orange bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
             </div>
             <div class="offset-lg-2"></div>
         </div>
@@ -31,7 +31,7 @@ include 'includes/header.php';
         <!--intro-->
         
         <section>
-            <div id="sec-4" class="row d-flex relative p-5 min-500 bg-white stagger-right">
+            <div class="row d-flex relative p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left p-3 right">
                         <div class="wrap border-bottom w-100 pb-3">
                             <h1 class="section-title font-weight-bold pb-2 m-0">Change Log</h1>
@@ -515,7 +515,6 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
-
     </div><!--end main container-->
 </main>
     
