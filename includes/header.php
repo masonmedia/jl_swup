@@ -27,20 +27,20 @@
     <link rel="shortcut icon" href="/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- Open Graph Meta Data -->
-    <meta property="og:description" content="Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.">
-<!--    <meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">-->
+    <meta property="og:description" content="Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.">
+    <!--<meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">-->
     <meta property="og:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
-    <meta property="og:site_name" content="decentral.ca">
-    <meta property="og:title" content="Decentral Inc. is Canada's leading blockchain company.">
+    <meta property="og:site_name" content="jaxx.io">
+    <meta property="og:title" content="Jaxx Liberty: Your trusted all-in-one multi-asset digital wallet.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://decentral.ca">
+    <meta property="og:url" content="https://jaxx.io">
     <!-- Twitter Card Meta Data -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://decentral.ca">
-    <meta name="twitter:creator" content="Decentral">
-    <meta name="twitter:title" content="Decentral Inc. is Canada's leading blockchain company.">
-    <meta name="twitter:description" content="Decentral is a Toronto-based innovation hub and software development company focused on decentralized technologies. We are home to Canada’s first two-way Bitcoin ATM and host to community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies.">
-    <meta name="twitter:image" content="https://jaxx.io/assets/img/jaxx-android-tablet-pc.jpg">
+    <meta name="twitter:site" content="https://jaxx.io">
+    <meta name="twitter:creator" content="Jaxx Liberty">
+    <meta name="twitter:title" content="Jaxx Liberty: Your trusted all-in-one multi-asset digital wallet.">
+    <meta name="twitter:description" content="Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.">
+    <meta name="twitter:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
