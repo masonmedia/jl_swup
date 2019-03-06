@@ -190,39 +190,7 @@ include 'includes/header.php';
             </div>
         </section>
         
-        <!--download-->
-       
-        <section>
-            <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
-              <div class="offset-lg-2"></div>
-               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 right">
-                    <img class="w-75 ds right right-med" src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
-                    <h2 class="section-title pb-3 pt-5 slide-right">Wherever you are.</h2>
-                    <hr class="hr-big border-0 bg-orange m-0 slide-right">
-                    <p class="p-big pt-3 mb-0 slide-right">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
-                    <div class="slide-down">
-                        <div class="btn-group dropup">
-                            <p id="download" class="p-btn mt-3 orange slide-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Start Now <i class="fa fa-angle-right fa-btn orange"></i></p>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank" onclick="googleAnalyticsTrigger('Android', 'Home_Section2')">Android</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">iOS</a>
-                            <div class="dropdown-divider"></div>
-                            <!--chrome extension-->
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">Chrome</a>
-                            <div class="dropdown-divider"></div>
-                            <!--desktop-->
-                            <a class="dropdown-item" role="button" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')" href="/downloads.php">Desktop</a>
-                            </div>
-                        </div>  
-                    </div>
-                </div><!--end col-->
-              <div class="offset-lg-2"></div>
-                
-            </div>
-        </section>
-        
-        <!--IPAD-->
+        <!--ipad-->
 
         <section>
             <div class="row d-flex bg-light relative">
@@ -231,10 +199,10 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
-
+        
         <!--more features-->
                
-            <section>
+        <section>
             <div class="row d-flex p-5 bg-light stagger-right">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
                     <h2 class="section-title py-3 slide-right">More to explore.</h2>
@@ -260,7 +228,6 @@ include 'includes/header.php';
                     <hr class="hr-big border-0 bg-orange m-0">
                     <p class="p-big py-3">QR code support simplifies in-person transactions.</p>
                 </div>
-
                 <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
                     <h4 class="py-3">Fast.</h4>
                     <hr class="hr-big border-0 bg-orange m-0">
@@ -283,7 +250,7 @@ include 'includes/header.php';
                 </div>
             </div><!--end row-->
         </section>
-                
+        
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
@@ -291,6 +258,36 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
+        
+        <!--download-->
+       
+        <section>
+            <div class="row d-flex min-700-lg bg-light p-5 stagger-right">
+              <div class="offset-lg-2"></div>
+               <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 right">
+                    <img class="w-75 ds right right-med" src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
+                    <h2 class="section-title pb-3 pt-5 slide-right">Wherever you are.</h2>
+                    <hr class="hr-big border-0 bg-orange m-0 slide-right">
+                    <p class="p-big pt-3 mb-0 slide-right">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
+                    <div class="slide-down">
+                        <div class="row downloads-badge-container pt-3 pl-3 slide-right">
+                            <!--jaxx liberty google store-->
+                            <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Features_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
+                            <!--jaxx liberty itunes-->
+                            <a onclick="googleAnalyticsTrigger('iOS', 'Features_Page')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes App Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
+                            <!--jaxx liberty chrome-->
+                            <a onclick="googleAnalyticsTrigger('Chrome', 'Features_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
+                        </div><!--end button nest row--> 
+                        <div class="right right-med">
+                            <a href="/downloads.php" target="_blank" onclick="googleAnalyticsTrigger('Desktop', 'Features_Page')"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        </div> 
+                    </div>
+                </div><!--end col-->
+              <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        
 
     </div><!--end main container-->
 </main>

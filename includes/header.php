@@ -175,7 +175,7 @@
                         <a class="nav-link" href="/features.php">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/downloads.php">Download</a>
+                        <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/security.php">Security</a>
@@ -187,7 +187,7 @@
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://support.decentral.ca/hc/en-us" target="_blank">Support</a>
+                        <a class="nav-link" href="https://support.decentral.ca/hc/en-us" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>
                     </li>
                 </ul>
             </div>

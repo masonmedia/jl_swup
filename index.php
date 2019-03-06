@@ -27,7 +27,7 @@ include 'includes/header-home.php';
                        <a href="#sec-1"><p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p></a>
                     </div>
                     <div class="col-xs-6 zoom zoom-slow">
-                        <a href="/downloads.php"><p class="p-btn mb-1 border-0 p-0">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
+                        <a href="/downloads.php"><p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">Download <i class="fa fa-angle-right fa-btn"></i></p></a> 
                     </div>
                 </div>
             </div>
@@ -50,9 +50,7 @@ include 'includes/header-home.php';
                     <h3 class="section-title text-dark slide-down">The leading multi-platform digital asset wallet.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">With thousands of users and over 3000 daily transactions, Jaxx Liberty is an industry leading investment tool that is reshaping the way people invest, learn about blockchain, and manage digital assets.</p>
-<!--                    Ranked among the top digital asset wallets...-->
-                    <!--Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads. With this release, we've made major updates we think you'll love.  -->
+                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads. With thousands of users and over 3000 daily transactions, Jaxx Liberty is reshaping the way people manage their digital assets.</p>
                     <div class="down down-slow">
                         <a href="/features.php"><p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i></p></a>
                     </div>
@@ -64,7 +62,7 @@ include 'includes/header-home.php';
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
-<!--                   <img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
+                    <!--<img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
         </section>
@@ -107,14 +105,14 @@ include 'includes/header-home.php';
                     <div class="slide-down">
                         <div class="row d-flex d-sm-flex-column py-4 pl-3 slide-right">
                             <!--jaxx liberty google store-->
-                            <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Decentral_JaxxLiberty')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
+                            <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
                             <!--jaxx liberty itunes-->
-                            <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes App Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
+                            <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
                             <!--jaxx liberty chrome-->
-                            <a onclick="googleAnalyticsTrigger('iOS', 'Decentral_JaxxLiberty')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
+                            <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                         </div><!--end button nest row--> 
                         <div class="right right-med p-0">
-                            <a href="/downloads.php" target="_blank"><p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                            <a href="/downloads.php" target="_blank" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')"><p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                         </div>  
                     </div>
                 </div>
@@ -256,7 +254,7 @@ include 'includes/header-home.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
                     <div class="up up-slow">
-                        <a href="/features.php" target="_blank"><p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="/community.php" target="_blank"><p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div><!--end row-->
@@ -306,7 +304,7 @@ include 'includes/header-home.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and <a href="/partnerships.php"><span class="orange">partners</span></a> around the world. Join the Jaxx Liberty community today.</p>
                     <div class="up up-slow">
-                        <a href="/community.php" class="animate-out"><p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="/community.php" onclick="googleAnalyticsTrigger('Community', 'Home_Page')"><p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
             </div><!--end row-->
