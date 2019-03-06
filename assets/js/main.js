@@ -1,14 +1,3 @@
-
-   // https://trevorfox.com/2017/03/json-ld-files-with-javascript/ --> 
-   //Add a schema tag to your
-//   $.getJSON( "/your-schema-file.jsonld", function( data ) {
-//     $( "<script/>", {
-//       "type": "application/ld+json",
-//       "html": JSON.stringify(data)
-//     }).appendTo( "head" );
-//   });
-
-
 //onload fade in
 TweenMax.to($("body"), 1.5, {autoAlpha:1, ease: Power3.easeInOut});
 
@@ -175,13 +164,7 @@ $(document).ready(function() {
             live: true          // auto bind lazy loading to ajax loaded elements
         });
     
-        //rellax js parallax
-      // Also can pass in optional settings block
-      var rellax = new Rellax('.rellax');
-       
-    
         //jaxx blog API call
-        $(document).ready(function() {
         var blogButtonContainer = document.getElementById("blog-button-container");
 
         var ourRequest = new XMLHttpRequest();
@@ -200,9 +183,7 @@ $(document).ready(function() {
         };
 
         ourRequest.send();  
-
-        });
-
+        //**
         function createHTML(postsContent) {
             var jaxxBlogString = '';
                     var blogButtonContainer = document.getElementById("blog-button-container");

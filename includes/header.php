@@ -116,13 +116,12 @@
         }
     </script> 
 <!--
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "applicationCategory": "FinanceApplication",
-                "ratingValue": "4.4"
-            },  
+"aggregateRating": {
+    "@type": "AggregateRating",
+    "applicationCategory": "FinanceApplication",
+    "ratingValue": "4.4"
+},  
 -->
-   
     <!--cookies banner-->
     <link rel="stylesheet" href="/assets/css/cookieconsent.min.css">
     <script>            

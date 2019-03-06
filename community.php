@@ -44,90 +44,7 @@ include 'includes/header.php';
                <div class="offset-lg-2"></div>
             </div>
         </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-women-garage.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="">
-                </div>
-            </div>
-        </section>
         
-        <!--social-->
-        
-        <section>
-            <div id="sec-2" class="row d-flex min-500 bg-white stagger-right">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
-                    <h2 class="h4 mt-4 slide-right">The Decentral Ecosystem</h2>
-                    <h3 class="section-title font-weight-bold slide-right">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
-                    <div class="container-fluid right right-med">
-                        <div class="row">
-                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0 slide-right">
-                               <div class="col-xs-3 mr-2">
-                                    <a href="https://www.facebook.com/JaxxWallet/" target="_blank" onclick="googleAnalyticsTrigger('Facebook', 'Community_Page')">
-                                    <i class="fa fa-facebook orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://twitter.com/jaxx_io?lang=en" target="_blank" onclick="googleAnalyticsTrigger('Twitter', 'Community_Page')">
-                                    <i class="fa fa-twitter orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://www.instagram.com/jaxx_io/" target="_blank" onclick="googleAnalyticsTrigger('Instagram', 'Community_Page')">
-                                    <i class="fa fa-instagram orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://www.youtube.com/user/decentralTV" target="_blank" onclick="googleAnalyticsTrigger('Youtube', 'Community_Page')">
-                                    <i class="fa fa-youtube orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://t.me/jaxxliberty" target="_blank" onclick="googleAnalyticsTrigger('Telegram', 'Community_Page')">
-                                    <i class="fa fa-telegram orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a href="https://www.reddit.com/r/jaxx/" target="_blank" onclick="googleAnalyticsTrigger('Reddit', 'Community_Page')">
-                                    <i class="fa fa-reddit orange p-3"></i>
-                                    </a>
-                                </div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-lg-2"></div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Join the Decentral social media community today.">
-                </div>
-            </div>
-        </section>   
-
-        <!--Jaxx blog API GET-->
-        
-        <section>
-            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-right">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                   <!--Blog API data pull-->
-                    <div id="blogAPI" class="row">
-                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-left">
-                            <h2 class="section-title text-center">News from the Jaxx blog.</h2>
-                            <hr class="hr-big border-0 bg-orange">
-                            <div id="blog-button-container" class="container-fluid p-4 columns columns--blog"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
@@ -140,14 +57,19 @@ include 'includes/header.php';
         
         <section>
             <div id="coinLogos" class="row bg-light px-3 py-5">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center px-5 pt-0 pb-5">
-                    <h2 class="section-title">Our asset network.</h2>
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">                    
+                    <h2 class="h4 slide-right">Integrations and network</h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">Solving the problems of today and tomorrow.</h3>
                     <hr class="hr-big border-0 bg-orange">
-                    <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
+                    <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
+                </div>
+               <div class="offset-lg-2"></div>
+                    
                     <!--coin/token grid-->
-                    <div class="container-fluid rounded">
+                    <div class="container-fluid">
                         <!--row-->
-                        <div class="row d-flex">
+                        <div class="row d-flex px-3 pb-5 pt-0">
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                    <a href="https://www.augur.net/" target="_blank">
@@ -530,9 +452,93 @@ include 'includes/header.php';
                             </div><!--end accordion col-->
                         </div><!--end row-->
                     </div><!--end nest container-->
-                </div>
             </div><!--end our assets row-->
         </section>
+        
+        <section>
+            <div class="row d-flex bg-light relative">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-women-garage.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <!--social-->
+        
+        <section>
+            <div id="sec-2" class="row d-flex min-500 bg-white stagger-right">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
+                    <h2 class="h4 mt-4 slide-right">The Decentral Ecosystem</h2>
+                    <h3 class="section-title font-weight-bold slide-right">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
+                    <div class="container-fluid right right-med">
+                        <div class="row">
+                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0 slide-right">
+                               <div class="col-xs-3 mr-2">
+                                    <a href="https://www.facebook.com/JaxxWallet/" target="_blank" onclick="googleAnalyticsTrigger('Facebook', 'Community_Page')">
+                                    <i class="fa fa-facebook orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://twitter.com/jaxx_io?lang=en" target="_blank" onclick="googleAnalyticsTrigger('Twitter', 'Community_Page')">
+                                    <i class="fa fa-twitter orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://www.instagram.com/jaxx_io/" target="_blank" onclick="googleAnalyticsTrigger('Instagram', 'Community_Page')">
+                                    <i class="fa fa-instagram orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://www.youtube.com/user/decentralTV" target="_blank" onclick="googleAnalyticsTrigger('Youtube', 'Community_Page')">
+                                    <i class="fa fa-youtube orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://t.me/jaxxliberty" target="_blank" onclick="googleAnalyticsTrigger('Telegram', 'Community_Page')">
+                                    <i class="fa fa-telegram orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="https://www.reddit.com/r/jaxx/" target="_blank" onclick="googleAnalyticsTrigger('Reddit', 'Community_Page')">
+                                    <i class="fa fa-reddit orange p-3"></i>
+                                    </a>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light relative">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Join the Decentral social media community today.">
+                </div>
+            </div>
+        </section>   
+
+        <!--Jaxx blog API GET-->
+        
+        <section>
+            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
+                   <!--Blog API data pull-->
+                    <div id="blogAPI" class="row">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-left">
+                            <h2 class="section-title text-center">News from the Jaxx blog.</h2>
+                            <hr class="hr-big border-0 bg-orange">
+                            <div id="blog-button-container" class="container-fluid p-4 columns columns--blog"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
 
         <section>
             <div class="row d-flex bg-light relative">
