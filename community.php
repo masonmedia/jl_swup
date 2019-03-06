@@ -56,20 +56,20 @@ include 'includes/header.php';
          <!--Our Asset Network-->
         
         <section>
-            <div id="coinLogos" class="row bg-light px-3 py-5">
+            <div id="coinLogos" class="row bg-light px-3 py-5 stagger-right">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">                    
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 right">                    
                     <h2 class="h4 slide-right">Integrations and network</h2>
                     <h3 class="section-title text-dark mb-0 slide-right">Solving the problems of today and tomorrow.</h3>
-                    <hr class="hr-big border-0 bg-orange">
-                    <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
+                    <hr class="hr-big border-0 bg-orange slide-right">
+                    <p class="p-big pt-3 pb-5 m-0 slide-right">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
                 </div>
                <div class="offset-lg-2"></div>
                     
                     <!--coin/token grid-->
                     <div class="container-fluid">
                         <!--row-->
-                        <div class="row d-flex px-3 pb-5 pt-0">
+                        <div class="row d-flex px-3 pb-5 pt-0 slide-right">
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                    <a href="https://www.augur.net/" target="_blank">
@@ -537,8 +537,6 @@ include 'includes/header.php';
                 </div>
             </div>
         </section>
-
-        
 
         <section>
             <div class="row d-flex bg-light relative">
