@@ -13,12 +13,12 @@ include 'includes/header.php';
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
        <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-hand-iphone.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
-            <h1 class="h4 mt-3 zoom">Jaxx Liberty Features</h1>
-            <h2 class="site-title font-weight-bold zoom zoom-med">Wherever you go.</h2> 
-            <a href="#features"><button class="p-btn text-light ts bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
+        <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
+            <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Features</h1>
+            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Wherever you go.</h2> 
+            <a href="#features"><button class="p-btn text-light ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
-        <div class="offset-lg-5"></div>
+        <div class="offset-lg-4"></div>
     </div>
 </div>
 
@@ -204,7 +204,7 @@ include 'includes/header.php';
                
         <section>
             <div class="row d-flex p-5 bg-light stagger-right">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-3 right">
                     <h2 class="section-title py-3 slide-right">More to explore.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-right">
                 </div>
@@ -286,9 +286,6 @@ include 'includes/header.php';
               <div class="offset-lg-2"></div>
             </div>
         </section>
-        
-        
-
     </div><!--end main container-->
 </main>
 

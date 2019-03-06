@@ -14,8 +14,8 @@ include 'includes/header.php';
     <div class="row d-flex min-700-lg py-5 text-light relative">
        <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
         <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
-            <h1 class="h4 mt-3 zoom">Jaxx Liberty security</h1>
-            <h2 class="site-title font-weight-bold zoom zoom-med">Your security is our priority.</h2>         <a href="#sec-1"><button class="p-btn orange bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
+            <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Security</h1>
+            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Your security is our priority.</h2><a href="#sec-1"><button class="p-btn orange ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
         </div>
         <div class="offset-lg-5"></div>
     </div>

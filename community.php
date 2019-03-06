@@ -15,9 +15,9 @@ include 'includes/header.php';
        <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-community-banner.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-            <h1 class="h4 mt-3 zoom">Jaxx Liberty Ecosystem</h1>
-            <h2 class="site-title font-weight-bold zoom zoom-med">Community is in our DNA.</h2>
-            <a href="#sec-1"><button class="p-btn text-light bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
+            <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Ecosystem</h1>
+            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Community is in our DNA.</h2>
+            <a href="#sec-1"><button class="p-btn text-light ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
         <div class="offset-lg-2"></div>
     </div>

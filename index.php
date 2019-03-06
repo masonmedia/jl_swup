@@ -17,7 +17,7 @@ include 'includes/header-home.php';
             <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
                 Your multi-platform,
                 <span class="knockout-gradient">multi-currency</span>
-                <span class="d-table knockout-gradient">digital asset</span>
+                <span class="d-table-cell knockout-gradient">digital asset</span>
                 <span class="knockout-gradient">wallet.</span>
             </h2>
             <!--button container-->
