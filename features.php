@@ -28,7 +28,7 @@ include 'includes/header.php';
     <div id="features" class="container-fluid p-0 text-secondary">
 
         <section>
-           <div class="row d-flex relative bg-orange text-light stagger-right">
+           <div class="row d-flex relative bg-orange-gradient text-light stagger-right">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5 right">
                     <h2 class="section-title font-weight-bold text-light slide-right">It's easy to get started. And it's free.</h2>
                     <hr class="hr-big border-0 bg-light slide-right">
