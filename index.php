@@ -2,7 +2,7 @@
 
 $title = "Jaxx Liberty | Home";
 
-include 'includes/header-home.php';
+include 'includes/header.php';
 
 ?>
 

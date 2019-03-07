@@ -53,7 +53,7 @@
           "@graph": [
               {
               "@type": "SoftwareApplication",
-              "operatingSystem": "All",
+              "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
               "name": "Jaxx Liberty",
               "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
               "@id":"http://jaxx.io",
@@ -62,6 +62,8 @@
               "url": "https://www.jaxx.io",
               "downloadUrl": "https://www.jaxx.io/downloads",
               "featureList": "https://www.jaxx.io/features",
+              "releaseNotes": "https://www.jaxx.io/changeLog",
+              "screenshot": "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
               "sameAs": [
                 "https://www.facebook.com/JaxxWallet",
                 "https://twitter.com/jaxx_io",
@@ -89,7 +91,7 @@
                 "@type": "VideoObject",
                 "name": "You've heard the news. Jaxx Liberty is out. Ready to make the move?",
                 "description": "Jaxx users, you've heard the news -- Jaxx Liberty is out. Ready to make the move from Jaxx Classic to the new Jaxx Liberty? Here's how to do it in less than 2 minutes. Jaxx Liberty is a multi-platform, multi-currency digital asset wallet. Find out more at https://jaxx.io.",
-                "thumbnailUrl": "https:/jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
+                "thumbnailUrl": "https://jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
                 "uploadDate": "2018-10-31T00:00:00+00:00",
                 "contentUrl": "https://www.youtube.com/watch?v=A5WYbV7rDDU&t=1s",
                 "embedUrl": "https://www.youtube.com/embed/A5WYbV7rDDU"

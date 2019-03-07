@@ -46,6 +46,80 @@
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!--json.ld-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+              {
+              "@type": "SoftwareApplication",
+              "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
+              "name": "Jaxx Liberty",
+              "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
+              "@id":"http://jaxx.io",
+              "applicationCategory": "Finance",
+              "applicationSubCategory": "Digital wallet application",
+              "url": "https://www.jaxx.io",
+              "downloadUrl": "https://www.jaxx.io/downloads",
+              "featureList": "https://www.jaxx.io/features",
+              "releaseNotes": "https://www.jaxx.io/changeLog",
+              "screenshot": "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
+              "sameAs": [
+                "https://www.facebook.com/JaxxWallet",
+                "https://twitter.com/jaxx_io",
+                "https://twitter.com/Jaxx_Support",
+                "https://www.instagram.com/jaxx_io/",
+                "https://www.reddit.com/r/jaxx/",
+                "https://decentral.ca/"
+              ],
+              "image": [
+                "https://jaxx.io/assets/img/jaxx-iphone-X-4-gallery.jpg",
+                "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
+                "https://jaxx.io/assets/img/decentral-toronto-skyline.jpeg",
+                "https://jaxx.io/assets/img/jaxx-iphones-clay-3-black.jpg",
+                "https://jaxx.io/assets/img/decentral-anthony-1.jpg"
+               ],
+              "offers": {
+                "@type": "AggregateOffer",
+                "lowPrice": "0.00",
+                "highPrice": "0.00",
+                "priceCurrency": "All"
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": "You've heard the news. Jaxx Liberty is out. Ready to make the move?",
+                "description": "Jaxx users, you've heard the news -- Jaxx Liberty is out. Ready to make the move from Jaxx Classic to the new Jaxx Liberty? Here's how to do it in less than 2 minutes. Jaxx Liberty is a multi-platform, multi-currency digital asset wallet. Find out more at https://jaxx.io.",
+                "thumbnailUrl": "https://jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
+                "uploadDate": "2018-10-31T00:00:00+00:00",
+                "contentUrl": "https://www.youtube.com/watch?v=A5WYbV7rDDU&t=1s",
+                "embedUrl": "https://www.youtube.com/embed/A5WYbV7rDDU"
+              },
+              {
+              "@context":"https://schema.org",
+              "@type":"ItemList",
+              "itemListElement":[
+                {
+                  "@type":"ListItem",
+                  "position":1,
+                  "url":"https://blog.jaxx.io/bch/"
+                },
+                {
+                  "@type":"ListItem",
+                  "position":2,
+                  "url":"https://blog.jaxx.io/all-in-on-jaxx-liberty/"
+                },
+                {
+                  "@type":"ListItem",
+                  "position":3,
+                  "url":"https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/"
+                }
+              ]
+            }
+            ]
+        }
+    </script> 
     <!--cookies banner-->
     <link rel="stylesheet" href="/assets/css/cookieconsent.min.css">
     <script>            
