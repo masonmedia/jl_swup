@@ -55,8 +55,10 @@
               "@type": "SoftwareApplication",
               "operatingSystem": "All",
               "name": "Jaxx Liberty",
+              "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
               "@id":"http://jaxx.io",
-              "applicationCategory": "https://schema.org/DigitalWalletApplication",
+              "applicationCategory": "Finance",
+              "applicationSubCategory": "Digital wallet application",
               "url": "https://www.jaxx.io",
               "downloadUrl": "https://www.jaxx.io/downloads",
               "featureList": "https://www.jaxx.io/features",
@@ -65,14 +67,15 @@
                 "https://twitter.com/jaxx_io",
                 "https://twitter.com/Jaxx_Support",
                 "https://www.instagram.com/jaxx_io/",
-                "https://www.reddit.com/r/jaxx/"
+                "https://www.reddit.com/r/jaxx/",
+                "https://decentral.ca/"
               ],
               "image": [
                 "https://jaxx.io/assets/img/jaxx-iphone-X-4-gallery.jpg",
                 "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
-                "https://jaxx.io/assets/img/jaxx-apple-4-iphones-min.jpg",
                 "https://jaxx.io/assets/img/decentral-toronto-skyline.jpeg",
-                "https://jaxx.io/assets/img/jaxx-iphones-clay-3-black.jpg"
+                "https://jaxx.io/assets/img/jaxx-iphones-clay-3-black.jpg",
+                "https://jaxx.io/assets/img/decentral-anthony-1.jpg"
                ],
               "offers": {
                 "@type": "AggregateOffer",
@@ -87,9 +90,9 @@
                 "name": "You've heard the news. Jaxx Liberty is out. Ready to make the move?",
                 "description": "Jaxx users, you've heard the news -- Jaxx Liberty is out. Ready to make the move from Jaxx Classic to the new Jaxx Liberty? Here's how to do it in less than 2 minutes. Jaxx Liberty is a multi-platform, multi-currency digital asset wallet. Find out more at https://jaxx.io.",
                 "thumbnailUrl": "https:/jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
-                 "uploadDate": "2018-10-31T00:00:00+00:00",
-                 "contentUrl": "https://www.youtube.com/watch?v=A5WYbV7rDDU&t=1s",
-                 "embedUrl": "https://www.youtube.com/embed/A5WYbV7rDDU"
+                "uploadDate": "2018-10-31T00:00:00+00:00",
+                "contentUrl": "https://www.youtube.com/watch?v=A5WYbV7rDDU&t=1s",
+                "embedUrl": "https://www.youtube.com/embed/A5WYbV7rDDU"
               },
               {
               "@context":"https://schema.org",

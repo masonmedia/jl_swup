@@ -45,8 +45,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-device-closeup.jpg" alt="">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-device-closeup.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -70,7 +70,7 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-multi-device-2-security.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
                 </div>
             </div>
@@ -95,9 +95,9 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">-->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
                 </div>
             </div>
         </section>
@@ -121,9 +121,9 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
+                <div class="col-lg-12 min-700-lg down down-med">
                     <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">-->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -147,8 +147,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
                 </div>
             </div>
         </section>
@@ -181,8 +181,8 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
                 </div>
             </div>
         </section>
