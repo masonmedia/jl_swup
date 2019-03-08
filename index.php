@@ -88,7 +88,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                   <img class="img-full absolute z-0 right-0 lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Welcome to Jaxx Liberty.">
+                   <img class="img-full absolute z-0 right-0 lazy" data-src="/assets/img/jaxx-apple-multi-device-min.jpg" alt="Get the latest blockchain headline news, real-time market data, check your portfolio, and exchange between digital assets all in one convenient place.">
                 </div>
             </div>
         </section>

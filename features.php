@@ -12,13 +12,16 @@ include 'includes/header.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
-       <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-hand-iphone.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
-        <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
+       <!-- <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-hand-iphone.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet."> -->
+       <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="assets/img/jaxx-pc-coffee.png" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
+       <!-- <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="assets/img/jaxx-banner-girl-phone.jpeg" alt="Jaxx Liberty is your all-in-one     digital asset wallet."> -->
+        <div class="offset-lg-2"></div>
+        <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
             <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Features</h1>
-            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Wherever you go.</h2> 
+            <h2 class="site-title  ds-black zoom zoom-med">Wherever you go.</h2> 
             <a href="#features"><button class="p-btn text-light ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Discover <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
-        <div class="offset-lg-4"></div>
+        <div class="offset-lg-2"></div>
     </div>
 </div>
 
