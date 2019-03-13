@@ -529,9 +529,9 @@ include 'includes/header.php';
                    <!--Blog API data pull-->
                     <div id="blogAPI" class="row">
                         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-left">
-                            <h2 class="section-title text-center">News from the Jaxx blog.</h2>
-                            <hr class="hr-big border-0 bg-orange">
-                            <div id="blog-button-container" class="container-fluid p-4 columns columns--blog"></div>
+                            <h2 class="section-title text-center slide-right">News from the Jaxx blog.</h2>
+                            <hr class="hr-big border-0 bg-orange slide-right">
+                            <div id="blog-button-container" class="container-fluid p-4 columns columns--blog slide-right"></div>
                         </div>
                     </div>
                 </div>
