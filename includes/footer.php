@@ -81,11 +81,11 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-52743378-1');
+      gtag('config', 'UA-85893600-1');
     </script>
     
     <!-- Google Analytics for button tags -->
-<!--
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -99,7 +99,7 @@
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-52743378-1', 'auto');
+        ga('create', 'UA-85893600-1', 'auto');
         ga('send', 'pageview');
 
         function googleAnalyticsTrigger(category, label) {
@@ -112,6 +112,6 @@
         }
 
     </script>
--->
+
   </body>
 </html>

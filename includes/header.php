@@ -255,7 +255,7 @@
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://support.decentral.ca/hc/en-us" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>
+                        <a class="nav-link" href="https://support.decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>
                     </li>
                 </ul>
             </div>
