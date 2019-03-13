@@ -53,15 +53,27 @@
           "@graph": [
               {
               "@type": "SoftwareApplication",
-              "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
               "name": "Jaxx Liberty",
+              "copyrightHolder": {
+              	"@type": "Product",
+                "name": "Decentral Inc."
+                },
+              "creator": {
+              	"@type": "Product",
+                "name": "Decentral Inc."
+                },
+              "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
+              "availableOnDevice": "iPhone, Android, iPad, Tablet, Linux, Mac OS X, and Windows Desktop, Google Chrome Extension.",
               "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
               "@id":"http://jaxx.io",
+              "keywords": "Digital wallet, blockchain, cryptocurrency, Bitcoin",
               "applicationCategory": "Finance",
-              "applicationSubCategory": "Digital wallet application",
+              "applicationSubCategory": "Digital Wallet Application",
+              "genre": "Blockchain, Cryptocurrency, Digital Wallet",
               "url": "https://www.jaxx.io",
               "downloadUrl": "https://www.jaxx.io/downloads",
               "featureList": "https://www.jaxx.io/features",
+              "license": "https://jaxx.io/legal/terms-current",
               "releaseNotes": "https://www.jaxx.io/changeLog",
               "screenshot": "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
               "sameAs": [
@@ -89,7 +101,7 @@
               {
                 "@context": "https://schema.org",
                 "@type": "VideoObject",
-                "name": "You've heard the news. Jaxx Liberty is out. Ready to make the move?",
+                "name": "Migrate from Jaxx Classic to Jaxx Liberty.",
                 "description": "Jaxx users, you've heard the news -- Jaxx Liberty is out. Ready to make the move from Jaxx Classic to the new Jaxx Liberty? Here's how to do it in less than 2 minutes. Jaxx Liberty is a multi-platform, multi-currency digital asset wallet. Find out more at https://jaxx.io.",
                 "thumbnailUrl": "https://jaxx.io/assets/img/jaxx-multi-device-2-pair.jpg",
                 "uploadDate": "2018-10-31T00:00:00+00:00",
@@ -101,19 +113,71 @@
               "@type":"ItemList",
               "itemListElement":[
                 {
-                  "@type":"ListItem",
+                  "@type":"listItem",
                   "position":1,
-                  "url":"https://blog.jaxx.io/bch/"
+                  "@id": "https://blog.jaxx.io/bch/",
+                  "url":"https://blog.jaxx.io/bch/",
+                  "name": "Updates on Bitcoin Cash in Jaxx Liberty and Jaxx Classic.",
+                  "author": "Dr. S. Wang",
+                  "headline": "Updates on Bitcoin Cash in Jaxx Liberty and Jaxx Classic.",
+                  "description": "On November 15, 2018, the Bitcoin Cash (BCH) blockchain experienced a split known as a “hard fork”. Some of the core computers that were part of the BCH network adopted one standard. Others adopted a different, incompatible standard. As a result, where BCH once stood, two separate blockchains now operate: the continuing BCH, also known as “Bitcoin Cash ABC” or “Bitcoin ABC”; and “Bitcoin Satoshi Vision”, also known as “BSV” or “BCH-BSV”.",
+                  "datePublished": "February 6, 2019",
+                  "image": "https://jaxx.io/assets/img/jaxx-support-welcome-redux.jpg",
+                  "publisher": "Decentral Inc.",
+                  "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://blog.jaxx.io/bch/"
+                    }
                 },
                 {
                   "@type":"ListItem",
                   "position":2,
-                  "url":"https://blog.jaxx.io/all-in-on-jaxx-liberty/"
+                  "@id": "https://blog.jaxx.io/all-in-on-jaxx-liberty/",
+                  "url":"https://blog.jaxx.io/all-in-on-jaxx-liberty/",
+                  "name": "All-in on Jaxx Liberty.",
+                  "author": "Di",
+                  "headline": "All-in on Jaxx Liberty.",
+                  "description": "Jaxx Liberty launched in 2018 with great success. Jaxx Liberty is your next-generation platform with the tools you need to manage all your blockchain assets in one place, and take full control of your digital life.",
+                  "datePublished": "January 3, 2019",
+                  "image": "https://jaxx.io/assets/img/jaxx-support-welcome-redux.jpg",
+                  "publisher": "Decentral Inc.",
+                  "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://blog.jaxx.io/all-in-on-jaxx-liberty/"
+                    }
                 },
                 {
                   "@type":"ListItem",
                   "position":3,
-                  "url":"https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/"
+                  "@id": "https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/",
+                  "url":"https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/",
+                  "name": "Jaxx Classic and Jaxx Liberty Were Not Affected by the NPM Vulnerability.",
+                  "author": "Dr. S. Wang",
+                  "headline": "Jaxx Classic and Jaxx Liberty Were Not Affected by the NPM Vulnerability.",
+                  "description": "As Decentral’s Chief Security Officer, I’d like to share a few thoughts with you about a recent NPM vulnerability that you may have read about in the news. Rest assured, Jaxx Classic and Jaxx Liberty were not affected. That said, it’s worth explaining and understanding what happened, and why.",
+                  "datePublished": "December 3, 2018",
+                  "image": "https://jaxx.io/assets/img/jaxx-support-welcome-redux.jpg",
+                  "publisher": "Decentral Inc.",
+                  "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://blog.jaxx.io/jaxx-classic-and-jaxx-liberty-were-not-affected-by-the-npm-vulnerability/"
+                    }
+                },
+                {
+                  "@type":"ListItem",
+                  "position":4,
+                  "@id": "https://blog.jaxx.io/",
+                  "url":"https://blog.jaxx.io/",
+                  "name": "Jaxx Blog",
+                  "headline": "Join the Decentral community today.",
+                  "description": "Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.",
+                  "datePublished": "December 3, 2018",
+                  "image": "https://jaxx.io/assets/img/jaxx-support-welcome-redux.jpg",
+                  "publisher": "Decentral Inc.",
+                  "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://blog.jaxx.io/"
+                    }
                 }
               ]
             }
