@@ -153,7 +153,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="">
+                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. ">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -187,7 +187,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 right right-low">Get free world-class support from our User Success Team, via email or social media, available 24/7.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone right" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Jaxx Liberty 24/7 support.">
+                    <img class="feat-phone right" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Get free world-class support from our User Success Team, via email or social media, available 24/7.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -282,7 +282,7 @@ include 'includes/header.php';
                             <a onclick="googleAnalyticsTrigger('Chrome', 'Features_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                         </div><!--end button nest row--> 
                         <div class="right right-med">
-                            <a href="/downloads.php" target="_blank" onclick="googleAnalyticsTrigger('Desktop', 'Features_Page')"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                            <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Features_Page')"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                         </div> 
                     </div>
                 </div><!--end col-->

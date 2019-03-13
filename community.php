@@ -443,7 +443,6 @@ include 'includes/header.php';
                                                     <div class="modal-footer mt-3">
                                                         <button type="button" class="btn btn-lg btn-secondary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Close</button>
                                                     </div>
-
                                                 </div><!--end nest container-->
                                             </div>
                                         </div>
@@ -459,7 +458,7 @@ include 'includes/header.php';
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
                     <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-women-garage.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="Join the Decentral community today.">
                 </div>
             </div>
         </section>
@@ -516,7 +515,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Join the Decentral social media community today.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.">
                 </div>
             </div>
         </section>   
@@ -575,7 +574,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
                 </div>
             </div>
         </section>
