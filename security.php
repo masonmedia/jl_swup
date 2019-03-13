@@ -12,7 +12,7 @@ include 'includes/header.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
-       <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">
+       <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="We built Jaxx Liberty with security in mind.">
         <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
             <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Security</h1>
             <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Your security is our priority.</h2><a href="#sec-1"><button class="p-btn orange ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
@@ -46,7 +46,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-device-closeup.jpg" alt="">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-device-closeup.jpg" alt="Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.">
                 </div>
             </div>
         </section>
@@ -96,8 +96,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
+                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server.">-->
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server.">
                 </div>
             </div>
         </section>
@@ -123,7 +123,7 @@ include 'includes/header.php';
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
                     <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="Jaxx Liberty allows you to set a password to further enhance the security of your backup phrase, which encrypts everything within it. This gives you a second layer of security should your device ever be lost or stolen.">
                 </div>
             </div>
         </section>
@@ -148,7 +148,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Sync Jaxx Liberty across all platforms and devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.">
                 </div>
             </div>
         </section>
@@ -172,7 +172,7 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div class="right right-med">
-                        <a href="/downloads.php" target="_blank" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
                <div class="offset-lg-4"></div>
@@ -182,7 +182,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
+                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
                 </div>
             </div>
         </section>
