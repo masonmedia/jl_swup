@@ -29,13 +29,26 @@ ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
 
+# Redirect support to zendesk
+
 # Redirects from https://jaxx.io/support to the Zendesk URL for quicker referencing
 RewriteRule ^support.html$ https://decentral.zendesk.com/hc/en-us [R,L]
+
+# Redirect legal to terms-current
 
 # Redirects from https://jaxx.io/legal.html to jaxx.io/legal/terms-current.html
 RewriteRule ^legal.html$ https://jaxx.io/legal/terms-current [R,L]
 # 301 redirect
 Redirect 301 /legal.html https://www.jaxx.io.ca/legal/terms-current
+
+# Redirect thirdparties-current to /legal/thirdparties-current
+
+# Redirects from https://jaxx.io/thirdparties-current.html to jaxx.io/legal/thirdparties-current
+RewriteRule ^thirdparties-current.html$ https://jaxx.io/legal/thirdparties-current [R,L]
+# 301 redirect
+Redirect 301 /thirdparties-current.html https://www.jaxx.io/legal/thirdparties-current
+
+#redirect betaslack --> remnant from jaxx-liberty-beta release
 
 # Redirects from https://jaxx.io/betaslack to the jaxx slack channel URL
 RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
