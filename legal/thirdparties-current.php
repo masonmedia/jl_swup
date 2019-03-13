@@ -1,12 +1,10 @@
-<?php
-
-$title = "Jaxx Liberty | Third Party Agreements";
-
-$metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Mac, Linux, Windows, and Google Chrome.";
-
-include 'includes/header.php';
-
-?>
+<?php 
+    $title = "Jaxx Liberty | Third Party Agreements";
+    $metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= "/includes/header.php";
+    include_once($path);
+?> 
 
 <!--banner-->
 
@@ -15,8 +13,8 @@ include 'includes/header.php';
            <img class="img-full absolute z-0 left-0 filter-dark up up-med lazy" data-src="/assets/img/jaxx-terms.jpeg" alt="Jaxx Liberty changes, updates, and improvements.">
            <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-                <h1 class="h4 mt-3 zoom">Jaxx Liberty</h1>
-                <h2 class="site-title font-weight-bold zoom zoom-med">Third Party Integrations & Contractors</h2>
+                <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty</h1>
+                <h2 class="site-title ds-black font-weight-bold zoom zoom-med">Third Party Integrations & Contractors</h2>
                 <a href="#sec-1"><button class="p-btn orange bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
             </div>
             <div class="offset-lg-2"></div>
@@ -100,8 +98,8 @@ include 'includes/header.php';
     </div><!--end main container-->
 </main>
 
-<?php
-
-include 'includes/footer.php';
-
+<?php 
+   $path = $_SERVER['DOCUMENT_ROOT'];
+   $path .= "/includes/footer.php";
+   include_once($path);
 ?>
