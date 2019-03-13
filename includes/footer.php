@@ -9,8 +9,8 @@
                             <hr class="hr-big border-0 bg-secondary">
                             <li><a href="/legal/terms-current.php">Terms of Service</a></li>
                             <li><a href="/legal/intellectual-property.php">Intellectual Property</a></li>
+                            <li><a href="/legal/thirdparties-current.php">Third Party Agreements</a></li>
                             <li><a href="/changeLog.php">Changelog</a></li>
-                            <li><a href="/thirdparties-current.php">Third Party Agreements</a></li>
                         </ul>
                     </div>
                     

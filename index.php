@@ -11,10 +11,8 @@ include 'includes/header.php';
 <div id="banner" role="banner" class="container-fluid p-0">
   <div class="row d-flex min-100 min--100 relative">
         <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
-            <!--style="transform: rotate(-36deg);"-->
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 knockout-gradient zoom">Jaxx Liberty</h1>
-            <!--<h1 class="h4 knockout-gradient mt-3 zoom">Jaxx Liberty</h1>-->
             <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
                 Your multi-platform,
                 <span class="knockout-gradient">multi-currency</span>
@@ -62,7 +60,7 @@ include 'includes/header.php';
          <section>
              <div class="row d-flex bg-white relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Welcome to Decentral Inc.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg" alt="Jaxx Liberty is the leading multi-platform digital asset wallet.">
                     <!--<img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
@@ -113,7 +111,7 @@ include 'includes/header.php';
                             <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                         </div><!--end button nest row--> 
                         <div class="right right-med p-0">
-                            <a href="/downloads.php" target="_blank" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')"><p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                            <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')"><p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                         </div>  
                     </div>
                 </div>
@@ -123,7 +121,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                   <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg" alt="Welcome to Decentral Inc.">
+                   <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg" alt="Download Jaxx Liberty for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
                 </div>
             </div>
         </section>
