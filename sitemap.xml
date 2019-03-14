@@ -6,25 +6,31 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-      <loc>https://decentral.ca/</loc>
+      <loc>https://jaxx.io/</loc>
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>1.00</priority>
     </url>
 
-   <url>
-      <loc>https://decentral.ca/about.php</loc>
+    <url>
+      <loc>https://jaxx.io/features</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+
+    <url>
+      <loc>https://jaxx.io/download</loc>
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>0.80</priority>
     </url>
     
     <url>
-      <loc>https://decentral.ca/jaxxliberty.php</loc>
+      <loc>https://jaxx.io/security</loc>
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>0.80</priority>
     </url>
     
     <url>
-      <loc>https://decentral.ca/partner-network.php</loc>
+      <loc>https://jaxx.io/community</loc>
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>0.80</priority>
     </url>
@@ -36,7 +42,7 @@
     </url>
 
     <url>
-      <loc>https://decentral.ca/contact.php</loc>
+      <loc>https://support.decentral.ca</loc>
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>0.80</priority>
     </url>
