@@ -182,7 +182,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
-                    <h2 class="section-title py-3 right">Enjoy 24/7 customer support.</h2>
+                    <h2 class="section-title py-3 right">Enjoy 24/7 support.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
                     <p class="p-big py-3 right right-low">Get free world-class support from our User Success Team, via email or social media, available 24/7.</p>
                 </div>

@@ -273,8 +273,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4 slide-up">We're here to help</h2>
-                    <h3 class="section-title m-0 slide-up">World class customer support.<span class="d-table">24/7, 365.</span></h3>
+                    <h2 class="h4 slide-up">Jaxx Liberty support</h2>
+                    <h3 class="section-title m-0 slide-up">We're here to help.</span></h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty's User Success Team is available to answer all of your questions through our written channels, 24/7.</p>
