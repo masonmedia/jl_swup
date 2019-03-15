@@ -9,8 +9,9 @@ include 'includes/header.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-  <div class="row d-flex min-100 min--100 relative">
+  <div class="row d-flex min-100 min--100 bg-light relative">
         <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery-right-2.jpg" alt="Welcome to Jaxx Liberty.">
+        <!-- <img class="img-full absolute z-0 right-0 ds up up-med lazy" src="/assets/img/jaxx-macbook-coffee-notebook-right.png" alt="Welcome to Jaxx Liberty."> -->
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 knockout-gradient zoom">Jaxx Liberty</h1>
             <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
