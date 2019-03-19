@@ -12,12 +12,12 @@ include 'includes/header.php';
   <div class="row d-flex min-100 min--100 relative">
         <img class="img-full absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-iphone-X-4-gallery-right-2-min.jpg" alt="Welcome to Jaxx Liberty.">
         <!-- <img class="img-full absolute z-0 right-0 ds up up-med lazy" src="/assets/img/jaxx-macbook-coffee-notebook-right.png" alt="Welcome to Jaxx Liberty."> -->
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left p-5">
-            <h1 class="h4 knockout-gradient zoom">Jaxx Liberty</h1>
-            <h2 class="site-title knockout-gradient font-weight-bold py-2 zoom zoom-med">
-                Your multi-platform,
-                <span class="knockout-gradient">multi-currency</span>
-                <span class="d-table-cell knockout-gradient">digital asset</span>
+            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left p-5">
+            <h1 class="h4 orange zoom">Jaxx Liberty</h1>
+            <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
+                <span class="knockout-gradient">Your multi-platform,</span><br>
+                <span class="knockout-gradient">multi-currency</span><br>
+                <span class="knockout-gradient">digital asset</span><br>
                 <span class="knockout-gradient">wallet.</span>
             </h2>
             <!--button container-->
@@ -32,7 +32,7 @@ include 'includes/header.php';
                 </div>
             </div>
         </div>
-        <div class="offset-lg-6"></div>
+        <div class="offset-lg-5"></div>
     </div>    
 </div><!--end banner-->
 
@@ -47,7 +47,7 @@ include 'includes/header.php';
             <div id="sec-1" class="row d-flex p-5 min-500 bg-white relative stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 slide-down">Jaxx Liberty</h2>
-                    <h3 class="section-title text-dark slide-down">The leading multi-platform digital asset wallet.</h3>
+                    <h3 class="section-title text-dark slide-down">The leading all-in-one digital asset wallet. </h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
                     <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain and digital asset wallets, with millions of downloads. With thousands of users and over 3000 daily transactions, Jaxx Liberty is reshaping the way people manage their digital assets.</p>
@@ -133,10 +133,10 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Security</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">Your security is our top priority.</h3>
+                    <h3 class="section-title text-dark mb-0 slide-right">Putting you in control.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">With Jaxx Liberty, you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.</p>
+                    <p class="p-big pt-3 m-0 slide-right">We never hold your digital assets, you are in complete control. Your 12-word mnemonic and private keys are never stored on our server. They are securely stored on your device  using state-of-the-art encryption including password protection, password strength checker, and facial recognition.</p>
                     <div class="right right-slow">
                         <a href="/security.php"><p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
@@ -147,8 +147,8 @@ include 'includes/header.php';
        <section>
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption.">
+                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="">-->
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg" alt="We never hold your digital assets, you are in complete control.">
                 </div>
             </div>
         </section>
@@ -162,7 +162,7 @@ include 'includes/header.php';
                     <h3 class="section-title mb-0 slide-down">You're in good company.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                     <p class="p-big pt-0 m-0 slide-down">With thousands of users and a wide range of partnerships, Decentral is an innovator in the blockchain space. See what community leaders are saying about Jaxx Liberty.</p>
+                     <p class="p-big pt-0 m-0 slide-down">Decentral is an innovator in the blockchain & cryptocurrency space. With thousands of users and a wide range of partnerships, see what community leaders are saying about Jaxx Liberty.</p>
                 </div>
             </div>
         </section>
@@ -273,8 +273,8 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4 slide-up">Jaxx Liberty support</h2>
-                    <h3 class="section-title m-0 slide-up">We're here to help.</span></h3>
+                    <h2 class="h4 slide-up">World class support</h2>
+                    <h3 class="section-title m-0 slide-up">We’re here to help 24/7.</span></h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty's User Success Team is available to answer all of your questions through our written channels, 24/7.</p>
