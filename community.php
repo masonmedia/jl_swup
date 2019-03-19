@@ -36,7 +36,7 @@ include 'includes/header.php';
                     <h3 class="section-title text-dark mb-0 slide-right">Working together to unite blockchain projects around the globe.</h3>
                     <p class="p-big pt-3 m-0 slide-right"><span class="font-weight-bold orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
                     <div class="right right-slow">
-                        <a href="#sec-2"><p class="p-btn mt-3 slide-right">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="#coinLogos"><p class="p-btn mt-3 slide-right">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
