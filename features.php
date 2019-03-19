@@ -230,7 +230,7 @@ include 'includes/header.php';
                     <p class="p-big py-3">QR code support simplifies in-person transactions.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
-                    <h4 class="py-3">Fast.</h4>
+                    <h4 class="py-3">Fast & convenient.</h4>
                     <hr class="hr-big border-0 bg-orange m-0">
                     <p class="p-big py-3 pr-4 border-right">Get the latest headline news, real-time market data, check your portfolio, and exchange between digital assets any time you want, almost instantly.</p>
                 </div>
@@ -247,7 +247,7 @@ include 'includes/header.php';
                 <div class="col-lg-3 col-md-6 banner-left p-3 slide-right">
                     <h4 class="py-3">100% free.</h4>
                     <hr class="hr-big border-0 bg-orange m-0">
-                    <p class="p-big py-3">Jaxx Liberty is a free service that has no sign-up, conducts no registration, and requires no personal information to access your digital assets.</p>
+                    <p class="p-big py-3">Jaxx Liberty is free and has no sign-up or registration, and requires no personal information to access your digital assets.</p>
                 </div>
             </div><!--end row-->
         </section>
