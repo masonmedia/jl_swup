@@ -31,7 +31,7 @@ include 'includes/header.php';
         <section>
            <div class="row d-flex relative bg-orange-gradient text-light stagger-right">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5 right">
-                    <h2 class="section-title font-weight-bold text-light slide-right">It's easy to get started. And it's free.</h2>
+                    <h2 class="section-title font-weight-bold text-light slide-right">It’s quick and easy to get started. And, it’s free.</h2>
                     <hr class="hr-big border-0 bg-light slide-right">
                     <h3 class="pt-2 font-weight-light slide-right">Putting you in control of your digital assets.</h3>
                 </div>
@@ -46,10 +46,10 @@ include 'includes/header.php';
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Easy to use.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
-                    <p class="p-big py-3 right right-slow">Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
+                    <p class="p-big py-3 right right-slow">Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-home.png" alt="Built with simplicity in mind, Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-home.png" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -61,12 +61,12 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-right">
-                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-port.png" alt="View your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-port.png" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">View your portfolio.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
-                    <p class="p-big py-3 right right-slow">View your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.</p>
+                    <p class="p-big py-3 right right-slow">Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.</p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -80,10 +80,10 @@ include 'includes/header.php';
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Follow blockchain news.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
-                    <p class="p-big py-3 right right-slow">Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.</p>
+                    <p class="p-big py-3 right right-slow">Get daily blockchain headline news and updates from a range of trusted sources. All at your finger-tips, in Jaxx Liberty's news module.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-news.png" alt="Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.">
+                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-news.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your finger-tips, in Jaxx Liberty's news module.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -114,7 +114,7 @@ include 'includes/header.php';
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Personalize your wallets.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
-                    <p class="p-big py-3 right right-slow">Easily customize your Jaxx Liberty wallet module, scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
+                    <p class="p-big py-3 right right-slow">You can easily customize your Jaxx Liberty wallet module. Simply scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
                     <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-wallets.png" alt="Easily customize your Jaxx Liberty wallet module.">
@@ -146,12 +146,12 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-right">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
-                    <h2 class="section-title py-3 right">Powerful security tools.</h2>
+                    <h2 class="section-title py-3 right">Leading-edge security tools.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
                     <p class="p-big py-3 right right-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. ">
+                    <img class="feat-phone m-auto ds right" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -182,10 +182,10 @@ include 'includes/header.php';
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-right">
                     <h2 class="section-title py-3 right">Enjoy 24/7 support.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 right right-med">
-                    <p class="p-big py-3 right right-low">Get free world-class support from our User Success Team, via email or social media, available 24/7.</p>
+                    <p class="p-big py-3 right right-low">Get free, 24/7 world-class support from our User Success Team, via email or social media.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-right">
-                    <img class="feat-phone right" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Get free world-class support from our User Success Team, via email or social media, available 24/7.">
+                    <img class="feat-phone right" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
