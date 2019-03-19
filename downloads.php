@@ -2,8 +2,6 @@
 
 $title = "Jaxx Liberty | Downloads";
 
-$metaD = "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.";
-
 include 'includes/header.php';
 
 ?>
