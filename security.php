@@ -33,7 +33,7 @@ include 'includes/header.php';
                     <h3 class="section-title text-dark mb-0 slide-right">Secure by Default.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">We built Jaxx Liberty with security in mind - to keep your digital assets safe every time you use our products. Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.</p>
+                    <p class="p-big pt-3 m-0 slide-right">We built Jaxx Liberty with security in mind - to keep your digital assets safe every time you use our product. Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.</p>
                     <div class="right right-slow">
                         <a href="#sec-3"><p class="p-btn mt-3 slide-right">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
@@ -136,7 +136,7 @@ include 'includes/header.php';
                     <h3 class="section-title text-dark mb-0 slide-right">Secure across platforms.</h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.</p>
+                    <p class="p-big pt-3 m-0 slide-right">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it's iOS, Android, Mac, Windows, Linux or our Google Chrome Extension, we’ve got you covered.</p>
                     <div class="right right-slow">
                         <a href="#sec-7"><p class="p-btn mt-3 slide-right">Download <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
                     </div>
@@ -147,7 +147,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Sync Jaxx Liberty across all platforms and devices. Whether it's iOS, Android, Mac, Windows, Linux or a Chrome Extension, we’ve got you covered.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Sync Jaxx Liberty across all platforms and devices. Whether it's iOS, Android, Mac, Windows, Linux or our Google Chrome Extension, we’ve got you covered.">
                 </div>
             </div>
         </section>
