@@ -1,8 +1,6 @@
 //onload fade in
 TweenMax.to($("body"), 1.5, {autoAlpha:1, ease: Power3.easeInOut});
 
-//TweenMax.staggerFrom(".btn", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 0.2);
-
 $(document).ready(function() {
     //swup 
       const swup = new Swup({
