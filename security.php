@@ -179,7 +179,7 @@ include 'includes/header.php';
         </section>
 
         <section>
-            <div class="row d-flex bg-light">
+            <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
                 </div>
