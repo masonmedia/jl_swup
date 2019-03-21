@@ -61,7 +61,7 @@ include 'includes/header.php';
                             
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                     <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">*Mac OSX</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx requires OS X 10.9 (or later)</h5>
+                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires OS X 10.9 (or later)</h5>
                                     <p class="pt-3 font-weight-bold">$ shasum -a 256 Jaxx.Liberty-2.1.3.dmg</p>
                                     <p class="word-break">e8d4a04f5ab9fff469e289572149815f24f1ee484bd9178710184a37e8dfc06f</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Mac_Modal', 'Downloads_Desktop_Liberty_Mac')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-2.1.3.dmg">Download for Mac</a>
@@ -71,7 +71,7 @@ include 'includes/header.php';
                                
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                     <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Windows</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx requires Windows 7 (or later)</h5>
+                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Windows 7 (or later)</h5>
                                     <p class="pt-3 font-weight-bold">$ certutil -hashfile Jaxx.Liberty-setup-2.1.3.exe sha256</p>
                                     <p class="word-break">0cf82457cbc66867b5628076ea5f0098c56b0f1d18d32541a0d283eab244f433</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Windows_Modal', 'Downloads_Desktop_Liberty_Windows')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-setup-2.1.3.exe">Download for Windows</a>
@@ -81,7 +81,7 @@ include 'includes/header.php';
                                 
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                    <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Linux 32</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
+                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
                                     <p class="pt-3 font-weight-bold">$ shasum -a 256 com.liberty.jaxx-2.1.3-i386.AppImage</p>
                                     <p class="word-break">c58e8f1c9167b3255f8443bb1616055ccfd21d09bba9982722d76cf2f31a3c3d</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_32')" href="https://download-liberty.jaxx.io/com.liberty.jaxx-2.1.3-i386.AppImage">Download for Linux 32</a>
@@ -91,7 +91,7 @@ include 'includes/header.php';
                                
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                    <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Linux 64</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
+                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
                                     <p class="pt-3 font-weight-bold">$ shasum -a 256 com.liberty.jaxx-2.1.3-x86_64.AppImage</p>
                                     <p class="word-break">175e7231d87de5312844d1dbda0399f324d1a04d2cff27acd596c264ca5e148d</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_64')" href="https://download-liberty.jaxx.io/com.liberty.jaxx-2.1.3-x86_64.AppImage">Download for Linux 64</a>
