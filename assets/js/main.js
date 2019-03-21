@@ -143,14 +143,15 @@ $(document).ready(function() {
        $('.navbar-toggler, .nav-item').on('click',function() {
            $('.wrapper-menu').toggleClass('open');
         });
-       
-       //smooth scroll
-        $('a').click(function(){
-            var top = $('body').find($(this).attr('href')).offset().top;
-            $('html, body').animate({
-                scrollTop: top
-            }, 1200, 'easeInOutExpo');
-            return false;
+
+        $('a[href*="#"]').on('click', function(e) {
+          e.preventDefault()
+        
+          $('html, body').animate({
+              scrollTop: $($(this).attr('href')).offset().top,
+            },
+            1200, 'easeInOutExpo');
+          return false;
         });
     
        //lazy load
@@ -342,14 +343,15 @@ document.addEventListener('swup:contentReplaced', function () {
     //smooth scroll https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/
     //https://stackoverflow.com/questions/16680045/how-to-add-easing-to-animate-scrolltop
 
-    $('a').click(function(){
-        var top = $('body').find($(this).attr('href')).offset().top;
-        $('html, body').animate({
-            scrollTop: top
-        }, 1000, 'easeInOutExpo');
-
-        return false;
-      });
+    $('a[href*="#"]').on('click', function(e) {
+      e.preventDefault()
+    
+      $('html, body').animate({
+          scrollTop: $($(this).attr('href')).offset().top,
+        },
+        1200, 'easeInOutExpo');
+      return false;
+    });
 
     //lazy load
     $(".lazy").recliner({

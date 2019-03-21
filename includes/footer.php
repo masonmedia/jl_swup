@@ -73,7 +73,7 @@
     <!--js tilt 404-->
     <script src="/assets/js/tilt.jquery.min.js"></script>
     <script src="/assets/js/cookieconsent.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.min.js"></script>
     <!-- Global site tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52743378-1"></script>
     <script>
