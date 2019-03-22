@@ -1334,6 +1334,16 @@ footer li a {
         align-items: center;
     }
 
+    /* utility class for breaking sentences @mobile */
+    .line-break-sm {
+        display: table;
+    }
+
+    /* hide desktop download button on tablet and mobile */
+    #desktop_download {
+        display: none;
+    }
+
     /* flex order */
     .o-1 {
         -webkit-box-ordinal-group: 0;
@@ -1398,10 +1408,6 @@ footer li a {
     .min--100 {
         min-height: 700px;
     }
-    /* hide desktop download button on tablet and mobile */
-    #downloads button {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 601px) {
@@ -1435,7 +1441,7 @@ footer li a {
         font-weight: bold;
     }
 
-    #downloads button {
+    #desktop_download {
         display: none;
     }
 

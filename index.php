@@ -88,7 +88,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Features</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">See what Jaxx Liberty can do for you.</h3>
+                    <h3 class="section-title text-dark mb-0 slide-right">See what Jaxx Liberty <span class="line-break-sm">can do for you.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
@@ -120,7 +120,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 slide-down">Multi-platform</h2>
-                    <h3 class="section-title text-dark slide-down">Use on your favourite device.</h3>
+                    <h3 class="section-title text-dark slide-down">Use on your <span class="line-break-sm">favourite device.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
@@ -145,7 +145,7 @@ include 'includes/header.php';
                                     src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store" /></a>
                         </div>
                         <!--end button nest row-->
-                        <div class="right right-med p-0">
+                        <div id="desktop_download" class="right right-med p-0">
                             <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
                                 <p class="p-btn pl-0 slide-right">Desktop versions <i
                                         class="fa fa-angle-right fa-btn orange"></i></p>
@@ -172,7 +172,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Security</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">Putting you in control.</h3>
+                    <h3 class="section-title text-dark mb-0 slide-right">Putting you <span class="line-break-sm">in control.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
@@ -206,7 +206,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 slide-down">Trusted by the best</h2>
-                    <h3 class="section-title mb-0 slide-down">You're in good company.</h3>
+                    <h3 class="section-title mb-0 slide-down">You're in <span class="line-break-sm">good company.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
@@ -316,7 +316,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
                     <h2 class="h4 slide-up">Our friends</h2>
-                    <h3 class="section-title m-0 slide-up">Home to the top digital assets.</h3>
+                    <h3 class="section-title m-0 slide-up">Home to the <span class="line-break-sm">top digital assets.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
@@ -348,7 +348,7 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
                     <h2 class="h4 slide-up">World class support</h2>
-                    <h3 class="section-title m-0 slide-up">We’re here to help 24/7.</span></h3>
+                    <h3 class="section-title m-0 slide-up">We’re here <span class="line-break-sm">to help 24/7.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
