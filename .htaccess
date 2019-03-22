@@ -39,7 +39,7 @@ RewriteRule ^support.html$ https://decentral.zendesk.com/hc/en-us [R,L]
 # Redirects from https://jaxx.io/legal.html to jaxx.io/legal/terms-current.html
 RewriteRule ^legal.html$ https://jaxx.io/legal/terms-current [R,L]
 # 301 redirect
-Redirect 301 /legal.html https://www.jaxx.io.ca/legal/terms-current
+Redirect 301 /legal.html https://www.jaxx.io/legal/terms-current
 
 # Redirect thirdparties-current to /legal/thirdparties-current
 
@@ -57,8 +57,8 @@ RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtM
 RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
 
 # Set custom 404 error page
-ErrorDocument 404 /404.html
-ErrorDocument 403 /403.html
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
 
 # GeoBlocking
 # Since jaxx.io is on shared hosting on DreamHost it wasn't possible to install ip module
