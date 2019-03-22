@@ -10,7 +10,7 @@ include 'includes/header.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
-       <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-group-people.jpg" alt="We built Jaxx Liberty with security in mind.">
+       <img class="img-full absolute z-0 left-0 up up-med" src="/assets/img/jaxx-group-people.jpg" alt="We built Jaxx Liberty with security in mind.">
         <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
             <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Security</h1>
             <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Your security is our priority.</h2><a href="#sec-1"><button class="p-btn orange ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
@@ -170,7 +170,7 @@ include 'includes/header.php';
                         <!--jaxx liberty chrome-->
                         <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
-                    <div class="right right-med">
+                    <div id="desktop_download" class="right right-med">
                         <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>

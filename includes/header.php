@@ -240,16 +240,16 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/features.php">Features</a>
+                        <a class="nav-link" href="/features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
+                        <a class="nav-link" href="/downloads" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/security.php">Security</a>
+                        <a class="nav-link" href="/security">Security</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/community.php">Community</a>
+                        <a class="nav-link" href="/community">Community</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
