@@ -9,7 +9,7 @@ include 'includes/header.php';
 
     <div id="downloads" role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg py-5 text-secondary relative">
-            <img class="img-full absolute z-0 left-0 up up-med lazy" src="/assets/img/jaxx-phone-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
+            <img class="img-full absolute z-0 bottom-0 up up-med lazy" src="/assets/img/jaxx-phone-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
             <!-- desk cherries -->
             <!-- <img class="img-full absolute z-0 left-0 up up-med lazy" src="https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension."> -->
             <div class="offset-lg-2"></div>

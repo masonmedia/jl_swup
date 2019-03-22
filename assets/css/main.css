@@ -1398,6 +1398,10 @@ footer li a {
     .min--100 {
         min-height: 700px;
     }
+    /* hide desktop download button on tablet and mobile */
+    #downloads button {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 601px) {
@@ -1429,6 +1433,10 @@ footer li a {
     p {
         font-size: 19px;
         font-weight: bold;
+    }
+
+    #downloads button {
+        display: none;
     }
 
     /* styles for improved scroll on chrome --> http://www.sanyamkhurana.com/blog/bootstrap-modal-scroll-bug-on-chrome-easy-fix.html */
