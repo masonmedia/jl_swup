@@ -1,4 +1,3 @@
-
 //GSAP onload fade in
 fade();
 
@@ -84,6 +83,7 @@ function fade() {
     ease: Power3.easeInOut
   });
 }
+
 function gsapMenuTimeline() {
   TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {
     autoAlpha: 0,
@@ -91,6 +91,7 @@ function gsapMenuTimeline() {
     ease: Back.easeInOut.config(1.7)
   }, 0.1);
 }
+
 function smoothScroll() {
   $('a[href*="#"]').on('click', function (e) {
     e.preventDefault()
@@ -102,38 +103,40 @@ function smoothScroll() {
     return false;
   });
 }
+
 function zendesk() {
-    //zendesk widget options
-    window.zESettings = {
-      webWidget: {
-        launcher: {
-          label: {
-            'en-US': 'Help',
-            'fr': 'Besoin d\'aide'
-          }
-        },
-        helpCenter: {
-          title: {
-            'en-US': 'Jaxx Liberty Support',
-            'fr': 'Recherche d\'aide'
-          },
-          messageButton: {
-            '*': 'Get in touch'
-          }
-        },
-        color: {
-          theme: '#fff',
-          launcher: '#264277',
-          launcherText: '#fff',
-          button: '#ff6902',
-          resultLists: '#ff6902',
-          header: '#ff6902',
-          title: '#fff',
-          articleLinks: '#ff6902'
+  //zendesk widget options
+  window.zESettings = {
+    webWidget: {
+      launcher: {
+        label: {
+          'en-US': 'Help',
+          'fr': 'Besoin d\'aide'
         }
+      },
+      helpCenter: {
+        title: {
+          'en-US': 'Jaxx Liberty Support',
+          'fr': 'Recherche d\'aide'
+        },
+        messageButton: {
+          '*': 'Get in touch'
+        }
+      },
+      color: {
+        theme: '#fff',
+        launcher: '#264277',
+        launcherText: '#fff',
+        button: '#ff6902',
+        resultLists: '#ff6902',
+        header: '#ff6902',
+        title: '#fff',
+        articleLinks: '#ff6902'
       }
-    };
+    }
+  };
 }
+
 function lazyLoad() {
   $(".lazy").recliner({
     attrib: "data-src", // selector for attribute containing the media src
@@ -143,6 +146,7 @@ function lazyLoad() {
     live: true // auto bind lazy loading to ajax loaded elements
   });
 }
+
 function gsapScrollAnimations() {
   var controller = new ScrollMagic.Controller();
 
@@ -203,19 +207,21 @@ function gsapScrollAnimations() {
       .addTo(controller);
   });
 }
+
 function carousel() {
   $('.carousel').carousel({
     interval: 2000
   });
 }
+
 function navClose() {
-    //close mobile nav on click
-    $('.nav-link').on('click', function () {
-      $('.navbar-collapse').collapse('hide');
-    });
-  
-    //toggle mobile menu animation
-    $('.navbar-toggler, .nav-item').on('click', function () {
-      $('.wrapper-menu').toggleClass('open');
-    });
+  //close mobile nav on click
+  $('.nav-link').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  //toggle mobile menu animation
+  $('.navbar-toggler, .nav-item').on('click', function () {
+    $('.wrapper-menu').toggleClass('open');
+  });
 }
