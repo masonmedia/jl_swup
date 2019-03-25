@@ -30,7 +30,7 @@ include 'includes/header.php';
                         </a>
                     </div>
                     <div class="col-xs-6 zoom zoom-slow">
-                        <a href="/downloads.php">
+                        <a href="/downloads">
                             <p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">Download <i class="fa fa-angle-right fa-btn"></i></p>
                         </a>
                     </div>
@@ -62,7 +62,7 @@ include 'includes/header.php';
                         users and over 3000 daily transactions, Jaxx Liberty is reshaping the way people manage their
                         digital assets.</p>
                     <div class="down down-slow">
-                        <a href="/features.php">
+                        <a href="/features">
                             <p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
@@ -95,7 +95,7 @@ include 'includes/header.php';
                     <p class="p-big pt-3 m-0 slide-right">Get the latest blockchain headline news, real-time market
                         data, check your portfolio, and exchange between digital assets all in one convenient place.</p>
                     <div class="right right-slow">
-                        <a href="/features.php">
+                        <a href="/features">
                             <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
@@ -146,7 +146,7 @@ include 'includes/header.php';
                         </div>
                         <!--end button nest row-->
                         <div id="desktop_download" class="right right-med p-0">
-                            <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
+                            <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
                                 <p class="p-btn pl-0 slide-right">Desktop versions <i
                                         class="fa fa-angle-right fa-btn orange"></i></p>
                             </a>
@@ -181,7 +181,7 @@ include 'includes/header.php';
                         securely stored on your device using state-of-the-art encryption including password protection,
                         password strength checker, and facial recognition.</p>
                     <div class="right right-slow">
-                        <a href="/security.php">
+                        <a href="/security">
                             <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
@@ -323,7 +323,7 @@ include 'includes/header.php';
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and
                         communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
                     <div class="up up-slow">
-                        <a href="/community.php" target="_blank">
+                        <a href="/community" target="_blank">
                             <p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
@@ -385,11 +385,10 @@ include 'includes/header.php';
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">We consider ourselves part of extensive ecosystem, a large and
-                        growing network of people, friends, users, and <a href="/partnerships.php"><span
-                                class="orange">partners</span></a> around the world. Join the Jaxx Liberty community
+                        growing network of people, friends, users, and around the world. Join the Jaxx Liberty community
                         today.</p>
                     <div class="up up-slow">
-                        <a href="/community.php" onclick="googleAnalyticsTrigger('Community', 'Home_Page')">
+                        <a href="/community" onclick="googleAnalyticsTrigger('Community', 'Home_Page')">
                             <p class="p-btn mt-3 slide-up">Join the adventure <i
                                     class="fa fa-angle-right fa-btn orange"></i></p>
                         </a>

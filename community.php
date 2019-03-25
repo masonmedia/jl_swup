@@ -564,7 +564,7 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Community_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div id="desktop_download" class="right right-med">
-                        <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Community_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Community_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
                <div class="offset-lg-2"></div>

@@ -91,7 +91,6 @@
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>
  <script src="/assets/js/main.js"></script>
- <script src="/assets/js/community.js"></script>
 
  <?php
 

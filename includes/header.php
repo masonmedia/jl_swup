@@ -65,7 +65,7 @@
               "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
               "availableOnDevice": "iPhone, Android, iPad, Tablet, Linux, Mac OS X, and Windows Desktop, Google Chrome Extension.",
               "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
-              "@id":"http://jaxx.io",
+              "@id":"https://jaxx.io",
               "keywords": "Digital wallet, blockchain, cryptocurrency, Bitcoin",
               "applicationCategory": "Finance",
               "applicationSubCategory": "Digital Wallet Application",
