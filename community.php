@@ -1,5 +1,7 @@
 <?php
 
+$page = "community";
+
 $title = "Jaxx Liberty | Community";
 
 include 'includes/header.php';
