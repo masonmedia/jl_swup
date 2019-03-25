@@ -1,9 +1,6 @@
 
 //GSAP onload fade in
-TweenMax.to($("body"), 1.5, {
-  autoAlpha: 1,
-  ease: Power3.easeInOut
-});
+fade();
 
 $(document).ready(function () {
   //swup 
@@ -17,24 +14,17 @@ $(document).ready(function () {
   //GSAP menu timeline
   gsapMenuTimeline();
 
-  //lazy load
-  lazyLoad();
-
   //smooth scroll
   smoothScroll();
 
   //GSAP + Scroll Magic
   gsapScrollAnimations();
 
-  //close mobile nav on click
-  $('.nav-link, body').on('click', function () {
-    $('.navbar-collapse').collapse('hide');
-  });
+  //lazy load
+  lazyLoad();
 
-  //toggle mobile menu animation
-  $('.navbar-toggler, .nav-item').on('click', function () {
-    $('.wrapper-menu').toggleClass('open');
-  });
+  //close mobile nav on click
+  navClose();
 
   //zendesk widget options
   zendesk();
@@ -58,24 +48,17 @@ document.addEventListener('swup:contentReplaced', function () {
   //GSAP menu timeline
   gsapMenuTimeline();
 
-  //lazyload reinit
-  lazyLoad();
-
   //smooth scroll
   smoothScroll();
 
   //scroll magic + gsap reinit
   gsapScrollAnimations();
 
-  //close mobile menu on nav link click
-  $('.navbar-toggler, .nav-item').on('click', function () {
-    $('.wrapper-menu').toggleClass('open');
-  });
+  //lazy load
+  lazyLoad();
 
-  //close mobile nav on click
-  $('.nav-link, body').on('click', function () {
-    $('.navbar-collapse').collapse('hide');
-  });
+  //close mobile menu on nav link click
+  navClose();
 
   //zendesk widget options
   zendesk();
@@ -93,9 +76,21 @@ document.addEventListener('swup:contentReplaced', function () {
 
 // API js display jaxx blog --> https://www.youtube.com/watch?v=rGObWtjxGBc
 
-
 // functions
 
+function fade() {
+  TweenMax.to($("body"), 1.5, {
+    autoAlpha: 1,
+    ease: Power3.easeInOut
+  });
+}
+function gsapMenuTimeline() {
+  TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {
+    autoAlpha: 0,
+    x: -50,
+    ease: Back.easeInOut.config(1.7)
+  }, 0.1);
+}
 function smoothScroll() {
   $('a[href*="#"]').on('click', function (e) {
     e.preventDefault()
@@ -147,13 +142,6 @@ function lazyLoad() {
     printable: true, // be printer friendly and show all elements on document print
     live: true // auto bind lazy loading to ajax loaded elements
   });
-}
-function gsapMenuTimeline() {
-  TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {
-    autoAlpha: 0,
-    x: -50,
-    ease: Back.easeInOut.config(1.7)
-  }, 0.1);
 }
 function gsapScrollAnimations() {
   var controller = new ScrollMagic.Controller();
@@ -219,4 +207,15 @@ function carousel() {
   $('.carousel').carousel({
     interval: 2000
   });
+}
+function navClose() {
+    //close mobile nav on click
+    $('.nav-link').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  
+    //toggle mobile menu animation
+    $('.navbar-toggler, .nav-item').on('click', function () {
+      $('.wrapper-menu').toggleClass('open');
+    });
 }

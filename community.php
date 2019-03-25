@@ -581,7 +581,6 @@ include 'includes/header.php';
 
     </div><!--end main container-->
 </main>
-
 <?php
 
 include 'includes/footer.php';
