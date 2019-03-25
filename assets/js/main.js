@@ -227,7 +227,8 @@ function navClose() {
 }
 
 function displayNewsFeeds() {
-  if (window.location.pathname === '/community.php') {
+  // already had the if statement in the initial API script so ddidn't need it again here
+  // if (window.location.pathname === '/community.php') {
 
       //jaxx blog API call
       var blogButtonContainer = document.getElementById("blog-button-container");
@@ -275,5 +276,5 @@ function displayNewsFeeds() {
 
           }
       }
-  }
+  // }
 }

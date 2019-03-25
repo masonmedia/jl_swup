@@ -171,7 +171,7 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div id="desktop_download" class="right right-med">
-                        <a href="/downloads.php" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
                <div class="offset-lg-4"></div>
