@@ -91,41 +91,15 @@
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>
  <script src="/assets/js/main.js"></script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85893600-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
- <?php
-
-if (isset($page) && !empty($page)) {
-
-if($page == "community") {
-
-?>
-
- <script src="/assets/js/community.js"></script>
-
- <?php
-
-}
-
-else{}
-
-}
-
-else {}
-
-?>
-
- <!-- Global site tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52743378-1"></script>
- <script>
-     window.dataLayer = window.dataLayer || [];
-
-     function gtag() {
-         dataLayer.push(arguments);
-     }
-     gtag('js', new Date());
-
-     gtag('config', 'UA-85893600-1');
- </script>
+  gtag('config', 'UA-85893600-1');
+</script>
 
  <!-- Google Analytics for button tags -->
 
