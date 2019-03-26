@@ -1,12 +1,12 @@
-# **Decentral Inc. SWUP Version**
+# **Jaxx.io SWUP Version**
 
-The official website of Decentral Inc., Canada's leading blockchain company. Decentral is the maker of Jaxx Liberty, the leading multi-platform cryptocurrent wallet, and was founded by Anthony Di Iorio, co-founder of Ethereum.
+The official website of Jaxx Liberty, Canada's leading blockchain company. Decentral is the maker of Jaxx Liberty, the leading multi-platform cryptocurrent wallet, and was founded by Anthony Di Iorio, co-founder of Ethereum.
 
-For more information see [decentral.ca](https://decentral.ca) and [jaxx.io](https://jaxx.io).
+For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://decentral.ca).
 
 ## **SWUP**
 
-This version of decentral.ca uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, view changes are fast, the initial page load is light, and it is easily extensible with simple (or complex) css and js animations.
+This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, view changes are fast, the initial page load is light, and it is easily extensible with simple (or complex) css and js animations.
 
 SWUP works by wrapping main page content (any content you want changed without refresh) in a swup id `id="swup"`. This alone works to swap out content without reload. The addition of a `.transition-` class then offers great flexibility in creating custom animation options (refer the SWUP API). The base class for fading in and out is `.transition-fade`.
 
@@ -81,4 +81,4 @@ PHP is used minimally for header and footer includes.
 
 ## **.htaccess**
 
-1. Multiple .htaccess redirects/301s are employed to point now-defunct pages to current versions (i.e. /history.html --> /about), as well as to redirect previous .html extensions to .php, and then to remove .php extensions entirely for pretty urls.
+1. Multiple .htaccess redirects/301s are employed to point previous .html file extensions to .php, and then to remove .php extensions entirely for pretty urls.
