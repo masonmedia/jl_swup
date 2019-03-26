@@ -34,7 +34,7 @@ $(document).ready(function () {
   // API blog call
   if (window.location.pathname === '/community.php') {
     // console.error('oncommunity main - check for community page direct load');
-    //see community.js for function
+    //if remove .php the window.location.pathname will NOT work -- they have to match
     displayNewsFeeds();
   }
 
@@ -228,7 +228,7 @@ function navClose() {
 
 function displayNewsFeeds() {
   // already had the if statement in the initial API script so ddidn't need it again here
-  // if (window.location.pathname === '/community.php') {
+  if (window.location.pathname === '/community.php') {
 
       //jaxx blog API call
       var blogButtonContainer = document.getElementById("blog-button-container");
@@ -276,5 +276,5 @@ function displayNewsFeeds() {
 
           }
       }
-  // }
+  }
 }
