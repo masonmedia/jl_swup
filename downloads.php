@@ -71,7 +71,7 @@ include 'includes/header.php';
                                
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                     <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Windows</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Windows 7 (or later)</h5>
+                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Windows 8 (or later)</h5>
                                     <p class="pt-3 font-weight-bold">$ certutil -hashfile Jaxx.Liberty-setup-2.1.3.exe sha256</p>
                                     <p class="word-break">0cf82457cbc66867b5628076ea5f0098c56b0f1d18d32541a0d283eab244f433</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Windows_Modal', 'Downloads_Desktop_Liberty_Windows')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-setup-2.1.3.exe">Download for Windows</a>
