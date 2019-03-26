@@ -34,6 +34,36 @@
       <lastmod>2017-11-30T23:59:59+00:00</lastmod>
       <priority>0.80</priority>
     </url>
+
+    <url>
+      <loc>https://jaxx.io/about</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+
+    <url>
+      <loc>https://jaxx.io/legal/terms-current</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+
+    <url>
+      <loc>https://jaxx.io/legal/thirdparties-current</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+
+    <url>
+      <loc>https://jaxx.io/legal/intellectual-property</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+
+    <url>
+      <loc>https://jaxx.io/changeLog</loc>
+      <lastmod>2017-11-30T23:59:59+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
     
     <url>
       <loc>https://blog.jaxx.io/</loc>
