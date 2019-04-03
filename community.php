@@ -522,10 +522,10 @@ include 'includes/header.php';
 
         <!--Jaxx blog API GET-->
         
-        <section>
+        <!-- <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                   <!--Blog API data pull-->
+                   Blog API get
                     <div id="blogAPI" class="row">
                         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-left">
                             <h2 class="section-title text-center slide-up">News from the Jaxx blog.</h2>
@@ -543,7 +543,7 @@ include 'includes/header.php';
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--download-->
         
