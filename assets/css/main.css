@@ -1257,6 +1257,12 @@ footer li a {
 
 @media (max-width: 992px) {
 
+    body,
+    html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     /* nav */
     nav,
     .navbar {
@@ -1389,12 +1395,6 @@ footer li a {
 }
 
 @media (max-width: 768px) {
-
-    body,
-    html {
-        width: 100%;
-        overflow-x: hidden;
-    }
 
     /* homepage front title */
     .page-title {
