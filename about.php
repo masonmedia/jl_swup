@@ -130,7 +130,7 @@ include 'includes/header.php';
         <!--anthony message-->     
         
         <section>  
-            <div class="row d-flex p-5 min-500 text-secondary bg-white relative z-1 stagger-right">
+            <div id="decentralHistory" class="row d-flex p-5 min-500 text-secondary bg-white relative z-1 stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 orange slide-right">Anthony Di Iorio</h2>
                     <h3 class="section-title text-dark mb-0 slide-right">A message from the founder.</h3>
@@ -138,6 +138,9 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 right right-med">
                     <p class="p-big pt-3 m-0 slide-right">Decentralized technologies power trust-less, frictionless, efficient networks and markets by enabling people to create, store, transfer and receive value from anyone, anywhere — friends, strangers, colleagues, businesses — without the assistance or cost of traditional middlemen. As a result, every sector—from marketing to manufacturing, from healthcare to energy, from law to accounting — is being disrupted. Join us in our mission to create opportunity and empower individuals around the world.</p>
+                    <div class="right right-slow">
+                        <a href="#decentralHistory"><p class="p-btn mt-3 slide-up">Decentral history <i class="fa fa-angle-right fa-btn orange"></i></p></a>
+                    </div>
                 </div>
             </div><!--end row-->
         </section>
