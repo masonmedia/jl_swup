@@ -70,7 +70,7 @@ include 'includes/header.php';
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
                     <!-- <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-multi-device-2-security.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption."> -->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="assets/img/jaxx-ipad-iphone-X-closeup.jpg" alt="When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-ipad-iphone-X-password.jpg" alt="When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.">
                 </div>
             </div>
         </section>     
