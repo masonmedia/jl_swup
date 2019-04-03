@@ -47,7 +47,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 up up-slow">Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-home.png" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-home.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -59,7 +59,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-port.png" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-port.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">View your portfolio.</h2>
@@ -81,7 +81,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 up up-slow">Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-news.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -93,7 +93,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-markets.png" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Track market data.</h2>
@@ -115,7 +115,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 up up-slow">You can easily customize your Jaxx Liberty wallet module. Simply scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-wallets.png" alt="Easily customize your Jaxx Liberty wallet module.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-wallets.jpg" alt="Easily customize your Jaxx Liberty wallet module.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -127,7 +127,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Search the blockchain.</h2>
@@ -149,7 +149,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 up up-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-backup.png" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -161,7 +161,7 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto ds up" src="/assets/img/jaxx-feat-phone-case-shapeshift.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Exchange between assets.</h2>
@@ -183,7 +183,7 @@ include 'includes/header.php';
                     <p class="p-big py-3 up up-low">Get free, 24/7 world-class support from our User Success Team, via email or social media.</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                    <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -261,10 +261,10 @@ include 'includes/header.php';
         <!--download-->
        
         <section>
-            <div class="row d-flex min-700-lg bg-light p-5 stagger-up">
+            <div class="row d-flex min-700-lg bg-white p-5 stagger-up">
               <div class="offset-lg-2"></div>
                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 up">
-                    <img class="w-75 ds up up-med" src="/assets/img/jaxx-macbook-air.png" alt="Take Jaxx Liberty wherever you go.">
+                    <img class="w-75 up up-med" src="/assets/img/jaxx-macbook-air.jpg" alt="Take Jaxx Liberty wherever you go.">
                     <h2 class="section-title pb-3 pt-5 slide-up">Wherever you are.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-up">
                     <p class="p-big pt-3 mb-0 slide-up">Jaxx Liberty is available for mobile, web, and desktop. Enjoy on iOS, Android, Mac OS X, Windows, Linux, and Google Chrome.</p>
