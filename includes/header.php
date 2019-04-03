@@ -12,7 +12,6 @@
     } ?></title>
     <!--core meta data-->
     <meta name="description" content="<?php
-
     if(isset($metaD) && !empty($metaD)) { 
        echo $metaD; 
     } 
@@ -76,6 +75,39 @@
               "license": "https://jaxx.io/legal/terms-current",
               "releaseNotes": "https://www.jaxx.io/changeLog",
               "screenshot": "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.7",
+                "reviewCount": "9"
+              },
+              "review": [
+                {
+                  "@type": "Review",
+                  "author": "Abicna",
+                  "datePublished": "2019-03-27",
+                  "description": "This is a really good wallet as it provides everything I would need for free I just with it would hold more kinds of coins like XRP.",
+                  "name": "Really good",
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "4",
+                    "worstRating": "0"
+                  }
+                },
+                {
+                  "@type": "Review",
+                  "author": "Bobby-jojo",
+                  "datePublished": "2019-03-07",
+                  "description": "Raz on the support team was very helpful.",
+                  "name": "Support team",
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "0"
+                  }
+                }
+              ],
               "sameAs": [
                 "https://www.facebook.com/JaxxWallet",
                 "https://twitter.com/jaxx_io",
@@ -240,16 +272,16 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/features.php">Features</a>
+                        <a class="nav-link" href="/features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
+                        <a class="nav-link" href="/downloads" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/security.php">Security</a>
+                        <a class="nav-link" href="/security">Security</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/community.php">Community</a>
+                        <a class="nav-link" href="/community">Community</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
@@ -260,4 +292,4 @@
                 </ul>
             </div>
         </nav>
-        <!--end nav-->        
+        <!--end nav-->
