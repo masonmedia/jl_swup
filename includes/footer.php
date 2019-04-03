@@ -91,6 +91,8 @@
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>
  <script src="/assets/js/main.js"></script>
+ <!-- Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85893600-1"></script>
 <script>
