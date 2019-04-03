@@ -8,7 +8,7 @@ For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://d
 
 This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, view changes are fast, the initial page load is light, and it is easily extensible with simple (or complex) css and js animations.
 
-SWUP works by wrapping main page content (any content you want changed without refresh) in a swup id `id="swup"`. This alone works to swap out content without reload. The addition of a `.transition-` class then offers great flexibility in creating custom animation options (refer the SWUP API). The base class for fading in and out is `.transition-fade`.
+SWUP works by wrapping main page content (any content you want changed without refresh) with `id="swup"`. This alone works to swap content in and out without reload. The addition of `.transition-` and `.is-animating` classes then offers wide flexibility in creating custom animation options (refer the SWUP API). The base class for fading in and out is `.transition-fade`.
 
 ## **Layout and Frameworks**
 
@@ -67,7 +67,7 @@ PHP is used minimally for header and footer includes.
 
 2. GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
 
-3. Animation approach and syntax: the site uses GSAP for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
+3. Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
 
 4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds an entrance fade animation for smooth UX.
 
