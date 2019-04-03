@@ -85,7 +85,7 @@
                   "@type": "Review",
                   "author": "Abicna",
                   "datePublished": "2019-03-27",
-                  "description": "This is a really good wallet as it provides everything I would need for free I just with it would hold more kinds of coins like XRP.",
+                  "description": "This is a really good wallet as it provides everything I would need for free I just wish it would hold more kinds of coins like XRP.",
                   "name": "Really good",
                   "reviewRating": {
                     "@type": "Rating",
