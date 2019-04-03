@@ -147,8 +147,7 @@ include 'includes/header.php';
                         <!--end button nest row-->
                         <div id="desktop_download" class="right right-med p-0">
                             <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                                <p class="p-btn pl-0 slide-right">Desktop versions <i
-                                        class="fa fa-angle-right fa-btn orange"></i></p>
+                                <p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p>
                             </a>
                         </div>
                     </div>
@@ -211,8 +210,7 @@ include 'includes/header.php';
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
                     <p class="p-big pt-0 m-0 slide-down">Decentral is an innovator in the blockchain & cryptocurrency
-                        space. With thousands of users and a wide range of partnerships, see what community leaders are
-                        saying about Jaxx Liberty.</p>
+                        space. With thousands of users and a wide range of partnerships, see what community leaders are saying about Jaxx Liberty.</p>
                 </div>
             </div>
         </section>
@@ -236,9 +234,7 @@ include 'includes/header.php';
                         <div role="banner" class="container-fluid">
                             <div class="row d-flex min-700-lg p-0">
                                 <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"In Jaxx, Presearch has a
-                                        popular, well-respected wallet to offer its exponentially growing user base of
-                                        over 300,000 members. We join Decentral in the mission of putting users first.”
+                                    <h3 class="section-title text-light font-weight-light">"In Jaxx, Presearch has a popular, well-respected wallet to offer its exponentially growing user base of over 300,000 members. We join Decentral in the mission of putting users first.”
                                     </h3>
                                     <h3 class="font-weight-bold orange mt-3">Colin Paper</h3>
                                     <p class="p-big orange mb-3">&mdash; Founder, Presearch</p>
@@ -251,8 +247,7 @@ include 'includes/header.php';
                         <div role="banner" class="container-fluid">
                             <div class="row d-flex min-700-lg p-0">
                                 <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"I look forward to seeing the
-                                        new Jaxx Liberty and how the broader DigiByte community will use it."</h3>
+                                    <h3 class="section-title text-light font-weight-light">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</h3>
                                     <h3 class="font-weight-bold orange mt-3">Josiah Spackman</h3>
                                     <p class="p-big orange mb-3">&mdash; Ambassador, DigiByte Foundation</p>
                                 </div>
@@ -264,9 +259,7 @@ include 'includes/header.php';
                         <div class="container-fluid">
                             <div class="row d-flex min-700-lg p-0">
                                 <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"Polymath welcomes the launch
-                                        of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token
-                                        community."</h3>
+                                    <h3 class="section-title text-light font-weight-light">"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</h3>
                                     <h3 class="font-weight-bold orange mt-3">Trevor Koverko</h3>
                                     <p class="p-big orange mb-3">&mdash; Co-Founder & CEO, Polymath</p>
                                 </div>
@@ -279,8 +272,7 @@ include 'includes/header.php';
                         <div class="container-fluid">
                             <div class="row d-flex min-700-lg p-0">
                                 <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"We’re very happy to partner
-                                        with Jaxx, a highly-secure and easy-to-use wallet that is the first to support
+                                    <h3 class="section-title text-light font-weight-light">"We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support
                                         RSK"</h3>
                                     <h3 class="font-weight-bold orange mt-3">Diego Gutierrez Zaldivar</h3>
                                     <p class="p-big orange mb-3">&mdash; CEO & Co-Founder, RSK Labs</p>
@@ -294,8 +286,7 @@ include 'includes/header.php';
                         <div class="container-fluid">
                             <div class="row d-flex min-700-lg p-0">
                                 <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">“Jaxx is a partner we rely
-                                        on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”
+                                    <h3 class="section-title text-light font-weight-light">“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”
                                     </h3>
                                     <h3 class="font-weight-bold orange mt-3">Malcolm CasSelle</h3>
                                     <p class="p-big orange mb-3">&mdash; President, WAX / CIO, OPSkins</p>
@@ -320,8 +311,7 @@ include 'includes/header.php';
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and
-                        communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
+                    <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
                     <div class="up up-slow">
                         <a href="/community" target="_blank">
                             <p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
@@ -348,12 +338,12 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
                     <h2 class="h4 slide-up">World class support</h2>
-                    <h3 class="section-title m-0 slide-up">We’re here <span class="line-break-sm">to help 24/7.</span></h3>
+                    <h3 class="section-title m-0 slide-up">Our User Success Team <span class="line-break-sm">is here for you.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
                     <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty's User Success Team is available to answer all of
-                        your questions through our written channels, 24/7.</p>
+                        your questions through our written channels, 7 days a week.</p>
                     <div class="up up-slow">
                         <a href="https://support.decentral.ca/hc/en-us" target="_blank">
                             <p class="p-btn mt-3 slide-up">Here for you <i class="fa fa-angle-right fa-btn orange"></i>
@@ -389,8 +379,7 @@ include 'includes/header.php';
                         today.</p>
                     <div class="up up-slow">
                         <a href="/community" onclick="googleAnalyticsTrigger('Community', 'Home_Page')">
-                            <p class="p-btn mt-3 slide-up">Join the adventure <i
-                                    class="fa fa-angle-right fa-btn orange"></i></p>
+                            <p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p>
                         </a>
                     </div>
                 </div>
@@ -399,8 +388,7 @@ include 'includes/header.php';
 
             <div class="row d-flex bg-light">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-community-red.jpeg"
-                        alt="Join the Decentral community">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-community-red.jpeg" alt="Join the Decentral community">
                 </div>
             </div>
         </section>
