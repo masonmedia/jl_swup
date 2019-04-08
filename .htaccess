@@ -56,6 +56,12 @@ RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtM
 # Redirects people from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
 RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
 
+# Redirects from https://jaxx.io/migrate to youtube how-to migrate video
+RewriteRule ^migrate$ https://www.youtube.com/watch?v=A5WYbV7rDDU [R,L]
+
+# 301 /migrate redirect
+Redirect 301 /migrate https://www.youtube.com/watch?v=A5WYbV7rDDU
+
 # Set custom 404 error page
 ErrorDocument 404 /404.php
 ErrorDocument 403 /403.php
