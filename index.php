@@ -1,6 +1,6 @@
 <?php
 
-$title = "Jaxx Liberty | Home";
+$title = "Jaxx Liberty | Your All-In-One Digital Asset Wallet.";
 
 include 'includes/header.php';
 

@@ -8,7 +8,7 @@
        echo $title; 
     } 
     else { 
-       echo "Jaxx Liberty | Home"; 
+       echo "Jaxx Liberty | Your All-In-One Digital Asset Wallet."; 
     } ?></title>
     <!--core meta data-->
     <meta name="description" content="<?php
