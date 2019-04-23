@@ -17,7 +17,7 @@ $(document).ready(function () {
   smoothScroll();
 
   //GSAP + Scroll Magic
-  gsapScrollAnimations();
+  // gsapScrollAnimations();
 
   //lazy load
   lazyLoad();
@@ -51,7 +51,7 @@ document.addEventListener('swup:contentReplaced', function () {
   smoothScroll();
 
   //scroll magic + gsap reinit
-  gsapScrollAnimations();
+  // gsapScrollAnimations();
 
   //lazy load
   lazyLoad();
