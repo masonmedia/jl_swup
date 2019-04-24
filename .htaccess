@@ -1,7 +1,16 @@
-RewriteEngine On
+#RewriteRule ^(.*)$ https://www.jaxx.io/$1 [R,L] 
+
+#https://help.dreamhost.com/hc/en-us/articles/215747748-How-can-I-redirect-and-rewrite-my-URLs-with-an-htaccess-file-
+#Redirect non-existing pages to index.php -- security fix for redirecting %2f and malicious urls to 404
+
+Options +SymLinksIfOwnerMatch 
+RewriteEngine On 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-RewriteRule ^index.html$ https://jaxx.io [R=301,L]
+#RewriteRule ^index.html$ https://jaxx.io [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
 
 #redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
 RewriteRule ^(.*)\.html$ $1.php [L]
@@ -29,9 +38,8 @@ ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
 
-# Redirect support to zendesk
+# Redirect /support to zendesk
 
-# Redirects from https://jaxx.io/support + https://jaxx.io/support.html to Zendesk 
 RewriteRule ^support.html$ https://decentral.zendesk.com/hc/en-us [R,L]
 Redirect 301 /support.html https://decentral.zendesk.com/hc/en-us
 Redirect 301 /support https://decentral.zendesk.com/hc/en-us
@@ -55,7 +63,7 @@ Redirect 301 /thirdparties-current.html https://www.jaxx.io/legal/thirdparties-c
 # Redirects from https://jaxx.io/betaslack to the jaxx slack channel URL
 RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
 
-# Redirects people from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
+# Redirect from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
 RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
 
 # Redirects from https://jaxx.io/migrate to youtube how-to migrate video
