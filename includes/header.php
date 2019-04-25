@@ -244,7 +244,8 @@
             "message": "Like most websites, we use analytics cookies to understand how this site is used — as long as your browser is set to accept them.",
             "dismiss": "Start exploring",
             "link": "Find out more.",
-            "href": "https://jaxx.io/thirdparties-current.html"
+            "href": "https://jaxx.io/legal/thirdparties-current"
+            // .html extension removed
           },
         })});
     </script>
