@@ -57,7 +57,7 @@ include 'includes/header.php';
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is a blockchain wallet that allows users to buy, sell, send, receive, and exchange over 85 of the most popular cryptocurrencies. It also provides up to the minute crypto market data, the latest blockchain news, a block explorer, and much more. It’s highly secure, easy to use, and is available for free on mobile, desktop, and chrome extension.</p>
+                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is a blockchain wallet that allows users to send, receive, and exchange over 85 of the most popular cryptocurrencies. It also provides up-to-the-minute crypto market data, the latest blockchain news, a block explorer, and much more. Jaxx Liberty is fast, highly secure, easy to use, and is available for free on mobile, desktop, and chrome extension.</p>
                     <div class="down down-slow">
                         <a href="/features">
                             <p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i>
@@ -90,7 +90,7 @@ include 'includes/header.php';
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Jaxx Liberty is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like Bitcoin, Ethereum, Ripple, and Dash, a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.</p>
+                    <p class="p-big pt-3 m-0 slide-right"><span class="font-weight-bold">Jaxx Liberty</span> is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like Bitcoin, Ethereum, Ripple, and Dash, a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.</p>
                     <div class="right right-slow">
                         <a href="/features">
                             <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
@@ -121,8 +121,7 @@ include 'includes/header.php';
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Join thousands of users who already trust Jaxx Liberty.
-                        Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</p>
+                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.</p>
                     <div class="slide-down">
                         <div class="row d-flex d-sm-flex-column py-4 pl-3 slide-right">
                             <!--jaxx liberty google store-->
@@ -168,14 +167,11 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Security</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">Putting you <span class="line-break-sm">in control.</span></h3>
+                    <h3 class="section-title text-dark mb-0 slide-right">Putting you <span class="line-break-sm">in control with state-of-the-art security.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">We never hold your digital assets, you are in complete
-                        control. Your 12-word mnemonic and private keys are never stored on our server. They are
-                        securely stored on your device using state-of-the-art encryption including password protection,
-                        password strength checker, and facial recognition.</p>
+                    <p class="p-big pt-3 m-0 slide-right">Security is at the core of everything we do. Jaxx Liberty does not hold your assets, nor are your private keys, passwords, or personal information stored on our server - or any server - <span class="font-italic">ever.</span> They stay securely on your device, protected by state-of-the-art encryption, password protection, a password strength checker, and facial recognition. With Jaxx Liberty, you are in complete control.</p>
                     <div class="right right-slow">
                         <a href="/security">
                             <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
