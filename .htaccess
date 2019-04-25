@@ -1,16 +1,12 @@
 #RewriteRule ^(.*)$ https://www.jaxx.io/$1 [R,L] 
 
-#https://help.dreamhost.com/hc/en-us/articles/215747748-How-can-I-redirect-and-rewrite-my-URLs-with-an-htaccess-file-
-#Redirect non-existing pages to index.php -- security fix for redirecting %2f and malicious urls to 404
-
-Options +SymLinksIfOwnerMatch 
 RewriteEngine On 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-#RewriteRule ^index.html$ https://jaxx.io [R=301,L]
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /404.php [L]
+#trying NE to rewrite %2f encoding Apache
+RewriteRule ^(.*)$ https://www.jaxx.io/$1 [NE,R,L]
+RewriteRule ^index.html$ https://jaxx.io [R=301,L]
+
 
 #redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
 RewriteRule ^(.*)\.html$ $1.php [L]

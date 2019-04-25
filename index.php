@@ -53,14 +53,11 @@ include 'includes/header.php';
             <div id="sec-1" class="row d-flex p-5 min-500 bg-white relative stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 slide-down">Jaxx Liberty</h2>
-                    <h3 class="section-title text-dark slide-down">The leading all-in-one digital asset wallet. </h3>
+                    <h3 class="section-title text-dark slide-down">The leading all-in-one cryptocurrency wallet.</h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty builds on the success of Jaxx Classic, one of the
-                        most popular blockchain and digital asset wallets, with millions of downloads. With thousands of
-                        users and over 3000 daily transactions, Jaxx Liberty is reshaping the way people manage their
-                        digital assets.</p>
+                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is a blockchain wallet that allows users to buy, sell, send, receive, and exchange over 85 of the most popular cryptocurrencies. It also provides up to the minute crypto market data, the latest blockchain news, a block explorer, and much more. It’s highly secure, easy to use, and is available for free on mobile, desktop, and chrome extension.</p>
                     <div class="down down-slow">
                         <a href="/features">
                             <p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i>
@@ -88,12 +85,12 @@ include 'includes/header.php';
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 slide-right">Features</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">See what Jaxx Liberty <span class="line-break-sm">can do for you.</span></h3>
+                    <!-- <h3 class="section-title text-dark mb-0 slide-right">See what Jaxx Liberty <span class="line-break-sm">can do for you.</span></h3> -->
+                    <h3 class="section-title text-dark mb-0 slide-right">More than just a wallet.</span></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Get the latest blockchain headline news, real-time market
-                        data, check your portfolio, and exchange between digital assets all in one convenient place.</p>
+                    <p class="p-big pt-3 m-0 slide-right">Jaxx Liberty is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like Bitcoin, Ethereum, Ripple, and Dash, a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.</p>
                     <div class="right right-slow">
                         <a href="/features">
                             <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
