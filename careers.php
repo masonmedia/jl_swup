@@ -37,7 +37,7 @@ include 'includes/header.php';
                     <p class="p-big pt-3 m-0">Decentral is leading the blockchain movement in Canada and around the world, changing the way we think about the exchange of value.</p>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0">We are the creators of Jaxx Classic and Jaxx Liberty - multi-asset digital wallets that have touched the lives of millions globally. We are keen to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly, and we are actively seeking a variety of candidates for the roles posted below. If you do not see a role that fits your skillset but would like to be a part of one of Canada’s leading blockchain companies, send us your resume at <a href="mailto:maggie@decentral.ca?subject=Applying for a Position" class="orange text-bold">maggie@decentral.ca</a>.</p>
+                    <p class="p-big pt-3 m-0">We are the creators of Jaxx Classic and Jaxx Liberty - multi-asset digital wallets that have touched the lives of millions globally. We are keen to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly, and we are actively seeking a variety of candidates for the roles posted below. If you do not see a role that fits your skillset but would like to be a part of one of Canada’s leading blockchain companies, send us your resume at <a href="mailto:careers@decentral.ca?subject=Applying for a Position" class="orange text-bold">maggie@decentral.ca</a>.</p>
                 </div>
             </div>
         </section>
@@ -68,9 +68,9 @@ include 'includes/header.php';
                         <div class="card rounded">
                             <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <div class="media">
-                                    <img src="/assets/img/Jaxx_Primary_Icon.png" class="decentral-D align-self-center mr-3" alt="...">
+                                    <img src="/assets/img/Jaxx_Primary_Icon.png" class="decentral-D bg-white border rounded p-3 shadow align-self-center mr-3" alt="Fullstack developer at Decentral.">
                                     <div class="media-body align-self-center">
-                                    <h3 class="p-btn orange font-weight-bold">Learn more <i class="fa fa-angle-right fa-btn orange"></i></h3>
+                                        <h3 class="p-btn orange font-weight-bold">Learn more <i class="fa fa-angle-right fa-btn orange"></i></h3>
                                     </div>
                                 </div>
                             </div>
