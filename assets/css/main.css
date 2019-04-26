@@ -1091,6 +1091,12 @@ input:checked+.slider:before {
     display: none;
 }
 
+/* careers ======================*/
+
+#careers ul li:nth-of-type(even)  {
+    background-color:#f8f9fa;
+}
+
 /* nav ======================*/
 
 nav,

@@ -283,7 +283,7 @@
                         <a class="nav-link" href="/community">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://blog.jaxx.io/" target="_blank">Blog</a>
+                        <a class="nav-link" href="/careers">Careers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://support.decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>
