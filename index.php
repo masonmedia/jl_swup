@@ -1,9 +1,7 @@
 <?php
-
 $title = "Jaxx Liberty | Your All-In-One Digital Asset Wallet.";
-
 include 'includes/header.php';
-
+include 'copy.php';
 ?>
 
 <!--banner-->
@@ -52,15 +50,17 @@ include 'includes/header.php';
         <section>
             <div id="sec-1" class="row d-flex p-5 min-500 bg-white relative stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 slide-down">Jaxx Liberty</h2>
-                    <h3 class="section-title text-dark slide-down">The leading all-in-one cryptocurrency wallet.</h3>
+                    <h2 class="h4 slide-down">
+                        <?php echo $homeIntro1; ?>
+                    </h2>
+                    <h3 class="section-title text-dark slide-down"><?php echo $homeIntro2; ?></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is a blockchain wallet that allows users to send, receive, and exchange over 85 of the most popular cryptocurrencies. It also provides up-to-the-minute crypto market data, the latest blockchain news, a block explorer, and much more. Jaxx Liberty is fast, highly secure, easy to use, and is available for free on mobile, desktop, and chrome extension.</p>
+                    <p class="p-big pt-3 m-0 slide-down"><?php echo $homeIntro3; ?></p>
                     <div class="down down-slow">
                         <a href="/features">
-                            <p class="p-btn mt-3 slide-down">Discover <i class="fa fa-angle-right fa-btn orange"></i>
+                            <p class="p-btn mt-3 slide-down"><?php echo $homeIntroCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
                     </div>
@@ -84,16 +84,23 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-right">Features</h2>
+                    <h2 class="h4 slide-right">
+                        <?php echo $homeFeat1; ?>
+                    </h2>
                     <!-- <h3 class="section-title text-dark mb-0 slide-right">See what Jaxx Liberty <span class="line-break-sm">can do for you.</span></h3> -->
-                    <h3 class="section-title text-dark mb-0 slide-right">More than just a wallet.</span></h3>
+                    <h3 class="section-title text-dark mb-0 slide-right">
+                        <?php echo $homeFeat2; ?>
+                    </h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right"><span class="font-weight-bold">Jaxx Liberty</span> is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like Bitcoin, Ethereum, Ripple, and Dash, a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.</p>
+                    <p class="p-big pt-3 m-0 slide-right">
+                        <?php echo $homeFeat3; ?>
+                    </p>
                     <div class="right right-slow">
                         <a href="/features">
-                            <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
+                            <p class="p-btn mt-3 slide-right">
+                                <?php echo $homeFeatCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
                     </div>
@@ -111,17 +118,61 @@ include 'includes/header.php';
             </div>
         </section>
 
+         <!--security-->
+
+        <section>
+            <div class="row d-flex p-5 min-500 bg-white stagger-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 slide-right">
+                        <?php echo $homeSecurity1; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">
+                        <?php echo $homeSecurity2; ?>
+                    </h3>
+                </div>
+                <div
+                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
+                    <p class="p-big pt-3 m-0 slide-right">
+                        <?php echo $homeSecurity3; ?>
+                    </p>
+                    <div class="right right-slow">
+                        <a href="/security">
+                            <p class="p-btn mt-3 slide-right">
+                                <?php echo $homeSecurityCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="">-->
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg"
+                        alt="We never hold your digital assets, you are in complete control.">
+                </div>
+            </div>
+        </section>
+
         <!--multi-platform-->
 
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 slide-down">Multi-platform</h2>
-                    <h3 class="section-title text-dark slide-down">Use on your <span class="line-break-sm">favourite device.</span></h3>
+                    <h2 class="h4 slide-down">
+                        <?php echo $homeDownload1; ?>
+                    </h2>
+                    <h3 class="section-title text-dark slide-down">
+                        <?php echo $homeDownload2; ?>
+                    </h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Jaxx Liberty is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.</p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $homeDownload3; ?>
+                    </p>
                     <div class="slide-down">
                         <div class="row d-flex d-sm-flex-column py-4 pl-3 slide-right">
                             <!--jaxx liberty google store-->
@@ -143,7 +194,9 @@ include 'includes/header.php';
                         <!--end button nest row-->
                         <div id="desktop_download" class="right right-med p-0">
                             <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                                <p class="p-btn pl-0 slide-right">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p>
+                                <p class="p-btn pl-0 slide-right">
+                                    <?php echo $homeDownload1; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                                </p>
                             </a>
                         </div>
                     </div>
@@ -157,37 +210,6 @@ include 'includes/header.php';
                 <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-here-look.jpg"
                         alt="Download Jaxx Liberty for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
-                </div>
-            </div>
-        </section>
-
-        <!--security-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 bg-white stagger-right">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-right">Security</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">Putting you <span class="line-break-sm">in control with state-of-the-art security.</span></h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Security is at the core of everything we do. Jaxx Liberty does not hold your assets, nor are your private keys, passwords, or personal information stored on our server - or any server - <span class="font-italic">ever.</span> They stay securely on your device, protected by state-of-the-art encryption, password protection, a password strength checker, and facial recognition. With Jaxx Liberty, you are in complete control.</p>
-                    <div class="right right-slow">
-                        <a href="/security">
-                            <p class="p-btn mt-3 slide-right">Learn more <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-pc-coffee.png" alt="">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-wall-graffiti.jpg"
-                        alt="We never hold your digital assets, you are in complete control.">
                 </div>
             </div>
         </section>
