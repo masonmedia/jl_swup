@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -335,6 +335,7 @@ p {
     background: -o-linear-gradient(transparent, transparent);
     background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .line-height {
@@ -1093,18 +1094,21 @@ input:checked+.slider:before {
 
 /* careers ======================*/
 
-#careers ul {
-    font-family: 'Courier New', Courier, monospace;
+#careers .fa-code,
+#careersIntroList .fa-code {
+    color: grey;
+    font-size: 17px; 
+}
+
+#accordionExample ul,
+ .code,
+ .card-body {
+    color: #28a745;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 #careers ul li:nth-of-type(even) {
     background-color: #f8f9fa;
-}
-
-#careers ul li::before,
-#careersIntroList ul li::before {
-    content: "</>";
-    color: grey;
 }
 
 /* nav ======================*/

@@ -55,14 +55,14 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-3 o-12 right right-med">
                     <ul class="list-unstyled p-0 pl-4 border-left">
-                        <li class="pb-2"> <code class="text-success">Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
-                        <li class="pb-2"> <code class="text-success">Help build an app that 1,000,000+ have used around the world</code></li>
-                        <li class="pb-2"> <code class="text-success">Hosted 400+ community events with an ecosystem of 200+ strategic partners</code></li>
-                        <li class="pb-2"> <code class="text-success">Cool techy office in downtown Toronto</code></li>
-                        <li class="pb-2"> <code class="text-success">Competitive salary</code></li>
-                        <li class="pb-2"> <code class="text-success">Work life balance, seriously</code></li>
-                        <li class="pb-2"> <code class="text-success">Fun culture! (Friday games, ping pong, present what you’ve worked on to the team)</code></li>
-                        <li class="pb-2"> <code class="text-success">Get in touch at <a href="mailto:careers@decentral.ca?subject=Applying for a Position" class="orange text-bold">maggie@decentral.ca</a>.</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Help build an app that 1,000,000+ have used around the world</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Hosted 400+ community events with an ecosystem of 200+ strategic partners</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Cool techy office in downtown Toronto</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Competitive salary</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Work life balance, seriously</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Fun culture! (Friday games, ping pong, present what you’ve worked on to the team)</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Get in touch at <a href="mailto:careers@decentral.ca?subject=Applying for a Position" class="orange text-bold">maggie@decentral.ca</a></code></li>
                     </ul>
                 </div>
             </div>
@@ -82,7 +82,7 @@ include 'includes/header.php';
                 </div>
                 <!-- accordion description -->
                 <div class="col-lg-12 w-100 mt-4 pt-3 text-left right o-12">
-                    <div class="accordion text-success font-weight-bold" id="accordionExample">
+                    <div class="accordion font-weight-bold" id="accordionExample">
                         <div class="card rounded">
                             <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <div class="media">
@@ -93,48 +93,48 @@ include 'includes/header.php';
                                 </div>
                             </div>
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body border p-3">
+                            <div class="card-body code border p-3">
                                 <ul class="list-group list-group-flush">
                                     <h4 class="list-group-item font-weight-bold orange py-4"> Responsibilities:</h4>
-                                    <li class="list-group-item"> Analyze business and software requirements, propose and implement solutions.</li>
-                                    <li class="list-group-item"> Develop of front-end Web applications.</li> 
-                                    <li class="list-group-item"> Design and develop APIs.</li>
-                                    <li class="list-group-item"> Create servers and databases.</li>
-                                    <li class="list-group-item"> Develop unit tests and actively participate in pull request peer review.</li>
-                                    <li class="list-group-item"> Troubleshoot bug escalations from the Software Quality Assurance Manager.</li>
-                                    <li class="list-group-item"> Meet with stakeholders to document requirements and suggest improvements.</li>
-                                    <li class="list-group-item"> Stay abreast of developments in Web applications, programming languages and the cryptocurrency and blockchain communities.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Analyze business and software requirements, propose and implement solutions.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Develop of front-end Web applications.</li> 
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Design and develop APIs.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Create servers and databases.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Develop unit tests and actively participate in pull request peer review.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Troubleshoot bug escalations from the Software Quality Assurance Manager.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Meet with stakeholders to document requirements and suggest improvements.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Stay abreast of developments in Web applications, programming languages and the cryptocurrency and blockchain communities.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush">
                                     <h4 class="list-group-item font-weight-bold border-top-0 orange py-4">Requirements:</h4>
-                                    <li class="list-group-item"> Excellent written and oral communication skills and documentation habits.</li>
-                                    <li class="list-group-item"> Strong programming skills in Angular, TypeScript, HTML5, CSS, SASS/LESS and GULP.</li>
-                                    <li class="list-group-item"> Highly experienced with back-end programming languages and environments like JavaScript, Python and Node.js.</li>
-                                    <li class="list-group-item"> Experience writing applications that consume, and backends that support, REST APIs (working with WebSockets is a plus).</li>
-                                    <li class="list-group-item"> Experience working with graphic designers and converting designs to visual elements.</li>
-                                    <li class="list-group-item"> Experience working with code versioning tools such as Git (Github/Bitbucket).</li>
-                                    <li class="list-group-item"> Strong troubleshooting skills.</li>
-                                    <li class="list-group-item"> Good understanding of agile software development life cycle.</li>
-                                    <li class="list-group-item"> Ability to maintain code integrity and organization.</li>
-                                    <li class="list-group-item"> Understanding and implementation of security/data protection.</li>
-                                    <li class="list-group-item"> Reliable personality, attention to detail and great team player.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Excellent written and oral communication skills and documentation habits.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Strong programming skills in Angular, TypeScript, HTML5, CSS, SASS/LESS and GULP.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Highly experienced with back-end programming languages and environments like JavaScript, Python and Node.js.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Experience writing applications that consume, and backends that support, REST APIs (working with WebSockets is a plus).</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Experience working with graphic designers and converting designs to visual elements.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Experience working with code versioning tools such as Git (Github/Bitbucket).</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Strong troubleshooting skills.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Good understanding of agile software development life cycle.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Ability to maintain code integrity and organization.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Understanding and implementation of security/data protection.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Reliable personality, attention to detail and great team player.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush">
                                     <h4 class="list-group-item font-weight-bold border-top-0 orange py-4">Nice-to-have:</h4>
-                                    <li class="list-group-item"> Exposure to the Go Programming Language.</li> 
-                                    <li class="list-group-item"> Experience using Cordova or Electron.</li>
-                                    <li class="list-group-item"> Knowledge of cryptocurrency ecosystems.</li>
-                                    <li class="list-group-item"> Knowledge of AWS and cloud infrastructure tools such as Jenkins, Docker and Terraform.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Exposure to the Go Programming Language.</li> 
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Experience using Cordova or Electron.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Knowledge of cryptocurrency ecosystems.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Knowledge of AWS and cloud infrastructure tools such as Jenkins, Docker and Terraform.</li>
                                     <li class="list-group-item"> Strong research skills.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush mt-3">
                                     <h4 class="list-group-item font-weight-bold border-top-0 orange py-4">What We Offer:</h4>
-                                    <li class="list-group-item"> Making it big - Chance to work with visionaries and world-changing technologies that empower millions.</li>
-                                    <li class="list-group-item"> Learn-by-doing opportunities on state-of-the-art blockchain, decentralization and fintech.</li> 
-                                    <li class="list-group-item"> Tons of opportunities to innovate.</li> 
-                                    <li class="list-group-item"> Competitive compensation package including group benefits.</li> 
-                                    <li class="list-group-item"> A collaborative, open, respectful work environment with a strong “show up on time, leave on time” culture.</li>
-                                    <li class="list-group-item"> Free Friday team lunch; free coffee; free Snacks, arcade games, foosball, and the opportunity to defeat one of Ethereum’s founders at ping-pong.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Making it big - Chance to work with visionaries and world-changing technologies that empower millions.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Learn-by-doing opportunities on state-of-the-art blockchain, decentralization and fintech.</li> 
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Tons of opportunities to innovate.</li> 
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Competitive compensation package including group benefits.</li> 
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> A collaborative, open, respectful work environment with a strong “show up on time, leave on time” culture.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Free Friday team lunch; free coffee; free Snacks, arcade games, foosball, and the opportunity to defeat one of Ethereum’s founders at ping-pong.</li>
                                     <li class="list-group-item"> Decentral Inc. is an equal opportunity employer.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush">
