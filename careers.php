@@ -135,7 +135,7 @@ include 'includes/header.php';
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> Competitive compensation package including group benefits.</li> 
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> A collaborative, open, respectful work environment with a strong “show up on time, leave on time” culture.</li>
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> Free Friday team lunch; free coffee; free Snacks, arcade games, foosball, and the opportunity to defeat one of Ethereum’s founders at ping-pong.</li>
-                                    <li class="list-group-item"> Decentral Inc. is an equal opportunity employer.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Decentral Inc. is an equal opportunity employer.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush">
                                     <h4 class="list-group-item font-weight-bold border-top-0 orange py-4">Apply:</h4>
