@@ -88,21 +88,13 @@ include 'includes/header.php';
             </div>
         </section>
 
-        <!-- <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-toronto-flatiron.jpeg" alt="At Decentral, we are building bleeding-edge, pro-privacy technologies at the core of the next Internet. A leading blockchain pioneer of Canada, we are the proud birthplace of Ethereum and, now, steward software at the interface of the cryptocurrency and distributed ledger revolution.">
-                </div>
-            </div>
-        </section> -->
-
     </div><!--end main container-->
 </main>
 
 <!-- Modal -->
 <div class="modal fade" id="careersModal" tabindex="-1" role="dialog" aria-labelledby="careersModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
+    <div class="modal-content bg-light">
       <div class="modal-header border-0">
         <h4 class="modal-title code text-secondary font-weight-bold" id="careersModalTitle">// Full Stack Developer</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
