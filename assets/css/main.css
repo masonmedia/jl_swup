@@ -1112,9 +1112,9 @@ input:checked+.slider:before {
     font-size: 17px;
 }
 
+/* .card-body */
 #accordionExample ul,
-.code,
-.card-body {
+.code {
     color: #28a745;
     font-family: 'Courier New', Courier, monospace;
 }

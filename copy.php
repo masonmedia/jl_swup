@@ -27,7 +27,7 @@ $homeCoinsCTA = "Find out more";
 
 $homeSupport1 = "World class support";
 $homeSupport2 = "Our User Success Team is here for you.";
-$homeSupport3 = "Jaxx Liberty’s features, performance, security and reliability aren’t the only things that make it an industry leading crypto app.  Our unparalleled User Success Team is made up of real humans who offer our customers fast, world class help, 7 days a week. You won’t get robot emails or useless auto-response advice from us. Got a problem? Let us know. We’re here to help.";
+$homeSupport3 = "Jaxx Liberty’s features, performance, security and reliability aren’t the only things that make it an industry leading crypto app.  Our unparalleled User Success Team is made up of real humans who offer our customers fast, world class support, 7 days a week. You won’t get robot emails or useless auto-response advice from us. Got a problem? Let us know. We’re here to help.";
 $homeSupportCTA = "Here for you";
 
 
