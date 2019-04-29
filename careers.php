@@ -64,11 +64,13 @@ include 'includes/header.php';
                     <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-sticker.jpg" alt="Join the team.">
                 </div>
             </div>
+            <div id="sec-1"></div>
         </section>
         
         <!--position 1-->
         
-        <section id="sec-1">
+        <section>
+        
             <div class="row d-flex min-500 bg-white stagger-up">
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left right o-12">
                     <!-- <h2 class="h4 slide-up">12-word backup</h2> -->
@@ -77,13 +79,13 @@ include 'includes/header.php';
                     <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
+                
                     <h3 class="section-title text-dark mb-0">Full Stack Developer.</h3>
                     <p class="p-big py-3">Our flagship product is Jaxx Liberty, a multi-asset wallet software as a service that packages live market data with user portfolios, news, and third-party fintech integration, on top of high-performance indexing and data summarization in a cloud back-end.  Working closely with our Chief Technology Officer, help push the Jaxx Liberty architecture even further by diversifying our product line into enterprise and financial markets. Find out more below.</p>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#careersModal">
                     Learn more
                     </button>
-
                 </div>
             </div>
         </section>
