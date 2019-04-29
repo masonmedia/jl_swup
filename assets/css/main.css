@@ -1009,6 +1009,10 @@ input:checked+.slider:before {
     opacity: 1;
     width: 150px;
 }
+.banner-store-badge {
+    opacity: 1;
+    width: 125px;
+}
 
 /* about page history timeline ======================*/
 

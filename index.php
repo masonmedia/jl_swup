@@ -7,20 +7,43 @@ include 'copy.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-100 min--100 relative">
+    <div class="row d-flex min-100 min--100 mt-5 relative">
         <img class="img-full absolute z-0 right-0 up up-med" src="/assets/img/jaxx-iphone-X-4-gallery-right-min.jpg"
             alt="Welcome to Jaxx Liberty.">
         <!-- <img class="img-full absolute z-0 right-0 ds up up-med lazy" src="/assets/img/jaxx-macbook-coffee-notebook-right.png" alt="Welcome to Jaxx Liberty."> -->
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5">
             <h1 class="h4 orange zoom">Jaxx Liberty</h1>
             <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
-                <span class="knockout-gradient">Your multi-platform,</span><br>
+            The leading all-in-one cryptocurrency wallet.
+            <!-- <span class="knockout-gradient">The leading all-in-one cryptocurrency wallet.</span><br> -->
+                <!-- <span class="knockout-gradient">Your multi-platform,</span><br>
                 <span class="knockout-gradient">multi-currency</span><br>
                 <span class="knockout-gradient">digital asset</span><br>
-                <span class="knockout-gradient">wallet.</span>
+                <span class="knockout-gradient">wallet.</span> -->
             </h2>
+            <h3 class="h4 font-weight-light">Securely send, receive, track & exchange your <br> blockchain assets all in one place.</h3>
+            <a href="#sec-1">
+                <p class="p-btn my-3 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p>
+            </a>
+            <div class="row d-flex d-sm-flex-column pt-2 pb-4 pl-3 slide-right">
+                <!--jaxx liberty google store-->
+                <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
+                    href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                    target="_blank"><img class="banner-store-badge mr-1 mt-1"
+                        src="/assets/img/jaxx-google-play.png" alt="Google Play Button" /></a>
+                <!--jaxx liberty itunes-->
+                <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
+                    href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                    target="_blank"><img class="banner-store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png"
+                        alt="iTunes App Store Button" /></a>
+                <!--jaxx liberty chrome-->
+                <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
+                    href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                    target="_blank"><img class="banner-store-badge mr-1 mt-1"
+                        src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store" /></a>
+            </div>
             <!--button container-->
-            <div class="container-fluid pt-2">
+            <!-- <div class="container-fluid pt-2">
                 <div class="row d-flex d-sm-flex-column">
                     <div class="col-xs-6 pr-3 zoom zoom-slow">
                         <a href="#sec-1">
@@ -33,7 +56,7 @@ include 'copy.php';
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="offset-lg-4"></div>
     </div>
@@ -74,7 +97,6 @@ include 'copy.php';
                 <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-2-people-selfie-logo.jpg"
                         alt="Jaxx Liberty is the leading multi-platform digital asset wallet.">
-                    <!--<img class="img-full d-flex m-auto absolute z-0 right-0 up up-med lazy" src="/assets/img/jaxx-black-macbook-mockup-og.jpg" alt="Welcome to Jaxx Liberty.">-->
                 </div>
             </div>
         </section>
@@ -195,7 +217,7 @@ include 'copy.php';
                         <div id="desktop_download" class="right right-med p-0">
                             <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
                                 <p class="p-btn pl-0 slide-right">
-                                    <?php echo $homeDownload1; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                                    <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
                                 </p>
                             </a>
                         </div>
@@ -321,12 +343,12 @@ include 'copy.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4 slide-up">Our friends</h2>
-                    <h3 class="section-title m-0 slide-up">Home to the <span class="line-break-sm">top digital assets.</span></h3>
+                    <h2 class="h4 slide-up"><?php echo $homeCoins1; ?></h2>
+                    <h3 class="section-title m-0"><?php echo $homeCoins2; ?></h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.</p>
+                    <p class="p-big pt-3 m-0 slide-up"><?php echo $homeCoins3;?></p>
                     <div class="up up-slow">
                         <a href="/community" target="_blank">
                             <p class="p-btn mt-3 slide-up">Learn more <i class="fa fa-angle-right fa-btn orange"></i>

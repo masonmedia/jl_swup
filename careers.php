@@ -9,12 +9,10 @@ include 'includes/header.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative">
-       <!-- <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/decentral-sticker.jpg" alt="Join the team."> -->
+    <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative up up-med">
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-            <h1 class="h4 mt-3 ds-black zoom">Join us</h1>
-            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Work with Decentral.</h2>
+            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Work with Decentral.</h1>
             <a href="#sec-1"><button class="p-btn text-light ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">See open positions <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
         <div class="offset-lg-2"></div>
@@ -31,10 +29,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-500 relative bg-white border-bottom">
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left p-4 right o-12">
-                <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-phone-hand-car.jpg" alt="Join the team.">
-                    <!-- <h2 class="h4 slide-up">Decentral Inc.</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Why work at Decentral?</h3> -->
-                    <!-- <p class="p-big py-3 m-0">At Decentral, we are building bleeding-edge, pro-privacy technologies at the core of the next Internet.</p> -->
+                <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-hacker-expo.jpg" alt="Join the team.">
                 </div>
                 <div id="careersIntroList" class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
                     <h2 class="section-title text-dark mb-0">Why work at Decentral?</h2>
@@ -45,7 +40,6 @@ include 'includes/header.php';
 
         <section>
             <div id="careersIntroList" class="row d-flex min-500 relative bg-white border-bottom">
-                
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
                     <h3 class="section-title text-dark mb-3">What we offer</h3>
                     <ul class="list-unstyled font-weight-bold p-0 pl-4 border-left">
@@ -59,9 +53,7 @@ include 'includes/header.php';
                     </ul>
                 </div>
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left right o-12">
-                    <!-- <h2 class="h4 slide-up">What we offer</h2>
-                    <h3 class="section-title text-dark mb-3 slide-up">Canada's leading blockchain company.</h3> -->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-sticker.jpg" alt="Join the team.">
+                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
                 </div>
             </div>
             <div id="sec-1"></div>
@@ -70,17 +62,9 @@ include 'includes/header.php';
         <!--position 1-->
         
         <section>
-        
-            <div class="row d-flex min-500 bg-white stagger-up">
-                <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left right o-12">
-                    <!-- <h2 class="h4 slide-up">12-word backup</h2> -->
-                    <!-- <h3 class="section-title text-dark mb-0 slide-up">Full Stack Developer.</h3> -->
-                    <!-- <p class="p-big pt-3 m-0 slide-up">At Decentral, we are building bleeding-edge, pro-privacy technologies at the core of the next Internet. A leading blockchain pioneer of Canada, we are the proud birthplace of Ethereum and, now, steward software at the interface of the cryptocurrency and distributed ledger revolution.</p> -->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
-                
-                    <h3 class="section-title text-dark mb-0">Full Stack Developer.</h3>
+            <div class="row d-flex min-500 bg-white">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
+                    <h3 class="section-title text-dark mb-0">Full Stack Developer</h3>
                     <p class="p-big py-3">Our flagship product is Jaxx Liberty, a multi-asset wallet software as a service that packages live market data with user portfolios, news, and third-party fintech integration, on top of high-performance indexing and data summarization in a cloud back-end.  Working closely with our Chief Technology Officer, help push the Jaxx Liberty architecture even further by diversifying our product line into enterprise and financial markets. Find out more below.</p>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#careersModal">
@@ -96,7 +80,7 @@ include 'includes/header.php';
 <!-- Modal -->
 <div class="modal fade" id="careersModal" tabindex="-1" role="dialog" aria-labelledby="careersModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content bg-light">
+    <div class="modal-content">
       <div class="modal-header border-0">
         <h4 class="modal-title code text-secondary font-weight-bold" id="careersModalTitle">// Full Stack Developer</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
