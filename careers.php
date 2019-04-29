@@ -9,7 +9,7 @@ include 'includes/header.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700-lg bg--careers-banner py-5 mt-5 text-light relative">
+    <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative">
        <!-- <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/decentral-sticker.jpg" alt="Join the team."> -->
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
@@ -48,7 +48,7 @@ include 'includes/header.php';
                 
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
                     <h3 class="section-title text-dark mb-3">What we offer</h3>
-                    <ul class="list-unstyled p-0 pl-4 border-left">
+                    <ul class="list-unstyled font-weight-bold p-0 pl-4 border-left">
                         <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
                         <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Help build an app that 1,000,000+ have used around the world</code></li>
                         <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Hosted 100+ community events with an ecosystem of 200+ strategic partners</code></li>
