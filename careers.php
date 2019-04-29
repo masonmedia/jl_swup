@@ -125,7 +125,7 @@ include 'includes/header.php';
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> Experience using Cordova or Electron.</li>
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> Knowledge of cryptocurrency ecosystems.</li>
                                     <li class="list-group-item"><i class="fa fa-code p-0"></i> Knowledge of AWS and cloud infrastructure tools such as Jenkins, Docker and Terraform.</li>
-                                    <li class="list-group-item"> Strong research skills.</li>
+                                    <li class="list-group-item"><i class="fa fa-code p-0"></i> Strong research skills.</li>
                                 </ul>
                                 <ul class="list-group list-group-flush mt-3">
                                     <h4 class="list-group-item font-weight-bold border-top-0 orange py-4">What We Offer:</h4>
