@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -719,6 +719,13 @@ html.is-animating .transition-wipe {
     transform: skew(0, -4.7deg);
 }
 
+/* background images ======================*/
+
+.bg--careers-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/decentral-soccer.jpg) center top;
+    background-size: cover;
+}
+
 /* images + logos ======================*/
 
 .img {
@@ -1095,16 +1102,17 @@ input:checked+.slider:before {
 /* careers ======================*/
 
 #careers .fa-code,
+#careersModal .fa-code,
 #careersIntroList .fa-code {
     color: grey;
-    font-size: 17px; 
+    font-size: 17px;
 }
 
 #accordionExample ul,
- .code,
- .card-body {
+.code,
+.card-body {
     color: #28a745;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #careers ul li:nth-of-type(even) {
