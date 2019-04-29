@@ -57,7 +57,7 @@ include 'includes/header.php';
                     <ul class="list-unstyled p-0 pl-4 border-left">
                         <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
                         <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Help build an app that 1,000,000+ have used around the world</code></li>
-                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Hosted 400+ community events with an ecosystem of 200+ strategic partners</code></li>
+                        <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Hosted 100+ community events with an ecosystem of 200+ strategic partners</code></li>
                         <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Cool techy office in downtown Toronto</code></li>
                         <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Competitive salary</code></li>
                         <li class="pb-2"><i class="fa fa-code p-0"></i> <code class="text-success">Work life balance, seriously</code></li>
