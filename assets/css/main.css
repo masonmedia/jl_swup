@@ -1093,8 +1093,18 @@ input:checked+.slider:before {
 
 /* careers ======================*/
 
-#careers ul li:nth-of-type(even)  {
-    background-color:#f8f9fa;
+#careers ul {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#careers ul li:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+#careers ul li::before,
+#careersIntroList ul li::before {
+    content: "</>";
+    color: grey;
 }
 
 /* nav ======================*/

@@ -31,6 +31,11 @@ $(document).ready(function () {
   //bs carousel
   carousel();
 
+  // fetch('https://jsonplaceholder.typicode.com/todos/1')
+  // .then(response => response.json())
+  // .then(json => console.log(json))
+  // console.log('fuckshit')
+
   // API blog call
   if (window.location.pathname === '/community.php') {
     // console.error('oncommunity main - check for community page direct load');
