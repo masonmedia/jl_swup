@@ -234,9 +234,9 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Enjoy 24/7 support.</h2>
+                    <h2 class="section-title py-3 up">Enjoy world-class support.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-low">Get free, 24/7 world-class support from our User Success Team, via email or social media.</p>
+                    <p class="p-big py-3 up up-low">Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!</p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
