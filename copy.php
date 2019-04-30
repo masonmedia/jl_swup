@@ -6,7 +6,7 @@ $homeIntro3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is a digital w
 $homeIntroCTA = "Discover";
 
 $homeFeat1 = "Features";
-$homeFeat2 = "Safely track, send, receive, exchange, learn, and more. ";
+$homeFeat2 = "Track, send, receive, exchange, learn, and more. ";
 $homeFeat3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like <a class='orange' href='https://bitcoin.org/en/' target='_blank'>Bitcoin,</a> <a class='orange' href='https://www.ethereum.org/' target='_blank'>Ethereum,</a> <a class='orange' href='https://ripple.com/xrp/' target='_blank'>Ripple,</a> and <a class='orange' href='https://litecoin.org/' target='_blank'>Litecoin,</a> a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.";
 $homeFeatCTA = "Learn more";
 

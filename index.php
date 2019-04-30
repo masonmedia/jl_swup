@@ -257,7 +257,7 @@ include 'copy.php';
                                         <img class="card-img-top border-0 opacity-full" src="/assets/img/jaxx-digibyte.jpeg" alt="Jaxx Liberty + Digibyte">
                                         <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
                                             <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                            <p class="">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
+                                            <p class="text-dark">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
                                             <p class="font-weight-bold mb-0 text-light">Josiah Spackman</p>
                                             <footer class="blockquote-footer font-weight-bold mb-3">Ambassador, DigiByte Foundation</footer>
                                         </div>
