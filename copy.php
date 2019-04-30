@@ -1,8 +1,8 @@
 <?php
 
-$homeIntro1 = "Jaxx Liberty";
-$homeIntro2 = "The simplest, most secure blockchain wallet on the market.";
-$homeIntro3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is a digital wallet that allows users to send, receive, track, and exchange over 85 of the most popular cryptocurrencies. It also provides up-to-the-minute crypto market data, the latest blockchain news, a block explorer, and much more. Jaxx Liberty is fast, highly secure, easy to use, and is available for free on mobile, desktop, and chrome extension.";
+$homeIntro1 = "More than a wallet";
+$homeIntro2 = "The easiest way to send, receive, track, and manage your cryptocurrency investments.";
+$homeIntro3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is a blockchain wallet that allows users to send, receive, track, and exchange over 85 of the most popular cryptocurrencies. It also provides up-to-the-minute crypto market data, the latest blockchain news, a block explorer, and much more. Jaxx Liberty is fast, highly secure, easy to use, and is available for free on mobile, desktop, and Google Chrome extension.";
 $homeIntroCTA = "Discover";
 
 $homeFeat1 = "Features";
@@ -17,17 +17,17 @@ $homeSecurityCTA = "Find out";
 
 $homeDownload1 = "Multi-platform";
 $homeDownload2 = "Use Jaxx Liberty on your <span class='d-table'>favourite device and operating system.</span>";
-$homeDownload3 = "Jaxx Liberty is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.";
+$homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.";
 $homeDownloadCTA = "Desktop versions";
 
 $homeCoins1 = "Our friends";
 $homeCoins2 = "Over 85+ cryptocurrencies and blockchain assets supported.";
-$homeCoins3 = "Jaxx Liberty supports the top cryptocurrencies and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more. Users can safely store, track, send, receive, and exchange these digital assets all from one secure and easy-to-use interface. New coins and tokens are constantly being added.";
+$homeCoins3 = "<span class='font-weight-bold'>Jaxx Liberty</span> supports the top cryptocurrencies and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more. Users can safely send, receive, track, and exchange these digital assets all from one secure and easy-to-use interface. New coins and tokens are constantly being added.";
 $homeCoinsCTA = "Find out more";
 
 $homeTestimonials1 = "Trusted by the best";
 $homeTestimonials2 = "You're in <span class='line-break-sm'>good company.</span>";
-$homeTestimonials3 = "Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and facilitates over 3000 daily transactions. It's reshaping the way people manage their digital assets, and is putting people in control of their digitial lives. See what community leaders are saying about Jaxx Liberty.";
+$homeTestimonials3 = "<span class='font-weight-bold'>Jaxx Liberty</span> builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and facilitates over 3000 daily transactions. It's reshaping the way people manage their digital assets, and is putting people in control of their digitial lives. See what community leaders are saying about Jaxx Liberty.";
 
 $homeSupport1 = "World class support";
 $homeSupport2 = "Our User Success Team is here for you.";
@@ -41,5 +41,9 @@ growing network of people, friends, users, and colleagues around the world. With
 $homeCommunityCTA = "Join the adventure";
 
 
+// Features page
+
+$featuresPaper1 = "Transfer assets from a paper wallet.";
+$featuresPaper2 = "Starting with version 2.2.0, Jaxx Liberty enables you to transfer digital assets from a paper wallet or even a standard address with the Private Key, to your current Jaxx Liberty Wallet for any digital asset supported by the Jaxx Liberty ecosystem.";
 
 ?>

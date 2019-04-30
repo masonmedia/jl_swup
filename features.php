@@ -227,7 +227,34 @@ include 'includes/header.php';
                <div class="offset-lg-2"></div>
             </div>
         </section>
-        
+
+        <!-- paper wallet -->
+
+        <section>
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $featuresPaper1; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-low">
+                        <?php echo $featuresPaper2; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-paper-wallet.jpg" alt="Jaxx Liberty enables you to transfer digital assets from a paper wallet to your current Jaxx Liberty Wallet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
         <!--support-->
         
         <section>

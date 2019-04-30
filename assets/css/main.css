@@ -921,6 +921,10 @@ html.is-animating .transition-wipe {
 
 /* background images ======================*/
 
+.bg--home-banner {
+    background: url(/assets/img/jaxx-iphone-isometric-gallery.jpg) center top;
+    background-size: cover;
+}
 .bg--home-testimonials {
     background: linear-gradient(to right, rgba(245, 175, 25, 0.8), rgba(241, 39, 17, 0.8)), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
     background-size: cover;

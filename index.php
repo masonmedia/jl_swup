@@ -8,55 +8,50 @@ include 'copy.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-100 min--100 mt-5 relative">
-        <img class="img-full absolute z-0 right-0 up up-med" src="/assets/img/jaxx-iphone-X-4-gallery-right-min.jpg"
-            alt="Welcome to Jaxx Liberty.">
-        <!-- <img class="img-full absolute z-0 right-0 ds up up-med lazy" src="/assets/img/jaxx-macbook-coffee-notebook-right.png" alt="Welcome to Jaxx Liberty."> -->
+        <img class="img-full absolute z-0 right-0 up up-med" src="/assets/img/jaxx-iphone-X-4-gallery-right-min.jpg" alt="Welcome to Jaxx Liberty.">
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5">
-            <h1 class="h4 orange zoom">Jaxx Liberty</h1>
-            <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
-            The leading all-in-one cryptocurrency wallet.
-            <!-- <span class="knockout-gradient">The leading all-in-one cryptocurrency wallet.</span><br> -->
-                <!-- <span class="knockout-gradient">Your multi-platform,</span><br>
-                <span class="knockout-gradient">multi-currency</span><br>
-                <span class="knockout-gradient">digital asset</span><br>
-                <span class="knockout-gradient">wallet.</span> -->
-            </h2>
-            <h3 class="h4 font-weight-light">Securely send, receive, track & exchange your <br> blockchain assets all in one place.</h3>
-            <a href="#sec-1">
-                <p class="p-btn my-3 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p>
-            </a>
-            <div class="row d-flex d-sm-flex-column pt-2 pb-4 pl-3 slide-right">
-                <!--jaxx liberty google store-->
-                <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
-                    href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
-                    target="_blank"><img class="banner-store-badge mr-1 mt-1"
-                        src="/assets/img/jaxx-google-play.png" alt="Google Play Button" /></a>
-                <!--jaxx liberty itunes-->
-                <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
-                    href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
-                    target="_blank"><img class="banner-store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png"
-                        alt="iTunes App Store Button" /></a>
-                <!--jaxx liberty chrome-->
-                <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
-                    href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
-                    target="_blank"><img class="banner-store-badge mr-1 mt-1"
-                        src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store" /></a>
-            </div>
-            <!--button container-->
-            <!-- <div class="container-fluid pt-2">
-                <div class="row d-flex d-sm-flex-column">
-                    <div class="col-xs-6 pr-3 zoom zoom-slow">
-                        <a href="#sec-1">
-                            <p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 zoom zoom-slow">
-                        <a href="/downloads">
-                            <p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">Download <i class="fa fa-angle-right fa-btn"></i></p>
-                        </a>
-                    </div>
+            <!-- <div role="wrap" class="p-4 bg-black text-light border rounded shadow"> -->
+                <h1 class="h4 orange zoom">Jaxx Liberty</h1>
+                <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
+                The leading all-in-one cryptocurrency wallet.
+                </h2>
+                <h3 class="h4 font-weight-light">
+                    Securely send, receive, track & exchange your <br> blockchain assets all in one place.
+                </h3>
+                <a href="#sec-1">
+                    <p class="p-btn mb-3 mt-2 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p>
+                </a>
+                <div class="row d-flex d-sm-flex-column pt-2 pb-4 pl-3 slide-right">
+                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
+                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                        target="_blank"><img class="banner-store-badge mr-1 mt-1"
+                            src="/assets/img/jaxx-google-play.png" alt="Google Play Button" /></a>
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
+                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                        target="_blank"><img class="banner-store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png"
+                            alt="iTunes App Store Button" /></a>
+                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
+                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                        target="_blank"><img class="banner-store-badge mr-1 mt-1"
+                            src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store" /></a>
                 </div>
-            </div> -->
+                <!--end content-->
+                <!-- <div class="container-fluid pt-2">
+                    <div class="row d-flex d-sm-flex-column">
+                        <div class="col-xs-6 pr-3 zoom zoom-slow">
+                            <a href="#sec-1">
+                                <p class="p-btn mb-1 border-0 p-0">Learn more <i class="fa fa-angle-right fa-btn"></i></p>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 zoom zoom-slow">
+                            <a href="/downloads">
+                                <p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">Download <i class="fa fa-angle-right fa-btn"></i></p>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+            <!-- end wrap -->
         </div>
         <div class="offset-lg-4"></div>
     </div>
@@ -294,7 +289,7 @@ include 'copy.php';
                         <?php echo $homeTestimonials3; ?>
                     </p>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary p-4 o-12 down down-med">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary p-5 o-12 down down-med">
                     <div class="device-wrapper">
                     <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                         <div class="screen gradient-background">
