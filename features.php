@@ -242,7 +242,7 @@ include 'includes/header.php';
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
-                                <img class="w-100" src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.">
                             </div>
                         </div>
                     </div>
