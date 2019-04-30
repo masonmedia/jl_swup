@@ -76,14 +76,19 @@ include 'copy.php';
                     <h2 class="h4 slide-down">
                         <?php echo $homeIntro1; ?>
                     </h2>
-                    <h3 class="section-title text-dark slide-down"><?php echo $homeIntro2; ?></h3>
+                    <h3 class="section-title text-dark slide-down">
+                        <?php echo $homeIntro2; ?>
+                    </h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down"><?php echo $homeIntro3; ?></p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $homeIntro3; ?>
+                    </p>
                     <div class="down down-slow">
                         <a href="/features">
-                            <p class="p-btn mt-3 slide-down"><?php echo $homeIntroCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            <p class="p-btn mt-3 slide-down">
+                                <?php echo $homeIntroCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
                             </p>
                         </a>
                     </div>
@@ -243,8 +248,7 @@ include 'copy.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 slide-down">Trusted by the best</h2>
                     <h3 class="section-title mb-0 slide-down">You're in <span class="line-break-sm">good company.</span></h3>
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovator in the blockchain & cryptocurrency
-                        space. With thousands of users and a wide range of partnerships, see what community leaders are saying about Jaxx Liberty.</p>
+                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovator in the blockchain & cryptocurrency space. With thousands of users and a wide range of partnerships, see what community leaders are saying about Jaxx Liberty.</p>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary o-12 down down-med">
                     <div class="device-wrapper">
@@ -304,12 +308,21 @@ include 'copy.php';
             </div>
         </section>
 
-       <section>
+        <section>
+            <div class="row d-flex bg-light">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg"
+                        alt="Jaxx Liberty supports the top digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
+                </div>
+            </div>
+        </section>
+
+       <!-- <section>
             <div id="testimonials" class="row d-flex min-700-lg">
                 <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-black-cubes.jpeg" alt="Decentral is an innovation hub for disruptive and decentralized technologies.">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light min-500 p-5 o-12" data-aos="fade" data-aos-easing="ease-in-out-quart" data-aos-duration="1000">
                 
-                    <!--testimonial cards-->
+                    testimonial cards
                     
                     <div class="card-deck text-secondary">
                         <div class="card rounded-right-top border-0 mx-2 shadow-lg">
@@ -348,10 +361,10 @@ include 'copy.php';
                                 <footer class="blockquote-footer font-weight-bold orange mb-3">President, WAX / CIO, OPSkins</footer>
                             </div>
                         </div>
-                    </div><!--end card deck-->
+                    </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- carousel-->
 
