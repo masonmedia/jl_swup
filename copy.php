@@ -21,14 +21,25 @@ $homeDownload3 = "Jaxx Liberty is available for Android, iOS, Mac OS X, Windows,
 $homeDownloadCTA = "Desktop versions";
 
 $homeCoins1 = "Our friends";
-$homeCoins2 = "Over 85+ cryptocurrencies and digital assets supported.";
-$homeCoins3 = "Jaxx Liberty supports the top digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more. Users can safely store, track, send, receive, and exchange these digital assets all from one secure and easy-to-use interface. New coins and tokens are constantly being added.";
+$homeCoins2 = "Over 85+ cryptocurrencies and blockchain assets supported.";
+$homeCoins3 = "Jaxx Liberty supports the top cryptocurrencies and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more. Users can safely store, track, send, receive, and exchange these digital assets all from one secure and easy-to-use interface. New coins and tokens are constantly being added.";
 $homeCoinsCTA = "Find out more";
+
+$homeTestimonials1 = "Trusted by the best";
+$homeTestimonials2 = "You're in <span class='line-break-sm'>good company.</span>";
+$homeTestimonials3 = "Jaxx Liberty builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and facilitates over 3000 daily transactions. It's reshaping the way people manage their digital assets, and is putting people in control of their digitial lives. See what community leaders are saying about Jaxx Liberty.";
 
 $homeSupport1 = "World class support";
 $homeSupport2 = "Our User Success Team is here for you.";
 $homeSupport3 = "Jaxx Liberty’s features, performance, security and reliability aren’t the only things that make it an industry leading crypto app.  Our unparalleled User Success Team is made up of real humans who offer our customers fast, world class support, 7 days a week. You won’t get robot emails or useless auto-response advice from us. Got a problem? Let us know. We’re here to help.";
 $homeSupportCTA = "Here for you";
+
+$homeCommunity1 = "Stay connected";
+$homeCommunity2 = "Become a part of the <span class='d-table'>Decentral ecosystem.</span>";
+$homeCommunity3 = "We consider ourselves part of an extensive ecosystem, a large and
+growing network of people, friends, users, and colleagues around the world. With Jaxx Liberty you'll be joining a community that brings together a range of exciting global projects, spanning a variety sectors that are looking to solve the problems of today and tomorrow.";
+$homeCommunityCTA = "Join the adventure";
+
 
 
 ?>

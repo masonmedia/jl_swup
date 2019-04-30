@@ -27,7 +27,7 @@ include 'includes/header.php';
     <div id="features" class="container-fluid p-0 text-secondary">
 
         <section>
-           <div class="row d-flex relative bg-orange-gradient text-light stagger-up">
+           <div class="row d-flex relative bg-orange-gradient text-light">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-400 p-5 up">
                     <h2 class="section-title font-weight-bold text-light slide-up">It’s quick and easy to get started. And, it’s free.</h2>
                     <hr class="hr-big border-0 bg-light slide-up">
@@ -39,15 +39,22 @@ include 'includes/header.php';
         <!--easy to use-->
         
         <section>
-            <div class="row d-flex min-500 bg-white py-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-white py-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Easy to use.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-home.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-home-dash.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-home.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design."> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -56,10 +63,17 @@ include 'includes/header.php';
         <!--portfolio-->
        
         <section>
-            <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-port.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-portfolio.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-port.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">View your portfolio.</h2>
@@ -73,15 +87,22 @@ include 'includes/header.php';
         <!--news-->
         
         <section>
-            <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Follow blockchain news.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module."> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -90,10 +111,17 @@ include 'includes/header.php';
         <!--markets-->
        
         <section>
-            <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Track market data.</h2>
@@ -107,15 +135,22 @@ include 'includes/header.php';
         <!--customize wallets-->
         
         <section>
-            <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Personalize your wallets.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">You can easily customize your Jaxx Liberty wallet module. Simply scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-wallets.jpg" alt="Easily customize your Jaxx Liberty wallet module.">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-wallets.jpg" alt="Easily customize your Jaxx Liberty wallet module.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-wallets.jpg" alt="Easily customize your Jaxx Liberty wallet module."> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -124,10 +159,17 @@ include 'includes/header.php';
         <!--block-->
        
         <section>
-            <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-block-explorer.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
                     <h2 class="section-title py-3 up">Search the blockchain.</h2>
@@ -141,15 +183,22 @@ include 'includes/header.php';
         <!--security-->
         
         <section>
-            <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
+                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">Leading-edge security tools.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-security-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind."> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -158,12 +207,19 @@ include 'includes/header.php';
         <!--exchange-->
        
         <section>
-            <div class="row d-flex min-500 bg-light pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start o-12 slide-up">
-                    <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module."> -->
                 </div>
-                <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
+                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">Exchange between assets.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).</p>
@@ -175,15 +231,22 @@ include 'includes/header.php';
         <!--support-->
         
         <section>
-            <div class="row d-flex min-500 bg-white pb-3 border-bottom stagger-up">
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left px-5 pt-5 slide-up">
+                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">Enjoy 24/7 support.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-low">Get free, 24/7 world-class support from our User Success Team, via email or social media.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center o-12 slide-up">
-                    <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100" src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media."> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -202,7 +265,7 @@ include 'includes/header.php';
         <!--more features-->
                
         <section>
-            <div class="row d-flex p-5 bg-light stagger-up">
+            <div class="row d-flex p-5 bg-light">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
                     <h2 class="section-title py-3 slide-up">More to explore.</h2>
                     <hr class="hr-big border-0 bg-orange m-0 slide-up">
@@ -261,7 +324,7 @@ include 'includes/header.php';
         <!--download-->
        
         <section>
-            <div class="row d-flex min-700-lg bg-white p-5 stagger-up">
+            <div class="row d-flex min-700-lg bg-white p-5">
               <div class="offset-lg-2"></div>
                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-4 o-12 up">
                     <img class="w-75 up up-med" src="/assets/img/jaxx-macbook-air.jpg" alt="Take Jaxx Liberty wherever you go.">

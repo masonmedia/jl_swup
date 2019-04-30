@@ -241,220 +241,7 @@ include 'copy.php';
             </div>
         </section>
 
-        <!--testimonials-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 bg-white">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 slide-down">Trusted by the best</h2>
-                    <h3 class="section-title mb-0 slide-down">You're in <span class="line-break-sm">good company.</span></h3>
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovator in the blockchain & cryptocurrency space. With thousands of users and a wide range of partnerships, see what community leaders are saying about Jaxx Liberty.</p>
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary o-12 down down-med">
-                    <div class="device-wrapper">
-                    <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                        <div class="screen">
-                            <!-- carousel -->
-                            <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="card-img-top border-0 opacity-full" src="/assets/img/jaxx-digibyte.jpeg" alt="Jaxx Liberty + Digibyte">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                            <p class="text-dark">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
-                                            <p class="font-weight-bold mb-0 text-light">Josiah Spackman</p>
-                                            <footer class="blockquote-footer font-weight-bold mb-3">Ambassador, DigiByte Foundation</footer>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img class="card-img-top opacity-full" src="/assets/img/jaxx-polymath.png" alt="Card image cap">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                            <p class="">"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
-                                            <p class="font-weight-bold mb-0 text-light">Trevor Koverko</p>
-                                            <footer class="blockquote-footer font-weight-bold">Co-Founder & CEO, Polymath</footer>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img class="card-img-top opacity-full bg-white" src="assets/img/jaxx-rsk.png" alt="Card image cap">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                            <p class="text-light">"We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK"</p>
-                                            <p class="font-weight-bold mb-0 text-light">Diego Gutierrez Zaldivar</p>
-                                            <footer class="blockquote-footer font-weight-bold">CEO & Co-Founder, RSK Labs</footer>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img class="card-img-top opacity-full" src="assets/img/jaxx-wax.jpg" alt="Card image cap">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                            <p class="text-light">“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”</p>
-                                            <p class="font-weight-bold mb-0 text-light">Malcolm CasSelle</p>
-                                            <footer class="blockquote-footer font-weight-bold">President, WAX / CIO, OPSkins</footer>
-                                        </div>
-                                    </div><!--end slide-->
-                                </div><!--end carousel-->
-                            </div>
-                        </div>
-                        <div class="button">
-                        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg"
-                        alt="Jaxx Liberty supports the top digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
-                </div>
-            </div>
-        </section>
-
-       <!-- <section>
-            <div id="testimonials" class="row d-flex min-700-lg">
-                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-black-cubes.jpeg" alt="Decentral is an innovation hub for disruptive and decentralized technologies.">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-light min-500 p-5 o-12" data-aos="fade" data-aos-easing="ease-in-out-quart" data-aos-duration="1000">
-                
-                    testimonial cards
-                    
-                    <div class="card-deck text-secondary">
-                        <div class="card rounded-right-top border-0 mx-2 shadow-lg">
-                            <img class="card-img-top rounded-right-top lazy" data-src="/assets/img/jaxx-digibyte.jpeg" alt="Jaxx Liberty + Digibyte">
-                            <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                <p class="border-right border-orange pr-3">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
-                                <p  class="font-weight-bold">Josiah Spackman</p>
-                                <footer class="blockquote-footer font-weight-bold orange mb-3">Ambassador, DigiByte Foundation</footer>
-                            </div>
-                        </div>
-                        <div class="card rounded-right-top border-0 mx-2 shadow-lg">
-                            <img class="card-img-top rounded-right-top lazy" data-src="/assets/img/jaxx-polymath.png" alt="Card image cap">
-                            <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                <p class="border-right border-orange pr-3">"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
-                                <p class="font-weight-bold">Trevor Koverko</p>
-                                <footer class="blockquote-footer font-weight-bold orange mb-3">Co-Founder & CEO, Polymath</footer>
-                            </div>
-                        </div>
-                        <div class="card rounded-right-top border-0 mx-2 shadow-lg">
-                            <img class="card-img-top rounded-right-top lazy" data-src="assets/img/jaxx-rsk.png" alt="Card image cap">
-                            <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                <p class="border-right border-orange pr-3">"We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK"</p>
-                                <p class="font-weight-bold">Diego Gutierrez Zaldivar</p>
-                                <footer class="blockquote-footer font-weight-bold orange mb-3">CEO & Co-Founder, RSK Labs</footer>
-                            </div>
-                        </div>
-                        <div class="card rounded-right-top border-0 mx-2 shadow-lg">
-                            <img class="card-img-top rounded-right-top lazy" data-src="assets/img/jaxx-wax.jpg" alt="Card image cap">
-                            <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                <i class="fa fa-quote-right p-0 pb-3 mb-3 fa--stroke fa--stroke-o border-bottom"></i>
-                                <p class="border-right border-orange pr-3">“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”</p>
-                                <p class="font-weight-bold">Malcolm CasSelle</p>
-                                <footer class="blockquote-footer font-weight-bold orange mb-3">President, WAX / CIO, OPSkins</footer>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- carousel-->
-
-        <!-- <section>
-            <div id="testimonials" class="carousel slide carousel-fade relative up up-med" data-ride="carousel"
-                data-aos="fade" data-aos-easing="ease-in-out-quart" data-aos-duration="1000">
-                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-black-cubes.jpeg"
-                    alt="Decentral is an innovation hub for disruptive and decentralized technologies."
-                    title="Decentral testimonials">
-                <ol class="carousel-indicators">
-                    <li data-target="#testimonials" data-slide-to="0" class="active"></li>
-                    <li data-target="#testimonials" data-slide-to="1"></li>
-                    <li data-target="#testimonials" data-slide-to="2"></li>
-                    <li data-target="#testimonials" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div role="banner" class="container-fluid">
-                            <div class="row d-flex min-700-lg p-0">
-                                <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"In Jaxx, Presearch has a popular, well-respected wallet to offer its exponentially growing user base of over 300,000 members. We join Decentral in the mission of putting users first.”
-                                    </h3>
-                                    <h3 class="font-weight-bold orange mt-3">Colin Paper</h3>
-                                    <p class="p-big orange mb-3">&mdash; Founder, Presearch</p>
-                                </div>
-                                <div class="offset-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div role="banner" class="container-fluid">
-                            <div class="row d-flex min-700-lg p-0">
-                                <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</h3>
-                                    <h3 class="font-weight-bold orange mt-3">Josiah Spackman</h3>
-                                    <p class="p-big orange mb-3">&mdash; Ambassador, DigiByte Foundation</p>
-                                </div>
-                                <div class="offset-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="container-fluid">
-                            <div class="row d-flex min-700-lg p-0">
-                                <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</h3>
-                                    <h3 class="font-weight-bold orange mt-3">Trevor Koverko</h3>
-                                    <p class="p-big orange mb-3">&mdash; Co-Founder & CEO, Polymath</p>
-                                </div>
-                                <div class="offset-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="container-fluid">
-                            <div class="row d-flex min-700-lg p-0">
-                                <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">"We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support
-                                        RSK"</h3>
-                                    <h3 class="font-weight-bold orange mt-3">Diego Gutierrez Zaldivar</h3>
-                                    <p class="p-big orange mb-3">&mdash; CEO & Co-Founder, RSK Labs</p>
-                                </div>
-                                <div class="offset-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="carousel-item">
-                        <div class="container-fluid">
-                            <div class="row d-flex min-700-lg p-0">
-                                <div class="col-lg-9 banner-left p-5 o-12">
-                                    <h3 class="section-title text-light font-weight-light">“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”
-                                    </h3>
-                                    <h3 class="font-weight-bold orange mt-3">Malcolm CasSelle</h3>
-                                    <p class="p-big orange mb-3">&mdash; President, WAX / CIO, OPSkins</p>
-                                </div>
-                                <div class="offset-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                </div>
-            </div>
-            end carousel
-        </section> -->
-
-        <!--Our friends-->
+         <!--Our friends-->
 
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
@@ -488,6 +275,110 @@ include 'copy.php';
                 <div class="col-lg-12 min-700-lg down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-apple-4-iphones-min.jpg"
                         alt="Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
+                </div>
+            </div>
+        </section>
+
+        <!--testimonials-->
+
+        <section>
+            <div class="row d-flex p-5 min-500 bg-white">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
+                    <h2 class="h4 slide-down">
+                        <?php echo $homeTestimonials1; ?>
+                    </h2>
+                    <h3 class="section-title mb-0 slide-down">
+                        <?php echo $homeTestimonials2; ?>
+                    </h3>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $homeTestimonials3; ?>
+                    </p>
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary p-4 o-12 down down-med">
+                    <div class="device-wrapper">
+                    <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <div class="screen gradient-background">
+                            
+                            <!-- carousel -->
+                            <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card-body d-flex flex-column justify-content-center align-items-start text-left p-4">
+                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-left" src="/assets/img/coin-logos/DigiByte.svg" alt="Jaxx Liberty + Digibyte">
+                                            <hr class="w-50 bg-black border-0 mb-4 mt-3 fade-in-left">
+                                            <p class="text-light font-weight-bold fade-in-top"><span class="bg-black py-2">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</span></p>
+                                            <hr class="w-50 bg-dark border-0 my-3 fade-in-fwd">
+                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
+                                                <span class="bg-black py-2">Josiah Spackman</span>
+                                            </p>
+                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in">Ambassador, DigiByte Foundation</footer>
+                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-left">
+                                            <!-- <img class="decentral-mobile-menu opacity-full" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty + Digibyte"> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
+                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-fwd" src="/assets/img/coin-logos/Polymath.svg" alt="Jaxx Liberty + Polymath">
+                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in">
+                                            <p class="text-light font-weight-bold fade-in-left"><span class="bg-black py-2">"Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</span></p>
+                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
+                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
+                                                <span class="bg-black py-2">Trevor Koverko</span>
+                                            </p>
+                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">Co-Founder & CEO, Polymath</footer>
+                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-left">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
+                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-top" src="/assets/img/coin-logos/rsk.png" alt="Jaxx Liberty + RSK">
+                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
+                                            <p class="text-light font-weight-bold fade-in-fwd">
+                                                <span class="bg-black py-2">"We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK"</span>
+                                            </p>
+                                            <hr class="w-50 bg-dark border-0 my-3 fade-in-bottom">
+                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in">
+                                                <span class="bg-black py-2">Diego Gutierrez Zaldivar</span>
+                                            </p>
+                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-fwd">CEO & Co-Founder, RSK Labs</footer>
+                                            <hr class="w-50 bg-dark border-0 mt-2">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
+                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-top" src="/assets/img/coin-logos/Wax.svg" alt="Jaxx Liberty + RSK">
+                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
+                                            <p class="text-light font-weight-bold fade-in-fwd">
+                                                <span class="bg-black py-2">“Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”</span>
+                                            </p>
+                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
+                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
+                                                <span class="bg-black py-2">Malcolm CasSelle</span>
+                                            </p>
+                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">President, WAX / CIO, OPSkins</footer>
+                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-bottom">
+                                        </div>
+                                    </div><!--end slide-->
+                                </div><!--end carousel-->
+                            </div>
+                        </div>
+                        <div class="button">
+                        <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg"
+                        alt="Jaxx Liberty supports the top digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.">
                 </div>
             </div>
         </section>
@@ -535,17 +426,23 @@ include 'copy.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4 slide-up">Stay connected</h2>
-                    <h3 class="section-title m-0 slide-up">Become a part of the Decentral ecosystem.</h3>
+                    <h2 class="h4 slide-up">
+                        <?php echo $homeCommunity1; ?>
+                    </h2>
+                    <h3 class="section-title m-0 slide-up">
+                        <?php echo $homeCommunity2; ?>
+                    </h3>
                 </div>
                 <div
                     class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0 slide-up">We consider ourselves part of extensive ecosystem, a large and
-                        growing network of people, friends, users, and around the world. Join the Jaxx Liberty community
-                        today.</p>
+                    <p class="p-big pt-3 m-0 slide-up">
+                        <?php echo $homeCommunity3; ?>
+                    </p>
                     <div class="up up-slow">
                         <a href="/community" onclick="googleAnalyticsTrigger('Community', 'Home_Page')">
-                            <p class="p-btn mt-3 slide-up">Join the adventure <i class="fa fa-angle-right fa-btn orange"></i></p>
+                            <p class="p-btn mt-3 slide-up">
+                                <?php echo $homeCommunityCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
                         </a>
                     </div>
                 </div>

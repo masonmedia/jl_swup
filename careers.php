@@ -9,7 +9,7 @@ include 'includes/header.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative up up-med">
+    <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative">
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
             <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Work with Decentral.</h1>
@@ -29,7 +29,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-500 relative bg-white border-bottom">
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left p-4 right o-12">
-                <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/decentral-hacker-expo.jpg" alt="Join the team.">
+                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-hacker-expo.jpg" alt="Join the team.">
                 </div>
                 <div id="careersIntroList" class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
                     <h2 class="section-title text-dark mb-0">Why work at Decentral?</h2>
@@ -53,7 +53,7 @@ include 'includes/header.php';
                     </ul>
                 </div>
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left right o-12">
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
                 </div>
             </div>
             <div id="sec-1"></div>

@@ -476,6 +476,199 @@ p {
     animation-delay: 2s;
 }
 
+/* animista css animations */
+
+.gradient-background {
+	        -webkit-animation: gradient-background 5s linear infinite alternate both;
+	        animation: gradient-background 5s linear infinite alternate both;
+}
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-in-top {
+	-webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-in-left {
+	-webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/**
+ * ----------------------------------------
+ * animation gradient-background
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes gradient-background {
+  0% {
+    background: #f5af19;
+  }
+  100% {
+    background: #f12711;
+  }
+}
+@keyframes gradient-background {
+  0% {
+    background: #f5af19;
+  }
+  100% {
+    background: #f12711;
+  }
+}
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+/**
+ * ----------------------------------------
+ * animation fade-in-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+/**
+ * ----------------------------------------
+ * animation fade-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-left {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-left {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+/**
+ * ----------------------------------------
+ * animation fade-in-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
+  
+
 /*SWUP transition animations*/
 
 /*main page transition fade*/
@@ -678,20 +871,27 @@ html.is-animating .transition-wipe {
     background-color: rgb(38, 66, 119);
 }
 
-.bg-lightblue {
-    background-color: lightblue !important;
+/* liberty colors */
+
+.border-navy {
+    border-color: #264277 !important;
+    border-color: rgb(38, 66, 119) !important;
+}
+
+.border-box-navy {
+    border-color: #576FA2 !important;
+}
+
+.bg-dark-navy {
+    background: #091D43;
+}
+
+.bg-box-navy {
+    background: #233B6B;
 }
 
 .bg-slategray {
     background: lightslategray;
-}
-
-.bg-steelblue {
-    background: lightsteelblue;
-}
-
-.bg-pink {
-    background: lightpink;
 }
 
 .bg-lightgrey {
@@ -721,6 +921,10 @@ html.is-animating .transition-wipe {
 
 /* background images ======================*/
 
+.bg--home-testimonials {
+    background: linear-gradient(to right, rgba(245, 175, 25, 0.8), rgba(241, 39, 17, 0.8)), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
+    background-size: cover;
+}
 .bg--careers-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/decentral-soccer.jpg) center top;
     background-size: cover;
@@ -1009,6 +1213,7 @@ input:checked+.slider:before {
     opacity: 1;
     width: 150px;
 }
+
 .banner-store-badge {
     opacity: 1;
     width: 125px;
