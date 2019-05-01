@@ -1,9 +1,8 @@
 <?php
-
 $title = "Jaxx Liberty | Features";
-
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
 <!--banner-->
@@ -42,9 +41,13 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white py-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Easy to use.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature1Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature1Desc; ?>
+                    </p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
@@ -76,9 +79,13 @@ include 'includes/header.php';
                     <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-port.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">View your portfolio.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature2Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature2Desc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -90,9 +97,14 @@ include 'includes/header.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Follow blockchain news.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature3Title; ?>
+                        
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature3Desc; ?>
+                    </p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
@@ -117,16 +129,22 @@ include 'includes/header.php';
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
-                                <img class="w-100" src="/assets/img/jaxx-iphone-X-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                                <img class="w-100"
+                                src="/assets/img/jaxx-iphone-X-markets.jpg"
+                                alt="<?php echo $feature4Desc; ?>">
                             </div>
                         </div>
                     </div>
                     <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Track market data.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature4Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Follow the top 100 assets, compare price changes, see market caps, and follow trends.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature4Desc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
