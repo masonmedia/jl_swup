@@ -1,6 +1,6 @@
 <?php
 
-$homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-min.jpg";
+$homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
 $homeBannerImgAlt = "Welcome to Jaxx Liberty.";
 
 $homeImg1 = "/assets/img/jaxx-2-people-selfie-logo.jpg";
@@ -26,6 +26,36 @@ $homeImgAlt7 = "Get 24/7 help from Jaxx Liberty's world class User Success Team.
 
 $homeImg8 = "/assets/img/decentral-community-red.jpeg";
 $homeImgAlt8 = "Join the Decentral community today.";
+
+// Features
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg2 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt2 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
+$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
 
 
 ?>

@@ -53,7 +53,9 @@ include 'images.php';
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
-                                <img class="w-100" src="/assets/img/jaxx-home-dash.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.">
+                                <img class="w-100"
+                                src="<?php echo $featuresImg1;?>"
+                                alt="<?php echo $featuresImgAlt1;?>">
                             </div>
                         </div>
                     </div>
@@ -156,15 +158,21 @@ include 'images.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Personalize your wallets.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature5Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">You can easily customize your Jaxx Liberty wallet module. Simply scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature5Desc; ?>
+                    </p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
-                                <img class="w-100" src="/assets/img/jaxx-iphone-X-wallets.jpg" alt="Easily customize your Jaxx Liberty wallet module.">
+                                <img class="w-100"
+                                src="/assets/img/jaxx-iphone-X-wallets.jpg"
+                                alt="Easily customize your Jaxx Liberty wallet module.">
                             </div>
                         </div>
                     </div>
@@ -190,9 +198,13 @@ include 'images.php';
                     <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Search the blockchain.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature6Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature6Desc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -204,9 +216,13 @@ include 'images.php';
             <div class="row d-flex min-500 bg-white pb-3 border-bottom">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Leading-edge security tools.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature7Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature7Desc; ?>
+                    </p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
@@ -238,9 +254,13 @@ include 'images.php';
                     <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module."> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Exchange between assets.</h2>
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature8Title; ?>
+                    </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).</p>
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature8Desc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -253,11 +273,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $featuresPaper1; ?>
+                        <?php echo $feature9Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-low">
-                        <?php echo $featuresPaper2; ?>
+                        <?php echo $feature9Desc; ?>
                     </p>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
@@ -276,13 +296,8 @@ include 'images.php';
         <!--support-->
         
         <section>
-            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left px-5 pt-5">
-                    <h2 class="section-title py-3 up">Enjoy world-class support.</h2>
-                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-low">Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!</p>
-                </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
@@ -292,6 +307,15 @@ include 'images.php';
                         </div>
                     </div>
                     <!-- <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media."> -->
+                </div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature10Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-low">
+                        <?php echo $feature10Desc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>

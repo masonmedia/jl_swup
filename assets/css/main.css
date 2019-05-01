@@ -1662,9 +1662,9 @@ footer li a {
     }
 
     /*force homepage banner span elements to wrap onto separate lines @mobile*/
-    #banner span {
+    /* #banner span {
         display: inline-block;
-    }
+    } */
 
     /*reduce navbar logo and mobile menu size*/
     .navbar-brand .jaxx-navbar-brand {

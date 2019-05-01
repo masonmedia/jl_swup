@@ -1,8 +1,8 @@
 <?php
 
 $homeBanner1 = "Jaxx Liberty";
-$homeBanner2 = "The leading all-in-one cryptocurrency wallet.";
-$homeBanner3 = "Securely send, receive, <span class='line-break-sm'>track & exchange</span> your <br> blockchain assets all in one app.";
+$homeBanner2 = "The leading <span class='line-break-sm'>all-in-one</span> <span class='line-break-sm'>blockchain</span> wallet.";
+$homeBanner3 = "Securely send, receive, <span class='line-break-sm'>track and exchange</span> your digital assets <span class='line-break-sm'>all in one app.</span>";
 $homeBannerCTA1 = "Learn more";
 $homeBannerCTA2 = "Download";
 
@@ -13,7 +13,7 @@ $homeIntroCTA = "Discover";
 
 $homeFeat1 = "Features";
 // $homeFeat2 = "Track, send, receive, exchange, learn, and more. ";
-$homeFeat2 = "Securely invest in crypto, follow markets, learn about blockchain, and much more.";
+$homeFeat2 = "Securely invest in crypto, follow markets, learn about blockchain, and more.";
 $homeFeat3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is packed with easy-to-use features that make it an industry leader in the crypto space. It provides detailed, real-time market data on the most popular assets like <a class='orange' href='https://bitcoin.org/en/' target='_blank'>Bitcoin,</a> <a class='orange' href='https://www.ethereum.org/' target='_blank'>Ethereum,</a> <a class='orange' href='https://ripple.com/xrp/' target='_blank'>Ripple,</a> and <a class='orange' href='https://litecoin.org/' target='_blank'>Litecoin,</a> a curated multi-source news module with the latest articles from the world of blockchain, a portfolio section to track and manage your crypto, as well as a block explorer to search the blockchain for transaction data. It’s simple, fast, secure, and free.";
 $homeFeatCTA = "Learn more";
 
@@ -34,7 +34,7 @@ $homeCoinsCTA = "Find out more";
 
 $homeTestimonials1 = "Trusted around the world";
 $homeTestimonials2 = "You're in <span class='line-break-sm'>good company.</span>";
-$homeTestimonials3 = "<span class='font-weight-bold'>Jaxx Liberty</span> builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and facilitates over 3000 daily transactions. It's reshaping the way people manage their blockchain assets, and is putting people in control of their digitial lives. See what community leaders are saying about Jaxx Liberty.";
+$homeTestimonials3 = "<span class='font-weight-bold'>Jaxx Liberty</span> builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and is reshaping the way people manage, invest, and control their blockchain assets. See what community leaders are saying about Jaxx Liberty.";
 
 $homeSupport1 = "World class support";
 $homeSupport2 = "Our User Success Team is here for you.";
@@ -43,7 +43,7 @@ $homeSupportCTA = "Get in touch";
 
 $homeCommunity1 = "Stay connected";
 $homeCommunity2 = "Become a part of the <span class='d-table'>Decentral ecosystem.</span>";
-$homeCommunity3 = "We consider ourselves part of an extensive ecosystem, a large and
+$homeCommunity3 = "Like the blockchain itself, we consider ourselves part of an extensive ecosystem, a large and
 growing network of people, friends, users, and colleagues around the world. With Jaxx Liberty you'll be joining a community that brings together a range of exciting global projects, spanning a variety sectors that are looking to solve the problems of today and tomorrow.";
 $homeCommunityCTA = "Join the adventure";
 
@@ -61,19 +61,22 @@ $feature3Desc = "Get daily blockchain headline news and updates from a range of 
 $feature4Title = "Track market data.";
 $feature4Desc = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
 
-$feature5Title = "Easy to use.";
-$feature5Desc = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$feature5Title = "Personalize your wallets.";
+$feature5Desc = "You can easily customize your Jaxx Liberty wallet module. Simply scroll through more than 85 coins and tokens, and toggle them on and off to add them to your home screen.";
 
-$feature6Title = "Easy to use.";
-$feature6Desc = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$feature6Title = "Search the blockchain.";
+$feature6Desc = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
 
-$feature7Title = "Easy to use.";
-$feature7Desc = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$feature7Title = "Leading-edge security tools.";
+$feature7Desc = "Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind. We don’t have access to your backup phrase or private keys, we don't collect your personal information, and you don't need to create an account.";
 
-$feature1Title = "Easy to use.";
-$feature1Desc = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$feature8Title = "Exchange between assets.";
+$feature8Desc = "Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).";
 
-$featuresPaper1 = "Transfer assets from a paper wallet.";
-$featuresPaper2 = "Starting with version 2.2.0, Jaxx Liberty enables you to transfer digital assets from a paper wallet or even a standard address with the Private Key, to your current Jaxx Liberty Wallet for any digital asset supported by the Jaxx Liberty ecosystem.";
+$feature9Title = "Transfer assets from a paper wallet.";
+$feature9Desc = "Starting with version 2.2.0, Jaxx Liberty enables you to transfer digital assets from a paper wallet or even a standard address with the Private Key, to your current Jaxx Liberty Wallet for any digital asset supported by the Jaxx Liberty ecosystem.";
+
+$feature10Title = "Enjoy world-class support.";
+$feature10Desc = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!";
 
 ?>
