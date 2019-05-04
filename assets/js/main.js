@@ -31,17 +31,29 @@ $(document).ready(function () {
   //bs carousel
   carousel();
 
-  // fetch('https://jsonplaceholder.typicode.com/todos/1')
+  // api calls
+  coinsApi();
+  coinData();
+
+  // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
+  // const url = "https://jsonplaceholder.typicode.com/todos";
+  // fetch(url)
+  //   .then(data=>{return data.json()})
+  //   .then(res=>{console.log(res)})
+  //   .catch(error => console.error('Error:', error));
+    
+
+  // fetch('https://jsonplaceholder.typicode.com/todos')
   // .then(response => response.json())
-  // .then(json => console.log(json))
-  // console.log('fuckshit')
+  // .then(data => console.log(JSON.stringify(data))
+  
 
   // API blog call
-  if (window.location.pathname === '/community.php') {
-    // console.error('oncommunity main - check for community page direct load');
-    //if remove .php the window.location.pathname will NOT work -- they have to match
-    displayNewsFeeds();
-  }
+  // if (window.location.pathname === '/community.php') {
+  //   // console.error('oncommunity main - check for community page direct load');
+  //   //if remove .php the window.location.pathname will NOT work -- they have to match
+  //   displayNewsFeeds();
+  // }
 
 }); //end doc ready
 
@@ -49,6 +61,8 @@ $(document).ready(function () {
 
 document.addEventListener('swup:contentReplaced', function () {
 
+  coinsApi();
+  coinData();
   //GSAP menu timeline
   // gsapMenuTimeline();
 
@@ -71,10 +85,10 @@ document.addEventListener('swup:contentReplaced', function () {
   carousel();
 
   // api call function
-  if (window.location.pathname === '/community.php') {
-    // console.error('oncommunity navigate - check for community page navigate-to load');
-    displayNewsFeeds();
-  }
+  // if (window.location.pathname === '/community.php') {
+  //   // console.error('oncommunity navigate - check for community page navigate-to load');
+  //   displayNewsFeeds();
+  // }
 
 }); //end swup reinit
 
@@ -283,3 +297,104 @@ function displayNewsFeeds() {
     }
   }
 }
+
+function coinsApi() {
+
+  function createNode(element) {
+    return document.createElement(element);
+  }
+
+  function append(parent, el) {
+    return parent.appendChild(el);
+  }
+
+  const ul = document.getElementById('authors');
+  const url = 'https://randomuser.me/api/?results=10';
+
+  fetch(url)
+  .then((resp) => resp.json()) // Transform the data into json
+    .then(function(data) {
+      let authors = data.results;
+      return authors.map(function(author) { // Map through the results and for each run the code below
+        let li = createNode('li'), //  Create the elements we need
+          img = createNode('img'),
+          span = createNode('span');
+          h2 = createNode('h2');
+            
+          img.classList.add('opacity-full'); // Add class to img [mason edit]
+          img.src = author.picture.medium;  // Add the source of the image to be the src of the img element
+          li.innerHTML = `${author.location.street} ${author.location.city}`;
+          span.innerHTML = `${author.name.first} ${author.name.last}`; // Make the HTML of our span to be the first and last name of our author
+          h2.innerHTML = `${author.gender}`;
+          append(li, h2);
+          append(ul, li);
+          append(li, span);
+          append(li, img); // Append all our elements
+        
+      })
+    })
+  .catch(function(error) {
+    // If there is any error you will catch them here
+  });   
+
+}
+
+// https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d
+fetch('https://jsonplaceholder.typicode.com/users')
+        .then((res) => { return res.json() })
+        .then((data) => {
+            let result = `<h2> Random User Info From Jsonplaceholder API</h2>`;
+            data.forEach((user) => {
+                const { id, name, email, address: { city, street } } = user
+                result +=
+                    `<div>
+                     <h5> User ID: ${id} </h5>
+                         <ul class="">
+                             <li> User Full Name : ${name}</li>
+                             <li> User Email : ${email} </li>
+                             <li> User Address : ${city}, ${street} </li>
+                         </ul>
+                      </div>`;
+                        document.getElementById('result').innerHTML = result;
+                    });
+                })
+
+
+// https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+// function coinData() {
+//   fetch('https://jsonplaceholder.typicode.com/users')
+//   // https://pricingdata.jaxx.io/prod/api/v1/market
+//   // https://jsonplaceholder.typicode.com/users
+//       .then((res) => { return res.json() })
+//       // .then(res=>{console.log(res)})
+//       .then((data) => {
+//           let result = `<h2> Random User Info From Jsonplaceholder API</h2>`;
+//           data.forEach((user) => {
+//               const { id, name, email, address: { city, street } } = user
+//               result +=
+//                   `<div>
+//                     <h5> User ID: ${id} </h5>
+//                         <ul class="w3-ul">
+//                             <li> User Full Name : ${name}</li>
+//                             <li> User Email : ${email} </li>
+//                             <li> User Address : ${city}, ${street} </li>
+//                         </ul>
+//                     </div>`;
+//                       document.getElementById('result').innerHTML = result;
+//                   });
+//               })
+// }
+
+
+// reduce() tut --> https://medium.freecodecamp.org/a-practical-guide-to-fetch-reduce-and-formatting-data-from-an-external-api-283ddd9bfdcb
+// const cityJobsData = fetch('https://data.cityofnewyork.us/resource/swhp-yxa4.json');
+// cityJobsData
+//   .then(data => data.json())
+//   .then(data => {
+//     const agencyFrequency = data.reduce((agencies, value) => {
+//       agencies[value.agency] = agencies[value.agency] ? agencies[value.agency] + 1 : 1;
+//       return agencies;
+//     }, {});
+//     console.log(agencyFrequency);
+//   })
+//   .catch(err => console.log(err));

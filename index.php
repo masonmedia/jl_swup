@@ -35,7 +35,7 @@ include 'images.php';
                         <div class="col-xs-6 zoom zoom-slow">
                             <a href="/downloads">
                                 <p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
-                                <? echo $homeBannerCTA2; ?> <i class="fa fa-angle-right fa-btn"></i>
+                                    <? echo $homeBannerCTA2; ?> <i class="fa fa-angle-right fa-btn"></i>
                                 </p>
                             </a>
                         </div>

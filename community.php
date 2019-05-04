@@ -521,6 +521,19 @@ include 'includes/header.php';
         </section>   
 
         <!--Jaxx blog API GET-->
+
+          
+
+         <section>
+            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
+                    <!-- <h1>Authors</h1> -->
+                    <ul id="authors" class="columns--blog"></ul>
+                    <!-- <div id="result" class="columns--blog"></div> -->
+                   
+                </div>
+            </div>
+        </section>
         
         <!-- <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
