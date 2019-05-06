@@ -8,7 +8,7 @@
        echo $title; 
     } 
     else { 
-       echo "Jaxx Liberty | Your All-In-One Digital Asset Wallet."; 
+       echo "Jaxx Liberty | Your All-In-One Blockchain Wallet."; 
     } ?></title>
     <!--core meta data-->
     <meta name="description" content="<?php
@@ -16,7 +16,7 @@
        echo $metaD; 
     } 
     else { 
-       echo "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome."; 
+       echo "Jaxx Liberty is a blockchain wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome."; 
     } ?>" />
     <meta name="keywords" content="Decentral,Jaxx Liberty,Blockchain,Cryptocurrency,Anthony Di Iorio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,14 +30,14 @@
     <!--<meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">-->
     <meta property="og:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <meta property="og:site_name" content="jaxx.io">
-    <meta property="og:title" content="Jaxx Liberty: Your trusted all-in-one multi-asset digital wallet.">
+    <meta property="og:title" content="Jaxx Liberty: Your trusted all-in-one blockchain wallet.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jaxx.io">
     <!-- Twitter Card Meta Data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://jaxx.io">
     <meta name="twitter:creator" content="Jaxx Liberty">
-    <meta name="twitter:title" content="Jaxx Liberty: Your trusted all-in-one multi-asset digital wallet.">
+    <meta name="twitter:title" content="Jaxx Liberty: Your trusted all-in-one blockchain wallet.">
     <meta name="twitter:description" content="Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.">
     <meta name="twitter:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <!-- Styles -->
@@ -246,7 +246,6 @@
             "dismiss": "Start exploring",
             "link": "Find out more.",
             "href": "https://jaxx.io/legal/thirdparties-current"
-            // .html extension removed
           },
         })});
     </script>

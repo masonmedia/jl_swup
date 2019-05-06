@@ -209,7 +209,7 @@ include 'copy.php';
                     <div class="accordion w-100 py-5" id="accordionExample">
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingOne">
-                                <h2 class="h4 btn-link mb-0 p-3 orange" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h2 class="h4 btn-link mb-0 p-3 orange" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle1; ?></code>
                                 </h2>
                             </div>
@@ -223,7 +223,7 @@ include 'copy.php';
                         </div>
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingTwo">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle2; ?></code>
                                 </h2>
                             </div>
@@ -237,7 +237,7 @@ include 'copy.php';
                         </div>
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingThree">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle3; ?></code>
                                 </h2>
                             </div>
@@ -251,7 +251,7 @@ include 'copy.php';
                         </div><!--end card-->
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingFour">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle4; ?></code>
                                 </h2>
                             </div>
@@ -265,7 +265,7 @@ include 'copy.php';
                         </div><!--end card-->
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingFive">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle5; ?></code>
                                 </h2>
                             </div>
@@ -279,7 +279,7 @@ include 'copy.php';
                         </div><!--end card-->
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingSix">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle6; ?></code> 
                                 </h2>
                             </div>
@@ -293,7 +293,7 @@ include 'copy.php';
                         </div><!--end card-->
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingSeven">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle7; ?></code> 
                                 </h2>
                             </div>
@@ -307,7 +307,7 @@ include 'copy.php';
                         </div><!--end card-->
                         <div class="card border-0 border-bottom">
                             <div class="card-header" id="headingEight">
-                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                     <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle8; ?></code> 
                                 </h2>
                             </div>
