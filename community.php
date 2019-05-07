@@ -512,6 +512,19 @@ include 'includes/header.php';
             </div>
         </section>
 
+        <!-- coin data mockup comp[onent] -->
+
+        <section>
+            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
+                    <h2 class="section-title">Jaxx Liberty Partners</h2>
+                    <hr class="hr-big border-0 bg-secondary">
+                    <ul id="marketData" class="columns--blog"></ul>
+                </div>
+            </div>
+        </section>
+
+
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
@@ -527,10 +540,10 @@ include 'includes/header.php';
          <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                    <!-- <h1>Authors</h1> -->
-                    <ul id="authors" class="columns--blog"></ul>
+                    <h2 class="section-title">News from the Jaxx Blog</h2>
+                    <hr class="hr-big border-0 bg-secondary">
+                    <div id="authors" class="columns--blog"></div>
                     <!-- <div id="result" class="columns--blog"></div> -->
-                   
                 </div>
             </div>
         </section>

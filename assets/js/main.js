@@ -32,8 +32,9 @@ $(document).ready(function () {
   carousel();
 
   // api calls
-  coinsApi();
+  blogPosts();
   coinData();
+  // marketData();
 
   // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
   // const url = "https://jsonplaceholder.typicode.com/todos";
@@ -61,8 +62,9 @@ $(document).ready(function () {
 
 document.addEventListener('swup:contentReplaced', function () {
 
-  coinsApi();
+  blogPosts();
   coinData();
+  // marketData();
   //GSAP menu timeline
   // gsapMenuTimeline();
 
@@ -102,14 +104,6 @@ function fade() {
     ease: Power3.easeInOut
   });
 }
-
-// function gsapMenuTimeline() {
-//   TweenMax.staggerFrom($(".navbar-brand, .nav-item"), 1, {
-//     autoAlpha: 0,
-//     x: -50,
-//     ease: Back.easeInOut.config(1.7)
-//   }, 0.1);
-// }
 
 function smoothScroll() {
   $('a[href*="#"]').on('click', function (e) {
@@ -298,7 +292,88 @@ function displayNewsFeeds() {
   }
 }
 
-function coinsApi() {
+function marketData() {
+
+    function createNode(element) {
+      return document.createElement(element);
+    }
+  
+    function append(parent, el) {
+      return parent.appendChild(el);
+    }
+  
+    // const ul = document.getElementById('marketData'); //doesn't seem to be needed
+    // const dataURL = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD';
+  
+    fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+    .then(response => { return response.json() }) // Transform the data into json
+    .then(data => {
+          // Work with JSON data here
+          console.log(data)
+        })
+      .then(function appendData(data) {
+        var mainContainer = document.getElementById("marketData");
+        for (var i = 0; i < data.length; i++) {
+          var title = document.createElement("h2");
+          var content = document.createElement("p");
+          var a = document.createElement('a');
+          var linkText = document.createTextNode("Read more");
+  
+          title.innerHTML =  data[i].id;
+          content.innerHTML =  data[i].name;
+          a.href = data[i].link;
+          a.classList.add('btn', 'btn-orange');
+  
+          mainContainer.appendChild(title);
+          mainContainer.appendChild(content);
+          mainContainer.appendChild(a).target = "_blank";
+          a.appendChild(linkText);
+        }
+      })
+    .catch(function(error) {
+      // If there is any error you will catch them here
+      getError((err) => console.log(err))
+    });  
+}
+
+
+// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(response => { return response.json() }) // Transform the data into json
+    .then(data => {
+          // Work with JSON data here
+          console.log(data)
+          var mainContainer = document.getElementById("marketData");
+          for (var i = 0; i < data.length; i++) {
+            var title = document.createElement("h2");
+            var content = document.createElement("p");
+    
+            title.innerHTML =  data[i].userId;
+            content.innerHTML =  data[i].title;  
+            mainContainer.appendChild(title);
+            mainContainer.appendChild(content);
+          }
+        })
+      .catch(err => {
+            // Do something for an error here
+          })
+
+
+    
+// https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
+// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+//   .then(response => {
+//     return response.json()
+//   })
+//   .then(data => {
+//     // Work with JSON data here
+//     console.log(data)
+//   })
+//   .catch(err => {
+//     // Do something for an error here
+//   })
+
+function blogPosts() {
 
   function createNode(element) {
     return document.createElement(element);
@@ -308,82 +383,110 @@ function coinsApi() {
     return parent.appendChild(el);
   }
 
-  const ul = document.getElementById('authors');
-  const url = 'https://randomuser.me/api/?results=10';
+  // const ul = document.getElementById('authors'); //doesn't seem to be needed
+  const url = 'https://blog.jaxx.io/wp-json/wp/v2/posts?per_page=8';
+  // https://blog.jaxx.io/wp-json/wp/v2/posts?filter[category_name]=security
 
   fetch(url)
   .then((resp) => resp.json()) // Transform the data into json
-    .then(function(data) {
-      let authors = data.results;
-      return authors.map(function(author) { // Map through the results and for each run the code below
-        let li = createNode('li'), //  Create the elements we need
-          img = createNode('img'),
-          span = createNode('span');
-          h2 = createNode('h2');
-            
-          img.classList.add('opacity-full'); // Add class to img [mason edit]
-          img.src = author.picture.medium;  // Add the source of the image to be the src of the img element
-          li.innerHTML = `${author.location.street} ${author.location.city}`;
-          span.innerHTML = `${author.name.first} ${author.name.last}`; // Make the HTML of our span to be the first and last name of our author
-          h2.innerHTML = `${author.gender}`;
-          append(li, h2);
-          append(ul, li);
-          append(li, span);
-          append(li, img); // Append all our elements
-        
-      })
+    .then(function appendData(data) {
+      var mainContainer = document.getElementById("authors");
+      for (var i = 0; i < data.length; i++) {
+        var h2 = document.createElement("h2");
+        var content = document.createElement("p");
+        var a = document.createElement('a');
+        var linkText = document.createTextNode("Read more");
+
+        h2.innerHTML =  data[i].title.rendered;
+        content.innerHTML =  data[i].excerpt.rendered;
+        a.href = data[i].link;
+        a.classList.add('btn', 'btn-orange');
+
+        mainContainer.appendChild(h2);
+        mainContainer.appendChild(content);
+        mainContainer.appendChild(a).target = "_blank";
+        a.appendChild(linkText);
+      }
     })
   .catch(function(error) {
     // If there is any error you will catch them here
-  });   
+    getError((err) => console.log(err))
+  });  
+  
+  // fetch(url)
+  // .then((resp) => resp.json()) // Transform the data into json
+  //   .then(function appendData(data) {
+  //     var mainContainer = document.getElementById("authors");
+  //     for (var i = 0; i < data.length; i++) {
+  //       var div = document.createElement("div");
+  //       div.innerHTML =  data[i].title.rendered;
+  //       mainContainer.appendChild(div);
+  //     }
+  //   })
+  // .catch(function(error) {
+  //   // If there is any error you will catch them here
+  // });
 
 }
 
 // https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d
-fetch('https://jsonplaceholder.typicode.com/users')
-        .then((res) => { return res.json() })
-        .then((data) => {
-            let result = `<h2> Random User Info From Jsonplaceholder API</h2>`;
-            data.forEach((user) => {
-                const { id, name, email, address: { city, street } } = user
-                result +=
-                    `<div>
-                     <h5> User ID: ${id} </h5>
-                         <ul class="">
-                             <li> User Full Name : ${name}</li>
-                             <li> User Email : ${email} </li>
-                             <li> User Address : ${city}, ${street} </li>
-                         </ul>
-                      </div>`;
-                        document.getElementById('result').innerHTML = result;
-                    });
-                })
+// fetch('https://jsonplaceholder.typicode.com/users')
+//         .then((res) => { return res.json() })
+//         .then((data) => {
+//             let result = `<h2> Random User Info From Jsonplaceholder API</h2>`;
+//             data.forEach((user) => {
+//                 const { id, name, email, address: { city, street } } = user
+//                 result +=
+//                     `<div>
+//                      <h5> User ID: ${id} </h5>
+//                          <ul class="">
+//                              <li> User Full Name : ${name}</li>
+//                              <li> User Email : ${email} </li>
+//                              <li> User Address : ${city}, ${street} </li>
+//                          </ul>
+//                       </div>`;
+//                         document.getElementById('result').innerHTML = result;
+//                     });
+//                 })
 
 
-// https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
-// function coinData() {
-//   fetch('https://jsonplaceholder.typicode.com/users')
-//   // https://pricingdata.jaxx.io/prod/api/v1/market
-//   // https://jsonplaceholder.typicode.com/users
-//       .then((res) => { return res.json() })
-//       // .then(res=>{console.log(res)})
-//       .then((data) => {
-//           let result = `<h2> Random User Info From Jsonplaceholder API</h2>`;
-//           data.forEach((user) => {
-//               const { id, name, email, address: { city, street } } = user
-//               result +=
-//                   `<div>
-//                     <h5> User ID: ${id} </h5>
-//                         <ul class="w3-ul">
-//                             <li> User Full Name : ${name}</li>
-//                             <li> User Email : ${email} </li>
-//                             <li> User Address : ${city}, ${street} </li>
-//                         </ul>
-//                     </div>`;
-//                       document.getElementById('result').innerHTML = result;
-//                   });
-//               })
+// function createNode(element) {
+//   return document.createElement(element);
 // }
+
+// function append(parent, el) {
+//   return parent.appendChild(el);
+// }
+
+// const ul = document.getElementById('authors');
+// const url = 'https://blog.jaxx.io/wp-json/wp/v2/posts?per_page=4';
+
+// fetch(url)
+// .then((resp) => resp.json()) // Transform the data into json
+//   .then(function(data) {
+//     console.log(data);
+//     let authors = data.results;
+//     return authors.map(function(author) { // Map through the results and for each run the code below
+//       let li = createNode('li'), //  Create the elements we need
+//         img = createNode('img'),
+//         span = createNode('span');
+//         h2 = createNode('h2');
+          
+//         img.classList.add('opacity-full'); // Add class to img [mason edit]
+//         img.src = author.picture.medium;  // Add the source of the image to be the src of the img element
+//         li.innerHTML = `${author.title.rendered}`;
+//         span.innerHTML = `${author.id} ${author.date}`; // Make the HTML of our span to be the first and last name of our author
+//         // h2.innerHTML = `${author.gender}`;
+//         append(li, h2);
+//         append(ul, li);
+//         append(li, span);
+//         append(li, img); // Append all our elements
+      
+//     })
+//   })
+// .catch(function(error) {
+//   // If there is any error you will catch them here
+// }); 
 
 
 // reduce() tut --> https://medium.freecodecamp.org/a-practical-guide-to-fetch-reduce-and-formatting-data-from-an-external-api-283ddd9bfdcb
