@@ -349,19 +349,21 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
           // }
 
           // console.log(data);
+          
           var mainContainer = document.getElementById("marketData");
-          var output = Object.entries(data.RAW).map(([key, value]) => ({key,value})); 
-          console.log(output);
+          // var output = Object.entries(data.RAW).map(([key, value]) => ({key,value})); 
+          // console.log(output);
 
           for ( var i in data ) {
             // convert object to array
-            const keys = Object.entries(data)
+            const keys = Object.entries(data.RAW).map(([key, value]) => ({key,value})) 
+           
               for (const key of keys) {
                 var title = document.createElement("h2");
                 var content = document.createElement("p");
     
-                title.innerHTML =  data[i].key;
-                content.innerHTML =  data[i].value;  
+                title.innerHTML =  key.key;
+                content.innerHTML =  key.value;  
                 mainContainer.appendChild(title);
                 mainContainer.appendChild(content);
                 console.log(key)
