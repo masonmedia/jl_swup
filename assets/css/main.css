@@ -1345,6 +1345,21 @@ nav,
     padding: 1rem;
 }
 
+#google_translate_element,
+.goog-te-gadget .goog-te-combo, 
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+    font-family: Helvetica Neue;
+    font-size: 13pt;
+}
+#google_translate_element #text,
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    display: none;
+}
+
 /*mobile nav dropdown speed*/
 
 .collapsing {

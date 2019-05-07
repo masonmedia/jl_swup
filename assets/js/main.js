@@ -338,26 +338,41 @@ function marketData() {
 
 
 // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-fetch('https://jsonplaceholder.typicode.com/posts')
+fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
     .then(response => { return response.json() }) // Transform the data into json
     .then(data => {
           // Work with JSON data here
-          console.log(data)
+
+          // for ( var i = 0; i < data.length; i++) {
+          //   var obj = data[i];
+          //   console.log(obj);
+          // }
+
+          // console.log(data);
           var mainContainer = document.getElementById("marketData");
-          for (var i = 0; i < data.length; i++) {
-            var title = document.createElement("h2");
-            var content = document.createElement("p");
+          var output = Object.entries(data.RAW).map(([key, value]) => ({key,value})); 
+          console.log(output);
+
+          for ( var i in data ) {
+            // convert object to array
+            const keys = Object.entries(data)
+              for (const key of keys) {
+                var title = document.createElement("h2");
+                var content = document.createElement("p");
     
-            title.innerHTML =  data[i].userId;
-            content.innerHTML =  data[i].title;  
-            mainContainer.appendChild(title);
-            mainContainer.appendChild(content);
+                title.innerHTML =  data[i].key;
+                content.innerHTML =  data[i].value;  
+                mainContainer.appendChild(title);
+                mainContainer.appendChild(content);
+                console.log(key)
+              }
           }
         })
       .catch(err => {
             // Do something for an error here
           })
 
+ 
 
     
 // https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
@@ -428,6 +443,9 @@ function blogPosts() {
   // });
 
 }
+
+// Object.values(somedata)
+
 
 // https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d
 // fetch('https://jsonplaceholder.typicode.com/users')
