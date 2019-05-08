@@ -519,10 +519,13 @@ include 'includes/header.php';
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
                     <h2 class="section-title">Jaxx Liberty Partners</h2>
                     <hr class="hr-big border-0 bg-secondary">
-                    <ul id="marketData" class="columns--blog"></ul>
+                    <ul id="marketData" class="list-unstyled columns--blog w-100"></ul>
                 </div>
             </div>
         </section>
+
+
+       
 
 
         <section>

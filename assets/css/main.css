@@ -1454,15 +1454,16 @@ nav,
 
 /*  icons */
 
-.icon {
-    font-size: 50px;
-}
 
 .fa {
     font-size: 10vmin;
     font-size: 6vmin;
     font-size: 35px;
     padding: 30px 20px;
+}
+
+.icon {
+    font-size: 50px;
 }
 
 #testimonials .fa {

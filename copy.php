@@ -50,8 +50,8 @@ $homeCommunityCTA = "Join the adventure";
 
 // =============== Features page
 
-$feature1Title = "Easy to use.";
-$feature1Desc = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$feature1Title = "Why Jaxx Liberty?";
+$feature1Desc = "Jaxx Liberty is a blockchain wallet that blends industry leading engineering with beautiful and intuitive user experience design.";
 
 $feature2Title = "View your portfolio.";
 $feature2Desc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";

@@ -8,7 +8,7 @@ include 'images.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-100 min--100 mt-5 relative">
+    <div class="row d-flex min-700-lg mt-5 relative">
         <img class="img-full absolute z-0 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
@@ -52,476 +52,290 @@ include 'images.php';
 <main id="main">
     <div class="container-fluid p-0 text-secondary">
 
-        <!--intro-->
-
         <section>
-            <div id="sec-1" class="row d-flex p-5 min-500 bg-white relative stagger-down">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4">
-                        <?php echo $homeIntro1; ?>
+           <div class="row d-flex relative bg-dark-navy text-light p-5">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-box-navy p-3 up">
+                    <i class="fa fa-check icon bg-box-navy text-success px-4 py-3 mb-3 border border-box-navy rounded"></i>
+                    <h2 class="h4 font-weight-bold">No login.</h2>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-box-navy p-3 up">
+                    <i class="fa fa-download icon bg-box-navy text-warning px-4 py-3 mb-3 border border-box-navy rounded"></i>
+                    <h2 class="h4 font-weight-bold">Always free.</h2>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
+                    <i class="fa fa-bitcoin icon bg-box-navy orange px-4 py-3 mb-3 border border-box-navy rounded"></i>
+                    <h2 class="h4 font-weight-bold">Join thousands of users.</h2>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--intro + easy to use-->
+        
+        <section>
+            <div class="row d-flex min-500 bg-white py-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature1Title; ?>
                     </h2>
-                    <h3 class="section-title text-dark">
-                        <?php echo $homeIntro2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeIntro3; ?>
-                    </p>
-                    <div class="down down-slow">
-                        <a href="/features">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeIntroCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-        </section>
-
-        <section>
-            <div class="row d-flex bg-white relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg1; ?>"
-                    alt="<?php echo $homeImgAlt1; ?>">
-                </div>
-            </div>
-        </section>
-
-        <!--features-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 bg-white stagger-right">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4">
-                        <?php echo $homeFeat1; ?>
-                    </h2>
-                    <h3 class="section-title text-dark mb-0">
-                        <?php echo $homeFeat2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeFeat3; ?>
-                    </p>
-                    <div class="right right-slow">
-                        <a href="/features">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeFeatCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 right-0 lazy"
-                        data-src="<?php echo $homeImg2; ?>"
-                        alt="<?php echo $homeImgAlt2; ?>">
-                </div>
-            </div>
-        </section>
-
-         <!--security-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 bg-white stagger-right">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4">
-                        <?php echo $homeSecurity1; ?>
-                    </h2>
-                    <h3 class="section-title text-dark mb-0">
-                        <?php echo $homeSecurity2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeSecurity3; ?>
-                    </p>
-                    <div class="right right-slow">
-                        <a href="/security">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeSecurityCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg3; ?>"
-                    alt="<?php echo $homeImgAlt3; ?>">
-                </div>
-            </div>
-        </section>
-
-        <!--multi-platform-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 bg-white stagger-down">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4">
-                        <?php echo $homeDownload1; ?>
-                    </h2>
-                    <h3 class="section-title text-dark">
-                        <?php echo $homeDownload2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 down down-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeDownload3; ?>
-                    </p>
-                    <div class="row d-flex d-sm-flex-column py-4 pl-3">
-                            <!--jaxx liberty google store-->
-                            <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
-                                href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-google-play.png"
-                                    alt="Google Play Button" />
-                            </a>
-                            <!--jaxx liberty itunes-->
-                            <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
-                                href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-app-store.png"
-                                    alt="iTunes App Store Button" />
-                            </a>
-                            <!--jaxx liberty chrome-->
-                            <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
-                                href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-chrome-store.png"
-                                    alt="Chrome Web Store" />
-                            </a>
-                        </div>
-                        <!--end button nest row-->
-                        <div id="desktop_download" class="right right-med p-0">
-                            <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                                <p class="p-btn pl-0">
-                                    <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg4; ?>"
-                    alt="<? echo $homeImgAlt4; ?>">
-                </div>
-            </div>
-        </section>
-
-         <!--Our friends-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 text-secondary bg-white">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4">
-                        <?php echo $homeCoins1; ?>
-                    </h2>
-                    <h3 class="section-title m-0">
-                        <?php echo $homeCoins2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeCoins3; ?>
-                    </p>
-                    <div class="up up-slow">
-                        <a href="/community" target="_blank">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeCoinsCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg5; ?>"
-                    alt="<?php echo $homeImgAlt5; ?>">
-                </div>
-            </div>
-        </section>
-
-        <!--testimonials-->
-
-        <section>
-            <div class="row d-flex p-5 min-500 text-secondary bg-white">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4">
-                        <?php echo $homeTestimonials1; ?>
-                    </h2>
-                    <h3 class="section-title mb-0">
-                        <?php echo $homeTestimonials2; ?>
-                    </h3>
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeTestimonials3; ?>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature1Desc; ?>
                     </p>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left text-secondary p-5 o-12 down down-med">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper">
-                    <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                        <div class="screen gradient-background">
-                            
-                            <!-- carousel -->
-                            <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="card-body d-flex flex-column justify-content-center align-items-start text-left p-4">
-                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-left" src="/assets/img/coin-logos/DigiByte.svg" alt="Jaxx Liberty + Digibyte">
-                                            <hr class="w-50 bg-black border-0 mb-4 mt-3 fade-in-left">
-                                            <p class="text-light font-weight-bold fade-in-top">
-                                                <span class="bg-black py-2">
-                                                    "I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in-fwd">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
-                                                <span class="bg-black py-2">Josiah Spackman</span>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in">
-                                                Ambassador, DigiByte Foundation
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-left">
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-fwd" src="/assets/img/coin-logos/Polymath.svg" alt="Jaxx Liberty + Polymath">
-                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in">
-                                            <p class="text-light font-weight-bold fade-in-left">
-                                                <span class="bg-black py-2">
-                                                    "Polymath welcomes the launch of Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
-                                                <span class="bg-black py-2">
-                                                    Trevor Koverko
-                                                </span>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">
-                                                Co-Founder & CEO, Polymath
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-left">
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-top" src="/assets/img/coin-logos/rsk.png" alt="Jaxx Liberty + RSK">
-                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
-                                            <p class="text-light font-weight-bold fade-in-fwd">
-                                                <span class="bg-black py-2">
-                                                    "We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK"
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in-bottom">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-top">
-                                                <span class="bg-black py-2">
-                                                    Diego Gutierrez Zaldivar
-                                                </span>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-fwd">
-                                                CEO & Co-Founder, RSK Labs
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2">
-                                        </div>
-                                    </div><!--END SLIDE-->
-
-                                    <div class="carousel-item">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <img class="decentral-D mt-4 opacity-full fade-in-top" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty + RSK">
-                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
-                                            <p class="text-light font-weight-bold fade-in-bottom">
-                                                <span class="bg-black py-2">
-                                                    “I've used Jaxx Liberty for almost 2 years now, but really appreciated the updated version. Interface improved significantly...Great work guys!”
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-left">
-                                                <a href="https://wallets.com/jaxx-review/" target="_blank">
-                                                <span class="bg-black py-2">
-                                                    Stac1969
-                                                </span>
-                                                </a>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">
-                                                Jaxx Liberty User
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-bottom">
-                                        </div>
-                                    </div><!--end slide-->
-
-                                    <div class="carousel-item">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <img class="decentral-D rounded-circle shadow-lg mt-4 opacity-full fade-in-top" src="/assets/img/coin-logos/Wax.svg" alt="Jaxx Liberty + RSK">
-                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
-                                            <p class="text-light font-weight-bold fade-in-fwd">
-                                                <span class="bg-black py-2">
-                                                    “Jaxx is a partner we rely on. We can be sure Jaxx Liberty will serve and support our expanding ecosystem.”
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-bottom">
-                                                <span class="bg-black py-2">
-                                                    Malcolm CasSelle
-                                                </span>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">
-                                                President, WAX / CIO, OPSkins
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-bottom">
-                                        </div>
-                                    </div><!--end slide-->
-
-                                    <div class="carousel-item">
-                                        <div class="card-body d-flex flex-column justify-content-start align-items-start text-left p-4">
-                                            <img class="decentral-D mt-4 opacity-full fade-in-top" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty + RSK">
-                                            <hr class="w-50 bg-dark border-0 mb-4 mt-3 fade-in-left">
-                                            <p class="text-light font-weight-bold fade-in-bottom">
-                                                <span class="bg-black py-2">
-                                                    “Jaxx Liberty is a crypto wallet worth your attention. [It] allows full control of your wealth [and] don’t get me started on the easy-to-use clear-cut interface...”
-                                                    <!-- “ Jaxx Liberty is a crypto wallet worth your attention. Its system allows full control of your wealth, including fee adjustments and private key control. Don’t get me started on the easy to use clear-cut interface, which leads to every button and option in no time. Let’s not neglect the prime and competent support team awaiting your question 24/7.” -->
-                                                </span>
-                                            </p>
-                                            <hr class="w-50 bg-dark border-0 my-3 fade-in">
-                                            <p class="font-weight-bold py-2 mb-0 text-light fade-in-left">
-                                                <a href="https://wallets.com/jaxx-review/" target="_blank">
-                                                <span class="bg-black py-2">
-                                                    William Carter
-                                                </span>
-                                                </a>
-                                            </p>
-                                            <footer class="blockquote-footer text-light ts font-weight-bold mb-3 fade-in-top">
-                                                wallets.com
-                                            </footer>
-                                            <hr class="w-50 bg-dark border-0 mt-2 fade-in-bottom">
-                                        </div>
-                                    </div><!--end slide-->
-
-                                </div><!--end carousel-->
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy"
+                                src="<?php echo $featuresImg1;?>"
+                                alt="<?php echo $featuresImgAlt1;?>">
                             </div>
                         </div>
                     </div>
-                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-home.jpg" alt="Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design."> -->
                 </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--portfolio-->
+       
+        <section>
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy"
+                                data-src="<?php echo $featuresImg2; ?>"
+                                alt="<?php echo $featuresImgAlt2; ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-port.jpg" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month."> -->
+                </div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature2Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature2Desc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--news-->
+        
+        <section>
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature3Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature3Desc; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy"
+                                data-src="<?php echo $featuresImg3; ?>"
+                                alt="<?php echo $featuresImgAlt3; ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module."> -->
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--markets-->
+       
+        <section>
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy"
+                                data-src="/assets/img/jaxx-iphone-X-markets.jpg"
+                                alt="<?php echo $feature4Desc; ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends."> -->
+                </div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature4Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature4Desc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--block-->
+       
+        <section>
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature6Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature6Desc; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-block-explorer.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer."> -->
+                </div>
+                
+               <div class="offset-lg-2"></div>
             </div>
         </section>
 
+        <!--exchange-->
+       
         <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg6; ?>"
-                    alt="<?php echo $homeImgAlt6; ?>">
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module."> -->
                 </div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature8Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature8Desc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
             </div>
         </section>
+        
+        <!--security-->
+        
+        <section>
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature7Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $feature7Desc; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-security-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind.">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="feat-phone m-auto up" src="/assets/img/jaxx-feat-phone-case-password.jpg" alt="Your private keys never leave your device, and with strong encryption protocols, you can enjoy peace of mind."> -->
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <!-- paper wallet -->
+
+        <!-- <section>
+            <div class="row d-flex min-500 bg-white pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature9Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-low">
+                        <?php echo $feature9Desc; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-paper-wallet.jpg" alt="Jaxx Liberty enables you to transfer digital assets from a paper wallet to your current Jaxx Liberty Wallet">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section> -->
 
         <!--support-->
-
+        
         <section>
-            <div class="row d-flex p-5 min-500 text-secondary bg-white">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4">
-                        <?php echo $homeSupport1; ?>
-                    </h2>
-                    <h3 class="section-title m-0">
-                        <?php echo $homeSupport2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeSupport3; ?>
-                    </p>
-                    <div class="up up-slow">
-                        <a href="https://support.decentral.ca/hc/en-us" target="_blank">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeSupportCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
+            <div class="row d-flex min-500 bg-light pb-3 border-bottom">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                            <div class="screen">
+                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.">
+                            </div>
+                        </div>
                     </div>
+                    <!-- <img class="feat-phone up" src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media."> -->
                 </div>
-            </div>
-            <!--end row-->
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg7; ?>"
-                    alt="<?php echo $homeImgAlt7; ?>">
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $feature10Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-low">
+                        <?php echo $feature10Desc; ?>
+                    </p>
                 </div>
+               <div class="offset-lg-2"></div>
             </div>
         </section>
-
-        <!--social-->
+        
+        <!--ipad-->
 
         <section>
-            <div class="row d-flex p-5 min-500 text-secondary bg-white">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left up">
-                    <h2 class="h4">
-                        <?php echo $homeCommunity1; ?>
-                    </h2>
-                    <h3 class="section-title m-0">
-                        <?php echo $homeCommunity2; ?>
-                    </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 up up-med">
-                    <p class="p-big pt-3 m-0">
-                        <?php echo $homeCommunity3; ?>
-                    </p>
-                    <div class="up up-slow">
-                        <a href="/community" onclick="googleAnalyticsTrigger('Community', 'Home_Page')">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeCommunityCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-
-            <div class="row d-flex bg-light">
+            <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy"
-                    data-src="<?php echo $homeImg8; ?>"
-                    alt="<?php echo $homeImgAlt8; ?>">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-palm-desk.jpg" alt="Jaxx Liberty has industry leading security features from facial recognition to qr-code support, a 12-word backup phrase, and password protection.">
                 </div>
             </div>
         </section>

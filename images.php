@@ -32,30 +32,23 @@ $homeImgAlt8 = "Join the Decentral community today.";
 $featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
 $featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
-$featuresImg2 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt2 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg2 = "/assets/img/jaxx-iphone-X-portfolio.jpg";
+$featuresImgAlt2 = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg3 = "/assets/img/jaxx-iphone-X-news.jpg";
+$featuresImgAlt3 = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg4 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt4 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg5 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt5 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg6 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt6 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
-
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
-
-$featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt1 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
-
+$featuresImg7 = "/assets/img/jaxx-home-dash.jpg";
+$featuresImgAlt7 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
 
 ?>

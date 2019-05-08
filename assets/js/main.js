@@ -10,9 +10,6 @@ $(document).ready(function () {
     scrollAcceleration: .04
   });
 
-  //GSAP menu timeline
-  // gsapMenuTimeline();
-
   //smooth scroll
   smoothScroll();
 
@@ -33,7 +30,7 @@ $(document).ready(function () {
 
   // api calls
   blogPosts();
-  coinData();
+  // coinData();
   // marketData();
 
   // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
@@ -63,10 +60,8 @@ $(document).ready(function () {
 document.addEventListener('swup:contentReplaced', function () {
 
   blogPosts();
-  coinData();
+  // coinData();
   // marketData();
-  //GSAP menu timeline
-  // gsapMenuTimeline();
 
   //smooth scroll
   smoothScroll();
@@ -336,60 +331,6 @@ function marketData() {
     });  
 }
 
-
-// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-    .then(response => { return response.json() }) // Transform the data into json
-    .then(data => {
-          // Work with JSON data here
-
-          // for ( var i = 0; i < data.length; i++) {
-          //   var obj = data[i];
-          //   console.log(obj);
-          // }
-
-          // console.log(data);
-          
-          var mainContainer = document.getElementById("marketData");
-          // var output = Object.entries(data.RAW).map(([key, value]) => ({key,value})); 
-          // console.log(output);
-
-          for ( var i in data ) {
-            // convert object to array
-            const keys = Object.entries(data.RAW).map(([key, value]) => ({key,value})) 
-           
-              for (const key of keys) {
-                var title = document.createElement("h2");
-                var content = document.createElement("p");
-    
-                title.innerHTML =  key.key;
-                content.innerHTML =  key.value;  
-                mainContainer.appendChild(title);
-                mainContainer.appendChild(content);
-                console.log(key)
-              }
-          }
-        })
-      .catch(err => {
-            // Do something for an error here
-          })
-
- 
-
-    
-// https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
-// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-//   .then(response => {
-//     return response.json()
-//   })
-//   .then(data => {
-//     // Work with JSON data here
-//     console.log(data)
-//   })
-//   .catch(err => {
-//     // Do something for an error here
-//   })
-
 function blogPosts() {
 
   function createNode(element) {
@@ -445,6 +386,91 @@ function blogPosts() {
   // });
 
 }
+
+
+// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+    .then(response => { return response.json() }) // Transform the data into json
+    .then(data => {
+          // Work with JSON data here
+          // console.log(data);
+
+          // for ( var i = 0; i < data.length; i++) {
+          //   var obj = data[i];
+          //   console.log(obj);
+          // }
+
+          // for ( var i in data) {
+          //   console.log(obj);
+          // }
+          
+          var mainContainer = document.getElementById("marketData");
+
+            // convert object to array --> iterate through the resp starting with data and select levels
+            // https://zellwk.com/blog/looping-through-js-objects/
+            const keys = Object.entries(data.DISPLAY).map(([key, value]) => ({key,value})) 
+              // iterate over array
+              for (const key of keys) {
+
+                // create DOM elements
+                var logo = document.createElement("IMG");
+                logo.setAttribute("src", "key.value.IMAGEURL");
+                logo.setAttribute("width", "10");
+                logo.classList.add("opacity-full", "w-25");
+                var title = document.createElement("h2");
+                var price = document.createElement("li");
+                var high = document.createElement("li");
+                var low = document.createElement("li");
+                var change = document.createElement("li");
+                var vol = document.createElement("li");
+                var supply = document.createElement("li");
+                var mktcap = document.createElement("li");
+
+    
+                // assign elements a value from data
+                title.innerHTML =  key.key;
+                logo.innerHTML =  key.value.IMAGEURL;
+                price.innerHTML =  key.value.USD.PRICE;  
+                high.innerHTML =  key.value.USD.HIGH24HOUR;
+                low.innerHTML =  key.value.USD.LOW24HOUR;
+                change.innerHTML =  key.value.USD.CHANGE24HOUR;
+                vol.innerHTML =  key.value.USD.TOTALVOLUME24H;
+                supply.innerHTML =  key.value.USD.SUPPLY;
+                mktcap.innerHTML =  key.value.USD.MKTCAP;
+
+                // append data + element to container/DOM
+                mainContainer.appendChild(title);
+                mainContainer.appendChild(logo);
+                mainContainer.appendChild(price);
+                mainContainer.appendChild(high);
+                mainContainer.appendChild(low);
+                mainContainer.appendChild(change);
+                mainContainer.appendChild(vol);
+                mainContainer.appendChild(supply);
+                mainContainer.appendChild(mktcap);
+
+                console.log(key)
+              }
+        })
+      .catch(err => {
+            // Do something for an error here
+          })
+
+
+    
+// https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
+// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+//   .then(response => {
+//     return response.json()
+//   })
+//   .then(data => {
+//     // Work with JSON data here
+//     console.log(data)
+//   })
+//   .catch(err => {
+//     // Do something for an error here
+//   })
+
 
 // Object.values(somedata)
 
