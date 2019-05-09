@@ -9,12 +9,9 @@ $(document).ready(function () {
     scrollFriction: .3,
     scrollAcceleration: .04
   });
-  
+
   //smooth scroll
   smoothScroll();
-
-  //GSAP + Scroll Magic
-  // gsapScrollAnimations();
 
   //lazy load
   lazyLoad();
@@ -39,14 +36,13 @@ $(document).ready(function () {
   //   .then(data=>{return data.json()})
   //   .then(res=>{console.log(res)})
   //   .catch(error => console.error('Error:', error));
-    
 
   // fetch('https://jsonplaceholder.typicode.com/todos')
   // .then(response => response.json())
   // .then(data => console.log(JSON.stringify(data))
-  
 
-  // API blog call
+  // API blog call --> https://www.youtube.com/watch?v=rGObWtjxGBc
+
   // if (window.location.pathname === '/community.php') {
   //   // console.error('oncommunity main - check for community page direct load');
   //   //if remove .php the window.location.pathname will NOT work -- they have to match
@@ -66,9 +62,6 @@ document.addEventListener('swup:contentReplaced', function () {
   //smooth scroll
   smoothScroll();
 
-  //scroll magic + gsap reinit
-  // gsapScrollAnimations();
-
   //lazy load
   lazyLoad();
 
@@ -81,15 +74,7 @@ document.addEventListener('swup:contentReplaced', function () {
   //init BS carousel and pass speed option
   carousel();
 
-  // api call function
-  // if (window.location.pathname === '/community.php') {
-  //   // console.error('oncommunity navigate - check for community page navigate-to load');
-  //   displayNewsFeeds();
-  // }
-
 }); //end swup reinit
-
-// API js display jaxx blog --> https://www.youtube.com/watch?v=rGObWtjxGBc
 
 // functions
 
@@ -234,101 +219,103 @@ function navClose() {
   });
 }
 
-function displayNewsFeeds() {
-  // already had the if statement in the initial API script so ddidn't need it again here
-  if (window.location.pathname === '/community.php') {
+// function displayNewsFeeds() {
+//   // already had the if statement in the initial API script so ddidn't need it again here
+//   if (window.location.pathname === '/community.php') {
 
-    //jaxx blog API call
-    var blogButtonContainer = document.getElementById("blog-button-container");
+//     //jaxx blog API call
+//     var blogButtonContainer = document.getElementById("blog-button-container");
 
-    var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', 'https://blog.jaxx.io/wp-json/wp/v2/posts?per_page=3');
-    ourRequest.onload = function () {
-      if (ourRequest.status >= 200 && ourRequest.status < 400) {
-        var data = JSON.parse(ourRequest.responseText);
-        createHTML(data);
-      } else {
-        console.log("We connected to the server, but it returned an error.");
-      }
-    };
+//     var ourRequest = new XMLHttpRequest();
+//     ourRequest.open('GET', 'https://blog.jaxx.io/wp-json/wp/v2/posts?per_page=3');
+//     ourRequest.onload = function () {
+//       if (ourRequest.status >= 200 && ourRequest.status < 400) {
+//         var data = JSON.parse(ourRequest.responseText);
+//         createHTML(data);
+//       } else {
+//         console.log("We connected to the server, but it returned an error.");
+//       }
+//     };
 
-    ourRequest.onerror = function () {
-      console.log("Connection error");
-    };
+//     ourRequest.onerror = function () {
+//       console.log("Connection error");
+//     };
 
-    ourRequest.send();
+//     ourRequest.send();
 
-    function createHTML(postsContent) {
-      var jaxxBlogString = '';
-      var blogButtonContainer = document.getElementById("blog-button-container");
-      for (i = 0; i < postsContent.length; i++) {
+//     function createHTML(postsContent) {
+//       var jaxxBlogString = '';
+//       var blogButtonContainer = document.getElementById("blog-button-container");
+//       for (i = 0; i < postsContent.length; i++) {
 
-        // heading
-        const blogHeading = document.createElement('h2');
-        blogHeading.append(postsContent[i].title.rendered);
+//         // heading
+//         const blogHeading = document.createElement('h2');
+//         blogHeading.append(postsContent[i].title.rendered);
 
-        // blog content
-        const blogContent = document.createElement('div');
-        blogContent.innerHTML = postsContent[i].content.rendered.substring(0, 700) + '...';
+//         // blog content
+//         const blogContent = document.createElement('div');
+//         blogContent.innerHTML = postsContent[i].content.rendered.substring(0, 700) + '...';
 
-        // read more button
-        const ellipsis = document.createElement('a');
-        ellipsis.className = 'btn btn-outline-orange';
-        ellipsis.textContent = 'Read More';
-        ellipsis.href = postsContent[i].link;
-        ellipsis.target = '_blank';
+//         // read more button
+//         const ellipsis = document.createElement('a');
+//         ellipsis.className = 'btn btn-outline-orange';
+//         ellipsis.textContent = 'Read More';
+//         ellipsis.href = postsContent[i].link;
+//         ellipsis.target = '_blank';
 
-        blogButtonContainer.appendChild(blogHeading);
-        blogButtonContainer.appendChild(blogContent);
-        blogButtonContainer.appendChild(ellipsis);
+//         blogButtonContainer.appendChild(blogHeading);
+//         blogButtonContainer.appendChild(blogContent);
+//         blogButtonContainer.appendChild(ellipsis);
 
-      }
-    }
-  }
-}
+//       }
+//     }
+//   }
+// }
 
 function marketData() {
 
-    function createNode(element) {
-      return document.createElement(element);
-    }
-  
-    function append(parent, el) {
-      return parent.appendChild(el);
-    }
-  
-    // const ul = document.getElementById('marketData'); //doesn't seem to be needed
-    // const dataURL = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD';
-  
-    fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-    .then(response => { return response.json() }) // Transform the data into json
+  function createNode(element) {
+    return document.createElement(element);
+  }
+
+  function append(parent, el) {
+    return parent.appendChild(el);
+  }
+
+  // const ul = document.getElementById('marketData'); //doesn't seem to be needed
+  // const dataURL = 'https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD';
+
+  fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
+    .then(response => {
+      return response.json()
+    }) // Transform the data into json
     .then(data => {
-          // Work with JSON data here
-          console.log(data)
-        })
-      .then(function appendData(data) {
-        var mainContainer = document.getElementById("marketData");
-        for (var i = 0; i < data.length; i++) {
-          var title = document.createElement("h2");
-          var content = document.createElement("p");
-          var a = document.createElement('a');
-          var linkText = document.createTextNode("Read more");
-  
-          title.innerHTML =  data[i].id;
-          content.innerHTML =  data[i].name;
-          a.href = data[i].link;
-          a.classList.add('btn', 'btn-orange');
-  
-          mainContainer.appendChild(title);
-          mainContainer.appendChild(content);
-          mainContainer.appendChild(a).target = "_blank";
-          a.appendChild(linkText);
-        }
-      })
-    .catch(function(error) {
+      // Work with JSON data here
+      console.log(data)
+    })
+    .then(function appendData(data) {
+      var mainContainer = document.getElementById("marketData");
+      for (var i = 0; i < data.length; i++) {
+        var title = document.createElement("h2");
+        var content = document.createElement("p");
+        var a = document.createElement('a');
+        var linkText = document.createTextNode("Read more");
+
+        title.innerHTML = data[i].id;
+        content.innerHTML = data[i].name;
+        a.href = data[i].link;
+        a.classList.add('btn', 'btn-orange');
+
+        mainContainer.appendChild(title);
+        mainContainer.appendChild(content);
+        mainContainer.appendChild(a).target = "_blank";
+        a.appendChild(linkText);
+      }
+    })
+    .catch(function (error) {
       // If there is any error you will catch them here
       getError((err) => console.log(err))
-    });  
+    });
 }
 
 function blogPosts() {
@@ -346,7 +333,7 @@ function blogPosts() {
   // https://blog.jaxx.io/wp-json/wp/v2/posts?filter[category_name]=security
 
   fetch(url)
-  .then((resp) => resp.json()) // Transform the data into json
+    .then((resp) => resp.json()) // Transform the data into json
     .then(function appendData(data) {
       var mainContainer = document.getElementById("authors");
       for (var i = 0; i < data.length; i++) {
@@ -355,8 +342,8 @@ function blogPosts() {
         var a = document.createElement('a');
         var linkText = document.createTextNode("Read more");
 
-        h2.innerHTML =  data[i].title.rendered;
-        content.innerHTML =  data[i].excerpt.rendered;
+        h2.innerHTML = data[i].title.rendered;
+        content.innerHTML = data[i].excerpt.rendered;
         a.href = data[i].link;
         a.classList.add('btn', 'btn-orange');
 
@@ -366,11 +353,8 @@ function blogPosts() {
         a.appendChild(linkText);
       }
     })
-  .catch(function(error) {
-    // If there is any error you will catch them here
-    getError((err) => console.log(err))
-  });  
-  
+    .catch(err => console.log(err));
+
   // fetch(url)
   // .then((resp) => resp.json()) // Transform the data into json
   //   .then(function appendData(data) {
@@ -388,73 +372,73 @@ function blogPosts() {
 }
 
 
+// function coinData() {
+// // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
 // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-    .then(response => { return response.json() }) // Transform the data into json
-    .then(data => {
+//     .then(response => { return response.json() }) // Transform the data into json
+//     .then(data => {
 
-          // Work with JSON data here
-          // console.log(data);
+//           // Work with JSON data here
+//           // console.log(data);
 
-          // for ( var i = 0; i < data.length; i++) {
-          //   var obj = data[i];
-          //   console.log(obj);
-          // }
+//           // for ( var i = 0; i < data.length; i++) {
+//           //   var obj = data[i];
+//           //   console.log(obj);
+//           // }
 
-          // for ( var i in data) {
-          //   console.log(obj);
-          // }
-          
-          var mainContainer = document.getElementById("marketData");
+//           // for ( var i in data) {
+//           //   console.log(obj);
+//           // }
 
-            // convert object to array --> iterate through the resp starting with data and select levels
-            // https://zellwk.com/blog/looping-through-js-objects/
-            const keys = Object.entries(data.DISPLAY).map(([key, value]) => ({key,value})) 
-              // iterate over array
-              for (const key of keys) {
+//           var mainContainer = document.getElementById("marketData");
 
-                // create DOM elements
-                var logo = document.createElement("IMG");
-                logo.setAttribute("src", "key.value.IMAGEURL");
-                logo.setAttribute("width", "10");
-                logo.classList.add("opacity-full", "w-25");
-                var title = document.createElement("h2");
-                var price = document.createElement("li");
-                var high = document.createElement("li");
-                var low = document.createElement("li");
-                var change = document.createElement("li");
-                var vol = document.createElement("li");
-                var supply = document.createElement("li");
-                var mktcap = document.createElement("li");
-    
-                // assign elements a value from data
-                title.innerHTML =  key.key;
-                logo.innerHTML =  key.value.IMAGEURL;
-                price.innerHTML =  key.value.USD.PRICE;  
-                high.innerHTML =  key.value.USD.HIGH24HOUR;
-                low.innerHTML =  key.value.USD.LOW24HOUR;
-                change.innerHTML =  key.value.USD.CHANGE24HOUR;
-                vol.innerHTML =  key.value.USD.TOTALVOLUME24H;
-                supply.innerHTML =  key.value.USD.SUPPLY;
-                mktcap.innerHTML =  key.value.USD.MKTCAP;
+//             // convert object to array --> iterate through the resp starting with data and select levels
+//             // https://zellwk.com/blog/looping-through-js-objects/
+//             const keys = Object.entries(data.DISPLAY).map(([key, value]) => ({key,value})) 
+//               // iterate over array
+//               for (const key of keys) {
 
-                // append data + element to container/DOM
-                mainContainer.appendChild(title);
-                mainContainer.appendChild(logo);
-                mainContainer.appendChild(price);
-                mainContainer.appendChild(high);
-                mainContainer.appendChild(low);
-                mainContainer.appendChild(change);
-                mainContainer.appendChild(vol);
-                mainContainer.appendChild(supply);
-                mainContainer.appendChild(mktcap);
-                console.log(key)
+//                 // create DOM elements
+//                 var logo = document.createElement("IMG");
+//                 logo.setAttribute("src", "key.value.IMAGEURL");
+//                 logo.setAttribute("width", "10");
+//                 logo.classList.add("opacity-full", "w-25");
+//                 var title = document.createElement("h2");
+//                 var price = document.createElement("li");
+//                 var high = document.createElement("li");
+//                 var low = document.createElement("li");
+//                 var change = document.createElement("li");
+//                 var vol = document.createElement("li");
+//                 var supply = document.createElement("li");
+//                 var mktcap = document.createElement("li");
 
-              }
-        })
-      .catch(err => {
-            // Do something for an error here
-          })
+//                 // assign elements a value from data
+//                 title.innerHTML =  key.key;
+//                 logo.innerHTML =  key.value.IMAGEURL;
+//                 price.innerHTML =  key.value.USD.PRICE;  
+//                 high.innerHTML =  key.value.USD.HIGH24HOUR;
+//                 low.innerHTML =  key.value.USD.LOW24HOUR;
+//                 change.innerHTML =  key.value.USD.CHANGE24HOUR;
+//                 vol.innerHTML =  key.value.USD.TOTALVOLUME24H;
+//                 supply.innerHTML =  key.value.USD.SUPPLY;
+//                 mktcap.innerHTML =  key.value.USD.MKTCAP;
+
+//                 // append data + element to container/DOM
+//                 mainContainer.appendChild(title);
+//                 mainContainer.appendChild(logo);
+//                 mainContainer.appendChild(price);
+//                 mainContainer.appendChild(high);
+//                 mainContainer.appendChild(low);
+//                 mainContainer.appendChild(change);
+//                 mainContainer.appendChild(vol);
+//                 mainContainer.appendChild(supply);
+//                 mainContainer.appendChild(mktcap);
+//                 console.log(key)
+
+//               }
+//         })
+//         .catch(err => console.log(err));
+//       }
 
 // https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
 // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
@@ -471,7 +455,6 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
 
 
 // Object.values(somedata)
-
 
 // https://dev.to/dev_amaz/using-fetch-api-to-get-and-post--1g7d
 // fetch('https://jsonplaceholder.typicode.com/users')

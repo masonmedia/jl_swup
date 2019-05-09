@@ -31,14 +31,14 @@ include 'includes/header.php';
         <!--intro-->
         
         <section>
-            <div id="sec-1" class="row d-flex min-500 relative bg-white p-5 stagger-up">
+            <div id="sec-1" class="row d-flex min-500 relative bg-white p-5">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center right">
-                    <h2 class="h4 slide-up">Connecting, informing, sharing</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Working together to unite blockchain projects around the globe.</h3>
-                    <p class="p-big pt-3 m-0 slide-up"><span class="font-weight-bold orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
+                    <h2 class="h4">Connecting, informing, sharing</h2>
+                    <h3 class="section-title text-dark mb-0">Working together to unite blockchain projects around the globe.</h3>
+                    <p class="p-big pt-3 m-0"><span class="font-weight-bold orange">Jaxx Liberty</span> connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
                     <div class="right right-slow">
-                        <a href="#coinLogos"><p class="p-btn mt-3 slide-up">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>
+                        <a href="#coinLogos"><p class="p-btn mt-3">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
@@ -56,20 +56,20 @@ include 'includes/header.php';
          <!--Our Asset Network-->
         
         <section>
-            <div id="coinLogos" class="row bg-light px-3 py-5 stagger-up">
+            <div id="coinLogos" class="row bg-light px-3 py-5">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 right">                    
-                    <h2 class="h4 slide-up">Integrations and network</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Solving the problems of today and tomorrow.</h3>
-                    <hr class="hr-big border-0 bg-orange slide-up">
-                    <p class="p-big pt-3 pb-5 m-0 slide-up">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
+                    <h2 class="h4">Integrations and network</h2>
+                    <h3 class="section-title text-dark mb-0">Solving the problems of today and tomorrow.</h3>
+                    <hr class="hr-big border-0 bg-orange">
+                    <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
                 </div>
                <div class="offset-lg-2"></div>
                     
                     <!--coin/token grid-->
                     <div class="container-fluid">
                         <!--row-->
-                        <div class="row d-flex px-3 pb-5 pt-0 slide-up">
+                        <div class="row d-flex px-3 pb-5 pt-0">
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                    <a href="https://www.augur.net/" target="_blank">
@@ -466,14 +466,14 @@ include 'includes/header.php';
         <!--social-->
         
         <section>
-            <div id="sec-2" class="row d-flex min-500 bg-white stagger-up">
+            <div id="sec-2" class="row d-flex min-500 bg-white">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
-                    <h2 class="h4 mt-4 slide-up">The Decentral Ecosystem</h2>
-                    <h3 class="section-title font-weight-bold slide-up">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
+                    <h2 class="h4 mt-4">The Decentral Ecosystem</h2>
+                    <h3 class="section-title font-weight-bold">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
                     <div class="container-fluid right right-med">
                         <div class="row">
-                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0 slide-up">
+                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0">
                                <div class="col-xs-3 mr-2">
                                     <a href="https://www.facebook.com/JaxxWallet/" target="_blank" onclick="googleAnalyticsTrigger('Facebook', 'Community_Page')">
                                     <i class="fa fa-facebook orange p-3"></i>
@@ -515,7 +515,7 @@ include 'includes/header.php';
         <!-- coin data mockup component] -->
 
         <!-- <section>
-            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
+            <div id="sec-4" class="row d-flex p-5 min-500 bg-white">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
                     <h2 class="section-title">Jaxx Liberty Partners</h2>
                     <hr class="hr-big border-0 bg-secondary">
@@ -536,50 +536,26 @@ include 'includes/header.php';
         <!--Jaxx blog API GET-->
 
          <section>
-            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
+            <div id="sec-4" class="row d-flex p-5 min-500 bg-white">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                    <h2 class="section-title">News from the Jaxx Blog</h2>
+                    <h2 class="section-title text-center">News from the Jaxx Blog</h2>
                     <hr class="hr-big border-0 bg-secondary">
-                    <div id="authors" class="columns--blog"></div>
-                    <!-- <div id="result" class="columns--blog"></div> -->
+                    <div id="authors" class="columns--blog w-100"></div>
                 </div>
             </div>
         </section>
-        
-        <!-- <section>
-            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
-                   Blog API get
-                    <div id="blogAPI" class="row">
-                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-left">
-                            <h2 class="section-title text-center slide-up">News from the Jaxx blog.</h2>
-                            <hr class="hr-big border-0 bg-orange slide-up">
-                            <div id="blog-button-container" class="container-fluid p-4 columns columns--blog slide-up"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">
-                </div>
-            </div>
-        </section> -->
 
         <!--download-->
         
         <section>
-            <div id="sec-7" class="row bg-white min-500 py-5 stagger-up">
+            <div id="sec-7" class="row bg-light min-500 py-5">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
-                    <h2 class="h4 slide-up">Download</h2>
+                    <h2 class="h4">Download</h2>
                     <div class="right right-med">
-                        <h3 class="section-title font-weight-bold slide-up">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</h3>
+                        <h3 class="section-title font-weight-bold">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</h3>
                     </div>
-                    <div class="row downloads-badge-container pt-2 pl-3 slide-up">
+                    <div class="row downloads-badge-container pt-2 pl-3">
                         <!--jaxx liberty google store-->
                         <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Community_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
                         <!--jaxx liberty itunes-->
@@ -588,7 +564,7 @@ include 'includes/header.php';
                         <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Community_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
                     </div><!--end button nest row--> 
                     <div id="desktop_download" class="right right-med">
-                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Community_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Community_Page')"><p class="p-btn pt-3 mt-2">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
                     </div>
                </div>
                <div class="offset-lg-2"></div>

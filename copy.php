@@ -3,10 +3,9 @@
 // =============== Home page
 
 $homeBanner1 = "Jaxx Liberty";
-$homeBanner2 = "The leading <span class='line-break-sm'>all-in-one</span> <span class='line-break-sm'>blockchain</span> wallet.";
-$homeBanner3 = "Securely send, receive, <span class='line-break-sm'>track and exchange</span> your digital assets <span class='line-break-sm'>all in one app.</span>";
-$homeBannerCTA1 = "Learn more";
-$homeBannerCTA2 = "Download";
+$homeBanner2 = "Your gateway to <span class='line-break-sm'>all things crypto.</span>";
+$homeBanner3 = "Portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='line-break-sm'>85 cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
+$homeBannerCTA1 = "Download";
 
 $homeIntro1 = "More than a wallet";
 $homeIntro2 = "The easiest way to send, receive, track, and manage your cryptocurrency investments.";

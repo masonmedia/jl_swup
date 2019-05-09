@@ -43,8 +43,6 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/html5-device-mockups/dist/device-mockups.min.css">
-    <link href="/assets/tabulator/dist/css/tabulator.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <!--json.ld-->
@@ -268,9 +266,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="/features.php">Features</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>

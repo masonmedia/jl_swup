@@ -8,41 +8,51 @@ include 'images.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700-lg mt-5 relative">
+    <div class="row d-flex min-700 mt-4 p-5 relative">
         <img class="img-full absolute z-0 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left p-5">
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
             <h1 class="h4 mt-5 orange zoom">
                 <?php echo $homeBanner1; ?>    
             </h1>
             <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 font-weight-light">
+            <h3 class="h4 text-secondary font-weight-bold">
                 <? echo $homeBanner3; ?>
             </h3>
-            <!--download button row-->
-            <div class="container-fluid pt-2">
-                <div class="row d-flex d-sm-flex-column">
-                    <!-- <div class="col-xs-6 pr-3 zoom zoom-slow">
-                        <a href="#sec-1">
-                            <p class="p-btn mb-1 border-0 p-0">
-                                <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
-                            </p>
-                        </a>
-                    </div> -->
-                    <div class="col-xs-6 zoom zoom-slow">
-                        <a href="/downloads">
-                            <p class="p-btn mb-1 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
-                                <? echo $homeBannerCTA2; ?> <i class="fa fa-angle-right fa-btn"></i>
-                            </p>
-                        </a>
+            <a href="/downloads">
+                <p class="p-btn mt-3 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
+                    <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
+                </p>
+            </a>
+        </div>
+        <div class="offset-lg-5"></div>
+        <!-- <div class="col-lg-12">
+            <div class="container-fluid">
+                <div class="row p-4 m-4">
+                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
+                        <div class="wrap p-5 bg-light rounded shadow">
+                            <i class="fa fa-check-square-o icon mb-4 p-0"></i>
+                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
+                        <div class="wrap p-5 bg-light rounded shadow">
+                            <i class="fa fa-download icon mb-4 p-0"></i>
+                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
+                        <div class="wrap p-5 bg-light rounded shadow">
+                            <i class="fa fa-download icon mb-4 p-0"></i>
+                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="offset-lg-5"></div>
+        </div> -->
     </div>
 </div>
 <!--end banner-->
@@ -64,7 +74,7 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 my-3 up">
                     <i class="fa fa-bitcoin icon bg-box-navy orange px-4 py-3 mb-4 border border-box-navy rounded shadow"></i>
-                    <h2 class="h4 font-weight-bold">Join thousands of users.</h2>
+                    <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
         </section>
@@ -141,11 +151,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0">
-                    <img class="feat-phone m-auto up lazy" src="/assets/img/jaxx-feat-phone-case-port.png" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                    <img class="feat-phone feat-phone--port m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-port.png" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                        <!-- <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy"
-                                data-src="<?php echo $featuresImg2; ?>"
+                                <img class="w-100 opacity-full"
+                                src="<?php echo $featuresImg2; ?>"
                                 alt="<?php echo $featuresImgAlt2; ?>">
                             </div>
                         </div> -->
@@ -180,10 +190,10 @@ include 'images.php';
                 </div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0">
-                        <img class="feat-phone m-auto up lazy" src="/assets/img/jaxx-shapeshift-logo.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-shapeshift-logo.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                        <!-- <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                                <img class="w-100 opacity-full" src="/assets/img/jaxx-iphone-X-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
                             </div>
                         </div> -->
                     </div>
@@ -199,11 +209,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                        <!-- <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy"
-                                data-src="<?php echo $featuresImg4; ?>"
+                                <img class="w-100 opacity-full"
+                                src="<?php echo $featuresImg4; ?>"
                                 alt="<?php echo $feature4Desc; ?>">
                             </div>
                         </div> -->
@@ -237,13 +247,13 @@ include 'images.php';
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
-                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up lazy" data-src="/assets/img/jaxx-news-ipad-jazzy.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full" src="/assets/img/jaxx-news-ipad-jazzy-min.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
                     <!-- <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-news-ipad-jazzy.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
-                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-news-ipad-jazzy.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                        <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy"
-                                data-src="<?php echo $featuresImg3; ?>"
+                                <img class="w-100 opacity-full"
+                                src="<?php echo $featuresImg3; ?>"
                                 alt="<?php echo $featuresImgAlt3; ?>">
                             </div>
                         </div>
@@ -259,12 +269,12 @@ include 'images.php';
             <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
                <div class="offset-lg-1"></div>
                 <div class="col-lg-5 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <img class="w-100 ds up lazy" data-src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                    <img class="w-100 ds up opacity-full" src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
                     <!-- <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone up lazy" data-src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
-                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <img class="feat-phone up opacity-full" src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                        <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.">
+                                <img class="w-100 opacity-full" src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.">
                             </div>
                         </div>
                     </div> -->
@@ -298,10 +308,10 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                        <!-- <div class="device" device="iPhoneX" orientation="portrait" color="black">
                             <div class="screen">
-                                <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-block-explorer.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                                <img class="w-100 opacity-full" src="/assets/img/jaxx-iphone-X-block-explorer.jpg" alt="Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
                             </div>
                         </div> -->
                     </div>
@@ -314,7 +324,7 @@ include 'images.php';
         <section>
             <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
                 <div class="offset-lg-2"></div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start text-left down">
+                <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
                         <?php echo $homeDownload2; ?>
                     </h3>
@@ -364,7 +374,7 @@ include 'images.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 bottom-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.">
+                    <img class="img-full absolute z-0 bottom-0 opacity-full" src="/assets/img/jaxx-laptop-hands.jpg" alt="We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.">
                 </div>
             </div>
         </section>
