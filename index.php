@@ -8,18 +8,19 @@ include 'images.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700 mt-4 p-5 relative">
-        <img class="img-full absolute z-0 left-0 up up-med"
+    <div class="row d-flex min-700-lg p-5 relative">
+        <div style="height: 1000px; width: 900px; max-width: 100%; transform: rotate(51deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-1 bg-navy-gradient shadow-lg"></div>
+        <img class="img-full absolute z--1 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
+        <div class="col-lg-7 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
             <h1 class="h4 mt-5 orange zoom">
                 <?php echo $homeBanner1; ?>    
             </h1>
-            <h2 class="site-title font-weight-bold py-2 zoom zoom-med">
+            <h2 class="site-title text-light font-weight-bold py-2 zoom zoom-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-secondary font-weight-bold">
+            <h3 class="h4 text-light font-weight-bold">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
