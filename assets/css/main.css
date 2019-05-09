@@ -91,7 +91,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background: black;
+    /* background: black; */
     font-family: 'Helvetica Neue', Helvetica, Avenir, sans-serif;
     overflow-x: hidden;
     max-width: 1500px;
@@ -475,6 +475,11 @@ p {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
+
+/* home page star rating */
+.checked {
+    color: orange;
+  }
 
 /* animista css animations */
 
@@ -864,6 +869,13 @@ html.is-animating .transition-wipe {
     /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-gradient(linear, left top, right top, from(#2F80ED), to(#56CCF2));
     background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+.bg-navy-gradient {
+    background: rgb(9,29,67);
+    background: -moz-linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
+    background: linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091d43",endColorstr="#091d43",GradientType=1);
 }
 
 .bg-navy {

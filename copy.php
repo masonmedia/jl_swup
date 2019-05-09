@@ -23,7 +23,7 @@ $homeSecurity2 = "Putting you in control with state-of-the-art security.";
 $homeSecurity3 = "Security and privacy are at the heart of <span class='font-weight-bold'>Jaxx Liberty.</span> We don't hold your funds, nor are your private keys, passwords, or personal information stored on our server - or any server.<span class='font-italic'></span> They stay securely on your device, protected by state-of-the-art encryption, password protection, a password strength checker, and facial recognition. You don't need an account, don't have to register, and don't have to jump through KYC hoops. With Jaxx Liberty, you're in complete control.";
 $homeSecurityCTA = "Find out";
 
-$homeDownload1 = "Multi-platform";
+$homeDownload1 = "Download";
 $homeDownload2 = "Use Jaxx Liberty on your <span class='d-table'>favourite device and operating system.</span>";
 $homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.";
 $homeDownloadCTA = "Desktop versions";
@@ -35,7 +35,7 @@ $homeCoinsCTA = "Find out more";
 
 $homeTestimonials1 = "Trusted around the world";
 $homeTestimonials2 = "You're in <span class='line-break-sm'>good company.</span>";
-$homeTestimonials3 = "<span class='font-weight-bold'>Jaxx Liberty</span> builds on the success of Jaxx Classic, one of the most popular blockchain wallets with over a million downloads. Jaxx Liberty has thousands of users worldwide and is reshaping the way people manage, invest, and control their blockchain assets. See what community leaders are saying about Jaxx Liberty.";
+$homeTestimonials3 = "See what users are saying about Jaxx Liberty.";
 
 $homeSupport1 = "World class support";
 $homeSupport2 = "Our User Success Team is here for you.";
@@ -50,7 +50,7 @@ $homeCommunityCTA = "Join the adventure";
 
 // =============== Features page
 
-$feature1Title = "Why Jaxx Liberty?";
+$feature1Title = "Here's what you get with Jaxx Liberty";
 $feature1Desc = "Jaxx Liberty is a blockchain wallet that blends industry leading engineering with beautiful and intuitive user experience design.";
 
 $feature2Title = "View your portfolio.";

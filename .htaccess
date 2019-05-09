@@ -7,7 +7,6 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteRule ^(.*)$ https://www.jaxx.io/$1 [NE,R,L]
 RewriteRule ^index.html$ https://jaxx.io [R=301,L]
 
-
 #redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
 RewriteRule ^(.*)\.html$ $1.php [L]
 
@@ -67,6 +66,12 @@ RewriteRule ^migrate$ https://www.youtube.com/watch?v=A5WYbV7rDDU [R,L]
 
 # 301 /migrate redirect
 Redirect 301 /migrate https://www.youtube.com/watch?v=A5WYbV7rDDU
+
+# Redirect features to index
+
+RewriteRule ^features$ https://jaxx.io [R,L]
+Redirect 301 /features.php https://www.jaxx.io
+Redirect 301 /features https://www.jaxx.io
 
 # Set custom 404 error page
 ErrorDocument 404 /404.php

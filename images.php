@@ -38,8 +38,8 @@ $featuresImgAlt2 = "Check out your asset balance, track individual coins and tok
 $featuresImg3 = "/assets/img/jaxx-iphone-X-news.jpg";
 $featuresImgAlt3 = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$featuresImg4 = "/assets/img/jaxx-home-dash.jpg";
-$featuresImgAlt4 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+$featuresImg4 = "/assets/img/jaxx-iphone-X-markets.jpg";
+$featuresImgAlt4 = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
 
 $featuresImg5 = "/assets/img/jaxx-home-dash.jpg";
 $featuresImgAlt5 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";

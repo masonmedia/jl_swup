@@ -9,7 +9,7 @@ $(document).ready(function () {
     scrollFriction: .3,
     scrollAcceleration: .04
   });
-
+  
   //smooth scroll
   smoothScroll();
 
@@ -392,6 +392,7 @@ function blogPosts() {
 fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
     .then(response => { return response.json() }) // Transform the data into json
     .then(data => {
+
           // Work with JSON data here
           // console.log(data);
 
@@ -425,7 +426,6 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
                 var vol = document.createElement("li");
                 var supply = document.createElement("li");
                 var mktcap = document.createElement("li");
-
     
                 // assign elements a value from data
                 title.innerHTML =  key.key;
@@ -448,16 +448,14 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
                 mainContainer.appendChild(vol);
                 mainContainer.appendChild(supply);
                 mainContainer.appendChild(mktcap);
-
                 console.log(key)
+
               }
         })
       .catch(err => {
             // Do something for an error here
           })
 
-
-    
 // https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
 // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
 //   .then(response => {
@@ -494,45 +492,6 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
 //                         document.getElementById('result').innerHTML = result;
 //                     });
 //                 })
-
-
-// function createNode(element) {
-//   return document.createElement(element);
-// }
-
-// function append(parent, el) {
-//   return parent.appendChild(el);
-// }
-
-// const ul = document.getElementById('authors');
-// const url = 'https://blog.jaxx.io/wp-json/wp/v2/posts?per_page=4';
-
-// fetch(url)
-// .then((resp) => resp.json()) // Transform the data into json
-//   .then(function(data) {
-//     console.log(data);
-//     let authors = data.results;
-//     return authors.map(function(author) { // Map through the results and for each run the code below
-//       let li = createNode('li'), //  Create the elements we need
-//         img = createNode('img'),
-//         span = createNode('span');
-//         h2 = createNode('h2');
-          
-//         img.classList.add('opacity-full'); // Add class to img [mason edit]
-//         img.src = author.picture.medium;  // Add the source of the image to be the src of the img element
-//         li.innerHTML = `${author.title.rendered}`;
-//         span.innerHTML = `${author.id} ${author.date}`; // Make the HTML of our span to be the first and last name of our author
-//         // h2.innerHTML = `${author.gender}`;
-//         append(li, h2);
-//         append(ul, li);
-//         append(li, span);
-//         append(li, img); // Append all our elements
-      
-//     })
-//   })
-// .catch(function(error) {
-//   // If there is any error you will catch them here
-// }); 
 
 
 // reduce() tut --> https://medium.freecodecamp.org/a-practical-guide-to-fetch-reduce-and-formatting-data-from-an-external-api-283ddd9bfdcb

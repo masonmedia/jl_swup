@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/html5-device-mockups/dist/device-mockups.min.css">
+    <link href="/assets/tabulator/dist/css/tabulator.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <!--json.ld-->

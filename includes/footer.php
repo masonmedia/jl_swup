@@ -87,6 +87,8 @@
  <script src="/assets/js/animation.gsap.min.js"></script>
  <!-- recliner lazy load js-->
  <script src="/assets/js/recliner.js"></script>
+ <!-- tabulator -->
+<script type="text/javascript" src="/assets/tabulator/dist/js/tabulator.min.js"></script>
  <!--js tilt 404-->
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>

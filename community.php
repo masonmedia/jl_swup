@@ -512,21 +512,18 @@ include 'includes/header.php';
             </div>
         </section>
 
-        <!-- coin data mockup comp[onent] -->
+        <!-- coin data mockup component] -->
 
-        <section>
+        <!-- <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
                     <h2 class="section-title">Jaxx Liberty Partners</h2>
                     <hr class="hr-big border-0 bg-secondary">
-                    <ul id="marketData" class="list-unstyled columns--blog w-100"></ul>
+                    <div id="marketData" class="list-unstyled columns--blog w-100">
+                    </div>
                 </div>
             </div>
-        </section>
-
-
-       
-
+        </section> -->
 
         <section>
             <div class="row d-flex bg-light relative">
@@ -537,8 +534,6 @@ include 'includes/header.php';
         </section>   
 
         <!--Jaxx blog API GET-->
-
-          
 
          <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
