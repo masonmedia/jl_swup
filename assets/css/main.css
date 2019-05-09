@@ -962,6 +962,10 @@ html.is-animating .transition-wipe {
     width: 100%;
 }
 
+.jazzy {
+    width: 600px;
+}
+
 /*lazy loading classes*/
 
 img {
@@ -1225,14 +1229,19 @@ input:checked+.slider:before {
 
 /*download badges*/
 
-.store-badge {
+.store-badge,
+.banner-store-badge,
+.home-store-badge {
     opacity: 1;
+}
+.store-badge {
     width: 150px;
 }
-
 .banner-store-badge {
-    opacity: 1;
     width: 125px;
+}
+.home-store-badge {
+    width: 200px;
 }
 
 /* about page history timeline ======================*/
@@ -1524,6 +1533,12 @@ footer li a {
     }
 }
 
+@media (max-width: 1123px) {
+    .jazzy {
+        width: 500px;
+    }
+}
+
 @media (max-width: 992px) {
 
     body,
@@ -1699,6 +1714,10 @@ footer li a {
         height: auto;
         margin: 10px 5px 0;
         width: 77px;
+    }
+
+    .jazzy {
+        width: 475px;
     }
 
     .site-title {

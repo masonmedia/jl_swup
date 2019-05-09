@@ -84,7 +84,7 @@ include 'images.php';
                                     <span class="fa fa-star px-2 pt-0"></span>
                                 </span>
                                 <hr class="m-0 up up-med">
-                                <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img class="store-badge mt-4" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
+                                <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img class="home-store-badge mt-4" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
                                 <p class="p-big py-3 up up-slow">
                                     "My morning routing involves waking up, reaching fgor my phone, and checking the markets, the news, and my portfolio balance in this app"
                                     <span class="d-table small font-weight-bold pt-2">-- Ddxu547</span>
@@ -100,7 +100,7 @@ include 'images.php';
                                     <span class="fa fa-star px-2 pt-0"></span>
                                 </span>
                                 <hr class="m-0 up up-med">
-                                <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Security_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="store-badge mt-4" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
+                                <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Security_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="home-store-badge mt-4" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
                                 <p class="p-big py-3 up up-slow">
                                     "Best wallet with the most hardworking and quick response support team I have ever experienced. No option for 1000 stars so I am just giving 5 stars."
                                     <span class="d-table small font-weight-bold pt-2">-- Tahir Khawaja</span>
@@ -179,13 +179,13 @@ include 'images.php';
                     </p>
                 </div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <!-- <img class="feat-phone m-auto up lazy" src="/assets/img/jaxx-feat-phone-case-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module."> -->
-                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                    <div class="device-wrapper absolute z-0">
+                        <img class="feat-phone m-auto up lazy" src="/assets/img/jaxx-shapeshift-logo.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
                                 <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-shapeshift.jpg" alt="Exchange between assets with Jaxx Liberty's exchange module.">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
@@ -225,28 +225,29 @@ include 'images.php';
         <!--news-->
         
         <section>
-            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-white p-0 border-bottom">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left px-5 pt-5">
+                <div class="col-lg-4 banner-left p-5">
                     <h2 class="section-title py-3 up">
                         <?php echo $feature3Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $feature3Desc; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-feat-phone-case-news.jpg" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
+                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up lazy" data-src="/assets/img/jaxx-news-ipad-jazzy.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                    <!-- <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-news-ipad-jazzy.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
                                 <img class="w-100 lazy"
                                 data-src="<?php echo $featuresImg3; ?>"
                                 alt="<?php echo $featuresImgAlt3; ?>">
                             </div>
-                        </div> -->
-                    </div>
+                        </div>
+                    </div> -->
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -255,17 +256,18 @@ include 'images.php';
          <!--support-->
         
          <section>
-            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
-               <div class="offset-lg-2"></div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone up lazy" data-src="/assets/img/jaxx-feat-phone-case-support.jpg" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
-                        <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+            <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
+               <div class="offset-lg-1"></div>
+                <div class="col-lg-5 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <img class="w-100 ds up lazy" data-src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                    <!-- <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone up lazy" data-src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
                                 <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-support.jpg" alt="Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.">
                             </div>
-                        </div> -->
-                    </div>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
@@ -283,7 +285,7 @@ include 'images.php';
         <!--block-->
        
         <section>
-            <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
@@ -296,7 +298,7 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-feat-phone-case-block.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                        <img class="feat-phone m-auto up lazy" data-src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
                         <!-- <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen">
                                 <img class="w-100 lazy" data-src="/assets/img/jaxx-iphone-X-block-explorer.jpg" alt="Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
@@ -310,58 +312,61 @@ include 'images.php';
 
         <!-- download -->
         <section>
-            <div class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4">
-                        <?php echo $homeDownload1; ?>
-                    </h2>
-                    <h3 class="section-title text-light">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start text-left down">
+                    <h3 class="section-title py-3 text-light">
                         <?php echo $homeDownload2; ?>
                     </h3>
-                </div>
-                <div
-                    class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0">
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 m-0">
                         <?php echo $homeDownload3; ?>
                     </p>
-                    <div class="row d-flex d-sm-flex-column py-4 pl-3">
-                            <!--jaxx liberty google store-->
-                            <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
-                                href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-google-play.png"
-                                    alt="Google Play Button" />
-                            </a>
-                            <!--jaxx liberty itunes-->
-                            <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
-                                href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-app-store.png"
-                                    alt="iTunes App Store Button" />
-                            </a>
-                            <!--jaxx liberty chrome-->
-                            <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
-                                href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
-                                target="_blank">
-                                    <img class="store-badge mr-1 mt-1"
-                                    src="/assets/img/jaxx-chrome-store.png"
-                                    alt="Chrome Web Store" />
-                            </a>
-                        </div>
-                        <!--end button nest row-->
-                        <div id="desktop_download" class="right right-med p-0">
-                            <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                                <p class="p-btn pl-0">
-                                    <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                                </p>
-                            </a>
-                        </div>
-                    </div>
                 </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
+                    <!--jaxx liberty google store-->
+                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
+                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-google-play.png"
+                            alt="Google Play Button" />
+                    </a>
+                    <!--jaxx liberty itunes-->
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
+                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-app-store.png"
+                            alt="iTunes App Store Button" />
+                    </a>
+                    <!--jaxx liberty chrome-->
+                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
+                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-chrome-store.png"
+                            alt="Chrome Web Store" />
+                    </a>
+                    <!--end button nest row-->
+                    <div id="desktop_download" class="right right-med p-0">
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
+                            <p class="p-btn mt-3">
+                                <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>
+                    </div>
+                <div class="offset-lg-2"></div>
             </div>
             <!--end row-->
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light relative">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 bottom-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.">
+                </div>
+            </div>
         </section>
 
     </div>
