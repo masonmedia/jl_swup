@@ -96,11 +96,11 @@ include 'images.php';
                         </div>
                         <div class="col-lg-4 banner-left px-5 pt-5">
                             <h2 class="section-title py-3 up">
-                                <?php echo $feature2Title; ?>
+                                <?php echo $homeFeature1Title; ?>
                             </h2>
                             <hr class="hr-big border-0 bg-orange m-0 up up-med">
                             <p class="p-big py-3 up up-slow">
-                                <?php echo $feature2Desc; ?>
+                                <?php echo $homeFeature1Desc; ?>
                             </p>
                         </div>
                     <div class="offset-lg-2"></div>
@@ -115,11 +115,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title text-light py-3 up">
-                        <?php echo $feature8Title; ?>
+                        <?php echo $homeFeature2Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $feature8Desc; ?>
+                        <?php echo $homeFeature2Desc; ?>
                     </p>
                 </div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
@@ -143,11 +143,11 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $feature4Title; ?>
+                        <?php echo $homeFeature3Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $feature4Desc; ?>
+                        <?php echo $homeFeature3Desc; ?>
                     </p>
                 </div>
                <div class="offset-lg-2"></div>
@@ -161,11 +161,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left p-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $feature3Title; ?>
+                        <?php echo $homeFeature4Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 mb-0 up up-slow">
-                        <?php echo $feature3Desc; ?>
+                        <?php echo $homeFeature4Desc; ?>
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
@@ -185,11 +185,11 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $feature10Title; ?>
+                        <?php echo $homeFeature5Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-low">
-                        <?php echo $feature10Desc; ?>
+                        <?php echo $homeFeature5Desc; ?>
                     </p>
                 </div>
                <div class="offset-lg-2"></div>
@@ -203,11 +203,11 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $feature6Title; ?>
+                        <?php echo $homeFeature6Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $feature6Desc; ?>
+                        <?php echo $homeFeature6Desc; ?>
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
