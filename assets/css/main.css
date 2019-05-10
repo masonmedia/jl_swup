@@ -140,6 +140,10 @@ footer a:hover {
     min-height: 500px;
 }
 
+.min-600 {
+    min-height: 600px;
+}
+
 .min-700-lg {
     min-height: 700px;
 }
