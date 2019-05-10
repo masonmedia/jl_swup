@@ -25,7 +25,7 @@ include 'images.php';
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
-                <p class="p-btn mt-3 border-0 p-0" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
+                <p class="btn btn-lg btn-outline-orange mt-3" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
                     <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
                 </p>
             </a>
@@ -90,21 +90,21 @@ include 'images.php';
                 <!--wrappper-->
                     <div class="offset-lg-2"></div>
                     <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                            <div class="device-wrapper absolute z-0">
+                        <div class="device-wrapper absolute z-0">
                             <img class="feat-phone feat-phone--port m-auto up opacity-full"
                             src="<?php echo $homeImg1; ?>"
                             alt="<?php echo $homeImg1Alt; ?>">
-                            </div>
                         </div>
-                        <div class="col-lg-4 banner-left px-5 pt-5">
-                            <h2 class="section-title py-3 up">
-                                <?php echo $homeFeature1Title; ?>
-                            </h2>
-                            <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                            <p class="p-big py-3 up up-slow">
-                                <?php echo $homeFeature1Desc; ?>
-                            </p>
-                        </div>
+                    </div>
+                    <div class="col-lg-4 banner-left px-5 pt-5">
+                        <h2 class="section-title py-3 up">
+                            <?php echo $homeFeature1Title; ?>
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                        <p class="p-big py-3 up up-slow">
+                            <?php echo $homeFeature1Desc; ?>
+                        </p>
+                    </div>
                     <div class="offset-lg-2"></div>
                </div><!--end wrap-->
             </div>
