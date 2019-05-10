@@ -3,7 +3,7 @@
 $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
 $homeBannerImgAlt = "Welcome to Jaxx Liberty.";
 
-$homeImgPort = "/assets/img/jaxx-feat-phone-case-port.png";
+$homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";
 $homeImgAltPort = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
 $homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";

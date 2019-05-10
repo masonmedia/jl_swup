@@ -95,7 +95,7 @@ include 'images.php';
                         <?php echo $homeWalletTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $homeWalletDesc; ?>
                     </p>
                 </div>
@@ -113,7 +113,7 @@ include 'images.php';
                         <?php echo $homeExchangeTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $homeExchangeDesc; ?>
                     </p>
                 </div>
@@ -134,18 +134,16 @@ include 'images.php';
             <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full"
-                        src="<?php echo $homeImgPort; ?>"
-                        alt="<?php echo $homeImgPortAlt; ?>">
-                    </div>
+                    <img class="img-port-desktop absolute z-0 opacity-full ds"
+                    src="<?php echo $homeImgPort; ?>" 
+                    alt="<?php echo $homeImgPortAlt; ?>">
                 </div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
                         <?php echo $homePortTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $homePortDesc; ?>
                     </p>
                 </div>
@@ -163,7 +161,7 @@ include 'images.php';
                         <?php echo $homeMarketsTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $homeMarketsDesc; ?>
                     </p>
                 </div>
@@ -188,7 +186,7 @@ include 'images.php';
                     src="<?php echo $homeImgNews;?>"
                     alt="<?php echo $homeImgAltNews;?>">
                 </div>
-                <div class="col-lg-4 banner-left p-5">
+                <div class="col-lg-4 banner-left px-5 pt-5 pb-3"">
                     <h2 class="section-title py-3 up">
                         <?php echo $homeNewsTitle; ?>
                     </h2>
@@ -211,12 +209,12 @@ include 'images.php';
                         <?php echo $homeSupportTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-low">
+                    <p class="p-big py-3 mb-0 up up-low">
                         <?php echo $homeSupportDesc; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <img class="w-100 ds up opacity-full"
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 o-12 up">
+                    <img class="img-home-support ds up opacity-full"
                     src="<?PHP echo $homeImgSupport; ?>"
                     alt="<?PHP echo $homeImgAltSupport; ?>">
                 </div>
