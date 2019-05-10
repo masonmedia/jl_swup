@@ -222,7 +222,9 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-block.png" alt="Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImg6; ?>"
+                        alt="<?php echo $homeImg6Alt; ?>">
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
@@ -283,7 +285,9 @@ include 'images.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-600 down down-med">
-                    <img class="img-full absolute z-0 bottom-0 left-0 opacity-full" src="/assets/img/jaxx-laptop-hands.jpg" alt="We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.">
+                    <img class="img-full absolute z-0 bottom-0 left-0 opacity-full"
+                    src="<?php echo $homeImg7; ?>"
+                    alt="<?php echo $homeImg7Alt; ?>">
                 </div>
             </div>
         </section>

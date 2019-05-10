@@ -18,14 +18,11 @@ $homeImgAlt4 = "Get daily blockchain headline news and updates from a range of t
 $homeImg5 = "/assets/img/jaxx-customer-support.png";
 $homeImgAlt5 = "Get free, 24/7 world-class support from our User Success Team, via email or social media.";
 
-$homeImg6 = "/assets/img/jaxx-ipad-macbook-closeup-desk.jpg";
-$homeImgAlt6 = "Our unparalleled User Success Team is made up of real humans who offer our customers fast, world class support, 7 days a week.";
+$homeImg6 = "/assets/img/jaxx-feat-phone-case-block.png";
+$homeImgAlt6 = "Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
 
-$homeImg7 = "/assets/img/jaxx-lap-laptop-coffee.jpg";
-$homeImgAlt7 = "Get 24/7 help from Jaxx Liberty's world class User Success Team.";
-
-$homeImg8 = "/assets/img/decentral-community-red.jpeg";
-$homeImgAlt8 = "Join the Decentral community today.";
+$homeImg7 = "/assets/img/jaxx-laptop-hands.jpg";
+$homeImgAlt7 = "We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.";
 
 // Features
 
