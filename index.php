@@ -91,7 +91,9 @@ include 'images.php';
                     <div class="offset-lg-2"></div>
                     <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                             <div class="device-wrapper absolute z-0">
-                            <img class="feat-phone feat-phone--port m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-port.png" alt="Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.">
+                            <img class="feat-phone feat-phone--port m-auto up opacity-full"
+                            src="<?php echo $homeImg1; ?>"
+                            alt="<?php echo $homeImg1Alt; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4 banner-left px-5 pt-5">
@@ -124,7 +126,9 @@ include 'images.php';
                 </div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0">
-                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-shapeshift-logo.png" alt="Exchange between assets with Jaxx Liberty's exchange module.">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImg2;?>"
+                        alt="<?php echo $homeImg2Alt;?>">
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
@@ -138,7 +142,9 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full" src="/assets/img/jaxx-feat-phone-case-markets.jpg" alt="Follow the top 100 assets, compare price changes, see market caps, and follow trends.">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImg3; ?>"
+                        alt="<?php echo $homeImg3Alt; ?>">
                     </div>
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
@@ -169,7 +175,9 @@ include 'images.php';
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
-                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full" src="/assets/img/jaxx-news-ipad-jazzy-min.png" alt="Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.">
+                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
+                    src="<?php echo $homeImg4;?>"
+                    alt="<?php echo $homeImg4Alt;?>">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -181,7 +189,9 @@ include 'images.php';
             <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
                <div class="offset-lg-1"></div>
                 <div class="col-lg-5 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <img class="w-100 ds up opacity-full" src="/assets/img/jaxx-customer-support.png" alt="Get free, 24/7 world-class support from our User Success Team, via email or social media.">
+                    <img class="w-100 ds up opacity-full"
+                    src="<?PHP echo $homeImg5; ?>"
+                    alt="<?PHP echo $homeImg5Alt; ?>">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">

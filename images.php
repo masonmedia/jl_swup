@@ -3,20 +3,20 @@
 $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
 $homeBannerImgAlt = "Welcome to Jaxx Liberty.";
 
-$homeImg1 = "/assets/img/jaxx-2-people-selfie-logo.jpg";
-$homeImgAlt1 = "Jaxx Liberty is the leading multi-platform digital asset wallet.";
+$homeImg1 = "/assets/img/jaxx-feat-phone-case-port.png";
+$homeImgAlt1 = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
-$homeImg2 = "/assets/img/jaxx-apple-multi-device-min.jpg";
-$homeImgAlt2 = "Get the latest blockchain headline news, real-time market data, check your portfolio, and exchange between digital assets all in one convenient place.";
+$homeImg2 = "/assets/img/jaxx-shapeshift-logo.png";
+$homeImgAlt2 = "Exchange between assets with Jaxx Liberty's exchange module.";
 
-$homeImg3 = "/assets/img/jaxx-android-wall-graffiti.jpg";
-$homeImgAlt3 = "We never hold your digital assets, you are in complete control.";
+$homeImg3 = "/assets/img/jaxx-feat-phone-case-markets.jpg";
+$homeImgAlt3 = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
 
-$homeImg4 = "/assets/img/jaxx-iphone-here-look.jpg";
-$homeImgAlt4 = "Download Jaxx Liberty for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.";
+$homeImg4 = "/assets/img/jaxx-news-ipad-jazzy-min.png";
+$homeImgAlt4 = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$homeImg5 = "/assets/img/jaxx-apple-4-iphones-min.jpg";
-$homeImgAlt5 = "Jaxx Liberty brings together over 85 digital assets and communities including Bitcoin, Ethereum, Litecoin, Dash, Digibyte, Ripple, and more.";
+$homeImg5 = "/assets/img/jaxx-customer-support.png";
+$homeImgAlt5 = "Get free, 24/7 world-class support from our User Success Team, via email or social media.";
 
 $homeImg6 = "/assets/img/jaxx-ipad-macbook-closeup-desk.jpg";
 $homeImgAlt6 = "Our unparalleled User Success Team is made up of real humans who offer our customers fast, world class support, 7 days a week.";
