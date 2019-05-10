@@ -1,29 +1,31 @@
 <?php
 
 $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
-// $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-og.jpg";
 $homeBannerImgAlt = "Welcome to Jaxx Liberty.";
 
-$homeImg1 = "/assets/img/jaxx-feat-phone-case-port.png";
-$homeImgAlt1 = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
+$homeImgPort = "/assets/img/jaxx-feat-phone-case-port.png";
+$homeImgAltPort = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
-$homeImg2 = "/assets/img/jaxx-shapeshift-logo.png";
-$homeImgAlt2 = "Exchange between assets with Jaxx Liberty's exchange module.";
+$homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";
+$homeImgAltExchange = "Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).";
 
-$homeImg3 = "/assets/img/jaxx-feat-phone-case-markets.jpg";
-$homeImgAlt3 = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
+$homeImgWallet = "/assets/img/jaxx-feat-phone-case-wallets.png";
+$homeImgAltWallet = "Easily store, send, receive and even exchange 80+ cryptocurrencies right in your wallet.";
 
-$homeImg4 = "/assets/img/jaxx-news-ipad-jazzy-min.png";
-$homeImgAlt4 = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
+$homeImgMarkets = "/assets/img/jaxx-feat-phone-case-markets.jpg";
+$homeImgAltMarkets = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
 
-$homeImg5 = "/assets/img/jaxx-customer-support.png";
-$homeImgAlt5 = "Get free, 24/7 world-class support from our User Success Team, via email or social media.";
+$homeImgNews = "/assets/img/jaxx-news-ipad-jazzy-min.png";
+$homeImgAltNews = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$homeImg6 = "/assets/img/jaxx-feat-phone-case-block.png";
-$homeImgAlt6 = "Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
+$homeImgSupport = "/assets/img/jaxx-customer-support.png";
+$homeImgAltSupport = "Get free, 24/7 world-class support from our User Success Team, via email or social media.";
 
-$homeImg7 = "/assets/img/jaxx-laptop-hands.jpg";
-$homeImgAlt7 = "We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.";
+$homeImgBlock = "/assets/img/jaxx-feat-phone-case-block.png";
+$homeImgAltBlock = "Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
+
+$homeImgLaptop = "/assets/img/jaxx-laptop-hands.jpg";
+$homeImgAltLaptop = "We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.";
 
 // Features
 

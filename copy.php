@@ -7,23 +7,26 @@ $homeBanner2 = "Your gateway to <span class='line-break-sm'>all things crypto.</
 $homeBanner3 = "Portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='line-break-sm'>85 cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
 $homeBannerCTA1 = "Download";
 
-$homeFeature1Title = "View your portfolio.";
-$homeFeature1Desc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
+$homeWalletTitle = "Manage 80+ Cryptocurrencies";
+$homeWalletDesc = "Easily store, send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
 
-$homeFeature2Title = "Exchange between assets.";
-$homeFeature2Desc = "Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).";
+$homePortTitle = "View your portfolio.";
+$homePortDesc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
-$homeFeature3Title = "Track market data.";
-$homeFeature3Desc = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
+$homeExchangeTitle = "Exchange between assets.";
+$homeExchangeDesc = "Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).";
 
-$homeFeature4Title = "Follow blockchain news.";
-$homeFeature4Desc = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
+$homeMarketsTitle = "Track market data.";
+$homeMarketsDesc = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
 
-$homeFeature5Title = "Enjoy world-class support.";
-$homeFeature5Desc = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!";
+$homeNewsTitle = "Follow blockchain news.";
+$homeNewsDesc = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$homeFeature6Title = "Search the blockchain.";
-$homeFeature6Desc = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
+$homeSupportTitle = "Enjoy world-class support.";
+$homeSupportDesc = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!";
+
+$homeBlockTitle = "Search the blockchain.";
+$homeBlockDesc = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
 
 $homeDownload1 = "Download";
 $homeDownload2 = "Use on your <span class='d-table'>favourite device.</span>";

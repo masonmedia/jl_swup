@@ -25,33 +25,30 @@ include 'images.php';
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
-                <p class="btn btn-lg btn-outline-orange mt-3" onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
+                <p class="btn btn-lg btn-orange mt-3"
+                onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
                     <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
                 </p>
             </a>
         </div>
         <div class="offset-lg-5"></div>
-        <!-- <div class="col-lg-12">
-            <div class="container-fluid">
-                <div class="row p-4 m-4">
-                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
-                        <div class="wrap p-5 bg-light rounded shadow">
-                            <i class="fa fa-check-square-o icon mb-4 p-0"></i>
-                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
-                        <div class="wrap p-5 bg-light rounded shadow">
-                            <i class="fa fa-download icon mb-4 p-0"></i>
-                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-0">
-                        <div class="wrap p-5 bg-light rounded shadow">
-                            <i class="fa fa-download icon mb-4 p-0"></i>
-                            <h2 class="h4 font-weight-bold px-5">No login.</h2>
-                        </div>
-                    </div>
+        <!-- <div class="col-lg-12 d-flex relative z-1 text-secondary p-3">
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center">
+                <div class="wrap p-4 m-3 w-100 bg-white">
+                    <i class="fa fa-check icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <h2 class="h4 font-weight-bold">No login.</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center">
+                <div class="wrap p-4 m-3 w-100 bg-light">
+                    <i class="fa fa-download icon bg-orange-gradient text-light ts px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <h2 class="h4 font-weight-bold">Always free.</h2>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
+                <div class="wrap p-4 m-3 w-100 bg-light shadow-lg border rounded">
+                    <i class="fa fa-bitcoin icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
         </div> -->
@@ -65,48 +62,44 @@ include 'images.php';
     <div class="container-fluid p-0 text-secondary">
 
         <section>
-           <div id="sec-1" class="row d-flex relative bg-white text-secondary p-3">
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-box-navy p-3 my-3 up">
-                    <i class="fa fa-check icon bg-box-navy text-success px-4 py-3 mb-4 border border-box-navy rounded shadow"></i>
+           <div class="row d-flex relative bg-white border-bottom text-secondary p-3">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
+                    <i class="fa fa-check icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">No login.</h2>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-box-navy p-3 my-3 up">
-                    <i class="fa fa-download icon bg-box-navy text-warning px-4 py-3 mb-4 border border-box-navy rounded shadow"></i>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
+                    <i class="fa fa-download icon bg-orange-gradient text-light ts px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Always free.</h2>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 my-3 up">
-                    <i class="fa fa-bitcoin icon bg-box-navy orange px-4 py-3 mb-4 border border-box-navy rounded shadow"></i>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
+                    <i class="fa fa-bitcoin icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
         </section>
         
-        <!--portfolio-->
+        <!--wallet-->
        
         <section>
-        <!-- row relative min-500 bg-white py-4 mx-5 mt-5 rounded-top border-bottom -->
-            <div class="row relative min-500 bg-light px-5 pt-5 pb-0 border-bottom">
-                <div class="wrap d-flex flex-wrap justify-content-center align-items-center bg-white shadow-lg rounded px-5 pb-0">
-                <!--wrappper-->
-                    <div class="offset-lg-2"></div>
-                    <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                        <div class="device-wrapper absolute z-0">
-                            <img class="feat-phone feat-phone--port m-auto up opacity-full"
-                            src="<?php echo $homeImg1; ?>"
-                            alt="<?php echo $homeImg1Alt; ?>">
-                        </div>
+            <div id="sec-1" class="row relative min-500 bg-light py-4 border-bottom">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgWallet; ?>"
+                        alt="<?php echo $homeImgWalletAlt; ?>">
                     </div>
-                    <div class="col-lg-4 banner-left px-5 pt-5">
-                        <h2 class="section-title py-3 up">
-                            <?php echo $homeFeature1Title; ?>
-                        </h2>
-                        <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                        <p class="p-big py-3 up up-slow">
-                            <?php echo $homeFeature1Desc; ?>
-                        </p>
-                    </div>
-                    <div class="offset-lg-2"></div>
-               </div><!--end wrap-->
+                </div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeWalletTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $homeWalletDesc; ?>
+                    </p>
+                </div>
+                <div class="offset-lg-2"></div>
             </div>
         </section>
 
@@ -117,19 +110,44 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title text-light py-3 up">
-                        <?php echo $homeFeature2Title; ?>
+                        <?php echo $homeExchangeTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $homeFeature2Desc; ?>
+                        <?php echo $homeExchangeDesc; ?>
                     </p>
                 </div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0">
                         <img class="feat-phone m-auto up opacity-full"
-                        src="<?php echo $homeImg2;?>"
-                        alt="<?php echo $homeImg2Alt;?>">
+                        src="<?php echo $homeImgExchange; ?>"
+                        alt="<?php echo $homeImgExchangeAlt; ?>">
                     </div>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <!--port-->
+       
+        <section>
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgPort; ?>"
+                        alt="<?php echo $homeImgPortAlt; ?>">
+                    </div>
+                </div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homePortTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 up up-slow">
+                        <?php echo $homePortDesc; ?>
+                    </p>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -140,21 +158,21 @@ include 'images.php';
          <section>
             <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
                <div class="offset-lg-2"></div>
-               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full"
-                        src="<?php echo $homeImg3; ?>"
-                        alt="<?php echo $homeImg3Alt; ?>">
-                    </div>
-                </div>
-                <div class="col-lg-4 banner-left px-5 pt-5">
+               <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $homeFeature3Title; ?>
+                        <?php echo $homeMarketsTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $homeFeature3Desc; ?>
+                        <?php echo $homeMarketsDesc; ?>
                     </p>
+                </div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgMarkets; ?>"
+                        alt="<?php echo $homeImgAltMarkets; ?>">
+                    </div>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -165,19 +183,19 @@ include 'images.php';
         <section>
             <div class="row relative d-flex min-500 bg-white p-0 border-bottom">
                <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
+                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
+                    src="<?php echo $homeImgNews;?>"
+                    alt="<?php echo $homeImgAltNews;?>">
+                </div>
                 <div class="col-lg-4 banner-left p-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $homeFeature4Title; ?>
+                        <?php echo $homeNewsTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 mb-0 up up-slow">
-                        <?php echo $homeFeature4Desc; ?>
+                        <?php echo $homeNewsDesc; ?>
                     </p>
-                </div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
-                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
-                    src="<?php echo $homeImg4;?>"
-                    alt="<?php echo $homeImg4Alt;?>">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -187,20 +205,20 @@ include 'images.php';
         
          <section>
             <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
-               <div class="offset-lg-1"></div>
-                <div class="col-lg-5 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <img class="w-100 ds up opacity-full"
-                    src="<?PHP echo $homeImg5; ?>"
-                    alt="<?PHP echo $homeImg5Alt; ?>">
-                </div>
+               <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $homeFeature5Title; ?>
+                        <?php echo $homeSupportTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-low">
-                        <?php echo $homeFeature5Desc; ?>
+                        <?php echo $homeSupportDesc; ?>
                     </p>
+                </div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <img class="w-100 ds up opacity-full"
+                    src="<?PHP echo $homeImgSupport; ?>"
+                    alt="<?PHP echo $homeImgAltSupport; ?>">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -211,21 +229,21 @@ include 'images.php';
         <section>
             <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
                <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgBlock; ?>"
+                        alt="<?php echo $homeImgAltBlock; ?>">
+                    </div>
+                </div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
-                        <?php echo $homeFeature6Title; ?>
+                        <?php echo $homeBlockTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
                     <p class="p-big py-3 up up-slow">
-                        <?php echo $homeFeature6Desc; ?>
+                        <?php echo $homeBlockDesc; ?>
                     </p>
-                </div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
-                    <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full"
-                        src="<?php echo $homeImg6; ?>"
-                        alt="<?php echo $homeImg6Alt; ?>">
-                    </div>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -286,8 +304,8 @@ include 'images.php';
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-600 down down-med">
                     <img class="img-full absolute z-0 bottom-0 left-0 opacity-full"
-                    src="<?php echo $homeImg7; ?>"
-                    alt="<?php echo $homeImg7Alt; ?>">
+                    src="<?php echo $homeImgLaptop; ?>"
+                    alt="<?php echo $homeImgAltLaptop; ?>">
                 </div>
             </div>
         </section>
