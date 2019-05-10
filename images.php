@@ -1,6 +1,9 @@
 <?php
 
 $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
+// $homeBannerImg = "/assets/img/jaxx-jazzy-phone.png";
+// $homeBannerImg = "/assets/img/jaxx-gradient-jazzy-phone-min.png";
+// $homeBannerImg = "/assets/img/jaxx-gradient-jazzy-phone.jpg";
 $homeBannerImgAlt = "Welcome to Jaxx Liberty.";
 
 $homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";

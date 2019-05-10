@@ -8,20 +8,23 @@ include 'images.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-600 p-5 relative">
-        <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(51deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-1 bg-navy-gradient shadow-lg"></div>
-        <div style="height: 900px; width: 300px; max-width: 100%; left: -300px;" class="absolute z-1 bg-white"></div>
+    <div class="row d-flex min-700-lg w-100 p-5 relative">
+    <!-- style="background: url(/assets/img/jaxx-gradient-jazzy-phone.jpg) center top; background-size: cover;" -->
+        <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(52.25deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-2 bg-navy-gradient shadow-lg"></div> 
+        <!-- bg navy gradient shape -->
+        <div style="height: 900px; width: 300px; max-width: 100%; left: -300px;" class="absolute z-2 bg-white"></div> 
+        <!-- bg white cover for max-width navy gradient shape -->
         <img class="img-full absolute z--1 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
-        <div class="col-lg-7 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
+        <div class="col-lg-6 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
             <h1 class="h4 mt-5 orange zoom">
                 <?php echo $homeBanner1; ?>    
             </h1>
             <h2 class="site-title text-light font-weight-bold py-2 zoom zoom-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-light font-weight-bold">
+            <h3 class="h4 text-light font-weight-bold py-2">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
@@ -31,23 +34,23 @@ include 'images.php';
                 </p>
             </a>
         </div>
-        <div class="offset-lg-5"></div>
-        <!-- <div class="col-lg-12 d-flex relative z-1 text-secondary p-3">
+        <div class="offset-lg-6"></div>
+        <!-- <div class="col-lg-12 d-flex relative z-1 mt-5 pt-5 px-0 text-secondary">
             <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center">
                 <div class="wrap p-4 m-3 w-100 bg-white">
-                    <i class="fa fa-check icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-check icon bg-light text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">No login.</h2>
                 </div>
             </div>
             <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center">
                 <div class="wrap p-4 m-3 w-100 bg-light">
-                    <i class="fa fa-download icon bg-orange-gradient text-light ts px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-download icon bg-light text-light ts px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Always free.</h2>
                 </div>
             </div>
             <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
                 <div class="wrap p-4 m-3 w-100 bg-light shadow-lg border rounded">
-                    <i class="fa fa-bitcoin icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-bitcoin icon bg-light text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
@@ -64,15 +67,15 @@ include 'images.php';
         <section>
            <div class="row d-flex relative bg-white border-bottom text-secondary p-3">
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
-                    <i class="fa fa-check icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-check icon bg-light text-dark px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">No login.</h2>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
-                    <i class="fa fa-download icon bg-orange-gradient text-light ts px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-download icon bg-light text-dark px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Always free.</h2>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
-                    <i class="fa fa-bitcoin icon bg-orange-gradient text-light ts px-4 py-3 mb-4 rounded shadow-lg"></i>
+                    <i class="fa fa-bitcoin icon bg-light text-dark px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
