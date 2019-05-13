@@ -8,12 +8,13 @@ include 'images.php';
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
-    <div class="row d-flex min-700-lg w-100 p-5 relative">
+    <div class="row d-flex min-700-lg w-100 p-5 relative m-0">
     <!-- style="background: url(/assets/img/jaxx-gradient-jazzy-phone.jpg) center top; background-size: cover;" -->
-        <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(52.25deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-2 bg-navy-gradient shadow-lg"></div> 
+        <!-- <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(52.25deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-2 bg-navy-gradient shadow-lg"></div>  -->
         <!-- bg navy gradient shape -->
-        <div style="height: 900px; width: 300px; max-width: 100%; left: -300px;" class="absolute z-2 bg-white"></div> 
+        <div class="banner-gradient bg-navy-gradient"></div> 
         <!-- bg white cover for max-width navy gradient shape -->
+        <div class="banner-gradient-cover absolute z-2 bg-white"></div> 
         <img class="img-full absolute z--1 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
@@ -65,17 +66,17 @@ include 'images.php';
     <div class="container-fluid p-0 text-secondary">
 
         <section>
-           <div class="row d-flex relative bg-white border-bottom text-secondary p-3">
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
-                    <i class="fa fa-check icon bg-light text-dark px-4 py-3 mb-4 rounded shadow-lg"></i>
+           <div class="row d-flex relative bg-white text-secondary m-0">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-left border-bottom p-2 up">
+                    <i class="fa fa-check icon bg-light text-dark px-4 py-3 my-3 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">No login.</h2>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right p-3 up">
-                    <i class="fa fa-download icon bg-light text-dark px-4 py-3 mb-4 px-4 py-3 mb-4 rounded shadow-lg"></i>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-bottom p-2 up">
+                    <i class="fa fa-download icon bg-light text-dark px-4 py-3 my-3 px-4 py-3 mb-4 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Always free.</h2>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-3 up">
-                    <i class="fa fa-bitcoin icon bg-light text-dark px-4 py-3 mb-4 rounded shadow-lg"></i>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-bottom border-right p-2 up">
+                    <i class="fa fa-bitcoin icon bg-light text-dark px-4 py-3 my-3 rounded shadow-lg"></i>
                     <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>
             </div>
@@ -84,7 +85,7 @@ include 'images.php';
         <!--wallet-->
        
         <section>
-            <div id="sec-1" class="row relative min-500 bg-light py-4 border-bottom">
+            <div id="sec-1" class="row relative min-500 bg-light py-4 border-bottom m-0">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
@@ -109,7 +110,7 @@ include 'images.php';
          <!--exchange-->
        
          <section>
-            <div class="row relative d-flex min-500 bg-navy-gradient text-light py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-navy-gradient text-light py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title text-light py-3 up">
@@ -134,7 +135,7 @@ include 'images.php';
         <!--port-->
        
         <section>
-            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <img class="img-port-desktop absolute z-0 opacity-full ds"
@@ -157,7 +158,7 @@ include 'images.php';
          <!--markets-->
        
          <section>
-            <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-light py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
@@ -182,7 +183,7 @@ include 'images.php';
         <!--news-->
         
         <section>
-            <div class="row relative d-flex min-500 bg-white p-0 border-bottom">
+            <div class="row relative d-flex min-500 bg-white p-0 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
                     <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
@@ -205,7 +206,7 @@ include 'images.php';
          <!--support-->
         
          <section>
-            <div class="row relative d-flex min-500 bg-light py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-light py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
                     <h2 class="section-title py-3 up">
@@ -228,7 +229,7 @@ include 'images.php';
         <!--block-->
        
         <section>
-            <div class="row relative d-flex min-500 bg-white py-4 border-bottom">
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
@@ -242,7 +243,7 @@ include 'images.php';
                         <?php echo $homeBlockTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow">
                         <?php echo $homeBlockDesc; ?>
                     </p>
                 </div>
@@ -252,7 +253,7 @@ include 'images.php';
 
         <!-- download -->
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
@@ -302,7 +303,7 @@ include 'images.php';
         </section>
 
         <section>
-            <div class="row d-flex bg-light relative">
+            <div class="row d-flex bg-light relative m-0">
                 <div class="col-lg-12 min-600 down down-med">
                     <img class="img-full absolute z-0 bottom-0 left-0 opacity-full"
                     src="<?php echo $homeImgLaptop; ?>"
