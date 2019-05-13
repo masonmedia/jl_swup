@@ -937,7 +937,6 @@ html.is-animating .transition-wipe {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     position: absolute;
     z-index: 2;
-    /*og======*/
     height: 900px;
     width: 900px;
     max-width: 100%;
