@@ -10,7 +10,7 @@ include 'images.php';
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg w-100 p-5 relative m-0">
         <!-- bg navy gradient shape -->
-        <div class="banner-gradient bg-navy-gradient"></div> 
+        <div class="banner-gradient bg-navy-gradient ds"></div> 
         <!-- bg white cover for max-width navy gradient shape -->
         <div class="banner-gradient-cover absolute z-2 bg-white"></div> 
         <img class="img-full absolute z--1 left-0 up up-med"
