@@ -23,7 +23,7 @@ include 'images.php';
             <h2 class="site-title text-light font-weight-bold py-2 zoom zoom-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-light font-weight-bold py-2 right right-med">
+            <h3 class="h4 text-light font-weight-medium py-2 right right-med">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">

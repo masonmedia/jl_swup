@@ -328,6 +328,9 @@ p {
 .word-break {
     word-break: break-all;
 }
+.font-weight-medium {
+    font-weight: 400;
+}
 
 /* fonts + text effects */
 
@@ -1630,6 +1633,9 @@ footer li a {
     html {
         width: 100%;
         overflow-x: hidden;
+    }
+    .btn-lg {
+        padding: 7px 11px !important;
     }
 
     /* nav */
