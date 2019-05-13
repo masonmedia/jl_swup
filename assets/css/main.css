@@ -937,12 +937,13 @@ html.is-animating .transition-wipe {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
     position: absolute;
     z-index: 2;
+    /*og======*/
     height: 900px;
-    width: 900px; 
-    max-width: 100%; 
-    transform: rotate(52.25deg); 
-    left: -100px; 
-    top: -300px; 
+    width: 900px;
+    max-width: 100%;
+    transform: rotate(51.8deg);
+    left: -100px;
+    top: -300px;
     border-radius: 20px 20px 40% 20px;
 }
 .banner-gradient-cover {
@@ -1562,13 +1563,32 @@ footer li a {
         box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
         position: absolute;
         z-index: 2;
-        height: 1000px;
+        /* og=== */
+        /* height: 1000px;
         width: 1200px;
         max-width: 100%;
         transform: rotate(52.25deg);
         left: -300px;
-        top: -300px;
-    }
+        top: -300px; */
+        /*big====*/
+        /*height: 1300px;
+        width: 1200px;
+        max-width: 100%;
+        transform: rotate(51.8deg);
+        left: -392px;
+        top: -349px;
+        */
+        height: 1200px;
+        width: 1200px;
+        max-width: 100%;
+        transform: rotate(51.8deg);
+        left: -401px;
+        top: -337px;
+        -webkit-transform: rotate(51.8deg);
+        -moz-transform: rotate(51.8deg);
+        -ms-transform: rotate(51.8deg);
+        -o-transform: rotate(51.8deg);
+}
     .min-700-lg {
         min-height: 1000px;
     }
@@ -1600,7 +1620,6 @@ footer li a {
         height: 900px;
         width: 900px;
         max-width: 100%;
-        transform: rotate(52.25deg);
         left: -350px;
         top: -252px;
     }
