@@ -3,7 +3,7 @@
 // =============== Home page
 
 $homeBanner1 = "Jaxx Liberty";
-$homeBanner2 = "Your gateway to <span class='line-break-sm'>all things crypto.</span>";
+$homeBanner2 = "Your gateway to <span class='line-break-md'>all things crypto.</span>";
 $homeBanner3 = "Portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='line-break-sm'>85 cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
 $homeBannerCTA1 = "Download";
 

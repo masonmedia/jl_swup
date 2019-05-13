@@ -9,7 +9,6 @@ include 'images.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg w-100 p-5 relative m-0">
-        <!-- <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(52.25deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-2 bg-navy-gradient shadow-lg"></div>  -->
         <!-- bg navy gradient shape -->
         <div class="banner-gradient bg-navy-gradient"></div> 
         <!-- bg white cover for max-width navy gradient shape -->
@@ -24,11 +23,11 @@ include 'images.php';
             <h2 class="site-title text-light font-weight-bold py-2 zoom zoom-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-light font-weight-bold py-2">
+            <h3 class="h4 text-light font-weight-bold py-2 right right-med">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
-                <p class="btn btn-lg btn-orange mt-3"
+                <p class="btn btn-lg btn-orange mt-3 down down-slow"
                 onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
                     <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
                 </p>

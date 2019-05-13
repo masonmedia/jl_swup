@@ -808,8 +808,8 @@ p {
 /* overlay animation: add div with transition-wipe for animation and the overlay to be revealed and moved
 <div class="transition-wipe overlay"></div> */
 
-/*
-.overlay {
+
+/* .overlay {
     position: absolute;
     background: #ff6902;
     top: 0;
@@ -828,8 +828,8 @@ html.is-animating .transition-wipe {
     transform: scaleX(1);
     width: 3000px;
     height: 10000px;
-}
-*/
+} */
+
 
 /* colors ===================*/
 
@@ -1590,7 +1590,7 @@ footer li a {
 
 @media (max-width: 1024px) {
     .jazzy {
-        width: 500px;
+        width: 480px;
     }
     .img-port-desktop {
         width: 900px;
@@ -1691,7 +1691,6 @@ footer li a {
         align-items: center;
     }
 
-
     /* utility class for breaking sentences @mobile */
     .line-break-sm {
         display: table;
@@ -1779,6 +1778,11 @@ footer li a {
         line-height: 85%;
     }
 
+    /* utility class for breaking sentences @mobile */
+    .line-break-md {
+        display: table;
+    }
+
     /*   utility class to reduce 100vh on mobile */
     .min--100 {
         min-height: 700px;
@@ -1799,8 +1803,10 @@ footer li a {
 @media screen and (max-width: 601px) {
 
     .banner-gradient {
-        left: -286px;
-        top: -23px;
+        /*left: -286px;*/
+        /*top: -23px;*/
+        left: -326px;
+        top: -36px;
         padding: 250px;
     }
 
@@ -1812,10 +1818,10 @@ footer li a {
         flex-flow: column;
     }
 
-    /*force homepage banner span elements to wrap onto separate lines @mobile*/
-    /* #banner span {
-        display: inline-block;
-    } */
+    /* utility class for breaking sentences @mobile */
+    .line-break-md {
+        display: inline;
+    }
 
     /*reduce navbar logo and mobile menu size*/
     .navbar-brand .jaxx-navbar-brand {
