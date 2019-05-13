@@ -9,7 +9,6 @@ include 'images.php';
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg w-100 p-5 relative m-0">
-    <!-- style="background: url(/assets/img/jaxx-gradient-jazzy-phone.jpg) center top; background-size: cover;" -->
         <!-- <div style="height: 900px; width: 900px; max-width: 100%; transform: rotate(52.25deg); left: -100px; top: -300px; border-radius: 20px 20px 40% 20px;" class="absolute z-2 bg-navy-gradient shadow-lg"></div>  -->
         <!-- bg navy gradient shape -->
         <div class="banner-gradient bg-navy-gradient"></div> 
