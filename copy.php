@@ -30,7 +30,7 @@ $homeBlockDesc = "Check balances and transaction data across multiple blockchain
 
 $homeDownload1 = "Download";
 $homeDownload2 = "Use on your <span class='d-table'>favourite device.</span>";
-$homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your crypto journey. Get it on the app store and google play today.";
+$homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your journey.";
 $homeDownloadCTA = "Desktop versions";
 
 // =============== Security page
