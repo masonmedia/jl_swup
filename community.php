@@ -51,6 +51,63 @@ include 'images.php';
             </div>
         </section>
 
+        <!--social-->
+        
+        <section>
+            <div id="sec-2" class="row d-flex min-500 bg-white">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
+                    <h2 class="h4 mt-4">The Decentral Ecosystem</h2>
+                    <h3 class="section-title font-weight-bold">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
+                    <div class="container-fluid right right-med">
+                        <div class="row">
+                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0">
+                               <div class="col-xs-3 mr-2">
+                                    <a href="https://www.facebook.com/JaxxWallet/" target="_blank" onclick="googleAnalyticsTrigger('Facebook', 'Community_Page')">
+                                    <i class="fa fa-facebook orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://twitter.com/jaxx_io?lang=en" target="_blank" onclick="googleAnalyticsTrigger('Twitter', 'Community_Page')">
+                                    <i class="fa fa-twitter orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://www.instagram.com/jaxx_io/" target="_blank" onclick="googleAnalyticsTrigger('Instagram', 'Community_Page')">
+                                    <i class="fa fa-instagram orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://www.youtube.com/user/decentralTV" target="_blank" onclick="googleAnalyticsTrigger('Youtube', 'Community_Page')">
+                                    <i class="fa fa-youtube orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 mr-2">
+                                    <a href="https://t.me/jaxxliberty" target="_blank" onclick="googleAnalyticsTrigger('Telegram', 'Community_Page')">
+                                    <i class="fa fa-telegram orange p-3"></i>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="https://www.reddit.com/r/jaxx/" target="_blank" onclick="googleAnalyticsTrigger('Reddit', 'Community_Page')">
+                                    <i class="fa fa-reddit orange p-3"></i>
+                                    </a>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light relative">
+                <div class="col-lg-12 min-500 down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.">
+                </div>
+            </div>
+        </section>   
+
          <!--Our Asset Network-->
         
         <section>
@@ -60,61 +117,9 @@ include 'images.php';
                     <h2 class="h4">Integrations and network</h2>
                     <h3 class="section-title text-dark mb-0">Solving the problems of today and tomorrow.</h3>
                     <hr class="hr-big border-0 bg-orange">
-                    <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
+                    <p class="p-big py-3 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
                 </div>
                <div class="offset-lg-2"></div>
-
-               <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 p-5">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                            <th scope="col">Coin</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Symbol</th>
-                            <th scope="col">Info</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">
-                                <a href="https://bitcoin.org" target="_blank">
-                                    <img class="coin-logo rounded-circle shadow"
-                                    src="<? echo $coinBTC; ?>"
-                                    alt="Jaxx Liberty Partner Bitcoin">
-                                </a>
-                            </th>
-                            <td>Bitcoin</td>
-                            <td>BTC</td>
-                            <td><a class="orange font-weight-bold" href="https://bitcoin.org" target="_blank">bitcoin.org</a></td>
-                            </tr>
-                            <tr>
-                            <th scope="row">
-                                <a href="https://www.ethereum.org/" target="_blank">
-                                    <img class="coin-logo rounded-circle shadow"
-                                    src="<? echo $coinETH; ?>"
-                                    alt="Jaxx Liberty Partner Bitcoin">
-                                </a>
-                            </th>
-                            <td>Ethereum</td>
-                            <td>ETH</td>
-                            <td><a class="orange font-weight-bold" href="https://www.ethereum.org/" target="_blank">ethereum.org</a></td>
-                            </tr>
-                            <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                        </table>
-                    
-                    
-                    </div>
-                </div>
-               </div>
-                    
                     <!--coin/token grid-->
                     <div class="container-fluid">
                         <!--row-->
@@ -427,7 +432,7 @@ include 'images.php';
 
                             <!--read more accordion-->
 
-                            <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center">
+                            <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center p-0">
                                 <div class="accordion w-100 rounded" id="coinAccordion">
                                     <div class="card border-0">
                                         <div class="card-header bg-light border-0" id="headingOne">
@@ -435,14 +440,14 @@ include 'images.php';
                                         </div>
                                         <!--collapse content-->
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#coinAccordion">
-                                            <div class="card-body bg-light pt-3">
+                                            <div class="card-body bg-light pt-3 px-0">
                                                 <div class="container-fluid bg-light rounded">
                                                 <!--row-->
                                                     <div class="row d-flex">
                                                         <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                                                 <a href="https://nem.io/xem/" target="_blank">
-                                                                    <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/nem.png" alt="Jaxx Liberty Partner NEM">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Nem.svg" alt="Jaxx Liberty Partner NEM">
                                                                     <h5>XEM</h5>
                                                                 </a>
                                                             </div>
@@ -468,7 +473,7 @@ include 'images.php';
 
                                                         <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                                                <a href="https://iex.ec/rlc-token-1/" target="_blank">
+                                                                <a href="https://iex.ec/rlc-token/" target="_blank">
                                                                     <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/iExec.svg" alt="Jaxx Liberty Partner iExec RLC">
                                                                     <h5>iExec RLC</h5>
                                                                 </a>
@@ -535,8 +540,8 @@ include 'images.php';
                                                         </div>
                                                         <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                                                <a href="https://www.helbizcoin.io/" target="_blank">
-                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/HBZ.svg" alt="Jaxx Liberty Partner Hellbiz">
+                                                                <a href="https://www.hbzcoin.com/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/HBZ.svg" alt="Jaxx Liberty Partner Helbiz">
                                                                     <h5>Helbiz</h5>
                                                                </a>
                                                             </div>
@@ -696,55 +701,6 @@ include 'images.php';
                 </div>
             </div>
         </section>
-        
-        <!--social-->
-        
-        <section>
-            <div id="sec-2" class="row d-flex min-500 bg-white">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-secondary p-5 right">
-                    <h2 class="h4 mt-4">The Decentral Ecosystem</h2>
-                    <h3 class="section-title font-weight-bold">Join the Decentral community today. Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.</h3>
-                    <div class="container-fluid right right-med">
-                        <div class="row">
-                            <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center py-3 px-0">
-                               <div class="col-xs-3 mr-2">
-                                    <a href="https://www.facebook.com/JaxxWallet/" target="_blank" onclick="googleAnalyticsTrigger('Facebook', 'Community_Page')">
-                                    <i class="fa fa-facebook orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://twitter.com/jaxx_io?lang=en" target="_blank" onclick="googleAnalyticsTrigger('Twitter', 'Community_Page')">
-                                    <i class="fa fa-twitter orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://www.instagram.com/jaxx_io/" target="_blank" onclick="googleAnalyticsTrigger('Instagram', 'Community_Page')">
-                                    <i class="fa fa-instagram orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://www.youtube.com/user/decentralTV" target="_blank" onclick="googleAnalyticsTrigger('Youtube', 'Community_Page')">
-                                    <i class="fa fa-youtube orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 mr-2">
-                                    <a href="https://t.me/jaxxliberty" target="_blank" onclick="googleAnalyticsTrigger('Telegram', 'Community_Page')">
-                                    <i class="fa fa-telegram orange p-3"></i>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3">
-                                    <a href="https://www.reddit.com/r/jaxx/" target="_blank" onclick="googleAnalyticsTrigger('Reddit', 'Community_Page')">
-                                    <i class="fa fa-reddit orange p-3"></i>
-                                    </a>
-                                </div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-lg-2"></div>
-            </div>
-        </section>
 
         <!-- coin data mockup component] -->
 
@@ -759,13 +715,7 @@ include 'images.php';
             </div>
         </section> -->
 
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-500 down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.">
-                </div>
-            </div>
-        </section>   
+    
 
         <!--Jaxx blog API GET-->
 
