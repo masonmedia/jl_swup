@@ -1027,7 +1027,16 @@ img.decentral-logo,
 /* community page coin logo imgs */
 
 .coin-logo {
-    width: 120px;
+    width: 80px;
+    width: 40px;
+}
+
+/* community page coin table */
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
 }
 
 /*features phone case imgs*/

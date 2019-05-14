@@ -1,10 +1,8 @@
 <?php
-
 $page = "community";
-
 $title = "Jaxx Liberty | Community";
-
 include 'includes/header.php';
+include 'images.php';
 
 ?>
 
@@ -47,7 +45,7 @@ include 'includes/header.php';
         
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
+                <div class="col-lg-12 min-500 down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-apple-4-iphones-min.jpg" alt="We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.">
                 </div>
             </div>
@@ -65,11 +63,197 @@ include 'includes/header.php';
                     <p class="p-big pt-3 pb-5 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p>
                 </div>
                <div class="offset-lg-2"></div>
+
+               <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 p-5">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                            <th scope="col">Coin</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Symbol</th>
+                            <th scope="col">Info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">
+                                <a href="https://bitcoin.org" target="_blank">
+                                    <img class="coin-logo rounded-circle shadow"
+                                    src="<? echo $coinBTC; ?>"
+                                    alt="Jaxx Liberty Partner Bitcoin">
+                                </a>
+                            </th>
+                            <td>Bitcoin</td>
+                            <td>BTC</td>
+                            <td><a class="orange font-weight-bold" href="https://bitcoin.org" target="_blank">bitcoin.org</a></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">
+                                <a href="https://www.ethereum.org/" target="_blank">
+                                    <img class="coin-logo rounded-circle shadow"
+                                    src="<? echo $coinETH; ?>"
+                                    alt="Jaxx Liberty Partner Bitcoin">
+                                </a>
+                            </th>
+                            <td>Ethereum</td>
+                            <td>ETH</td>
+                            <td><a class="orange font-weight-bold" href="https://www.ethereum.org/" target="_blank">ethereum.org</a></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    
+                    
+                    </div>
+                </div>
+               </div>
                     
                     <!--coin/token grid-->
                     <div class="container-fluid">
                         <!--row-->
                         <div class="row d-flex px-3 pb-5 pt-0">
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://bitcoin.org" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Bitcoin.png" alt="Jaxx Liberty Partner Bitcoin">
+                                        <h5>Bitcoin</h5>
+                                   </a>
+                                </div><!--wrap-->
+                            </div><!--end col-->
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://ethereum.org" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Ethereum.svg" alt="Jaxx Liberty Partner Ethereum">
+                                        <h5>Ethereum</h5>
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://ripple.com/xrp/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Ripple-2.svg" alt="Jaxx Liberty Partner Ripple">
+                                        <h5>Ripple | XRP</h5>
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://www.bitcoincash.org/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Bitcoincash.svg" alt="Jaxx Liberty Partner Bitcoin Cash">
+                                        <h5>Bitcoin Cash</h5>
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://litecoin.org/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Litecoin.svg" alt="Jaxx Liberty Partner Litecoin">
+                                        <h5>Litecoin</h5>
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://eos.io/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EOS.svg" alt="Jaxx Liberty Partner EOS">
+                                        <h5>EOS</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://tether.to/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/tether.svg" alt="Jaxx Liberty Partner Tether">
+                                        <h5>Tether</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://www.cardano.org/en/home/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Cardano.svg" alt="Jaxx Liberty Partner Cardano">
+                                        <h5>Cardano</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://www.binance.com/en" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/binance.svg" alt="Jaxx Liberty Partner Binance">
+                                        <h5>Binance</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://web.getmonero.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/monero.png" alt="Jaxx Liberty Partner Monero">
+                                        <h5>Monero</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://www.stellar.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Stellar.svg" alt="Jaxx Liberty Partner Stellar">
+                                        <h5>Stellar</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://tron.network/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Tron.svg" alt="Jaxx Liberty Partner Tron">
+                                        <h5>Tron</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://www.dash.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Dash.svg" alt="Jaxx Liberty Partner Dash">
+                                        <h5>Dash</h5>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://bitcoinsv.io/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/bitcoin-sv.png" alt="Jaxx Liberty Partner Bitcoin SV">
+                                        <h5>Bitcoin SV</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                   <a href="https://ethereumclassic.org/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EthereumClassic.svg" alt="Jaxx Liberty Partner Ethereum Classic">
+                                        <h5>Ethereum Classic</h5>
+                                   </a>
+                                </div>
+                            </div>
+
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                    <a href="https://www.augur.net/" target="_blank">
@@ -381,14 +565,7 @@ include 'includes/header.php';
                                                                </a>
                                                             </div>
                                                         </div>
-                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                                           <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                                                <a href="https://eos.io/" target="_blank">
-                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EOS.svg" alt="Jaxx Liberty Partner EOS">
-                                                                    <h5>EOS</h5>
-                                                               </a>
-                                                            </div>
-                                                        </div>
+                                                        
                                                         <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                                                 <a href="https://lisk.io/" target="_blank">
@@ -456,8 +633,7 @@ include 'includes/header.php';
         
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-women-garage.jpg" alt="Jaxx Liberty is your all-in-one digital asset wallet.">-->
+                <div class="col-lg-12 min-500 down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="Join the Decentral community today.">
                 </div>
             </div>
@@ -527,7 +703,7 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
+                <div class="col-lg-12 min-500 down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-three-people-selfie.jpg" alt="Read the latest posts about Jaxx Liberty, integrations, blockchain news, our partners, and more.">
                 </div>
             </div>
@@ -535,7 +711,7 @@ include 'includes/header.php';
 
         <!--Jaxx blog API GET-->
 
-         <section>
+         <!-- <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
                     <h2 class="section-title text-center">News from the Jaxx Blog</h2>
@@ -543,7 +719,7 @@ include 'includes/header.php';
                     <div id="authors" class="columns--blog w-100"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--download-->
         
@@ -573,7 +749,7 @@ include 'includes/header.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
+                <div class="col-lg-12 min-600 down down-med">
                     <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
                 </div>
             </div>

@@ -54,4 +54,10 @@ $featuresImg7 = "/assets/img/jaxx-home-dash.jpg";
 $featuresImgAlt7 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
 
 
+// community coin logos
+
+$coinBTC = "/assets/img/coin-logos/Bitcoin.png";
+$coinETH = "/assets/img/coin-logos/Ethereum.svg";
+
+
 ?>

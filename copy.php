@@ -4,11 +4,11 @@
 
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Your gateway to <span class='line-break-md'>all things crypto.</span>";
-$homeBanner3 = "Portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='line-break-sm'>85 cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
+$homeBanner3 = "Wallet, portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='d-table'>80+ cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
 $homeBannerCTA1 = "Download";
 
 $homeWalletTitle = "Manage 80+ Cryptocurrencies";
-$homeWalletDesc = "Easily store, send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
+$homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
 
 $homePortTitle = "View your portfolio.";
 $homePortDesc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
