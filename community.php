@@ -244,6 +244,15 @@ include 'images.php';
                                     </a>
                                 </div>
                             </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://www.iota.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Iota.svg" alt="Jaxx Liberty Partner Iota">
+                                        <h5>Iota</h5>
+                                    </a>
+                                </div>
+                            </div>
 
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
@@ -251,6 +260,15 @@ include 'images.php';
                                         <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EthereumClassic.svg" alt="Jaxx Liberty Partner Ethereum Classic">
                                         <h5>Ethereum Classic</h5>
                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://neo.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Neo.svg" alt="Jaxx Liberty Partner NEO">
+                                        <h5>NEO</h5>
+                                    </a>
                                 </div>
                             </div>
 
