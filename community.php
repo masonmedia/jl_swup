@@ -271,6 +271,15 @@ include 'images.php';
                                     </a>
                                 </div>
                             </div>
+                            
+                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                    <a href="https://qtum.org/en" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Qtum.svg" alt="Jaxx Liberty Partner Qtum">
+                                        <h5>QTUM</h5>
+                                    </a>
+                                </div>
+                            </div>
 
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
@@ -415,22 +424,6 @@ include 'images.php';
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                   <a href="https://enjincoin.io/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Enjin.svg" alt="Jaxx Liberty Partner Engine Coin">
-                                        <h5>Enjin Coin</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                    <a href="https://iex.ec/rlc-token-1/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/iExec.svg" alt="Jaxx Liberty Partner iExec RLC">
-                                        <h5>iExec RLC</h5>
-                                    </a>
-                                </div>
-                            </div>
 
                             <!--read more accordion-->
 
@@ -446,6 +439,60 @@ include 'images.php';
                                                 <div class="container-fluid bg-light rounded">
                                                 <!--row-->
                                                     <div class="row d-flex">
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://nem.io/xem/" target="_blank">
+                                                                    <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/nem.png" alt="Jaxx Liberty Partner NEM">
+                                                                    <h5>XEM</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://bitcoingold.org/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/bitcoin-gold.jpg" alt="Jaxx Liberty Partner Bitcoin Gold">
+                                                                    <h5>Bitcoin Gold</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://enjincoin.io/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Enjin.svg" alt="Jaxx Liberty Partner Engine Coin">
+                                                                    <h5>Enjin Coin</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://iex.ec/rlc-token-1/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/iExec.svg" alt="Jaxx Liberty Partner iExec RLC">
+                                                                    <h5>iExec RLC</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://dogecoin.com/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Doge.svg" alt="Jaxx Liberty Partner Doge">
+                                                                    <h5>Dogecoin</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
+                                                                <a href="https://aion.network/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Aion.svg" alt="Jaxx Liberty Partner Aion">
+                                                                    <h5>Aion</h5>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
                                                         <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                            <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
                                                                 <a href="https://www.edgeless.io/token" target="_blank">
@@ -625,14 +672,7 @@ include 'images.php';
                                                                </a>
                                                             </div>
                                                         </div>
-                                                        <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                                           <div class="wrap w-100 bg-light-grey m-2 p-4 rounded shadow">
-                                                                <a href="https://enigma.co/" target="_blank">
-                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Enigma.svg" alt="Jaxx Liberty Partner Enigma">
-                                                                    <h5>Enigma</h5>
-                                                               </a>
-                                                            </div>
-                                                        </div><!--end col-->
+                                                        
                                                     </div><!--end accordion row-->
 
                                                     <div class="modal-footer mt-3">
