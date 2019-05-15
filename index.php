@@ -46,17 +46,14 @@ include 'images.php';
         <section>
            <div class="row d-flex relative bg-white text-secondary m-0">
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-left border-bottom p-2 up">
-                    <!-- <i class="	fa fa-user icon bg-light text-dark px-4 py-3 my-3 rounded shadow-lg"></i> -->
                     <img src="/assets/img/icon-profile.svg" class="jaxx-navbar-brand mt-3 px-3 mx-0b" alt="">
                     <h2 class="h4 font-weight-bold">No login.</h2>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-bottom pb-2 up">
-                    <!-- <i class="fa fa-download icon bg-light text-dark px-4 py-3 my-3 px-4 py-3 mb-4 rounded shadow-lg"></i> -->
                     <img src="/assets/img/icon-free.svg" class="jaxx-navbar-brand mt-3 px-2 mx-0" alt="">
                     <h2 class="h4 font-weight-bold">Always free.</h2>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-bottom border-right pb-2 up">
-                    <!-- <i class="fa fa-users icon bg-light text-dark px-4 py-3 my-3 rounded shadow-lg"></i> -->
                     <img src="/assets/img/icon-doorway.svg" class="jaxx-navbar-brand mt-3 px-2 mx-0" alt="">
                     <h2 class="h4 font-weight-bold">Join millions of users.</h2>
                 </div>

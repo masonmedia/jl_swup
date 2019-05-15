@@ -660,3 +660,173 @@ include 'includes/footer.php';
         </div>
     </div>
 </section>
+
+<!-- security page "devOPs" accordion concept -->
+
+<!--dev-ops security-->
+        
+<section>
+            <div id="sec-7" class="row d-flex p-5 min-500 bg-white">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <h2 class="h4 mt-3 slide-up">
+                        <?php echo $securityDevOpsMainMicro; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-up">
+                        <?php echo $securityDevOpsMainTitle; ?>
+                    </h3>
+                    <p class="p-big pt-3 m-0 slide-up">
+                        <?php echo $securityDevOpsMainDesc1; ?>
+                    </p>
+                   
+                </div>
+               
+                <!-- accordion -->
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left right">
+                    <div class="accordion w-100 py-5" id="accordionExample">
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="h4 btn-link mb-0 p-3 orange" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle1; ?></code>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc1; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle2; ?></code>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc2; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle3; ?></code>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left  px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc3; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle4; ?></code>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc4; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle5; ?></code>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc5; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle6; ?></code> 
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc6; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle7; ?></code> 
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left px-4 py-5">
+                                    <p class="pl-3 border-left">
+                                        <?php echo $securityDevOpsDesc7; ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+                        <div class="card border-0 border-bottom">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="h4 btn-link mb-0 p-3 orange collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    <code class="text-secondary font-weight-bold">>> <?php echo $securityDevOpsTitle8; ?></code> 
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                <div class="card-body border-bottom border-right border-left p-4">
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle9; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc9; ?></p>
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle10; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc10; ?></p>
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle11; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc11 ?></p>
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle12; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc12; ?></p>
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle13; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc13; ?></p>
+                                    <hr>
+                                    <h4><?php echo $securityDevOpsTitle14; ?></h4>
+                                    <hr>
+                                    <p><?php echo $securityDevOpsDesc14; ?></p>
+                                    <a href="https://support.decentral.ca/hc/en-us/search?utf8=%E2%9C%93&query=security" target="_blank" class="btn btn-lg btn-orange">Read more</a>
+                                </div>
+                            </div>
+                        </div><!--end card-->
+
+                    </div><!--end accordion-->
+                </div>
+            </div><!--end row-->
+        </section>
+        
+        <section>
+            <div class="row d-flex bg-light relative">
+                <div class="col-lg-12 min-700-lg down down-med">
+                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server.">
+                </div>
+            </div>
+        </section>

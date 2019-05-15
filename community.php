@@ -715,8 +715,6 @@ include 'images.php';
             </div>
         </section> -->
 
-    
-
         <!--Jaxx blog API GET-->
 
          <!-- <section>

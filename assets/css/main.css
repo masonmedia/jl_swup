@@ -971,6 +971,13 @@ html.is-animating .transition-wipe {
     background-size: cover;
 }
 
+/* security */
+
+.bg--ipad-wood-table {
+    background: url(/assets/img/jaxx-ipad-black-wood-table.jpg) center 44%;
+    background-size: cover;
+}
+
 /* images + logos ======================*/
 
 .img {

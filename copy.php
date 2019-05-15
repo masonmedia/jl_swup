@@ -7,7 +7,7 @@ $homeBanner2 = "Your gateway to <span class='line-break-md'>all things crypto.</
 $homeBanner3 = "Wallet, portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='d-table'>80+ cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
 $homeBannerCTA1 = "Download";
 
-$homeWalletTitle = "Manage 80+ Cryptocurrencies";
+$homeWalletTitle = "Manage 80+ Cryptocurrencies.";
 $homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
 
 $homePortTitle = "View your portfolio.";
@@ -35,33 +35,17 @@ $homeDownloadCTA = "Desktop versions";
 
 // =============== Security page
 
-$security1Micro = "Security features";
-$security1Title = "Secure by design.";
-$security1Desc1 = "Jaxx Liberty is secure by design. We built it so that you are in full control of your digital assets. All of your confidential data (mnemonic, private keys) is generated and kept on the client side (your device).";
-$security1Desc2 = "Decentral never has access to, or knowledge of, your confidential data — you remain in complete control of your digital assets at all times. While highly unlikely, should our server be compromised, your digital assets remain safe because there’s nothing to steal on our server. This reduces the risk of a large-scale security catastrophe that has been seen in some of the custodial wallet models. This also means that the fund security of Jaxx Liberty wallet lies with you.";
-$security1CTA = "Explore";
+$security1Title = "You're in total control";
+$security1Desc1 = "Jaxx Liberty is a non-custodial wallet, which means you own the keys. We never have access to, or knowledge of, your confidential data — only you do.";
 
-$security2Micro = "12-word backup";
-$security2Title = "It starts with a seed.";
-$security2Desc1 = "Jaxx Liberty uses industrial standard wallet data generation and derivation processes. When a new wallet is being created, a random 12-word mnemonic or “back-up phrase” is generated using standard BIP39 library. This mnemonic is the root data of the entire wallet and Jaxx Liberty uses it to derive your public addresses and your private keys,";
-$security2Desc2 = " and some meta-data for all supported crypto assets (Bitcoin, Ethereum, and more). This 12-word mnemonic is easy to write down, is a backup of the entire wallet, and difficult to guess. In the event that your device is lost or stolen, or the operating system has been corrupted, this 12-word mnemonic can recover the entire wallet in another device. Make sure your mnemonic is stored in a safe place as anyone who has access to this 12-word back-up phrase has access to your digital assets.";
-$security2CTA = "You're in control";
+$security2Title = "Industry standard security protocols.";
+$security2Desc1 = "Jaxx Liberty uses industrial standard wallet data generation and derivation processes. Your 12-word mnemonic is generated using standard BIP39 library.";
 
-// password 
+$security3Title = "Further secure your wallet with a password.";
+$security3Desc1 = "To further protect your data, we took extra security measures by encrypting core wallet data using military grade encryption after you set a password.";
 
-$security3Micro = "Password protection";
-$security3Title = "Further encrypt your wallet data with a password.";
-$security3Desc1 = "To further protect your data, we took extra security measures by encrypting core wallet data using military grade encryption after you set a password. In order to achieve maximum security without destroying usability, we used a special cryptocurrency data structure called xPub, which has the same address-generating capability of a key node, but without the ability to generate private keys.";
-$security3Desc2 = "By using this architecture we are able to keep your mnemonic on the client in an encrypted state most of the time, and keep only less security-sensitive xPub in memory and local storage. With this minimized exposure of the mnemonic you are  only required to enter a password before critical operations such as send, view mnemonic, and view private keys. There are also processes running in Jaxx Liberty to check the integrity of critical data such as receiving addresses, and xPubs to minimize the risk of data tampering by malware.";
-$security3CTA = "Hot vs. cold";
-
-// hot vs cold
-
-$security4Micro = "Security architecture";
 $security4Title = "Hot wallet vs. cold wallet.";
 $security4Desc1 = "Jaxx Liberty is a convenient, easy-to-use hot wallet with a unified user-experience across many supported platforms. A hot wallet is typically suited for frequent, casual, and fast crypto transactions, while a cold wallet (often referred to as a hardware wallet) is better suited for long-term storage of larger amounts, typically by using specialized hardware.";
-$security4Desc2 = "While it's commonly suggested that users not store life-changing amounts in any hot wallet (including Jaxx Liberty), each user is still in the best position to maintain the security of their assets. Mnemonics and passwords never leave a user's device, they are never stored, never shared, and are never seen except if you yourself let your information be viewed. Security is our top priority, and we are continuously improving the security of both our product and operations. Knowing this difference between a hot wallet and a cold wallet is an important first step towards understanding potential risks.";
-$security4CTA = "Evolution";
 
 // Dev-ops accordion 
 
