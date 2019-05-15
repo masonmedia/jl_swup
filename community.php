@@ -121,7 +121,7 @@ include 'images.php';
                 </div>
                <div class="offset-lg-2"></div>
                     <!--coin/token grid-->
-                    <div class="container-fluid">
+                    <div class="container">
                         <!--row-->
                         <div class="row d-flex px-3 pb-5 pt-0">
                             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
