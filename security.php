@@ -44,7 +44,7 @@ include 'images.php';
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <img style="width: 800px; left: -100px;" class="absolute z-0 bottom-0 opacity-full"
+                    <img style="width: 800px; left: -200px;" class="absolute z-0 bottom-0 opacity-full"
                         src="<?php echo $securityImgHandDevice; ?>" 
                         alt="<?php echo $securityImgHandDeviceAlt; ?>">
                 </div>
@@ -150,9 +150,7 @@ include 'images.php';
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-500 bg--ipad-wood-table down down-med">
-                    <!-- <img class="img-full absolute z-0 left-0 top-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension."> -->
-                </div>
+                <div class="col-lg-12 min-500 bg--ipad-wood-table down down-med"></div>
             </div>
         </section>
 
