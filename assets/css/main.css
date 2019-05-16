@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -328,6 +328,7 @@ p {
 .word-break {
     word-break: break-all;
 }
+
 .font-weight-medium {
     font-weight: 400;
 }
@@ -486,34 +487,40 @@ p {
 /* home page star rating */
 .checked {
     color: orange;
-  }
+}
 
 /* animista css animations */
 
 .gradient-background {
-	        -webkit-animation: gradient-background 5s linear infinite alternate both;
-	        animation: gradient-background 5s linear infinite alternate both;
+    -webkit-animation: gradient-background 5s linear infinite alternate both;
+    animation: gradient-background 5s linear infinite alternate both;
 }
+
 .fade-in {
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 .fade-in-top {
-	-webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 .fade-in-left {
-	-webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 .fade-in-bottom {
-	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 .fade-in-fwd {
-	-webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 /**
  * ----------------------------------------
  * animation gradient-background
@@ -521,72 +528,83 @@ p {
  */
 
 @-webkit-keyframes gradient-background {
-  0% {
-    background: #f5af19;
-  }
-  100% {
-    background: #f12711;
-  }
+    0% {
+        background: #f5af19;
+    }
+
+    100% {
+        background: #f12711;
+    }
 }
+
 @keyframes gradient-background {
-  0% {
-    background: #f5af19;
-  }
-  100% {
-    background: #f12711;
-  }
+    0% {
+        background: #f5af19;
+    }
+
+    100% {
+        background: #f12711;
+    }
 }
+
 /**
  * ----------------------------------------
  * animation fade-in
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in {
+@-webkit-keyframes fade-in {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  @keyframes fade-in {
+}
+
+@keyframes fade-in {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
+
 /**
  * ----------------------------------------
  * animation fade-in-top
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in-top {
+@-webkit-keyframes fade-in-top {
     0% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      opacity: 0;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-in-top {
+}
+
+@keyframes fade-in-top {
     0% {
-      -webkit-transform: translateY(-50px);
-              transform: translateY(-50px);
-      opacity: 0;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
+}
+
 /**
  * ----------------------------------------
  * animation fade-in-left
@@ -594,28 +612,32 @@ p {
  */
 @-webkit-keyframes fade-in-left {
     0% {
-      -webkit-transform: translateX(-50px);
-              transform: translateX(-50px);
-      opacity: 0;
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-in-left {
+}
+
+@keyframes fade-in-left {
     0% {
-      -webkit-transform: translateX(-50px);
-              transform: translateX(-50px);
-      opacity: 0;
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
+}
+
 /**
  * ----------------------------------------
  * animation fade-in-bottom
@@ -623,28 +645,31 @@ p {
  */
 @-webkit-keyframes fade-in-bottom {
     0% {
-      -webkit-transform: translateY(50px);
-              transform: translateY(50px);
-      opacity: 0;
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-in-bottom {
+}
+
+@keyframes fade-in-bottom {
     0% {
-      -webkit-transform: translateY(50px);
-              transform: translateY(50px);
-      opacity: 0;
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
+}
 
 /**
  * ----------------------------------------
@@ -653,29 +678,32 @@ p {
  */
 @-webkit-keyframes fade-in-fwd {
     0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-in-fwd {
+}
+
+@keyframes fade-in-fwd {
     0% {
-      -webkit-transform: translateZ(-80px);
-              transform: translateZ(-80px);
-      opacity: 0;
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
     }
-  }
-  
+}
+
 /*SWUP transition animations*/
 
 /*main page transition fade*/
@@ -872,12 +900,13 @@ html.is-animating .transition-wipe {
     background: -webkit-gradient(linear, left top, right top, from(#2F80ED), to(#56CCF2));
     background: linear-gradient(to right, #2F80ED, #56CCF2);
 }
+
 .bg-navy-gradient {
-    background: rgb(9,29,67);
-    background: -moz-linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
-    background: linear-gradient(90deg, rgba(9,29,67,1) 0%, rgba(41,84,171,1) 50%, rgba(9,29,67,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091d43",endColorstr="#091d43",GradientType=1);
+    background: rgb(9, 29, 67);
+    background: -moz-linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
+    background: linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091d43", endColorstr="#091d43", GradientType=1);
 }
 
 .bg-navy {
@@ -936,18 +965,21 @@ html.is-animating .transition-wipe {
 /*  Home ================================*/
 
 .banner-gradient {
-    -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
     position: absolute;
     z-index: 2;
     height: 900px;
     width: 900px;
     max-width: 100%;
     transform: rotate(51.8deg);
-    left: -100px;
-    top: -300px;
+    /* left: -100px;
+    top: -300px; */
+    left: -120px;
+    top: -296px;
     border-radius: 20px 20px 40% 20px;
 }
+
 .banner-gradient-cover {
     height: 900px;
     width: 600px;
@@ -962,10 +994,12 @@ html.is-animating .transition-wipe {
     background: url(/assets/img/jaxx-iphone-isometric-gallery.jpg) center top;
     background-size: cover;
 }
+
 .bg--home-testimonials {
     background: linear-gradient(to right, rgba(245, 175, 25, 0.8), rgba(241, 39, 17, 0.8)), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
     background-size: cover;
 }
+
 .bg--careers-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/decentral-soccer.jpg) center top;
     background-size: cover;
@@ -997,23 +1031,28 @@ html.is-animating .transition-wipe {
 .jazzy {
     width: 600px;
 }
+
 .img-port-desktop {
     width: 1200px;
     left: -500px;
 }
+
 .img-portfolio-hand {
-    width: 800px; 
+    width: 800px;
     left: -200px;
 }
+
 .img-shield {
     width: 450px;
     left: -100px;
 }
+
 .img-iphone-password {
     width: 600px;
     left: -73px;
     top: -45px;
 }
+
 .img-home-support {
     width: 450px;
 }
@@ -1051,7 +1090,8 @@ img.decentral-logo,
 
 /* community page coin table */
 
-.table td, .table th {
+.table td,
+.table th {
     padding: .75rem;
     vertical-align: middle;
     border-top: 1px solid #dee2e6;
@@ -1289,12 +1329,15 @@ input:checked+.slider:before {
 .home-store-badge {
     opacity: 1;
 }
+
 .store-badge {
     width: 150px;
 }
+
 .banner-store-badge {
     width: 125px;
 }
+
 .home-store-badge {
     width: 200px;
 }
@@ -1428,13 +1471,23 @@ nav,
 }
 
 #google_translate_element,
-.goog-te-gadget .goog-te-combo, 
-.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+.goog-te-gadget .goog-te-combo,
+.goog-te-combo,
+.goog-te-banner *,
+.goog-te-ftab *,
+.goog-te-menu *,
+.goog-te-menu2 *,
+.goog-te-balloon * {
     font-family: Helvetica Neue;
     font-size: 13pt;
 }
+
 #google_translate_element #text,
-.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+.goog-logo-link,
+.goog-logo-link:link,
+.goog-logo-link:visited,
+.goog-logo-link:hover,
+.goog-logo-link:active {
     font-size: 12px;
     font-weight: bold;
     color: #444;
@@ -1588,8 +1641,8 @@ footer li a {
 
     .banner-gradient {
         border-radius: 20px 20px 40% 20px;
-        -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
-        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+        -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
         position: absolute;
         z-index: 2;
         /* og=== */
@@ -1617,7 +1670,8 @@ footer li a {
         -moz-transform: rotate(51.8deg);
         -ms-transform: rotate(51.8deg);
         -o-transform: rotate(51.8deg);
-}
+    }
+
     .min-700-lg {
         min-height: 1000px;
     }
@@ -1627,10 +1681,18 @@ footer li a {
     }
 }
 
+@media (max-width: 1280px) {
+    .banner-gradient {
+        left: -172px;
+        top: -285px;
+    }
+}
+
 @media (min-width: 1200px) {
     .feat-phone {
         width: 400px;
     }
+
     .img-port-desktop {
         width: 1100px;
         left: -500px;
@@ -1641,24 +1703,29 @@ footer li a {
     .jazzy {
         width: 470px;
     }
+
     .img-port-desktop {
         width: 900px;
         left: -400px;
     }
+
     .img-portfolio-hand {
         width: 800px;
         left: -238px;
     }
+
     .img-shield {
         width: 400px;
         left: -110px;
     }
+
     .banner-gradient {
         height: 900px;
         width: 900px;
         max-width: 100%;
         left: -350px;
-        top: -252px;
+        /* top: -252px; */
+        top: -255px;
     }
 }
 
@@ -1669,6 +1736,7 @@ footer li a {
         width: 100%;
         overflow-x: hidden;
     }
+
     .btn-lg {
         padding: 7px 11px !important;
     }
@@ -1754,16 +1822,18 @@ footer li a {
     .line-break-sm {
         display: table;
     }
+
     /* imgs */
     .img-iphone-password {
         width: 100%;
         left: 0px;
         top: -45px;
     }
+
     .feat-phone--port {
         padding-top: 60px;
     }
-    
+
 
     /* API blog layout */
     .columns--blog {
@@ -1825,26 +1895,31 @@ footer li a {
     .img-portfolio-hand {
         width: 750px;
         left: 0;
-        }
+    }
+
     .img-shield {
-        width: 400px;
-        left: 180px;
-        }
+        /* width: 400px;
+        left: 180px; */
+        width: 100%;
+        left: 0;
+        padding: 22%;
+    }
 }
+
 @media (max-width: 768px) {
 
     .banner-gradient {
         height: 916px;
         width: 754px;
         max-width: 100%;
-        left: -350px;
+        left: -358px;
         top: -200px;
         border-radius: 20px 20px 50% 20px;
         -webkit-border-radius: 20px 20px 50% 20px;
         -moz-border-radius: 20px 20px 50% 20px;
         -ms-border-radius: 20px 20px 50% 20px;
         -o-border-radius: 20px 20px 50% 20px;
-}
+    }
 
     /* homepage front title */
     .page-title {
@@ -1863,6 +1938,7 @@ footer li a {
     .min--100 {
         min-height: 700px;
     }
+
     /* API blog layout */
     .columns--blog {
         -webkit-column-count: 2;
@@ -1874,25 +1950,16 @@ footer li a {
         bottom: -170px;
         left: -150px;
     }
+
     .img-portfolio-hand {
         width: 800px;
         left: -80px;
-    }
-    .img-shield {
-        /* width: 450px;
-        left: 100px; */
-        width: 100%;
-        padding: 100px;
-        left: 0;
-        margin-top: 30px;
     }
 }
 
 @media screen and (max-width: 601px) {
 
     .banner-gradient {
-        /*left: -286px;*/
-        /*top: -23px;*/
         left: -326px;
         top: -36px;
         padding: 250px;
@@ -1917,6 +1984,7 @@ footer li a {
         margin: 10px 5px 0;
         width: 77px;
     }
+
     /* API blog layout */
     .columns--blog {
         -webkit-column-count: 1;
@@ -1927,29 +1995,35 @@ footer li a {
         width: 455px;
         right: -50px;
     }
+
     .img-port-desktop {
         width: 900px;
         bottom: -173px;
         left: -300px;
     }
+
     .img-home-support {
         width: 350px;
     }
+
     .img-portfolio-hand {
         width: 700px;
         left: -240px;
     }
+
     .img-shield {
         width: 100%;
         left: 0;
         padding: 0;
         margin-top: 0;
     }
+
     .img-iphone-password {
         width: 400px;
-        left: -25px;
+        left: -45px;
         top: 0;
     }
+
     .site-title {
         font-size: 42px;
     }
