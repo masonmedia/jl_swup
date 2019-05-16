@@ -1820,6 +1820,17 @@ footer li a {
     }
 }
 
+/* ipad pro small */
+@media (max-width: 834px) {
+    .img-portfolio-hand {
+        width: 750px;
+        left: 0;
+        }
+    .img-shield {
+        width: 400px;
+        left: 180px;
+        }
+}
 @media (max-width: 768px) {
 
     .banner-gradient {
@@ -1936,7 +1947,7 @@ footer li a {
     }
     .img-iphone-password {
         width: 400px;
-        left: -50px;
+        left: -25px;
         top: 0;
     }
     .site-title {

@@ -14,7 +14,9 @@ include 'images.php';
        alt="<?php echo $securityBannerImgAlt; ?>">
        <div class="offset-lg-1"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
-            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Your <span class="d-table"> security</span> is our priority.</h1>
+            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">
+                <?PHP echo $securityBannerTitle; ?>
+            </h1>
             <a href="#sec-1">
                 <button class="btn btn-lg btn-outline-light my-2 zoom zoom-med">
                     Learn more
