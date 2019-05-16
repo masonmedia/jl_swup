@@ -664,14 +664,6 @@ include 'images.php';
                     </div><!--end nest container-->
             </div><!--end our assets row-->
         </section>
-        
-        <!-- <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-500 down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-partners.jpeg" alt="Join the Decentral community today.">
-                </div>
-            </div>
-        </section> -->
 
         <!-- coin data mockup component] -->
 
@@ -706,30 +698,56 @@ include 'images.php';
             </div>
         </section> -->
 
-        <!--download-->
-        
+        <!-- download -->
+
         <section>
-            <div id="sec-7" class="row bg-light min-500 py-5">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
                 <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 right">
-                    <h2 class="h4">Download</h2>
-                    <div class="right right-med">
-                        <h3 class="section-title font-weight-bold">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</h3>
+                <div class="col-lg-4 banner-left down">
+                    <h3 class="section-title py-3 text-light">
+                        <?php echo $homeDownload2; ?>
+                    </h3>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 m-0">
+                        <?php echo $homeDownload3; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
+                    <!--jaxx liberty google store-->
+                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
+                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-google-play.png"
+                            alt="Google Play Button" />
+                    </a>
+                    <!--jaxx liberty itunes-->
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
+                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-app-store.png"
+                            alt="iTunes App Store Button" />
+                    </a>
+                    <!--jaxx liberty chrome-->
+                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
+                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                        target="_blank">
+                            <img class="home-store-badge mt-2"
+                            src="/assets/img/jaxx-chrome-store.png"
+                            alt="Chrome Web Store" />
+                    </a>
+                    <!--end button nest row-->
+                    <div id="desktop_download" class="right right-med p-0">
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
+                            <p class="p-btn mt-3">
+                                <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>
                     </div>
-                    <div class="row downloads-badge-container pt-2 pl-3">
-                        <!--jaxx liberty google store-->
-                        <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Community_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
-                        <!--jaxx liberty itunes-->
-                        <a onclick="googleAnalyticsTrigger('iOS', 'Community_Page')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
-                        <!--jaxx liberty chrome-->
-                        <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Community_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
-                    </div><!--end button nest row--> 
-                    <div id="desktop_download" class="right right-med">
-                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Community_Page')"><p class="p-btn pt-3 mt-2">Desktop <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
-                    </div>
-               </div>
-               <div class="offset-lg-2"></div>
+                <div class="offset-lg-2"></div>
             </div>
+            <!--end row-->
         </section>
 
         <section>

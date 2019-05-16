@@ -30,7 +30,7 @@ $homeBlockDesc = "Check balances and transaction data across multiple blockchain
 
 $homeDownload1 = "Download";
 $homeDownload2 = "Use on your <span class='d-table'>favourite device.</span>";
-$homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by thousands of users around the world. Start your journey.";
+$homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by hundreds of thousands of users around the world. Start your journey.";
 $homeDownloadCTA = "Desktop versions";
 
 // =============== Security page
@@ -105,11 +105,5 @@ $securityDevOpsDesc13 = "No wallet can be secured if the operating system it is 
 
 $securityDevOpsTitle14 = "Always double-check receiving addresses.";
 $securityDevOpsDesc14 = "There are more and more malwares that temper receiving addresses. These malwares target clipboard, which is an unprotected area of memory (for conveniently sharing data between programs), and generally outside of a wallet’s control. Therefore, it is important to  double-check receiving addresses especially after copy and paste it. Check at least the starting and ending characters (to avoid incomplete copies), but the more the better (Malware can be sophisticated and generate similar addresses on the fly).";
-
-//download
-
-$security5Micro = "Download";
-$security5Title = "Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.";
-$security5CTA = "Desktop versions"
 
 ?>

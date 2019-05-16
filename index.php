@@ -230,6 +230,7 @@ include 'images.php';
         </section>
 
         <!-- download -->
+        
         <section>
             <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
                 <div class="offset-lg-2"></div>
