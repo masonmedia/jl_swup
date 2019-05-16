@@ -12,8 +12,9 @@ include 'images.php';
        <img class="img-full absolute z-0 left-0 up up-med"
        src="/assets/img/jaxx-security-knight.jpg"
        alt="We built Jaxx Liberty with security in mind.">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
-            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Your security is <span class="d-table">our priority.</span></h1>
+       <div class="offset-lg-1"></div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
+            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Your <span class="d-table"> security</span> is our priority.</h1>
             <a href="#sec-1">
                 <button class="btn btn-lg btn-outline-light my-2 zoom zoom-med">
                     Learn more
@@ -33,18 +34,18 @@ include 'images.php';
         
         <section>
             <div id="sec-1" class="row d-flex min-500 relative bg-navy-gradient text-light p-0">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
-                    <h2 class="section-title text-light mb-0 slide-up">
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-5 banner-left p-5 right">
+                    <h2 class="section-title text-light mb-0">
                         <?php echo $security1Title; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange up up-med">
-                    <p class="p-big pt-2 m-0 slide-up">
+                    <p class="p-big pt-2 m-0">
                         <?php echo $security1Desc1; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <img style="width: 800px; left: -200px;" class="absolute z-0 bottom-0 opacity-full"
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-portfolio-hand absolute z-0 bottom-0 opacity-full"
                         src="<?php echo $securityImgHandDevice; ?>" 
                         alt="<?php echo $securityImgHandDeviceAlt; ?>">
                 </div>
@@ -57,20 +58,21 @@ include 'images.php';
         <section>
             <div id="sec-3" class="row d-flex p-5 min-500 bg-white">
                 <div class="offset-lg-2"></div>
-                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <img class="w-75 absolute z-0 left-0 opacity-full ds"
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-shield absolute z-0 opacity-full ds"
                         src="<?php echo $securityImgShield; ?>" 
                         alt="<?php echo $securityImgShieldAlt; ?>">
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="section-title text-dark mb-0 slide-up">
+                <div class="col-lg-5 banner-left right">
+                    <h2 class="section-title text-dark mb-0">
                         <?php echo $security2Title; ?>
                     </h2>
-                    <p class="p-big pt-3 m-0 slide-up">
+                    <hr class="hr-big border-0 bg-orange up up-med">
+                    <p class="p-big pt-3 m-0">
                         <?php echo $security2Desc1; ?>
                     </p>
                 </div>
-                <div class="offset-lg-2"></div>
+                <div class="offset-lg-1"></div>
             </div>
         </section>  
 
@@ -78,17 +80,18 @@ include 'images.php';
         
         <section>
             <div id="sec-4" class="row relative d-flex p-5 min-500 bg-light">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="section-title text-dark mb-0 slide-up">
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-5 banner-left right">
+                    <h2 class="section-title text-dark mb-0">
                         <?php echo $security3Title; ?>
                     </h2>
-                    <p class="p-big pt-3 m-0 slide-up">
+                    <hr class="hr-big border-0 bg-orange up up-med">
+                    <p class="p-big pt-3 m-0">
                         <?php echo $security3Desc1; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 min-500 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <img style="width: 700px; left: -73px; top: -45px;" class="absolute z-0 top-0 left-0 opacity-full ds"
+                <div class="col-lg-4 min-500 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-iphone-password absolute z-0 top-0 left-0 opacity-full ds"
                     src="<?php echo $securityImgPassword; ?>"
                     alt="">
                 </div>
@@ -100,8 +103,8 @@ include 'images.php';
         <!-- download -->
         <section>
             <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left down">
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-5 banner-left down">
                     <h3 class="section-title py-3 text-light">
                         <?php echo $homeDownload2; ?>
                     </h3>
@@ -110,7 +113,7 @@ include 'images.php';
                         <?php echo $homeDownload3; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
                     <!--jaxx liberty google store-->
                     <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
                         href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
@@ -143,7 +146,7 @@ include 'images.php';
                             </p>
                         </a>
                     </div>
-                <div class="offset-lg-2"></div>
+                <div class="offset-lg-1"></div>
             </div>
             <!--end row-->
         </section>

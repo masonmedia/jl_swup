@@ -4,7 +4,7 @@
 
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Your gateway to <span class='line-break-md'>all things crypto.</span>";
-$homeBanner3 = "Wallet, portfolio, markets, <span class='line-break-sm'>news, exchange,</span> <span class='d-table'>80+ cryptocurrencies.</span> <span class='d-table'>All in 1 app.</span>";
+$homeBanner3 = "Wallet, portfolio, markets, <span class='line-break-sm'>news, exchange,</span> 80+ cryptocurrencies. <span class='d-table'>All in 1 app.</span>";
 $homeBannerCTA1 = "Download";
 
 $homeWalletTitle = "Manage 80+ Cryptocurrencies.";

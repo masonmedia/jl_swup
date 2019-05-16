@@ -27,8 +27,9 @@ $(document).ready(function () {
 
   // api calls
   blogPosts();
-  // coinData();
+  coinData();
   // marketData();
+  // CreateTableFromJSON();
 
   // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
   // const url = "https://jsonplaceholder.typicode.com/todos";
@@ -56,8 +57,10 @@ $(document).ready(function () {
 document.addEventListener('swup:contentReplaced', function () {
 
   blogPosts();
-  // coinData();
+  coinData();
   // marketData();
+  // CreateTableFromJSON();
+
 
   //smooth scroll
   smoothScroll();
@@ -369,12 +372,12 @@ function blogPosts() {
   //   // If there is any error you will catch them here
   // });
 
-}
+}  
 
 function coinData() {
-// fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
 fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
-    .then(response => { return response.json() }) // Transform the data into json
+    .then(response => { 
+      return response.json() }) // Transform the data into json
     .then(data => {
 
           // Work with JSON data here
@@ -399,11 +402,11 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
 
                 // create DOM elements
                 var logo = document.createElement("IMG");
-                logo.setAttribute("src", "key.value.IMAGEURL");
+                logo.setAttribute("src", data[key]);
                 logo.setAttribute("width", "10");
                 logo.classList.add("opacity-full", "w-25");
                 var title = document.createElement("h2");
-                var price = document.createElement("td");
+                var price = document.createElement("li");
                 var high = document.createElement("li");
                 var low = document.createElement("li");
                 var change = document.createElement("li");
@@ -437,7 +440,10 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
 
               }
         })
-        .catch(err => console.log(err));
+        .catch(err => {
+          console.log("Error getting coin pricing data");
+
+        });
       }
 
 // https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
@@ -489,3 +495,83 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
 //     console.log(agencyFrequency);
 //   })
 //   .catch(err => console.log(err));
+
+
+// https://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
+function CreateTableFromJSON() {
+  var myBooks = [
+      {
+          "Book ID": "1",
+          "Book Name": "Computer Architecture",
+          "Category": "Computers",
+          "Price": "125.60"
+      },
+      {
+          "Book ID": "2",
+          "Book Name": "Asp.Net 4 Blue Book",
+          "Category": "Programming",
+          "Price": "56.00"
+      },
+      {
+          "Book ID": "3",
+          "Book Name": "Popular Science",
+          "Category": "Science",
+          "Price": "210.40"
+      }
+  ]
+
+  // EXTRACT VALUE FOR HTML HEADER. 
+  // ('Book ID', 'Book Name', 'Category' and 'Price')
+  var col = [];
+  for (var i = 0; i < myBooks.length; i++) {
+      for (var key in myBooks[i]) {
+          if (col.indexOf(key) === -1) {
+              col.push(key);
+          }
+      }
+  }
+
+  // CREATE DYNAMIC TABLE.
+  var table = document.createElement("table");
+
+  // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+  var tr = table.insertRow(-1);                   // TABLE ROW.
+
+  for (var i = 0; i < col.length; i++) {
+      var th = document.createElement("th");      // TABLE HEADER.
+      th.innerHTML = col[i];
+      tr.appendChild(th);
+  }
+
+  // ADD JSON DATA TO THE TABLE AS ROWS.
+  for (var i = 0; i < myBooks.length; i++) {
+
+      tr = table.insertRow(-1);
+
+      for (var j = 0; j < col.length; j++) {
+          var tabCell = tr.insertCell(-1);
+          tabCell.innerHTML = myBooks[i][col[j]];
+      }
+  }
+
+  // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+  var divContainer = document.getElementById("showData");
+  divContainer.innerHTML = "";
+  divContainer.appendChild(table);
+}
+
+
+// fetch('https://api.github.com/emojis')
+// .then(response => response.json())
+// .then(data => {
+//  console.log(data) // Prints result from `response.json()` in getRequest
+//   Object.keys(data).forEach((key) => {
+//     var ele = document.createElement("span");
+//     var img = document.createElement("img");
+//     img.setAttribute("src", data[key]);
+//     ele.appendChild(img);
+//     //append ele to parent div
+//   });
+// })
+// .catch(error => console.error(error))

@@ -997,12 +997,23 @@ html.is-animating .transition-wipe {
 .jazzy {
     width: 600px;
 }
-
 .img-port-desktop {
     width: 1200px;
     left: -500px;
 }
-
+.img-portfolio-hand {
+    width: 800px; 
+    left: -200px;
+}
+.img-shield {
+    width: 450px;
+    left: -100px;
+}
+.img-iphone-password {
+    width: 600px;
+    left: -73px;
+    top: -45px;
+}
 .img-home-support {
     width: 450px;
 }
@@ -1634,6 +1645,14 @@ footer li a {
         width: 900px;
         left: -400px;
     }
+    .img-portfolio-hand {
+        width: 800px;
+        left: -238px;
+    }
+    .img-shield {
+        width: 400px;
+        left: -110px;
+    }
     .banner-gradient {
         height: 900px;
         width: 900px;
@@ -1735,10 +1754,16 @@ footer li a {
     .line-break-sm {
         display: table;
     }
-
+    /* imgs */
+    .img-iphone-password {
+        width: 100%;
+        left: 0px;
+        top: -45px;
+    }
     .feat-phone--port {
         padding-top: 60px;
     }
+    
 
     /* API blog layout */
     .columns--blog {
@@ -1838,6 +1863,18 @@ footer li a {
         bottom: -170px;
         left: -150px;
     }
+    .img-portfolio-hand {
+        width: 800px;
+        left: -80px;
+    }
+    .img-shield {
+        /* width: 450px;
+        left: 100px; */
+        width: 100%;
+        padding: 100px;
+        left: 0;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 601px) {
@@ -1887,7 +1924,21 @@ footer li a {
     .img-home-support {
         width: 350px;
     }
-
+    .img-portfolio-hand {
+        width: 700px;
+        left: -240px;
+    }
+    .img-shield {
+        width: 100%;
+        left: 0;
+        padding: 0;
+        margin-top: 0;
+    }
+    .img-iphone-password {
+        width: 400px;
+        left: -50px;
+        top: 0;
+    }
     .site-title {
         font-size: 42px;
     }

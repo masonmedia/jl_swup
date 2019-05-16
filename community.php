@@ -704,7 +704,7 @@ include 'images.php';
 
         <!-- coin data mockup component] -->
 
-        <!-- <section>
+        <section>
             <div id="sec-4" class="row d-flex p-5 min-500 bg-white">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-left right">
                     <h2 class="section-title">Jaxx Liberty Partners</h2>
@@ -713,7 +713,15 @@ include 'images.php';
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
+
+        <div class="row d-flex p-5 min-500 bg-white">
+            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center right">
+                <div id="showData">
+                    <button class="btn btn-lg" onclick="CreateTableFromJSON();">TRY ME</button>
+                </div>
+            </div>
+        </div>
 
         <!--Jaxx blog API GET-->
 
