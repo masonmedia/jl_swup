@@ -108,8 +108,11 @@ a:focus,
 a:visited {
     color: inherit;
     text-decoration: none;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .2 ease-in-out;
+    transition: all .2 ease-in-out;
+    -moz-transition: all .2 ease-in-out;
+    -ms-transition: all .2 ease-in-out;
+    -o-transition: all .2 ease-in-out;
 }
 
 a:hover {
@@ -1383,6 +1386,47 @@ input:checked+.slider:before {
     width: 200px;
 }
 
+/*  community page ============= */
+
+#socialIcons li {
+    color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+#socialIcons li:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    text-shadow: 2px 5px 20px #000;
+    color: #ff6902;
+}
+
+/* #socialIcons li:nth-of-type(1):hover {
+    color: #007bff;
+}
+#socialIcons li:nth-of-type(2):hover {
+    color: hotpink;
+}
+#socialIcons li:nth-of-type(3):hover {
+    color: #FF5700;
+}
+#socialIcons li:nth-of-type(4):hover {
+    color:#FF0000;
+}
+#socialIcons li:nth-of-type(5):hover {
+    color: #0088CC;
+} */
+
+#coinLogos h5 {
+    font-size: 16px;
+}
+
+
 /*community json blog API data --> columns =========*/
 
 .columns--blog {
@@ -1455,6 +1499,9 @@ input:checked+.slider:before {
 
 #careers ul li:nth-of-type(even) {
     background-color: #f8f9fa;
+}
+.list-group-flush .list-group-item {
+    font-weight: bold;
 }
 
 /* nav ======================*/

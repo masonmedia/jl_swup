@@ -49,6 +49,13 @@ $security3Desc1 = "To further protect your data, we took extra security measures
 $security4Title = "Hot wallet vs. cold wallet.";
 $security4Desc1 = "Jaxx Liberty is a convenient, easy-to-use hot wallet with a unified user-experience across many supported platforms. A hot wallet is typically suited for frequent, casual, and fast crypto transactions, while a cold wallet (often referred to as a hardware wallet) is better suited for long-term storage of larger amounts, typically by using specialized hardware.";
 
+// Community 
+
+$communityBannerTitle = "Community is in our DNA.";
+
+$communityTitle1 = "Connect with us.";
+$communityDesc1 = "Join our ecosystem of 200+ partners, where we work together to promote decentralized technology and unite blockchain projects around the globe.";
+
 // Dev-ops accordion 
 
 $securityDevOpsMainMicro = "Secure Dev-Op Processes ";

@@ -41,6 +41,12 @@ $securityImgShieldAlt = "When you first launch the application, Jaxx Liberty cre
 $securityImgPassword = "/assets/img/jaxx-iphone-X-case-password.png";
 $securityImgPasswordAlt = "When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.";
 
+// Community
+
+$communityBannerImg = "/assets/img/jaxx-partners.jpeg";
+$communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
+
+
 // Features
 
 $featuresImg1 = "/assets/img/jaxx-home-dash.jpg";

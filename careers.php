@@ -1,9 +1,6 @@
 <?php
-
 $title = "Jaxx Liberty | Careers";
-
 include 'includes/header.php';
-
 ?>
 
 <!--banner-->
@@ -12,7 +9,7 @@ include 'includes/header.php';
     <div class="row d-flex min-700-lg bg--careers-banner opacity py-5 mt-5 text-light relative">
        <div class="offset-lg-2"></div>
         <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
-            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Work with Decentral.</h1>
+            <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Work with us.</h1>
             <a href="#sec-1"><button class="p-btn text-light ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">See open positions <i class="fa fa-angle-right fa-btn text-light"></i></button></a> 
         </div>
         <div class="offset-lg-2"></div>
