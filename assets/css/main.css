@@ -1892,11 +1892,18 @@ footer li a {
 
 /* ipad pro small */
 @media (max-width: 834px) {
+    .banner-gradient {
+       left: -20%;
+        top: -32%;
+    }
+    .img-port-desktop {
+        width: 800px;
+        left: -40px;
+        }
     .img-portfolio-hand {
         width: 750px;
         left: 0;
     }
-
     .img-shield {
         /* width: 400px;
         left: 180px; */
