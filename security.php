@@ -10,8 +10,8 @@ include 'images.php';
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
        <img class="img-full absolute z-0 left-0 up up-med"
-       src="/assets/img/jaxx-security-knight.jpg"
-       alt="We built Jaxx Liberty with security in mind.">
+       src="<?php echo $securityBannerImg; ?>"
+       alt="<?php echo $securityBannerImgAlt; ?>">
        <div class="offset-lg-1"></div>
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left ts p-5">
             <h1 class="site-title font-weight-bold ds-black zoom zoom-med">Your <span class="d-table"> security</span> is our priority.</h1>

@@ -29,6 +29,9 @@ $homeImgAltLaptop = "We consider ourselves part of extensive ecosystem, a large 
 
 // Security
 
+$securityBannerImg = "/assets/img/jaxx-security-knight.jpg";
+$securityBannerImgAlt = "Welcome to Jaxx Liberty.";
+
 $securityImgHandDevice = "/assets/img/jaxx-security-control.png";
 $securityImgHandDeviceAlt = "Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.";
 
@@ -37,9 +40,6 @@ $securityImgShieldAlt = "When you first launch the application, Jaxx Liberty cre
 
 $securityImgPassword = "/assets/img/jaxx-iphone-X-case-password.png";
 $securityImgPasswordAlt = "When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.";
-
-
-
 
 // Features
 

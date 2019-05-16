@@ -4,7 +4,7 @@
 
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Your gateway to <span class='line-break-md'>all things crypto.</span>";
-$homeBanner3 = "Wallet, portfolio, markets, <span class='line-break-sm'>news, exchange,</span> 80+ cryptocurrencies. <span class='d-table'>All in 1 app.</span>";
+$homeBanner3 = "Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in 1 app.";
 $homeBannerCTA1 = "Download";
 
 $homeWalletTitle = "Manage 80+ Cryptocurrencies.";
@@ -36,7 +36,7 @@ $homeDownloadCTA = "Desktop versions";
 // =============== Security page
 
 $security1Title = "You're in total control";
-$security1Desc1 = "Jaxx Liberty is a non-custodial wallet, which means you own the keys. We never have access to, or knowledge of, your confidential data — only you do.";
+$security1Desc1 = "We built Jaxx Liberty with security in mind.";
 
 $security2Title = "Industry standard security protocols.";
 $security2Desc1 = "Jaxx Liberty uses industrial standard wallet data generation and derivation processes. Your 12-word mnemonic is generated using standard BIP39 library.";
