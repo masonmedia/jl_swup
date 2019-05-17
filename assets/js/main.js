@@ -25,25 +25,6 @@ $(document).ready(function () {
   //bs carousel
   carousel();
 
-  // api calls
-  blogPosts();
-  coinData();
-  // marketData();
-  // CreateTableFromJSON();
-
-  // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
-  // const url = "https://jsonplaceholder.typicode.com/todos";
-  // fetch(url)
-  //   .then(data=>{return data.json()})
-  //   .then(res=>{console.log(res)})
-  //   .catch(error => console.error('Error:', error));
-
-  // fetch('https://jsonplaceholder.typicode.com/todos')
-  // .then(response => response.json())
-  // .then(data => console.log(JSON.stringify(data))
-
-  // API blog call --> https://www.youtube.com/watch?v=rGObWtjxGBc
-
   // if (window.location.pathname === '/community.php') {
   //   // console.error('oncommunity main - check for community page direct load');
   //   //if remove .php the window.location.pathname will NOT work -- they have to match
@@ -56,25 +37,14 @@ $(document).ready(function () {
 
 document.addEventListener('swup:contentReplaced', function () {
 
-  blogPosts();
-  coinData();
-  // marketData();
-  // CreateTableFromJSON();
-
-
-  //smooth scroll
   smoothScroll();
 
-  //lazy load
   lazyLoad();
 
-  //close mobile menu on nav link click
   navClose();
 
-  //zendesk widget options
   zendesk();
 
-  //init BS carousel and pass speed option
   carousel();
 
 }); //end swup reinit
@@ -221,6 +191,17 @@ function navClose() {
     $('.wrapper-menu').toggleClass('open');
   });
 }
+
+function showMore() {
+  var x = document.getElementById("coinShow");
+  if (x.innerHTML === "Show more") {
+    x.innerHTML = "Show less";
+  } else {
+    x.innerHTML = "Show more";
+  }
+}
+
+
 
 // function displayNewsFeeds() {
 //   // already had the if statement in the initial API script so ddidn't need it again here
@@ -444,7 +425,7 @@ fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,B
           console.log("Error getting coin pricing data");
 
         });
-      }
+}
 
 // https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
 // fetch('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,BCH,EOS,LTC,ADA,XMR,DASH,TRX,ETC,BNB,XLM,ADA,ZEC,UDST&tsyms=USD')
@@ -575,3 +556,15 @@ function CreateTableFromJSON() {
 //   });
 // })
 // .catch(error => console.error(error))
+
+
+  // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
+  // const url = "https://jsonplaceholder.typicode.com/todos";
+  // fetch(url)
+  //   .then(data=>{return data.json()})
+  //   .then(res=>{console.log(res)})
+  //   .catch(error => console.error('Error:', error));
+
+  // fetch('https://jsonplaceholder.typicode.com/todos')
+  // .then(response => response.json())
+  // .then(data => console.log(JSON.stringify(data))

@@ -88,9 +88,9 @@ include 'images.php';
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center pt-5 px-5 pb-3 right">                    
                     <h2 class="section-title text-dark mb-0">Partners</h2>
                     <hr class="hr-big border-0 bg-orange">
-                    <!-- <p class="p-big py-3 m-0">Jaxx Liberty provides a platform that brings together a number of different and exciting global projects across various sectors that are looking to solve the problems of today and tomorrow.</p> -->
                 </div>
                <div class="offset-lg-2"></div>
+
                     <!--coin/token grid-->
                     <div class="container">
                         <!--row-->
@@ -115,15 +115,6 @@ include 'images.php';
 
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                   <a href="https://ripple.com/xrp/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Ripple-2.svg" alt="Jaxx Liberty Partner Ripple">
-                                        <h5>XRP</h5>
-                                   </a>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                               <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
                                    <a href="https://www.bitcoincash.org/" target="_blank">
                                         <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Bitcoincash.svg" alt="Jaxx Liberty Partner Bitcoin Cash">
                                         <h5>BCH</h5>
@@ -142,27 +133,63 @@ include 'images.php';
 
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://eos.io/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EOS.svg" alt="Jaxx Liberty Partner EOS">
-                                        <h5>EOS</h5>
+                                    <a href="https://www.dash.org/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Dash.svg" alt="Jaxx Liberty Partner Dash">
+                                        <h5>Dash</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                               <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                   <a href="https://ethereumclassic.org/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EthereumClassic.svg" alt="Jaxx Liberty Partner Ethereum Classic">
+                                        <h5>ETC</h5>
+                                   </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                    <a href="https://z.cash/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/zCash.svg" alt="Jaxx Liberty Partner Zcash">
+                                        <h5>Zcash</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                    <a href="https://dogecoin.com/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Doge.svg" alt="Jaxx Liberty Partner Doge">
+                                        <h5>Dogecoin</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                    <a href="https://www.rsk.co/smart-bitcoin-rbtc/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Rootstock.svg" alt="Jaxx Liberty Partner RBTC">
+                                        <h5>RBTC</h5>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                    <a href="https://www.digibyte.co/digibyte-global-blockchain" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/DigiByte.svg" alt="Jaxx Liberty Partner DigiByte">
+                                        <h5>DigiByte</h5>
                                     </a>
                                 </div>
                             </div>
                             
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://tether.to/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/tether.svg" alt="Jaxx Liberty Partner Tether">
-                                        <h5>Tether</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://www.cardano.org/en/home/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Cardano.svg" alt="Jaxx Liberty Partner Cardano">
-                                        <h5>Cardano</h5>
+                                    <a href="https://www.groestlcoin.org/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Groestlcoin.svg" alt="Jaxx Liberty Partner Groestlcoin">
+                                        <h5>GRS</h5>
                                     </a>
                                 </div>
                             </div>
@@ -175,67 +202,58 @@ include 'images.php';
                                     </a>
                                 </div>
                             </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                    <a href="https://www.huobi.com/" target="_blank">
+                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Huobi.svg" alt="Jaxx Liberty Partner Huobi">
+                                        <h5>Huobi</h5>
+                                    </a>
+                                </div>
+                            </div>
                             
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://web.getmonero.org/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/monero.png" alt="Jaxx Liberty Partner Monero">
-                                        <h5>Monero</h5>
+                                    <a href="https://vanbex.com/labs" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Fuel.svg" alt="Jaxx Liberty Partner Fuel">
+                                        <h5>Fuel</h5>
                                     </a>
                                 </div>
                             </div>
 
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://www.stellar.org/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Stellar.svg" alt="Jaxx Liberty Partner Stellar">
-                                        <h5>Stellar</h5>
+                                    <a href="https://omisego.network/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/OmiseGo.svg" alt="Jaxx Liberty Partner OmiseGo">
+                                        <h5>OmiseGo</h5>
                                     </a>
                                 </div>
                             </div>
                             
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://tron.network/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Tron.svg" alt="Jaxx Liberty Partner Tron">
-                                        <h5>Tron</h5>
+                                    <a href="https://www.flixxo.com/#/" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Flixxo.svg" alt="Jaxx Liberty Partner Flixxo">
+                                        <h5>Flixxo</h5>
                                     </a>
                                 </div>
                             </div>
                             
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://www.dash.org/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Dash.svg" alt="Jaxx Liberty Partner Dash">
-                                        <h5>Dash</h5>
+                                    <a href="https://insureum.co/product" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Insureum.svg" alt="Jaxx Liberty Partner Insureum">
+                                        <h5>Insureum</h5>
                                     </a>
                                 </div>
                             </div>
                             
                             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                 <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://bitcoinsv.io/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/bitcoin-sv.png" alt="Jaxx Liberty Partner Bitcoin SV">
-                                        <h5>Bitcoin SV</h5>
+                                    <a href="https://crypto.com/en/token.html" target="_blank">
+                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Crypto.com.svg" alt="Jaxx Liberty Partner Crypto.com">
+                                        <h5>MCO</h5>
                                     </a>
-                                </div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://www.iota.org/" target="_blank">
-                                        <img class="coin-logo bg-white rounded-circle shadow mb-3" src="/assets/img/coin-logos/Iota.svg" alt="Jaxx Liberty Partner Iota">
-                                        <h5>Iota</h5>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                               <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                   <a href="https://ethereumclassic.org/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/EthereumClassic.svg" alt="Jaxx Liberty Partner Ethereum Classic">
-                                        <h5>ETC</h5>
-                                   </a>
                                 </div>
                             </div>
 
@@ -384,45 +402,27 @@ include 'images.php';
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                    <a href="https://www.stormx.io/storm-token/" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Storm.svg" alt="Jaxx Liberty Partner Storm">
-                                        <h5>Storm</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                   <a href="https://www.saltlending.com/?utm_source=icodrops" target="_blank">
-                                        <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Salt.svg" alt="Jaxx Liberty Partner Salt">
-                                        <h5>Salt</h5>
-                                    </a>
-                                </div>
-                            </div>
 
                             <!--read more accordion-->
 
-                            <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center p-0">
+                            <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center p-0 moreBox" style="d-none">
                                 <div class="accordion w-100 rounded" id="coinAccordion">
                                     <div class="card border-0">
-                                        <div class="card-header bg-light border-0" id="headingOne">
-                                            <button class="btn btn-lg btn-secondary mt-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">See More</button>
-                                        </div>
                                         <!--collapse content-->
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#coinAccordion">
-                                            <div class="card-body bg-light pt-3 px-0">
+                                            <div class="card-body bg-light pt-0 px-0">
                                                 <div class="container-fluid bg-light rounded">
                                                 <!--row-->
                                                     <div class="row d-flex">
-                                                        <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+
+                                                        <!-- <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
                                                                 <a href="https://nem.io/xem/" target="_blank">
                                                                     <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Nem.svg" alt="Jaxx Liberty Partner NEM">
                                                                     <h5>XEM</h5>
                                                                 </a>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         
                                                         <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
@@ -443,6 +443,24 @@ include 'images.php';
                                                         </div>
 
                                                         <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                           <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                                                <a href="https://ont.io/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Ontology.svg" alt="Jaxx Liberty Partner Ontology">
+                                                                    <h5>Ontology</h5>
+                                                               </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
+                                                           <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
+                                                                <a href="https://tezos.com/" target="_blank">
+                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Tezos.svg" alt="Jaxx Liberty Partner Tezos">
+                                                                    <h5>Tezos</h5>
+                                                               </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
                                                                 <a href="https://iex.ec/rlc-token/" target="_blank">
                                                                     <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/iExec.svg" alt="Jaxx Liberty Partner iExec RLC">
@@ -450,15 +468,7 @@ include 'images.php';
                                                                 </a>
                                                             </div>
                                                         </div>
-
-                                                        <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                                            <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                                                <a href="https://dogecoin.com/" target="_blank">
-                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/Doge.svg" alt="Jaxx Liberty Partner Doge">
-                                                                    <h5>Dogecoin</h5>
-                                                                </a>
-                                                            </div>
-                                                        </div>
+                                                    
                                                         
                                                         <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                             <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
@@ -624,14 +634,7 @@ include 'images.php';
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
-                                                           <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
-                                                                <a href="https://z.cash/" target="_blank">
-                                                                    <img class="coin-logo rounded-circle shadow mb-3" src="/assets/img/coin-logos/zCash.svg" alt="Jaxx Liberty Partner Zcash">
-                                                                    <h5>Zcash</h5>
-                                                               </a>
-                                                            </div>
-                                                        </div>
+                                                        
                                                         <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column justify-content-center align-items-center text-center px-3 pb-3">
                                                            <div class="wrap w-100 bg-light-grey m-2 p-3 rounded shadow">
                                                                 <a href="https://funfair.io/" target="_blank">
@@ -650,15 +653,18 @@ include 'images.php';
                                                         </div>
                                                         
                                                     </div><!--end accordion row-->
-
-                                                    <div class="modal-footer mt-3">
-                                                        <button type="button" class="btn btn-lg btn-secondary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Close</button>
-                                                    </div>
                                                 </div><!--end nest container-->
                                             </div>
                                         </div>
                                     </div>
                                 </div><!--end accordion-->
+
+                                <!-- load more -->
+
+                                <div class="card-header bg-light border-0" id="headingOne">
+                                    <button class="btn btn-lg btn-outline-orange mt-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="coinShow" onclick="showMore()">Show more</button>
+                                </div>
+
                             </div><!--end accordion col-->
                         </div><!--end row-->
                     </div><!--end nest container-->
@@ -701,7 +707,7 @@ include 'images.php';
         <!-- download -->
 
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
