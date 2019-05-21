@@ -143,9 +143,13 @@ include 'images.php';
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">
                         <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                            <p class="p-btn mt-3">
+                            <!-- <p class="p-btn mt-3">
                                 <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
+                            </p> -->
+                            <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
+                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
+                                Desktop
+                            </button>
                         </a>
                     </div>
                 <div class="offset-lg-1"></div>

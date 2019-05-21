@@ -1130,6 +1130,13 @@ img.decentral-logo,
     width: 185px;
 }
 
+.jaxx-liberty-logo {
+    height: auto;
+    width: 150px;
+    filter: drop-shadow(2px 2px 23px #fff);
+    -webkit-filter: drop-shadow(2px 2px 23px #fff);
+}
+
 .decentral-D {
     height: auto;
     opacity: 1;
@@ -1357,6 +1364,9 @@ input:checked+.slider:before {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    border: 1.5px solid grey; 
+}
+.desktop-download-btn:hover {
     border: 1.5px solid grey; 
 }
 
@@ -1741,6 +1751,9 @@ footer li a {
     .page-title {
         font-size: 96px;
     }
+    .jaxx-liberty-logo {
+        width: 160px;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -1751,6 +1764,7 @@ footer li a {
 }
 
 @media (min-width: 1200px) {
+
     .feat-phone {
         width: 400px;
     }
@@ -1788,6 +1802,9 @@ footer li a {
         left: -350px;
         /* top: -252px; */
         top: -255px;
+    }
+    .jaxx-liberty-logo {
+        width: 110px;
     }
 }
 

@@ -923,7 +923,7 @@ include 'images.php';
                     <div id="desktop_download" class="right right-med p-0">
                         <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
                             <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
-                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle orange"></i>
+                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
                                 Desktop
                             </button>
                             <!-- <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
