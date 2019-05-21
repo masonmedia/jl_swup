@@ -105,7 +105,7 @@ include 'images.php';
         <!-- download -->
 
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">

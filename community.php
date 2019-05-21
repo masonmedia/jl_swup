@@ -838,7 +838,7 @@ include 'images.php';
 
                                 <!-- load more -->
 
-                                <div class="card-header bg-light border-0" id="headingOne">
+                                <div class="card-header bg-light border-0">
                                     <button class="btn btn-lg btn-outline-orange mt-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="coinShow" onclick="showMore()">Show more</button>
                                 </div>
                             </div><!--end accordion col-->
@@ -883,7 +883,7 @@ include 'images.php';
         <!-- download -->
 
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
