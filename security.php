@@ -116,7 +116,7 @@ include 'images.php';
                         <?php echo $homeDownload3; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
                     <!--jaxx liberty google store-->
                     <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
                         href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
