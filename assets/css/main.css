@@ -2058,11 +2058,12 @@ footer li a {
 @media screen and (max-width: 601px) {
 
     .banner-gradient {
-        left: -326px;
+        /* left: -326px;
         top: -36px;
-        /* left: -210px;
-        top: -114px;  */
-        padding: 250px;
+        padding: 250px; */
+        left: -304px;
+        top: -27px;
+        padding: 266px;
     }
 
     /*utilities*/
