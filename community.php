@@ -38,16 +38,16 @@ include 'images.php';
         <section>
             <div id="sec-1" class="row d-flex min-500 relative bg-navy-gradient text-light p-5">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left right p-5">
+                <div class="col-lg-4 banner-left right py-3">
                     <h2 class="section-title text-light mb-0">
                         <?php echo $communityTitle1; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange up up-med">
-                    <p class="p-big pt-3 m-0">
+                    <p class="p-big py-3 m-0">
                         <?php echo $communityDesc1; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-left right">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-left right py-3">
                     <ul id="socialIcons" class="list-unstyled p-0">
                         <li class="h5 m-0">
                             <a href="https://twitter.com/jaxx_io?lang=en" target="_blank" onclick="googleAnalyticsTrigger('Twitter', 'Community_Page')">
@@ -85,7 +85,7 @@ include 'images.php';
         <section>
             <div id="coinLogos" class="row bg-light px-3 py-5">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center pt-5 px-5 pb-3 right">                    
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center pt-0 px-5 pb-3 right">                    
                     <h2 class="section-title text-dark mb-0">Partners</h2>
                     <hr class="hr-big border-0 bg-orange">
                 </div>
