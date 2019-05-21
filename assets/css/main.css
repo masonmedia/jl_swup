@@ -2119,8 +2119,10 @@ footer li a {
     }
 
     .img-iphone-password {
-        width: 400px;
-        left: -45px;
+        /* width: 400px;
+        left: -45px; */
+        width: 100%;
+        left: 0;
         top: 0;
     }
 
@@ -2242,14 +2244,6 @@ footer li a {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 80%;
-    }
-}
-
-/* iPhone5 styles */
-@media (max-width: 320px) {
-    .img-iphone-password {
-        width: 120%;
-        left: -27px;
     }
 }
 
