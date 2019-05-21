@@ -2000,6 +2000,8 @@ footer li a {
         max-width: 100%;
         left: -358px;
         top: -200px;
+        left: -18%;
+top: -29%;
         border-radius: 20px 20px 50% 20px;
         -webkit-border-radius: 20px 20px 50% 20px;
         -moz-border-radius: 20px 20px 50% 20px;
@@ -2048,6 +2050,8 @@ footer li a {
     .banner-gradient {
         left: -326px;
         top: -36px;
+        /* left: -210px;
+        top: -114px;  */
         padding: 250px;
     }
 
@@ -2228,6 +2232,14 @@ footer li a {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 80%;
+    }
+}
+
+/* iPhone5 styles */
+@media (max-width: 320px) {
+    .img-iphone-password {
+        width: 120%;
+        left: -27px;
     }
 }
 

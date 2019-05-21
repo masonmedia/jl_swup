@@ -17,17 +17,17 @@ include 'images.php';
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
         <div class="col-lg-6 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
-            <h1 class="h4 mt-5 orange">
+            <h1 class="h4 mt-5 orange right">
                 <?php echo $homeBanner1; ?>    
             </h1>
-            <h2 class="site-title text-light font-weight-bold py-2">
+            <h2 class="site-title text-light font-weight-bold py-2 right right-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-light font-weight-medium py-2">
+            <h3 class="h4 text-light font-weight-medium py-2 right">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
-                <p class="btn btn-lg btn-orange mt-3"
+                <p class="btn btn-lg btn-orange mt-3 right right-slow"
                 onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
                     <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
                 </p>
@@ -230,7 +230,7 @@ include 'images.php';
         </section>
 
         <!-- download -->
-        
+
         <section>
             <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
                 <div class="offset-lg-2"></div>
@@ -248,7 +248,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
                         href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right"
                             src="/assets/img/jaxx-google-play.png"
                             alt="Google Play Button" />
                     </a>
@@ -256,7 +256,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
                         href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-med"
                             src="/assets/img/jaxx-app-store.png"
                             alt="iTunes App Store Button" />
                     </a>
@@ -264,16 +264,17 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
                         href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-slow"
                             src="/assets/img/jaxx-chrome-store.png"
                             alt="Chrome Web Store" />
                     </a>
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">
                         <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                            <p class="p-btn mt-3">
-                                <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p>
+                            <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
+                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
+                                Desktop
+                            </button>
                         </a>
                     </div>
                 <div class="offset-lg-2"></div>

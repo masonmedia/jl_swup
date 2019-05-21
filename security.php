@@ -92,7 +92,7 @@ include 'images.php';
                         <?php echo $security3Desc1; ?>
                     </p>
                 </div>
-                <div class="col-lg-4 min-500 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
                     <img class="img-iphone-password absolute z-0 top-0 left-0 opacity-full ds"
                     src="<?php echo $securityImgPassword; ?>"
                     alt="">
@@ -103,10 +103,11 @@ include 'images.php';
         </section>
 
         <!-- download -->
+
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
-                <div class="offset-lg-1"></div>
-                <div class="col-lg-5 banner-left down">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
                         <?php echo $homeDownload2; ?>
                     </h3>
@@ -115,12 +116,12 @@ include 'images.php';
                         <?php echo $homeDownload3; ?>
                     </p>
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12 down down-med">
                     <!--jaxx liberty google store-->
                     <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
                         href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right"
                             src="/assets/img/jaxx-google-play.png"
                             alt="Google Play Button" />
                     </a>
@@ -128,7 +129,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
                         href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-med"
                             src="/assets/img/jaxx-app-store.png"
                             alt="iTunes App Store Button" />
                     </a>
@@ -136,23 +137,20 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
                         href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-slow"
                             src="/assets/img/jaxx-chrome-store.png"
                             alt="Chrome Web Store" />
                     </a>
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">
                         <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                            <!-- <p class="p-btn mt-3">
-                                <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p> -->
                             <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
                                 <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
                                 Desktop
                             </button>
                         </a>
                     </div>
-                <div class="offset-lg-1"></div>
+                <div class="offset-lg-2"></div>
             </div>
             <!--end row-->
         </section>

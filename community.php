@@ -883,7 +883,7 @@ include 'images.php';
         <!-- download -->
 
         <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 banner-left down">
                     <h3 class="section-title py-3 text-light">
@@ -899,7 +899,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
                         href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right"
                             src="/assets/img/jaxx-google-play.png"
                             alt="Google Play Button" />
                     </a>
@@ -907,7 +907,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
                         href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-med"
                             src="/assets/img/jaxx-app-store.png"
                             alt="iTunes App Store Button" />
                     </a>
@@ -915,7 +915,7 @@ include 'images.php';
                     <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
                         href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
                         target="_blank">
-                            <img class="home-store-badge mt-2"
+                            <img class="home-store-badge mt-2 right right-slow"
                             src="/assets/img/jaxx-chrome-store.png"
                             alt="Chrome Web Store" />
                     </a>
@@ -926,13 +926,6 @@ include 'images.php';
                                 <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
                                 Desktop
                             </button>
-                            <!-- <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
-                                <img class="opacity-full pr-3 ml-4" style="width: 60px;" src="/assets/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="">
-                                Desktop
-                            </button> -->
-                            <!-- <p class="p-btn mt-3">
-                                <?php echo $homeDownloadCTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
-                            </p> -->
                         </a>
                     </div>
                 <div class="offset-lg-2"></div>
