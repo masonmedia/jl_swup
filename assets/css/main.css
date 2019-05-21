@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -910,8 +910,7 @@ html.is-animating .transition-wipe {
 
 .bg-navy-gradient {
     background: rgb(9, 29, 67);
-    background: -moz-linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(9, 29, 67, 1)), color-stop(50%, rgba(41, 84, 171, 1)), to(rgba(9, 29, 67, 1)));
     background: linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091d43", endColorstr="#091d43", GradientType=1);
 }
@@ -979,7 +978,8 @@ html.is-animating .transition-wipe {
     height: 900px;
     width: 900px;
     max-width: 100%;
-    transform: rotate(51.8deg);
+    -webkit-transform: rotate(51.8deg);
+            transform: rotate(51.8deg);
     /* left: -100px;
     top: -300px; */
     left: -120px;
@@ -1003,11 +1003,13 @@ html.is-animating .transition-wipe {
 }
 
 .bg--home-testimonials {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(245, 175, 25, 0.8)), to(rgba(241, 39, 17, 0.8))), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
     background: linear-gradient(to right, rgba(245, 175, 25, 0.8), rgba(241, 39, 17, 0.8)), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
     background-size: cover;
 }
 
 .bg--careers-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/decentral-soccer.jpg) center top;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/decentral-soccer.jpg) center top;
     background-size: cover;
 }
@@ -1364,10 +1366,11 @@ input:checked+.slider:before {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    border: 1.5px solid grey; 
+    border: 1.5px solid grey;
 }
+
 .desktop-download-btn:hover {
-    border: 1.5px solid grey; 
+    border: 1.5px solid grey;
 }
 
 /* about page history timeline ======================*/
@@ -1421,6 +1424,7 @@ input:checked+.slider:before {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
+
 #socialIcons li:hover {
     transform: translateX(10px);
     -webkit-transform: translateX(10px);
@@ -1525,6 +1529,7 @@ input:checked+.slider:before {
 #careers ul li:nth-of-type(even) {
     background-color: #f8f9fa;
 }
+
 .list-group-flush .list-group-item {
     font-weight: bold;
 }
@@ -1751,6 +1756,7 @@ footer li a {
     .page-title {
         font-size: 96px;
     }
+
     .jaxx-liberty-logo {
         width: 160px;
     }
@@ -1803,6 +1809,7 @@ footer li a {
         /* top: -252px; */
         top: -255px;
     }
+
     .jaxx-liberty-logo {
         width: 110px;
     }
@@ -1972,17 +1979,20 @@ footer li a {
 /* ipad pro small */
 @media (max-width: 834px) {
     .banner-gradient {
-       left: -20%;
+        left: -20%;
         top: -32%;
     }
+
     .img-port-desktop {
         width: 800px;
         left: -40px;
-        }
+    }
+
     .img-portfolio-hand {
         width: 750px;
         left: 0;
     }
+
     .img-shield {
         /* width: 400px;
         left: 180px; */
@@ -2001,7 +2011,7 @@ footer li a {
         left: -358px;
         top: -200px;
         left: -18%;
-top: -29%;
+        top: -29%;
         border-radius: 20px 20px 50% 20px;
         -webkit-border-radius: 20px 20px 50% 20px;
         -moz-border-radius: 20px 20px 50% 20px;
