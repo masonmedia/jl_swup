@@ -26,8 +26,8 @@ include 'includes/header.php';
 
        <!--intro-->
        
-       <section>
-           <div id="sec-1" class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
+       <section id="sec-1">
+           <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 orange slide-down">Company</h2>
                     <h3 class="section-title text-dark mb-0 slide-down">Working together to unite blockchain projects around the globe.</h3>
@@ -58,57 +58,53 @@ include 'includes/header.php';
                        <div class="row">
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">1. Think big. Be bold.</h3>
-                                <!--<p class="py-2">The ability to think big and to be bold are vital to success. It’s what motivates you. We want you to step outside of your comfort zone.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">2. Challenge equals opportunity.</h3>
-                                <!--<p class="pt-2">We see challenges as opportunities in disguise. We can definitely turn each challenge into an opportunity.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">3. Normal sucks. Be strange.</h3>
-                                <!--<p class="py-2">We live and thrive outside the lines. Are you ready to be strange?</p>-->
                            </div>
 
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">4. Perfect for some. Not for everyone.</h3>
-                                <!--<p class="py-2">And that’s perfectly okay.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">5. Improve, improve, improve. Waste is a villain.</h3>
-                                <!--<p class="py-2">We adopt a focused approach at work, centering on the most important things that increase our efficiency.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">6. Question everything. There's a solution to every problem.</h3>
-                                <!--<p class="py-2">Problems arise from making assumptions. Ask questions, and seek answers.</p>-->
                            </div>
 
                             <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">7. Present minded. Future driven. Long term focused.</h3>
-                                <!--<p class="py-2">We strive to continuously adapt and evolve, constantly improving our products, services, and processes, while maintaining an eye on the future.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">8. Come and say hi. We've got nothing to hide.</h3>
-                                <!--<p class="py-2">We adopt a focused approach at work, centering on the most important things that increase our efficiency.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                <h3 class="h2 font-weight-bold pt-2">9. We're sidekicks in a world of Heroes.</h3>
-                                <!--<p class="py-2">Our customers, partners, and community are the heroes. We’re here to be the guides and provide them with the tools they need to be empowered.</p>-->
                            </div>
 
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right">
                                 <h3 class="h2 font-weight-bold pt-2">10. Life's a game. Keep leveling up.</h3>
-                                <!--<p class="py-2">We strive to always improve the way we do things, making sure we never plateau. We work smarter, not harder.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right">
                                 <h3 class="h2 font-weight-bold pt-2">11. Change happens. Embrace it.</h3>
-                                <!--<p class="py-2">We know that change is inevitable in life. We choose to embrace it. Change is an opportunity for growth.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center text-left p-5">
                                <img src="/assets/img/decentral_D_logo_white.png" class="decentral-D" alt="">
-                                <!--<h3 class="h2 font-weight-bold pt-2">12. Our purpose.</h3>-->
-                                <!--<p class="py-2">We champion the decentralized movement by building the technology that empowers and creates wins for all.</p>-->
                            </div>
                        </div>
+                       
                    </div><!--end container-->
                   </div><!--end modal body-->
                   <div class="modal-footer">
@@ -130,7 +126,7 @@ include 'includes/header.php';
         <!--anthony message-->     
         
         <section>  
-            <div id="decentralHistory" class="row d-flex p-5 min-500 text-secondary bg-white relative z-1 stagger-right">
+            <div class="row d-flex p-5 min-500 text-secondary bg-white relative z-1 stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
                     <h2 class="h4 orange slide-right">Anthony Di Iorio</h2>
                     <h3 class="section-title text-dark mb-0 slide-right">A message from the founder.</h3>
@@ -139,7 +135,7 @@ include 'includes/header.php';
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 right right-med">
                     <p class="p-big pt-3 m-0 slide-right">Decentralized technologies power trust-less, frictionless, efficient networks and markets by enabling people to create, store, transfer and receive value from anyone, anywhere — friends, strangers, colleagues, businesses — without the assistance or cost of traditional middlemen. As a result, every sector—from marketing to manufacturing, from healthcare to energy, from law to accounting — is being disrupted. Join us in our mission to create opportunity and empower individuals around the world.</p>
                     <div class="right right-slow">
-                        <a href="#decentralHistory"><p class="p-btn mt-3 slide-up">Decentral history <i class="fa fa-angle-right fa-btn orange"></i></p></a>
+                        <a href="#decentralHistory"><p class="p-btn mt-3 slide-right">Decentral history <i class="fa fa-angle-right fa-btn orange"></i></p></a>
                     </div>
                 </div>
             </div><!--end row-->
@@ -155,7 +151,7 @@ include 'includes/header.php';
         
         <!--history-->   
         
-        <section>   
+        <section id="decentralHistory">   
             <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
                     <h2 class="h4 orange slide-down">Decentral history</h2>
