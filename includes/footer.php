@@ -90,7 +90,7 @@
  <!--js tilt 404-->
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>
- <script src="/assets/js/main.js"></script>
+ <script src="/assets/js/main.js?=111"></script>
  <!-- Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
  <!-- Global site tag (gtag.js) - Google Analytics -->
