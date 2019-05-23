@@ -7,7 +7,7 @@ $homeBanner2 = "Your gateway to <span class='line-break-md'>all things cryptocur
 $homeBanner3 = "Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in 1 app.";
 $homeBannerCTA1 = "Download";
 
-$homeWalletTitle = "Manage 80+ Cryptocurrencies.";
+$homeWalletTitle = "Manage 80+ cryptocurrencies.";
 $homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
 
 $homePortTitle = "View your portfolio.";
