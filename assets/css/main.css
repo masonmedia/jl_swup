@@ -1550,6 +1550,9 @@ nav,
 .collapsing {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 /* mobile menu line animation */
@@ -2218,6 +2221,12 @@ footer li a {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .site-title {
+    font-size: 34px;
     }
 }
 
