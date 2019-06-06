@@ -159,7 +159,7 @@ include 'images.php';
                     <div class="device-wrapper absolute z-0 top-0">
                         <img class="feat-phone m-auto up opacity-full"
                         src="<?php echo $homeImgMarkets; ?>"
-                        alt="<?php echo $homeImgAltMarkets; ?>">
+                        alt="<?php echo $homeImgMarketsAlt; ?>">
                     </div>
                 </div>
                <div class="offset-lg-2"></div>
@@ -173,8 +173,8 @@ include 'images.php';
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
                     <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
-                    src="<?php echo $homeImgNews;?>"
-                    alt="<?php echo $homeImgAltNews;?>">
+                    src="<?php echo $homeImgNews; ?>"
+                    alt="<?php echo $homeImgNewsAlt; ?>">
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5 pb-3"">
                     <h2 class="section-title py-3 up">
@@ -206,7 +206,7 @@ include 'images.php';
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 o-12 up">
                     <img class="img-home-support ds up opacity-full"
                     src="<?PHP echo $homeImgSupport; ?>"
-                    alt="<?PHP echo $homeImgAltSupport; ?>">
+                    alt="<?PHP echo $homeImgSupportAlt; ?>">
                 </div>
                <div class="offset-lg-2"></div>
             </div>
@@ -221,7 +221,7 @@ include 'images.php';
                     <div class="device-wrapper absolute z-0 top-0">
                         <img class="feat-phone m-auto up opacity-full"
                         src="<?php echo $homeImgBlock; ?>"
-                        alt="<?php echo $homeImgAltBlock; ?>">
+                        alt="<?php echo $homeImgBlockAlt; ?>">
                     </div>
                 </div>
                <div class="col-lg-4 banner-left px-5 pt-5">

@@ -1,36 +1,45 @@
 <?php
 
 $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
-$homeBannerImgAlt = "Welcome to Jaxx Liberty.";
+$homeBannerImgAlt = "Jaxx Liberty is a leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer.";
 
-$homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";
-$homeImgAltPort = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
+$homeIconNoLogin = "/assets/img/icon-profile.svg";
+$homeIconNoLoginAlt = "An icon showing how Jaxx Liberty does not require a login, registration, or signup.";
 
-$homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";
-$homeImgAltExchange = "Third-party apps like ShapeShift add seamless peer-to-peer exchange between supported assets like Bitcoin and Ethereum (Changelly coming soon).";
+$homeIconFree = "/assets/img/icon-free.svg";
+$homeIconFreeAlt = "An icon demonstrating how Jaxx Liberty is a free app, available on the app store, google play, and chrome store.";
+
+$homeIconUsers = "/assets/img/icon-doorway.svg";
+$homeIconUsersAlt = "An icon displaying how Jaxx Liberty is already trusted by hundreds of thousands of users around the world. Join our community.";
 
 $homeImgWallet = "/assets/img/jaxx-feat-phone-case-wallets.png";
-$homeImgAltWallet = "Easily store, send, receive and even exchange 80+ cryptocurrencies right in your wallet.";
+$homeImgWalletAlt = "A phone displaying how Jaxx Liberty allows you to easily store, send, receive and exchange 80+ cryptocurrencies.";
+
+$homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";
+$homeImgExchangeAlt = "A diagram showing how integrated third-party apps like ShapeShift add peer-to-peer exchange between supported assets.";
+
+$homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";
+$homeImgPortAlt = "A laptop showing how you can check out your asset balance, track individual coins and tokens, and follow value changes.";
 
 $homeImgMarkets = "/assets/img/jaxx-feat-phone-case-markets.jpg";
-$homeImgAltMarkets = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
+$homeImgMarketsAlt = "A phone showing Jaxx Liberty's markets module screen with the top 100 assets, price comparisons, market caps and trends.";
 
 $homeImgNews = "/assets/img/jaxx-news-ipad-jazzy-min.png";
-$homeImgAltNews = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
+$homeImgNewsAlt = "Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.";
 
 $homeImgSupport = "/assets/img/jaxx-customer-support.png";
-$homeImgAltSupport = "Get free, 24/7 world-class support from our User Success Team, via email or social media.";
+$homeImgSupportAlt = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.";
 
 $homeImgBlock = "/assets/img/jaxx-feat-phone-case-block.png";
-$homeImgAltBlock = "Check balances and transaction across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
+$homeImgBlockAlt = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
 
 $homeImgLaptop = "/assets/img/jaxx-laptop-hands.jpg";
-$homeImgAltLaptop = "We consider ourselves part of extensive ecosystem, a large and growing network of people, friends, users, and partners around the world.  Join our community today.";
+$homeImgAltLaptop = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
 
 // Security
 
 $securityBannerImg = "/assets/img/jaxx-security-knight.jpg";
-$securityBannerImgAlt = "Welcome to Jaxx Liberty.";
+$securityBannerImgAlt = "Your security is out Priority.";
 
 $securityImgHandDevice = "/assets/img/jaxx-security-control.png";
 $securityImgHandDeviceAlt = "Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.";
