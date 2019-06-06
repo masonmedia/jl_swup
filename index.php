@@ -1,127 +1,311 @@
 <?php
-$title = "Jaxx Liberty | Downloads";
 include 'includes/header.php';
+include 'copy.php';
+include 'images.php';
 ?>
-    <!--banner-->
 
-    <div id="banner" role="banner" class="container-fluid p-0">
-        <div class="row d-flex min-700-lg py-5 text-secondary relative">
-            <img 
-            class="img-full absolute z-0 left-0 bottom-0 up up-med" src="/assets/img/jaxx-phone-desk.jpg"
-            alt="Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.">
-            <div class="offset-lg-2"></div>
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 m-0">
-                <img 
-                src="/assets/img/JaxxLiberty_Logo_Grouped_copy.svg" class="jaxx-liberty-logo mt-5"
-                alt="Jaxx Liberty logo">
-                <h1 class="page-title pt-1 right">Start your journey.</h1>
-                <hr class="hr-big border-0 bg-orange right right-med"> 
-                <p class="p-big pt-0 m-0 right right-slow">Available for Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</p> 
-                <!--store badges-->
-                <div class="row downloads-badge-container pt-3 down">
-                    <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">
-                        <img 
-                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png"
-                        alt="Google Play Store button to download Jaxx Liberty"/></a>
-                    <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">
-                        <img 
-                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png"
-                        alt="iTunes App Store button to download Jaxx Liberty"/></a>
-                    <!--jaxx liberty chrome-->
-                    <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Downloads_Chrome')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
-                        <img 
-                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png"
-                        alt="Chrome Web Store button to download Jaxx Liberty"/></a>
-                </div><!--end button nest row--> 
-                <!--desktop modal trigger--> 
-                <button id="desktop_download" class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#desktopModal"><p class="p-btn text-secondary mt-4 slide-down">Desktop versions <i class="fa fa-angle-right fa-btn"></i></p></button>                
-            </div><!--end col-->
-            <div class="offset-lg-2"></div>
-        </div><!--end row-->
-    </div><!--end container-->
+<!--banner-->
+
+<div id="banner" role="banner" class="container-fluid p-0">
+    <div class="row d-flex min-700-lg w-100 p-5 relative m-0">
+        <!-- bg navy gradient shape -->
+        <div class="banner-gradient bg-navy-gradient ds"></div> 
+        <!-- bg white cover for max-width navy gradient shape -->
+        <div class="banner-gradient-cover absolute z-2 bg-white"></div> 
+        <img class="img-full absolute z--1 left-0 up up-med"
+        src="<?php echo $homeBannerImg;?>"
+        alt="<?php echo $homeBannerImgAlt;?>">
+        <div class="col-lg-6 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
+            <h1 class="h4 mt-5 orange right">
+                <?php echo $homeBanner1; ?>    
+            </h1>
+            <h2 class="site-title text-light font-weight-bold py-2 right right-med">
+                <?php echo $homeBanner2; ?>  
+            </h2>
+            <h3 class="h4 text-light font-weight-medium py-2 right">
+                <? echo $homeBanner3; ?>
+            </h3>
+            <a href="/downloads">
+                <p class="btn btn-lg btn-orange mt-3 right right-slow"
+                onclick="googleAnalyticsTrigger('Downloads_Page', 'Home_Banner')">
+                    <? echo $homeBannerCTA1; ?> <i class="fa fa-angle-right fa-btn"></i>
+                </p>
+            </a>
+        </div>
+        <div class="offset-lg-6"></div>
+    </div>
+</div>
+<!--end banner-->
+
+<!--main body-->
+
+<main id="main">
+    <div class="container-fluid p-0 text-secondary">
+
+        <section>
+           <div class="row d-flex relative bg-white text-secondary m-0">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-left border-bottom p-2 up">
+                    <img
+                    src="<?php echo $homeIconNoLogin; ?>"
+                    class="jaxx-navbar-brand mt-3 px-3 mx-0b"
+                    alt="<?php echo $homeIconNoLoginAlt; ?>">
+                    <h2 class="h4 font-weight-bold">No login.</h2>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-right border-bottom pb-2 up">
+                    <img
+                    src="<?php echo $homeIconFree; ?>"
+                    class="jaxx-navbar-brand mt-3 px-2 mx-0"
+                    alt="<?php echo $homeIconFreeAlt; ?>">
+                    <h2 class="h4 font-weight-bold">Always free.</h2>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center border-bottom border-right pb-2 up">
+                    <img 
+                    src="<?php echo $homeIconUsers; ?>" 
+                    class="jaxx-navbar-brand mt-3 px-2 mx-0" 
+                    alt="<?php echo $homeIconUsersAlt; ?>">
+                    <h2 class="h4 font-weight-bold">Join millions of users.</h2>
+                </div>
+            </div>
+        </section>
         
-    <div class="container-fluid p-0">
-       <div class="row p-0">
-        <!--nested container for modals-->
-            <div class="modal fade" id="desktopModal" tabindex="-1" role="dialog" aria-labelledby="desktopModal" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header bg-light border-bottom-0 p-0">
-                    <button type="button" class="close font-weight-light ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">X</span>
-                    </button>
-                  </div>
-                   
-                  <!--modal-->
-                    
-                  <div class="modal-body bg-light px-5 pb-5">
-                       <div class="container-fluid">
-                           <div class="row">
-                                <div class="col-sm-12 d-flex flex-column justify-content-start align-items-start text-left w-100">
-                                    <h2 class="section-title orange m-0 font-weight-bold">Jaxx Liberty for Desktop</h2>
-                                </div>
-                                <div class="col-sm-12 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                    <p class="pt-4 m-0 border-top">The checksums below are a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
-                               </div>
-
-                              <!--mac desktop-->
-                            
-                               <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                    <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">*Mac OSX</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires OS X 10.9 (or later)</h5>
-                                    <p class="pt-3 font-weight-bold">$ shasum -a 256 Jaxx.Liberty-2.2.0.dmg</p>
-                                    <p class="word-break">30b70ced0b60e78c973c63e4b415aa866eee4739763b76c52a0422c66d34bd40</p>
-                                    <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Mac_Modal', 'Downloads_Desktop_Liberty_Mac')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-2.2.0.dmg">Download for Mac</a>
-                               </div><!--end mac-->
-                               
-                               <!--windows desktop-->
-                               
-                               <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                    <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Windows</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Windows 8 (or later)</h5>
-                                    <p class="pt-3 font-weight-bold">$ certutil -hashfile Jaxx.Liberty-setup-2.2.0.exe sha256</p>
-                                    <p class="word-break">6a3b6126d9069aa0a6c7d8c293317151cefd7d8cd910ab29a9d68bf096ee789b</p>
-                                    <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Windows_Modal', 'Downloads_Desktop_Liberty_Windows')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-setup-2.2.0.exe">Download for Windows</a>
-                               </div><!--end windows-->
-                               
-                                <!--linux 32 desktop-->
-                                
-                               <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                   <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Linux 32</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
-                                    <p class="pt-3 font-weight-bold">$ shasum -a 256 com.liberty.jaxx-2.2.0-i386.AppImage</p>
-                                    <p class="word-break">d828a11855d67af1041c07471c73a214cf7c7e03914561694853b7eb0f32b533</p>
-                                    <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_32')" href="https://download-liberty.jaxx.io/com.liberty.jaxx-2.2.0-i386.AppImage">Download for Linux 32</a>
-                               </div><!--end linux 32-->
-                               
-                               <!--linux 64 desktop-->
-                               
-                               <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                   <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Linux 64</h3>
-                                    <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Ubuntu 12.04, Fedora 21, or Debian 8 (or later)</h5>
-                                    <p class="pt-3 font-weight-bold">$ shasum -a 256 com.liberty.jaxx-2.2.0-x86_64.AppImage</p>
-                                    <p class="word-break">32eb2aa0dbc364dfa9674c79d4a579c126ec5ca884c289eb5f2f951ad2b19778</p>
-                                    <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Linux_Modal', 'Downloads_Desktop_Liberty_64')" href="https://download-liberty.jaxx.io/com.liberty.jaxx-2.2.0-x86_64.AppImage">Download for Linux 64</a>
-                               </div><!--end linux 64-->
-                                <div class="col-sm-12 d-flex flex-column justify-content-start align-items-start text-left p-3">
-                                    <p class="pt-4 m-0 border-top"><b>*Mac OS X Note: </b>Depending on your system settings, the system might warn you that "Jaxx can't be opened because it comes from an unidentified developer." You can either change your system settings to allow apps from unknown developers in your "Security & Privacy" settings, or simply right click Jaxx &#8594; Open (as administrator), which will prompt you with a warning.</p>
-                               </div><!--end Mac desktop note-->
-                           </div><!--end row-->
-                       </div><!--end container-->
-                    </div><!--end modal body-->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--wallet-->
+       
+        <section>
+            <div id="sec-1" class="row relative min-500 bg-light py-4 border-bottom m-0">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgWallet; ?>"
+                        alt="<?php echo $homeImgWalletAlt; ?>">
                     </div>
                 </div>
-              </div>
-            </div><!--end desktop modal-->
-          </div><!--end row-->
-        </div><!--end container-->
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeWalletTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homeWalletDesc; ?>
+                    </p>
+                </div>
+                <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+         <!--exchange-->
+       
+         <section>
+            <div class="row relative d-flex min-500 bg-navy-gradient text-light py-4 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title text-light py-3 up">
+                        <?php echo $homeExchangeTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homeExchangeDesc; ?>
+                    </p>
+                </div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgExchange; ?>"
+                        alt="<?php echo $homeImgExchangeAlt; ?>">
+                    </div>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <!--port-->
+       
+        <section>
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <img class="img-port-desktop absolute z-0 opacity-full ds"
+                    src="<?php echo $homeImgPort; ?>" 
+                    alt="<?php echo $homeImgPortAlt; ?>">
+                </div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homePortTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homePortDesc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+         <!--markets-->
+       
+         <section>
+            <div class="row relative d-flex min-500 bg-light py-4 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeMarketsTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homeMarketsDesc; ?>
+                    </p>
+                </div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgMarkets; ?>"
+                        alt="<?php echo $homeImgAltMarkets; ?>">
+                    </div>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--news-->
+        
+        <section>
+            <div class="row relative d-flex min-500 bg-white p-0 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
+                    <img class="jazzy absolute z-0 bottom-0 px-3 ds up opacity-full"
+                    src="<?php echo $homeImgNews;?>"
+                    alt="<?php echo $homeImgAltNews;?>">
+                </div>
+                <div class="col-lg-4 banner-left px-5 pt-5 pb-3"">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeNewsTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homeNewsDesc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+         <!--support-->
+        
+         <section>
+            <div class="row relative d-flex min-500 bg-light py-4 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeSupportTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-low">
+                        <?php echo $homeSupportDesc; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 o-12 up">
+                    <img class="img-home-support ds up opacity-full"
+                    src="<?PHP echo $homeImgSupport; ?>"
+                    alt="<?PHP echo $homeImgAltSupport; ?>">
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+        
+        <!--block-->
+       
+        <section>
+            <div class="row relative d-flex min-500 bg-white py-4 border-bottom m-0">
+               <div class="offset-lg-2"></div>
+               <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
+                    <div class="device-wrapper absolute z-0 top-0">
+                        <img class="feat-phone m-auto up opacity-full"
+                        src="<?php echo $homeImgBlock; ?>"
+                        alt="<?php echo $homeImgAltBlock; ?>">
+                    </div>
+                </div>
+               <div class="col-lg-4 banner-left px-5 pt-5">
+                    <h2 class="section-title py-3 up">
+                        <?php echo $homeBlockTitle; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 mb-0 up up-slow">
+                        <?php echo $homeBlockDesc; ?>
+                    </p>
+                </div>
+               <div class="offset-lg-2"></div>
+            </div>
+        </section>
+
+        <!-- download -->
+
+        <section>
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light m-0">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left down">
+                    <h3 class="section-title py-3 text-light">
+                        <?php echo $homeDownload2; ?>
+                    </h3>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 m-0">
+                        <?php echo $homeDownload3; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
+                    <!--jaxx liberty google store-->
+                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
+                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right"
+                            src="/assets/img/jaxx-google-play.png"
+                            alt="Google Play Button" />
+                    </a>
+                    <!--jaxx liberty itunes-->
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
+                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right right-med"
+                            src="/assets/img/jaxx-app-store.png"
+                            alt="iTunes App Store Button" />
+                    </a>
+                    <!--jaxx liberty chrome-->
+                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
+                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right right-slow"
+                            src="/assets/img/jaxx-chrome-store.png"
+                            alt="Chrome Web Store" />
+                    </a>
+                    <!--end button nest row-->
+                    <div id="desktop_download" class="right right-med p-0">
+                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
+                            <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
+                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
+                                Desktop
+                            </button>
+                        </a>
+                    </div>
+                <div class="offset-lg-2"></div>
+            </div>
+            <!--end row-->
+        </section>
+
+        <section>
+            <div class="row d-flex bg-light relative m-0">
+                <div class="col-lg-12 min-600 down down-med">
+                    <img class="img-full absolute z-0 bottom-0 left-0 opacity-full"
+                    src="<?php echo $homeImgLaptop; ?>"
+                    alt="<?php echo $homeImgAltLaptop; ?>">
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!--end container-->
+</main>
 
 <?php
 
 include 'includes/footer.php';
 
-?> 
+?>
