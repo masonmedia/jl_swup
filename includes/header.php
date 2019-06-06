@@ -8,7 +8,7 @@
        echo $title; 
     } 
     else { 
-       echo "Jaxx Liberty | Your All-In-One Blockchain Wallet."; 
+       echo "Jaxx Liberty: Secure Blockchain Wallet, Exchange and Portfolio"; 
     } ?></title>
     <!--core meta data-->
     <meta name="description" content="<?php
@@ -16,35 +16,33 @@
        echo $metaD; 
     } 
     else { 
-       echo "Jaxx Liberty is a blockchain wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome."; 
+       echo "The leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer. Jaxx Liberty securely supports 80+ cryptocurrencies including Bitcoin, Ethereum, Litecoin and Dash, and is available on iOS, Android, Desktop, and Chrome."; 
     } ?>" />
-    <meta name="keywords" content="Decentral,Jaxx Liberty,Blockchain,Cryptocurrency,Anthony Di Iorio">
+    <meta name="keywords" content="Decentral, Jaxx Liberty, Blockchain, Cryptocurrency, Anthony Di Iorio, Crypto, Bitcoin">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!--icons-->
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="shortcut icon" href="/favicon.ico">
-    <!-- Place favicon.ico in the root directory -->
     <!-- Open Graph Meta Data -->
-    <meta property="og:description" content="Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.">
-    <!--<meta property="og:image" content="https://decentral.ca/assets/img/jaxx-android-tablet-pc.jpg">-->
+    <meta property="og:description" content="The leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer. Jaxx Liberty securely supports 80+ cryptocurrencies including Bitcoin, Ethereum, Litecoin and Dash, and is available on iOS, Android, Desktop, and Chrome.">
     <meta property="og:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <meta property="og:site_name" content="jaxx.io">
-    <meta property="og:title" content="Jaxx Liberty: Your trusted all-in-one blockchain wallet.">
+    <meta property="og:title" content="Jaxx Liberty: Secure Blockchain Wallet, Exchange and Portfolio">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jaxx.io">
     <!-- Twitter Card Meta Data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://jaxx.io">
     <meta name="twitter:creator" content="Jaxx Liberty">
-    <meta name="twitter:title" content="Jaxx Liberty: Your trusted all-in-one blockchain wallet.">
-    <meta name="twitter:description" content="Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.">
+    <meta name="twitter:title" content="Jaxx Liberty: Secure Blockchain Wallet, Exchange and Portfolio">
+    <meta name="twitter:description" content="The leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer. Jaxx Liberty securely supports 80+ cryptocurrencies including Bitcoin, Ethereum, Litecoin and Dash, and is available on iOS, Android, Desktop, and Chrome.">
     <meta name="twitter:image" content="https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg">
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css?=11">
     <!--json.ld-->
     <script type="application/ld+json">
         {
@@ -63,15 +61,15 @@
                 },
               "operatingSystem": "iOS, Android, Windows, Mac OS X, Linux, Google Chrome.",
               "availableOnDevice": "iPhone, Android, iPad, Tablet, Linux, Mac OS X, and Windows Desktop, Google Chrome Extension.",
-              "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
+              "description": "The leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer. Jaxx Liberty securely supports 80+ cryptocurrencies including Bitcoin, Ethereum, Litecoin and Dash, and is available on iOS, Android, Desktop, and Chrome.",
               "@id":"https://jaxx.io",
-              "keywords": "Digital wallet, blockchain, cryptocurrency, Bitcoin",
+              "keywords": "Blockchain wallet, blockchain, cryptocurrency, Bitcoin",
               "applicationCategory": "Finance",
-              "applicationSubCategory": "Digital Wallet Application",
+              "applicationSubCategory": "Blockchain Wallet Application",
               "genre": "Blockchain, Cryptocurrency, Digital Wallet",
               "url": "https://www.jaxx.io",
               "downloadUrl": "https://www.jaxx.io/downloads",
-              "featureList": "https://www.jaxx.io/features",
+              "featureList": "https://www.jaxx.io",
               "license": "https://jaxx.io/legal/terms-current",
               "releaseNotes": "https://www.jaxx.io/changeLog",
               "screenshot": "https://jaxx.io/assets/img/jaxx-apple-multi-device-min.jpg",
@@ -267,19 +265,19 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <!-- <li class="nav-item">
-                        <a class="nav-link" href="/features.php">Features</a>
+                        <a class="nav-link" href="/features">Features</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
+                        <a class="nav-link" href="/downloads" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/security.php">Security</a>
+                        <a class="nav-link" href="/security">Security</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/community.php">Community</a>
+                        <a class="nav-link" href="/community">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/careers.php">Careers</a>
+                        <a class="nav-link" href="/careers">Careers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://support.decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>
