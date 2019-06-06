@@ -19,7 +19,7 @@ $homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";
 $homeImgExchangeAlt = "A diagram showing how integrated third-party apps like ShapeShift add peer-to-peer exchange between supported assets.";
 
 $homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";
-$homeImgPortAlt = "A laptop showing how you can check out your asset balance, track individual coins and tokens, and follow value changes.";
+$homeImgPortAlt = "A laptop showing how you can check your asset balance, track individual coins and tokens, and follow value changes.";
 
 $homeImgMarkets = "/assets/img/jaxx-feat-phone-case-markets.jpg";
 $homeImgMarketsAlt = "A phone showing Jaxx Liberty's markets module screen with the top 100 assets, price comparisons, market caps and trends.";
@@ -78,5 +78,6 @@ $featuresImgAlt6 = "Jaxx Liberty blends industry leading engineering with beauti
 
 $featuresImg7 = "/assets/img/jaxx-home-dash.jpg";
 $featuresImgAlt7 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
+
 
 ?>
