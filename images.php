@@ -10,7 +10,7 @@ $homeIconFree = "/assets/img/icon-free.svg";
 $homeIconFreeAlt = "An icon demonstrating how Jaxx Liberty is a free app, available on the app store, google play, and chrome store.";
 
 $homeIconUsers = "/assets/img/icon-doorway.svg";
-$homeIconUsersAlt = "An icon displaying how Jaxx Liberty is already trusted by hundreds of thousands of users around the world. Join our community.";
+$homeIconUsersAlt = "An icon displaying how Jaxx Liberty is already trusted by millions of users around the world. Join our community.";
 
 $homeImgWallet = "/assets/img/jaxx-feat-phone-case-wallets.png";
 $homeImgWalletAlt = "A phone displaying how Jaxx Liberty allows you to easily store, send, receive and exchange 80+ cryptocurrencies.";
@@ -78,6 +78,5 @@ $featuresImgAlt6 = "Jaxx Liberty blends industry leading engineering with beauti
 
 $featuresImg7 = "/assets/img/jaxx-home-dash.jpg";
 $featuresImgAlt7 = "Jaxx Liberty blends industry leading engineering with beautiful and intuitive user experience design.";
-
 
 ?>
