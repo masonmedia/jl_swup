@@ -25,10 +25,10 @@ $homeImgMarkets = "/assets/img/jaxx-feat-phone-case-markets.jpg";
 $homeImgMarketsAlt = "A phone showing Jaxx Liberty's markets module screen with the top 100 assets, price comparisons, market caps and trends.";
 
 $homeImgNews = "/assets/img/jaxx-news-ipad-jazzy-min.png";
-$homeImgNewsAlt = "Get daily blockchain headline news and updates from a range of trusted sources in Jaxx Liberty's news module.";
+$homeImgNewsAlt = "An iPad showing Jaxx Liberty's news module where users get blockchain headline news from a range of trusted sources.";
 
 $homeImgSupport = "/assets/img/jaxx-customer-support.png";
-$homeImgSupportAlt = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.";
+$homeImgSupportAlt = "A graphic showing Jaxx Liberty's fast, friendly customer support, available 7 days a week via email or social media.";
 
 $homeImgBlock = "/assets/img/jaxx-feat-phone-case-block.png";
 $homeImgBlockAlt = "A phone showing how you can search balances and transaction data in Jaxx Liberty's block explorer.";
@@ -54,6 +54,7 @@ $securityImgPasswordAlt = "When you first launch the application, Jaxx Liberty c
 
 $communityBannerImg = "/assets/img/jaxx-partners.jpeg";
 $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
+
 
 // Features
 
