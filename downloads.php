@@ -9,21 +9,34 @@ include 'includes/header.php';
 
     <div id="banner" role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg py-5 text-secondary relative">
-            <img class="img-full absolute z-0 left-0 bottom-0 up up-med" src="/assets/img/jaxx-phone-desk.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
+            <img 
+            class="img-full absolute z-0 left-0 bottom-0 up up-med" src="/assets/img/jaxx-phone-desk.jpg"
+            alt="Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.">
             <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 m-0">
-                <img src="/assets/img/JaxxLiberty_Logo_Grouped_copy.svg" class="jaxx-liberty-logo mt-5" alt="Download Jaxx Liberty today.">
+                <img 
+                src="/assets/img/JaxxLiberty_Logo_Grouped_copy.svg" class="jaxx-liberty-logo mt-5"
+                alt="Jaxx Liberty logo">
                 <h1 class="page-title pt-1 right">Start your journey.</h1>
                 <hr class="hr-big border-0 bg-orange right right-med"> 
                 <p class="p-big pt-0 m-0 right right-slow">Available for Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</p> 
                 <!--store badges-->
                 <div class="row downloads-badge-container pt-3 down">
                     <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
+                    <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Downloads_Mobile')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">
+                        <img 
+                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png"
+                        alt="Google Play Store button to download Jaxx Liberty"/></a>
                     <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
+                    <a onclick="googleAnalyticsTrigger('iOS', 'Downloads_Mobile')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank">
+                        <img 
+                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png"
+                        alt="iTunes App Store button to download Jaxx Liberty"/></a>
                     <!--jaxx liberty chrome-->
-                    <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Downloads_Chrome')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
+                    <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Downloads_Chrome')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
+                        <img 
+                        class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png"
+                        alt="Chrome Web Store button to download Jaxx Liberty"/></a>
                 </div><!--end button nest row--> 
                 <!--desktop modal trigger--> 
                 <button id="desktop_download" class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#desktopModal"><p class="p-btn text-secondary mt-4 slide-down">Desktop versions <i class="fa fa-angle-right fa-btn"></i></p></button>                
