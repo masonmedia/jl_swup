@@ -31,7 +31,7 @@ $homeImgSupport = "/assets/img/jaxx-customer-support.png";
 $homeImgSupportAlt = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media.";
 
 $homeImgBlock = "/assets/img/jaxx-feat-phone-case-block.png";
-$homeImgBlockAlt = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
+$homeImgBlockAlt = "A phone showing how you can search balances and transaction data in Jaxx Liberty's block explorer.";
 
 $homeImgLaptop = "/assets/img/jaxx-laptop-hands.jpg";
 $homeImgAltLaptop = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
@@ -54,7 +54,6 @@ $securityImgPasswordAlt = "When you first launch the application, Jaxx Liberty c
 
 $communityBannerImg = "/assets/img/jaxx-partners.jpeg";
 $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
-
 
 // Features
 
