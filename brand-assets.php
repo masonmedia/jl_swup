@@ -180,7 +180,7 @@ include 'images.php';
 
         <!--standards-->
         
-        <section class="bg-white border-bottom">
+        <!-- <section class="bg-white border-bottom">
             <div class="container">
                 <div class="row d-flex p-5 min-400">
                     <div class="col-lg-12 p-3 banner-left right">
@@ -194,11 +194,11 @@ include 'images.php';
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--best practices-->
         
-        <section class="bg-light border-bottom">
+        <section class="bg-white border-bottom">
             <div class="container">
                 <div class="row d-flex p-5 min-400">
                     <div class="col-lg-12 banner-left right">
@@ -207,28 +207,48 @@ include 'images.php';
                         </h2>
                         <hr class="hr-big border-0 bg-orange up up-med">
                         <p class="p-big pt-3 m-0">
-                            Here are examples of how to properly use the logo.
+                        Use Jaxx Liberty product images at a size that is clearly legible at the image resolution provided. Ensure that the minimum size is no smaller than XXX for printed materials and 200 px onscreen. Maintain the correct relative product scale whenever multiple products are shown. Here are examples of how to properly use the logo.
                         </p>
-                            <div class="row px-3 py-4">
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=1" alt="">
-                                </div>
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=2" alt="">
-                                </div>
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=3" alt="">
-                                </div>
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=4" alt="">
-                                </div>
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=5" alt="">
-                                </div>
-                                <div class="col-md-4 mb-4 p-0">
-                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=6" alt="">
-                                </div>
+                        <div class="row px-3 py-4">
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=1" alt="">
                             </div>
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=2" alt="">
+                            </div>
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=3" alt="">
+                            </div>
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=4" alt="">
+                            </div>
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=5" alt="">
+                            </div>
+                            <div class="col-md-4 mb-4 p-0">
+                                <img class="opacity-full" src="https://picsum.photos/300/200?random=6" alt="">
+                            </div>
+                        </div><!--end nest row-->
+                    <button class="btn btn-lg btn-orange shadow">Download style guide</button>
+                    </div><!--end col-->
+                </div>
+            </div>
+        </section>
+
+        <!--Product and screen content use-->
+        
+        <section class="bg-light border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 p-3 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Product and Screen Content Use
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">
+                            Straight-on product shots are preferred. Don’t use extreme angles or alter an on-screen image of the Jaxx Liberty app in any way. The product’s color, features and text must be accurate. Make sure the Jaxx Liberty logo is present on screen or near the image. 
+                        </p>
+                        <p class="pt-3">If in doubt, you are welcome to use any of the photos / images we have shared in the next section.</p>
                     </div>
                 </div>
             </div>
@@ -245,47 +265,109 @@ include 'images.php';
                         </h2>
                         <hr class="hr-big border-0 bg-orange up up-med">
                         <p class="p-big pt-3 m-0">
-                            This is our logo stripped of its wordmark. The main Jaxx Liberty logo always comes first, however in situations where space is tight, for instance when the logo has to be within a square or circle shape, use of the icon is allowed.
+                        Custom photography and video of Jaxx Liberty is allowed. Show people interacting with the Jaxx Liberty app in an authentic way, and feature the app in a realistic manner, exactly as a user will experience it.
                         </p>
                     </div><!--end col-->
 
                     <div class="col-lg-12">
                         <!-- nested logos grid -->
                         <div class="row pt-5">
-                            <div class="col-md-4 p-0">
+                            <div class="col-md-4 min-300 p-0">
                                 <figure>
-                                    <img class="w-100 bg-lightgrey p-5 opacity-full" src="/assets/img/Jaxx_Primary_Icon.png" alt="Jaxx Liberty primary icon">
-                                    <figcaption class="p-3">
-                                        <h5 class="font-weight-bold">Primary Icon</h5>
-                                        <p>The primary Jaxx Liberty icon.</p>  
-                                    </figcaption>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-iphone-here-look.jpg" alt="Jaxx Liberty primary icon">
                                 </figure>
                             </div>
-                            <div class="col-md-4 p-0">
+                            <div class="col-md-4 min-300 p-0">
                                 <figure>
-                                    <img class="w-100 bg-navy p-5 opacity-full" src="/assets/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="">
-                                    <figcaption class="p-3">
-                                        <h5 class="font-weight-bold">Reversed Orange Icon</h5>
-                                        <p>Secondary reversed icon for use over navy or dark backgrounds.</p>  
-                                    </figcaption>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-phone-hand-car.jpg" alt="">
                                 </figure>
                             </div>
-                            <div class="col-md-4 p-0">
+                            <div class="col-md-4 min-300 p-0">
                                 <figure>
-                                    <img class="w-100 bg-orange p-5 opacity-full" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="">
-                                    <figcaption class="p-3">
-                                        <h5 class="font-weight-bold">Reversed Navy Icon</h5>
-                                        <p>Secondary reversed icon for use over orange or dark backgrounds.</p>  
-                                    </figcaption>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-iphone-X-4-gallery.jpg" alt="">
                                 </figure>
                             </div>
-                        </div><!--nest logo row-->
-                    <button class="btn btn-lg btn-orange shadow">Download assets</button>
 
+                            <div class="col-md-4 min-300 p-0">
+                                <figure>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-ipad-desk-closeup-port.jpg" alt="Jaxx Liberty primary icon">
+                                </figure>
+                            </div>
+                            <div class="col-md-4 min-300 p-0">
+                                <figure>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-android-girl-hand.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-md-4 min-300 p-0">
+                                <figure>
+                                    <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-laptop-hands.jpg" alt="">
+                                </figure>
+                            </div>
+                            
+                        </div><!--nest logo row-->
                     </div>
                 </div><!--end row-->
             </div><!--end container-->
         </section>
+
+        <!--messaging and style-->
+        
+        <section class="bg-light border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 p-3 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Messaging and Style
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">
+                        When promoting your app, article, or product, your headline and copy should focus on your app, not on Apple product features. Use clear, simple messaging. Always include a call to action to download your app.</p>
+                        <p class="pt-3">Refer to the correct product names your app supports, and avoid referring to iOS, macOS, tvOS, or watchOS in your marketing communications. Don’t refer to Apple devices generically as “smartphones” or “tablets.” Use the product names.
+                        </p>
+                        <h3 class="pt-3">Spelling and language</h3>
+                        <p>Always use the correct product names with the correct capitalization as shown on the list below. Never typeset Jaxx Liberty or Decentral product names using all uppercase letters.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--legal requirements-->
+        
+        <section class="bg-white border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 p-3 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Legal Requirements
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <h3 class="pt-3">Guidelines</h3>
+                        <p class="p-big pt-3 m-0">
+                        These guidelines explain how you must use and visually present our brand assets at all times. Your use of our brand assets indicates your acceptance of these guidelines, and you understand that your use of our brand assets in violation of these guidelines will result in automatic termination of your license and/or permission to use our brand assets.
+                        </p>
+                        <p class="pt-3">Use of our brand assets must be expressly authorized in writing. Your use must not mislead consumers as to our sponsorship of, affiliation with or endorsement of your company or your products or services.
+                        </p>
+                        <p>Where used on a web page, our brand assets, as well as the mention of our name, should include embedded hyperlinks to our homepage: jaxx.io
+                        </p>
+                        <p>Our brand assets must be used in a respectful manner. Our brand assets may not be used in a way that harms us, our products or services, or in a manner which, in our opinion, lessens or otherwise damages our reputation or the goodwill in our brand assets. 
+                        </p>
+                        <h3 class="pt-3">Trademark usage</h3>
+                        <p class="p-big pt-3 m-0">
+                        In communications distributed only in the United States, the appropriate symbol (™, ℠, or ®) must follow each Jaxx Liberty trademark the first time it is mentioned in body copy.
+                        For example, use… 
+                        </p>
+                        <p class="p-big pt-3 m-0">
+                        In communications distributed only in the United States, the appropriate symbol (™, ℠, or ®) must follow each Jaxx Liberty trademark the first time it is mentioned in body copy.
+                        For example, use… 
+                        </p>
+                        <p class="p-big pt-3 m-0">
+                        For more information on using Jaxx Liberty or Decentral Inc. trademarks, see < link >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <section>
             <div class="row d-flex bg-light relative">
