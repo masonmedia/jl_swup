@@ -1455,6 +1455,13 @@ input:checked+.slider:before {
     font-size: 16px;
 }
 
+/* brand assets page =====================*/
+
+#brandAssets .fa {
+    color: #000;
+    font-size: 40px;
+}
+
 
 /*community json blog API data --> columns =========*/
 
