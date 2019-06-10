@@ -136,29 +136,38 @@ include 'images.php';
                 <div class="row d-flex p-5 min-400 bg-light">
                     <div class="col-lg-12 banner-left right">
                         <h2 class="section-title text-dark mb-0">
-                            Glyph
+                            Icon
                         </h2>
                         <hr class="hr-big border-0 bg-orange up up-med">
                         <p class="p-big pt-3 m-0">
-                            This is our logo stripped of its wordmark. Use it only when and where space is limited.
+                            This is our logo stripped of its wordmark. The main Jaxx Liberty logo always comes first, however in situations where space is tight, for instance when the logo has to be within a square or circle shape, use of the icon is allowed.
                         </p>
                         <!-- nested logos grid -->
                         <div class="row pt-5">
-                            <div class="col-md-6 lightgrey p-0">
+                            <div class="col-md-4 p-0">
                                 <figure>
-                                    <img class="w-50 d-block m-auto p-5 opacity-full" src="/assets/img/Jaxx_Primary_Icon.png" alt="Jaxx Liberty primary icon">
+                                    <img class="w-100 bg-lightgrey p-5 opacity-full" src="/assets/img/Jaxx_Primary_Icon.png" alt="Jaxx Liberty primary icon">
                                     <figcaption class="p-3">
-                                        <h5 class="font-weight-bold">Logo</h5>
-                                        <p>This is the main Jaxx Liberty logo. It should be used in this form whenever possible.</p>  
+                                        <h5 class="font-weight-bold">Primary Icon</h5>
+                                        <p>The primary Jaxx Liberty icon.</p>  
                                     </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-md-6 p-0">
+                            <div class="col-md-4 p-0">
                                 <figure>
-                                    <img class="w-100 bg-navy p-5 opacity-full" src="/assets/img/JaxxLiberty_Logo_RGB_Screen (white Liberty white X).png" alt="">
+                                    <img class="w-100 bg-navy p-5 opacity-full" src="/assets/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="">
                                     <figcaption class="p-3">
-                                        <h5 class="font-weight-bold">Inverted logo</h5>
-                                        <p>This version with the white wordmark works well on dark and busy backgrounds.</p>  
+                                        <h5 class="font-weight-bold">Reversed Orange Icon</h5>
+                                        <p>Secondary reversed icon for use over navy or dark backgrounds.</p>  
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-4 p-0">
+                                <figure>
+                                    <img class="w-100 bg-orange p-5 opacity-full" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="">
+                                    <figcaption class="p-3">
+                                        <h5 class="font-weight-bold">Reversed Navy Icon</h5>
+                                        <p>Secondary reversed icon for use over orange or dark backgrounds.</p>  
                                     </figcaption>
                                 </figure>
                             </div>
@@ -169,57 +178,113 @@ include 'images.php';
             </div><!--end container-->
         </section>  
 
-        <!-- download -->
-
-        <section>
-            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
-                <div class="offset-lg-2"></div>
-                <div class="col-lg-4 banner-left down">
-                    <h3 class="section-title py-3 text-light">
-                        <?php echo $homeDownload2; ?>
-                    </h3>
-                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 m-0">
-                        <?php echo $homeDownload3; ?>
-                    </p>
-                </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
-                    <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
-                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
-                        target="_blank">
-                            <img class="home-store-badge mt-2 right"
-                            src="/assets/img/jaxx-google-play.png"
-                            alt="Google Play Button" />
-                    </a>
-                    <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
-                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
-                        target="_blank">
-                            <img class="home-store-badge mt-2 right right-med"
-                            src="/assets/img/jaxx-app-store.png"
-                            alt="iTunes App Store Button" />
-                    </a>
-                    <!--jaxx liberty chrome-->
-                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
-                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
-                        target="_blank">
-                            <img class="home-store-badge mt-2 right right-slow"
-                            src="/assets/img/jaxx-chrome-store.png"
-                            alt="Chrome Web Store" />
-                    </a>
-                    <!--end button nest row-->
-                    <div id="desktop_download" class="right right-med p-0">
-                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
-                            <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
-                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
-                                Desktop
-                            </button>
-                        </a>
+        <!--standards-->
+        
+        <section class="bg-white border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 p-3 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Graphic Standards
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">
+                            Use Jaxx Liberty product images at a size that is clearly legible at the image resolution provided. Ensure that the minimum size is no smaller than XXX for printed materials and 200 px onscreen. Maintain the correct relative product scale whenever multiple products are shown.
+                        </p>
                     </div>
-                <div class="offset-lg-2"></div>
+                </div>
             </div>
-            <!--end row-->
+        </section>
+
+        <!--best practices-->
+        
+        <section class="bg-light border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Best Practices
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">
+                            Here are examples of how to properly use the logo.
+                        </p>
+                            <div class="row px-3 py-4">
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=1" alt="">
+                                </div>
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=2" alt="">
+                                </div>
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=3" alt="">
+                                </div>
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=4" alt="">
+                                </div>
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=5" alt="">
+                                </div>
+                                <div class="col-md-4 mb-4 p-0">
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=6" alt="">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--photo + video-->
+        
+        <section class="bg-white border-bottom">
+            <div class="container">
+                <div class="row d-flex p-5 min-400">
+                    <div class="col-lg-12 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Photography + Video
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">
+                            This is our logo stripped of its wordmark. The main Jaxx Liberty logo always comes first, however in situations where space is tight, for instance when the logo has to be within a square or circle shape, use of the icon is allowed.
+                        </p>
+                    </div><!--end col-->
+
+                    <div class="col-lg-12">
+                        <!-- nested logos grid -->
+                        <div class="row pt-5">
+                            <div class="col-md-4 p-0">
+                                <figure>
+                                    <img class="w-100 bg-lightgrey p-5 opacity-full" src="/assets/img/Jaxx_Primary_Icon.png" alt="Jaxx Liberty primary icon">
+                                    <figcaption class="p-3">
+                                        <h5 class="font-weight-bold">Primary Icon</h5>
+                                        <p>The primary Jaxx Liberty icon.</p>  
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-4 p-0">
+                                <figure>
+                                    <img class="w-100 bg-navy p-5 opacity-full" src="/assets/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="">
+                                    <figcaption class="p-3">
+                                        <h5 class="font-weight-bold">Reversed Orange Icon</h5>
+                                        <p>Secondary reversed icon for use over navy or dark backgrounds.</p>  
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-4 p-0">
+                                <figure>
+                                    <img class="w-100 bg-orange p-5 opacity-full" src="/assets/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="">
+                                    <figcaption class="p-3">
+                                        <h5 class="font-weight-bold">Reversed Navy Icon</h5>
+                                        <p>Secondary reversed icon for use over orange or dark backgrounds.</p>  
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div><!--nest logo row-->
+                    <button class="btn btn-lg btn-orange shadow">Download assets</button>
+
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
         </section>
 
         <section>
