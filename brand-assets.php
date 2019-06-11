@@ -416,12 +416,12 @@ include 'images.php';
         <section class="bg-light">
             <div class="container">
                 <div class="row d-flex p-5">
-                    <div class="col-lg-12 p-5 banner-left right">
-                        <h2 class="section-title text-dark mb-0">
+                    <div class="col-lg-12 p-5 d-flex flex-column justify-content-center align-items-center text-center right">
+                        <h2 class="section-title text-dark pt-0 mb-0">
                             Questions?
                         </h2>
                         <hr class="hr-big border-0 bg-orange up up-med">
-                        <p class="p-big pt-3 m-0">If you’re feeling unsure about proper use of our logo, it’s always good to ask! Send us an email at pr@decentral.ca</p>
+                        <p class="p-big py-2 m-0">If you’re feeling unsure about proper use of our logo, it’s always good to ask! Send us an email at <span class="orange">pr@decentral.ca</span></p>
                     </div>
                 </div>
             </div>
