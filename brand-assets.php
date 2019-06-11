@@ -357,6 +357,12 @@ include 'images.php';
                         </p>
                         <h3 class="pt-3">Spelling and language</h3>
                         <p>Always use the correct product names with the correct capitalization as shown on the list below. Never typeset Jaxx Liberty or Decentral product names using all uppercase letters.</p>
+                        <ul class="list-unstyled">
+                            <li>Jaxx Liberty</li>
+                            <li>Decentral Inc.</li>
+                            <li>Jaxx Classic</li>
+                            <li>Anthony Di Iorio</li>
+                        </ul>
                     </div>
                 </div>
             </div>
