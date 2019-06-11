@@ -42,7 +42,7 @@ include 'images.php';
                         Marketing Resources and Identity Guidelines
                     </h2>
                     <hr class="hr-big border-0 bg-orange up up-med">
-                    <p class="p-big pt-2 m-0">
+                    <p class="p-big text-secondary pt-3 m-0">
                         We believe that powerful marketing will help bring continued success for your apps. Use App Store badges, Apple product images, and these identity guidelines to effectively promote your app’s availability on the App Store in all marketing communications.
                     </p>
                 </div>
@@ -211,22 +211,52 @@ include 'images.php';
                         </p>
                         <div class="row px-3 py-4">
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=1" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=1" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span> Don’t use the old logo</p>
+                                    </figcaption>
+                                </figure>
                             </div>
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=2" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=2" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span> Don't rotate the logo</p>
+                                    </figcaption>
+                                </figure>
                             </div>
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=3" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=3" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span> Don't use the wordmark alone</p>
+                                    </figcaption>
+                                </figure>
                             </div>
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=4" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=4" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span> Don't stretch or squeeze it</p>
+                                    </figcaption>
+                                </figure>
                             </div>
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=5" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=5" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span>  Don’t use busy backgrounds</p>
+                                    </figcaption>
+                                </figure> 
                             </div>
                             <div class="col-md-4 mb-4 p-0">
-                                <img class="opacity-full" src="https://picsum.photos/300/200?random=6" alt="">
+                                <figure>
+                                    <img class="opacity-full" src="https://picsum.photos/300/200?random=6" alt="">
+                                    <figcaption class="text-secondary pt-3">
+                                        <p><span>&#x274C;</span> Don’t create your own version</p>
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div><!--end nest row-->
                     <button class="btn btn-lg btn-orange shadow">Download style guide</button>
@@ -271,7 +301,7 @@ include 'images.php';
 
                     <div class="col-lg-12">
                         <!-- nested logos grid -->
-                        <div class="row pt-5">
+                        <div class="row py-5">
                             <div class="col-md-4 min-300 p-0">
                                 <figure>
                                     <img class="img-full img-thumbnail absolute z-0 m-2 opacity-full" src="/assets/img/jaxx-iphone-here-look.jpg" alt="Jaxx Liberty primary icon">
@@ -305,7 +335,8 @@ include 'images.php';
                             </div>
                             
                         </div><!--nest logo row-->
-                    </div>
+                        <button class="btn btn-lg btn-orange shadow">Download assets</button>
+                    </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
         </section>
