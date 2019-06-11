@@ -284,6 +284,8 @@ include 'images.php';
             </div>
         </section>
 
+        <div id="photos"></div>
+
         <!--photo + video-->
         
         <section class="bg-white border-bottom">
@@ -341,6 +343,8 @@ include 'images.php';
             </div><!--end container-->
         </section>
 
+        <div id="messaging"></div>
+
         <!--messaging and style-->
         
         <section class="bg-light border-bottom">
@@ -367,6 +371,8 @@ include 'images.php';
                 </div>
             </div>
         </section>
+
+        <div id="legal"></div>
 
         <!--legal requirements-->
         
@@ -405,6 +411,21 @@ include 'images.php';
             </div>
         </section>
 
+        <!-- questions -->
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row d-flex p-5">
+                    <div class="col-lg-12 p-5 banner-left right">
+                        <h2 class="section-title text-dark mb-0">
+                            Questions?
+                        </h2>
+                        <hr class="hr-big border-0 bg-orange up up-med">
+                        <p class="p-big pt-3 m-0">If you’re feeling unsure about proper use of our logo, it’s always good to ask! Send us an email at pr@decentral.ca</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section>
             <div class="row d-flex bg-light relative">
