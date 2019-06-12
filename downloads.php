@@ -1,22 +1,21 @@
 <?php
-
 $title = "Jaxx Liberty | Downloads";
-
 include 'includes/header.php';
-
 ?>
     <!--banner-->
 
     <div id="banner" role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg py-5 text-secondary relative">
             <img 
-            class="img-full absolute z-0 left-0 bottom-0 up up-med" src="/assets/img/jaxx-phone-desk.jpg"
-            alt="Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.">
+            class="img-full absolute z-0 left-0 bottom-0 up up-med"
+            src="<? echo $downloadsBannerImg; ?>"
+            alt="<? echo $downloadsBannerImg; ?>">
             <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5 m-0">
                 <img 
-                src="/assets/img/JaxxLiberty_Logo_Grouped_copy.svg" class="jaxx-liberty-logo mt-5"
-                alt="Jaxx Liberty logo">
+                class="jaxx-liberty-logo mt-5"
+                src="<? echo downloadsLogo; ?>" 
+                alt="src="<? echo downloadsLogoAlt; ?>">
                 <h1 class="page-title pt-1 right">Start your journey.</h1>
                 <hr class="hr-big border-0 bg-orange right right-med"> 
                 <p class="p-big pt-0 m-0 right right-slow">Available for Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</p> 

@@ -36,6 +36,14 @@ $homeImgBlockAlt = "A phone showing how you can search balances and transaction 
 $homeImgLaptop = "/assets/img/jaxx-laptop-hands.jpg";
 $homeImgAltLaptop = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
 
+//Downloads
+
+$downloadsBannerImg = "/assets/img/jaxx-phone-desk.jpg";
+$downloadsBannerImgAlt = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
+
+$downloadsLogo = "/assets/img/JaxxLiberty_Logo_Grouped_copy.svg";
+$downloadsLogoAlt = "Jaxx Liberty primary logo.";
+
 // Security
 
 $securityBannerImg = "/assets/img/jaxx-security-knight.jpg";
@@ -54,7 +62,6 @@ $securityImgPasswordAlt = "An image of an iPhoneX showing Jaxx Liberty's passwor
 
 $communityBannerImg = "/assets/img/jaxx-partners.jpeg";
 $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
-
 
 // Features
 
