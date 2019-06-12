@@ -93,5 +93,14 @@ Learn more
 </button>
 ";
 
+//About page
+
+$aboutBannerTitle = "About Decentral";
+$aboutBannerSubtitle = "On a mission to create opportunity and empower individuals around the world.";
+
+$aboutSection1Title = "Company";
+$aboutSection1Desc1 = "Working together to unite blockchain projects around the globe.";
+$aboutSection1Desc2 = "Decentral is an innovation hub for disruptive and decentralized technologies. Decentral was home to Canada’s first two-way Bitcoin ATM and from time to time hosts community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class='font-weight-bold text-dark'>purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.";
+
 //end copy
 ?>

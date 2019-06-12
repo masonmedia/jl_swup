@@ -1,20 +1,30 @@
 <?php
-
 $title = "Jaxx Liberty | About Us";
-
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
     <!--jumbotron-->
        
        <div id="banner" role="banner" class="container-fluid bg-black p-0">
         <div class="row d-flex min-700-lg relative py-5 ts stagger-right">
-            <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/decentral-toronto-skyline.jpeg" alt="About Decentral">
+            <img 
+            class="img-full absolute z-0 left-0 filter-dark up up-med" 
+            src="<?php echo $aboutBannerImg; ?>" 
+            alt="<?php echo $aboutBannerImgAlt; ?>">
             <div class="col-lg-9 d-flex flex-column justify-content-end align-items-start text-left text-light p-5">
-                <h1 class="h4 mt-5 zoom">About Decentral</h1>
-                <h2 class="site-title text-light ds-black font-weight-bold zoom zoom-med">On a mission to create opportunity and empower individuals around the world.</h2>
-                <a href="#sec-1"><button class="p-btn bg-trans orange border-0 mb-1 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a>
+                <h1 class="h4 mt-5 zoom">
+                    <?php echo $aboutBannerTitle; ?>
+                </h1>
+                <h2 class="site-title text-light ds-black font-weight-bold zoom zoom-med">
+                    <?php echo $aboutBannerSubtitle; ?>
+                </h2>
+                <a href="#sec-1">
+                    <button class="p-btn bg-trans orange border-0 mb-1 p-0 zoom zoom-slow">
+                        Learn more <i class="fa fa-angle-right fa-btn orange"></i>
+                    </button>
+                </a>
             </div>
              <div class="offset-lg-3"></div>
         </div>
@@ -29,13 +39,23 @@ include 'includes/header.php';
        <section id="sec-1">
            <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 orange slide-down">Company</h2>
-                    <h3 class="section-title text-dark mb-0 slide-down">Working together to unite blockchain projects around the globe.</h3>
+                    <h2 class="h4 orange slide-down">
+                        <?php echo $aboutSection1Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-down">
+                        <?php echo $aboutSection1Desc1; ?>
+                    </h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovation hub for disruptive and decentralized technologies. Decentral was home to Canada’s first two-way Bitcoin ATM and from time to time hosts community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class="font-weight-bold text-dark">purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.</p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $aboutSection1Desc2; ?>
+                    </p>
                     <!-- Button trigger modal -->
-                    <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#values"><p class="p-btn mt-3 slide-down">Explore our values <i class="fa fa-angle-right fa-btn orange"></i></p></button>
+                    <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#values">
+                        <p class="p-btn mt-3 slide-down">
+                            Explore our values <i class="fa fa-angle-right fa-btn orange"></i>
+                        </p>
+                    </button>
                 </div>
             </div><!--end row-->
 
@@ -118,7 +138,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphones-clay-3-black.jpg" alt="About Decentral">
+                    <img 
+                    class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg1; ?>" 
+                    alt="<?php echo $aboutImg1Alt; ?>">
                 </div>
             </div>
         </section>
@@ -144,7 +167,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 top-0 lazy" data-src="/assets/img/decentral-anthony-1.jpg" alt="Anthony Di Iorio">
+                    <img 
+                    class="img-full absolute z-0 left-0 top-0 lazy" 
+                    data-src="<?php echo $aboutImg3; ?>" 
+                    alt="<?php echo $aboutImg3Alt; ?>">
                 </div>
             </div>
         </section>
@@ -294,7 +320,9 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-vintage-collage.jpg" alt="Decentral is the maker of Jaxx Classic & Jaxx Liberty, digital asset platforms that empower millions of people with the tools they need to control their digital lives.">
+                    <img class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg4; ?>"
+                    alt="<?php echo $aboutImg4Alt; ?>">
                 </div>
             </div>
         </section>
@@ -319,7 +347,9 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative down-down-med">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-buildings-sky.jpeg" alt="Meet the Decentral Team">
+                    <img class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg5; ?>" 
+                    alt="<?php echo $aboutImg5Alt; ?>">
                 </div>
             </div>
         </section>
@@ -345,7 +375,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative down down-med">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-testimonials.jpeg" alt="Work for Decentral">
+                    <img 
+                    class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg6; ?>" 
+                    alt="<?php echo $aboutImg6Alt; ?>">
                 </div>
             </div>
         </section>
