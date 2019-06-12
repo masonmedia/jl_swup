@@ -82,20 +82,17 @@ $aboutBannerImgAlt = "A photo of Toronto's skyline at night, symbolizing the hom
 $aboutImg1 = "/assets/img/jaxx-iphones-clay-3-black.jpg";
 $aboutImg1Alt = "An image of 3 iPhones on a black background showing Jaxx Liberty's News module, Home splash screen, and Wallets module.";
 
-$aboutImg2 = "/assets/img/jaxx-iphones-clay-3-black.jpg";
-$aboutImg2Alt = "An image of 3 iPhones on a black background showing Jaxx Liberty's News module, Home splash screen, and Wallets module.";
+$aboutImg2 = "/assets/img/decentral-anthony-1.jpg";
+$aboutImg2Alt = "Anthony Di Iorio, CEO of Decentral and co-founder of Ethereum, sitting on the floor of his Toronto apartment.";
 
-$aboutImg3 = "/assets/img/decentral-anthony-1.jpg";
-$aboutImg3Alt = "A photo of Anthony Di Iorio, CEO of Decentral and co-founder of Ethereum, sitting on the floor of his apartment.";
+$aboutImg3 = "/assets/img/decentral-vintage-collage.jpg";
+$aboutImg3Alt = "A photo collage of Decentral's original Toronto office, its first Bitcoin ATM, and vintage 'Bitcoin Decentral' signage.";
 
-$aboutImg4 = "/assets/img/decentral-vintage-collage.jpg";
-$aboutImg4Alt = "A photo collage of Decentral's original Toronto office, its first Bitcoin ATM, and vintage 'Bitcoin Decentral' signage.";
+$aboutImg4 = "/assets/img/decentral-buildings-sky.jpeg";
+$aboutImg4Alt = "A photo of buildings in Toronto's financial district representing the growing impact of blockchain and cryptocurrency.";
 
-$aboutImg5 = "/assets/img/decentral-buildings-sky.jpeg";
-$aboutImg5Alt = "A photo of buildings in Toronto's financial district representing the growing impact of blockchain and cryptocurrency.";
-
-$aboutImg6 = "/assets/img/jaxx-testimonials.jpeg";
-$aboutImg6Alt = "A laughing crowd looking at a laptop implying the easy, fun process of sending and receiving crypto with Jaxx Liberty.";
+$aboutImg5 = "/assets/img/jaxx-testimonials.jpeg";
+$aboutImg5Alt = "A laughing crowd looking at a laptop implying the easy, fun process of sending and receiving crypto with Jaxx Liberty.";
 
 // Features
 

@@ -99,8 +99,32 @@ $aboutBannerTitle = "About Decentral";
 $aboutBannerSubtitle = "On a mission to create opportunity and empower individuals around the world.";
 
 $aboutSection1Title = "Company";
-$aboutSection1Desc1 = "Working together to unite blockchain projects around the globe.";
+$aboutSection1Subtitle = "Working together to unite blockchain projects around the globe.";
 $aboutSection1Desc2 = "Decentral is an innovation hub for disruptive and decentralized technologies. Decentral was home to Canada’s first two-way Bitcoin ATM and from time to time hosts community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class='font-weight-bold text-dark'>purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.";
+$aboutSection1CTA = "Explore our values";
+
+$aboutSection2Title = "Anthony Di Iorio";
+$aboutSection2Subtitle = "A message from the founder.";
+$aboutSection2Desc1 = "Decentralization is a buzzword with bite. It is the future of computing, finance, and the Internet. Decentralization is changing the very fabric of the global economy.";
+$aboutSection2Desc2 = "Decentralized technologies power trust-less, frictionless, efficient networks and markets by enabling people to create, store, transfer and receive value from anyone, anywhere — friends, strangers, colleagues, businesses — without the assistance or cost of traditional middlemen. As a result, every sector—from marketing to manufacturing, from healthcare to energy, from law to accounting — is being disrupted. Join us in our mission to create opportunity and empower individuals around the world.";
+$aboutSection2CTA = "Decentral history";
+
+$aboutSection3Title = "Decentral history";
+$aboutSection3Subtitle = "Decentral opened its doors in 2014 and has become Canada’s leading blockchain company.";
+$aboutSection3Desc1 = "In late 2013 Anthony Di Iorio funded & co-founded Ethereum, the decentralized smart contract platform that at its peak hit $150 billion in market cap. In 2014 he founded <span class='font-weight-bold'>Decentral Inc.</span>, an innovation hub & software development company focused on decentralized technologies. Decentral is the maker of Jaxx Classic & Jaxx Liberty, digital asset platforms that empower millions of people with the tools they need to control their digital lives.";
+$aboutSection3CTA = "Explore";
+
+$aboutSection4Title = "Innovation";
+$aboutSection4Subtitle = "Leading the blockchain market into 2019.";
+$aboutSection4Desc1 = "Located in downtown Toronto, Decentral is an innovation hub for disruptive and decentralized technologies. We are building relationships with a range of companies in a wide variety of sectors that collectively are creating economic opportunity, and empowering individuals worldwide with financial liberty.";
+$aboutSection4CTA = "Find out more";
+
+$aboutSection5Title = "Careers";
+$aboutSection5Subtitle = "Informing. Empowering. Uniting.";
+$aboutSection5Desc1 = "Decentral is leading the blockchain movement in Canada and around the world. We're changing the way people think about the exchange of value.";
+$aboutSection5Desc2 = "We're looking to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly and we're actively seeking a variety of candidates for various roles. If you would like to work for the startup at the heart of blockchain in Canada, submit your resume below.";
+$aboutSection5CTA = "Work with us";
+
 
 //end copy
 ?>
