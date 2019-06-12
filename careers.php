@@ -1,4 +1,5 @@
 <?php
+$title = "Jaxx Liberty | Careers";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

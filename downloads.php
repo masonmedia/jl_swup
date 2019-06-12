@@ -1,6 +1,8 @@
 <?php
 $title = "Jaxx Liberty | Downloads";
 include 'includes/header.php';
+include 'copy.php';
+include 'images.php';
 ?>
     <!--banner-->
 
