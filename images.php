@@ -63,6 +63,9 @@ $securityImgPasswordAlt = "An image of an iPhoneX showing Jaxx Liberty's passwor
 $communityBannerImg = "/assets/img/jaxx-partners.jpeg";
 $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
 
+$communityFooterImg = "/assets/img/jaxx-girl-laptop-phone.jpg" ;
+$communityFooterImgAlt = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
+
 // Features
 
 $featuresImg1 = "/assets/img/jaxx-home-dash.jpg";

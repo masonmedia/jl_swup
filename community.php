@@ -85,7 +85,7 @@ include 'images.php';
         <section>
             <div id="coinLogos" class="row bg-light px-3 py-5">
                <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center pt-0 px-5 pb-3 right">                    
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center pt-0 px-5 pb-3 right">
                     <h2 class="section-title text-dark mb-0">Partners</h2>
                     <hr class="hr-big border-0 bg-orange">
                 </div>
@@ -896,28 +896,24 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
                     <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2')"
-                        href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
-                        target="_blank">
-                            <img class="home-store-badge mt-2 right"
-                            src="/assets/img/jaxx-google-play.png"
-                            alt="Google Play Button" />
+                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2'" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">
+                        <img class="home-store-badge mt-2 right"
+                        src="/assets/img/jaxx-google-play.png"
+                        alt="Google Play Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty itunes-->
                     <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
                         href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
                         target="_blank">
-                            <img class="home-store-badge mt-2 right right-med"
-                            src="/assets/img/jaxx-app-store.png"
-                            alt="iTunes App Store Button" />
+                        <img class="home-store-badge mt-2 right right-med"
+                        src="/assets/img/jaxx-app-store.png"
+                        alt="iTunes App Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty chrome-->
-                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
-                        href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
-                        target="_blank">
-                            <img class="home-store-badge mt-2 right right-slow"
-                            src="/assets/img/jaxx-chrome-store.png"
-                            alt="Chrome Web Store" />
+                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2'" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
+                        <img class="home-store-badge mt-2 right right-slow"
+                        src="/assets/img/jaxx-chrome-store.png"
+                        alt="Chrome Web Store to download Jaxx Liberty" />
                     </a>
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">
@@ -936,7 +932,9 @@ include 'images.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-600 down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-girl-laptop-phone.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
+                    <img class="img-full absolute z-0 left-0 lazy"
+                    data-src="<? echo $communityFooterImg; ?>"
+                    alt="<? echo $communityFooterImgAlt; ?>">
                 </div>
             </div>
         </section>
