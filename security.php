@@ -123,7 +123,7 @@ include 'images.php';
                         target="_blank">
                             <img class="home-store-badge mt-2 right"
                             src="/assets/img/jaxx-google-play.png"
-                            alt="Google Play Button" />
+                            alt="Google Play Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty itunes-->
                     <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
@@ -131,7 +131,7 @@ include 'images.php';
                         target="_blank">
                             <img class="home-store-badge mt-2 right right-med"
                             src="/assets/img/jaxx-app-store.png"
-                            alt="iTunes App Store Button" />
+                            alt="iTunes App Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty chrome-->
                     <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2')"
@@ -139,7 +139,7 @@ include 'images.php';
                         target="_blank">
                             <img class="home-store-badge mt-2 right right-slow"
                             src="/assets/img/jaxx-chrome-store.png"
-                            alt="Chrome Web Store" />
+                            alt="Chrome Web Store button to download Jaxx Liberty" />
                     </a>
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">

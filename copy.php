@@ -4,17 +4,17 @@
 
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Your gateway to <span class='line-break-md'>all things cryptocurrency.</span>";
-$homeBanner3 = "Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in 1 app.";
+$homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in one app.";
 $homeBannerCTA1 = "Download";
 
 $homeWalletTitle = "Manage 80+ cryptocurrencies.";
 $homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
 
-$homePortTitle = "View your portfolio.";
+$homePortTitle = "Access your cryptocurrency portfolio.";
 $homePortDesc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
 $homeExchangeTitle = "Trade cryptocurrencies.";
-$homeExchangeDesc = "Third-party apps like shapeshift are built in your wallet. Instantly buy and sell supported digital assets including Bitcoin, Ethereum, Litecoin and many others.";
+$homeExchangeDesc = "Third-party apps like ShapeShift are built in your wallet. Instantly buy and sell supported digital assets including Bitcoin, Ethereum, Litecoin and many others.";
 
 $homeMarketsTitle = "Track market data.";
 $homeMarketsDesc = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
@@ -37,7 +37,7 @@ $homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is availabl
 $securityBannerTitle = "Your security <span class='d-table'>is our priority.</span>";
 
 $security1Title = "You're in total control";
-$security1Desc1 = "Jaxx Liberty is a non-custodial wallet, which means you own the keys. We respect your privacy. We never have access to, or knowledge of, your digital assets — only you do.";
+$security1Desc1 = "Jaxx Liberty is a non-custodial blockchain wallet, which means you own the keys. We respect your privacy. We never have access to, or knowledge of, your digital assets — only you do.";
 
 $security2Title = "Industry standard security protocols.";
 $security2Desc1 = "Jaxx Liberty uses industrial standard wallet data generation and derivation processes. Your 12-word mnemonic is generated using standard BIP39 library.";

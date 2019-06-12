@@ -39,16 +39,16 @@ $homeImgAltLaptop = "Jaxx Liberty is 100% free and is available for Android, iOS
 // Security
 
 $securityBannerImg = "/assets/img/jaxx-security-knight.jpg";
-$securityBannerImgAlt = "Your security is out Priority.";
+$securityBannerImgAlt = "A medieval knight in armour depicting Jaxx Liberty's extensive security features and commitment to user safety.";
 
 $securityImgHandDevice = "/assets/img/jaxx-security-control.png";
-$securityImgHandDeviceAlt = "Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.";
+$securityImgHandDeviceAlt = "A man using Jaxx Liberty on Android, showing we never have access to, or knowledge of your digital assets; only you do.";
 
 $securityImgShield = "/assets/img/jaxx-shield-orange-redux.png";
-$securityImgShieldAlt = "When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.";
+$securityImgShieldAlt = "A graphic of a shield showing how Jaxx Liberty uses industrial standard wallet data generation and derivation processes.";
 
 $securityImgPassword = "/assets/img/jaxx-iphone-X-case-password.png";
-$securityImgPasswordAlt = "When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.";
+$securityImgPasswordAlt = "An image of an iPhoneX showing Jaxx Liberty's password screen, which protects core wallet data using bank grade encryption.";
 
 // Community
 
