@@ -66,6 +66,14 @@ $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friend
 $communityFooterImg = "/assets/img/jaxx-girl-laptop-phone.jpg" ;
 $communityFooterImgAlt = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
 
+//Careers
+
+$careersImg1 = "/assets/img/decentral-hacker-expo.jpg";
+$careersImg1Alt = "A photo of Decentral's Product Manager, Chief Technical Officer, and Chief Creative Director preparing for HackerX Toronto.";
+
+$careersImg2 = "/assets/img/decentral-hacker-expo.jpg";
+$careersImg2Alt = "A photo of Jaxx Liberty displayed on a variety of devices including Android, Tablet, and Windows Laptop.";
+
 // Features
 
 $featuresImg1 = "/assets/img/jaxx-home-dash.jpg";

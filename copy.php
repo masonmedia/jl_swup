@@ -1,10 +1,15 @@
 <?php
 
-// =============== Home page
+// Home page
+
+// $homeBanner1 = "Jaxx Liberty";
+// $homeBanner2 = "Your gateway to <span class='line-break-md'>all things cryptocurrency.</span>";
+// $homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in one app.";
+// $homeBannerCTA1 = "Download";
 
 $homeBanner1 = "Jaxx Liberty";
-$homeBanner2 = "Your gateway to <span class='line-break-md'>all things cryptocurrency.</span>";
-$homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in one app.";
+$homeBanner2 = "The leading Bitcoin & cryptocurrency app.";
+$homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - all in one app.";
 $homeBannerCTA1 = "Download";
 
 $homeWalletTitle = "Manage 80+ cryptocurrencies.";
@@ -32,7 +37,7 @@ $homeDownload1 = "Download";
 $homeDownload2 = "Use on your <span class='d-table'>favourite device.</span>";
 $homeDownload3 = "<span class='font-weight-bold'>Jaxx Liberty</span> is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension. It’s 100% free and is already trusted by hundreds of thousands of users around the world. Start your journey.";
 
-// =============== Security page
+// Security page
 
 $securityBannerTitle = "Your security <span class='d-table'>is our priority.</span>";
 
@@ -48,11 +53,45 @@ $security3Desc1 = "To further protect your data, we took extra security measures
 $security4Title = "Hot wallet vs. cold wallet.";
 $security4Desc1 = "Jaxx Liberty is a convenient, easy-to-use hot wallet with a unified user-experience across many supported platforms. A hot wallet is typically suited for frequent, casual, and fast crypto transactions, while a cold wallet (often referred to as a hardware wallet) is better suited for long-term storage of larger amounts, typically by using specialized hardware.";
 
-// Community 
+// Community page
 
 $communityBannerTitle = "Community is in our DNA.";
 
 $communityTitle1 = "Connect with us.";
 $communityDesc1 = "Join our ecosystem of 200+ partners, where we work together to promote decentralized technology and unite blockchain projects around the globe.";
 
+// Careers page
+
+$careersWhyDecentral = "
+<h2 class='section-title text-dark mb-0'>Why work at Decentral?</h2>
+<p class='p-big py-3 m-0'>At Decentral, we are building bleeding-edge, pro-privacy technologies at the core of the next Internet. A leading blockchain pioneer of Canada, we are the proud birthplace of Ethereum and, now, steward software at the interface of the cryptocurrency and distributed ledger revolution. To see if we’d make a good fit, send us your resume at <a href='mailto:careers@decentral.ca?subject=Applying for a Position' class='orange text-bold'>maggie@decentral.ca</a>.</p>";
+
+$careersWhatWeOffer = "
+<h3 class='section-title text-dark mb-3'>What we offer</h3>
+<ul class='list-unstyled font-weight-bold p-0 pl-4 border-left'>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Help build an app that 1,000,000+ have used around the world</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Hosted 100+ community events with an ecosystem of 200+ strategic partners</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Cool techy office in downtown Toronto</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Competitive salary</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Work life balance, seriously</code></li>
+    <li class='pb-1'><i class='fa fa-code p-0'></i> <code class='text-success'>Fun culture! (Friday games, ping pong, present what you’ve worked on to the team)</code></li>
+</ul>";
+
+// Positions
+
+$fullStackDeveloper = "
+<h3 class='section-title text-dark mb-0'>
+Full Stack Developer
+</h3>
+<p class='p-big py-3'>
+Our flagship product is Jaxx Liberty, a multi-asset wallet software as a service that packages live market data with user portfolios, news, and third-party fintech integration, on top of high-performance indexing and data summarization in a cloud back-end.  Working closely with our Chief Technology Officer, help push the Jaxx Liberty architecture even further by diversifying our product line into enterprise and financial markets. Find out more below.
+</p>
+<!-- Button trigger modal -->
+<button type='button' class='btn btn-orange' data-toggle='modal' data-target='#careersModal'>
+Learn more
+</button>
+";
+
+//end copy
 ?>

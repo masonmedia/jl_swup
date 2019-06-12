@@ -1,6 +1,7 @@
 <?php
-$title = "Jaxx Liberty | Careers";
 include 'includes/header.php';
+include 'copy.php';
+include 'images.php';
 ?>
 
 <!--banner-->
@@ -26,11 +27,12 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-500 relative bg-white border-bottom">
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left p-4 right o-12">
-                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-hacker-expo.jpg" alt="Join the team.">
+                <img class="img-full absolute z-0 left-0 lazy"
+                data-src="<? echo $careersImg1; ?>"
+                alt="<? echo $careersImg1Alt; ?>">
                 </div>
                 <div id="careersIntroList" class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
-                    <h2 class="section-title text-dark mb-0">Why work at Decentral?</h2>
-                    <p class="p-big py-3 m-0">At Decentral, we are building bleeding-edge, pro-privacy technologies at the core of the next Internet. A leading blockchain pioneer of Canada, we are the proud birthplace of Ethereum and, now, steward software at the interface of the cryptocurrency and distributed ledger revolution. To see if we’d make a good fit, send us your resume at <a href="mailto:careers@decentral.ca?subject=Applying for a Position" class="orange text-bold">maggie@decentral.ca</a>.</p>
+                    <? echo $careersWhyDecentral; ?>
                 </div>
             </div>
         </section>
@@ -38,19 +40,13 @@ include 'includes/header.php';
         <section>
             <div id="careersIntroList" class="row d-flex min-500 relative bg-white border-bottom">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
-                    <h3 class="section-title text-dark mb-3">What we offer</h3>
-                    <ul class="list-unstyled font-weight-bold p-0 pl-4 border-left">
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Work with the co-founder of Ethereum on cutting-edge decentralized technology</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Help build an app that 1,000,000+ have used around the world</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Hosted 100+ community events with an ecosystem of 200+ strategic partners</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Cool techy office in downtown Toronto</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Competitive salary</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Work life balance, seriously</code></li>
-                        <li class="pb-1"><i class="fa fa-code p-0"></i> <code class="text-success">Fun culture! (Friday games, ping pong, present what you’ve worked on to the team)</code></li>
-                    </ul>
+                    <? echo $careersWhatWeOffer; ?>
                 </div>
                 <div class="col-lg-6 min-300 d-flex flex-column justify-content-center align-items-start text-left right o-12">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Join the team.">
+                    <img 
+                    class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<? echo $careersImg2; ?>"
+                    alt="<? echo $careersImg2Alt; ?>">
                 </div>
             </div>
             <div id="sec-1"></div>
@@ -61,12 +57,7 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex min-500 bg-white">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left text-secondary p-5 right right-med">
-                    <h3 class="section-title text-dark mb-0">Full Stack Developer</h3>
-                    <p class="p-big py-3">Our flagship product is Jaxx Liberty, a multi-asset wallet software as a service that packages live market data with user portfolios, news, and third-party fintech integration, on top of high-performance indexing and data summarization in a cloud back-end.  Working closely with our Chief Technology Officer, help push the Jaxx Liberty architecture even further by diversifying our product line into enterprise and financial markets. Find out more below.</p>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#careersModal">
-                    Learn more
-                    </button>
+                    <? echo $fullStackDeveloper; ?>
                 </div>
             </div>
         </section>
