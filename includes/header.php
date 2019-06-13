@@ -247,13 +247,16 @@
         })});
     </script>
 </head>
-<body>
+<body>    
     <div id="swup" class="transition-fade">
       
        <!--nav-->
         <nav id="menu" class="navbar fixed-top navbar-expand-lg down down-med">
             <a class="navbar-brand" href="/">
-                <img class="jaxx-navbar-brand" src="/assets/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).png" alt="Jaxx Liberty">
+                <img 
+                class="jaxx-navbar-brand"
+                src="/assets/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).png" 
+                alt="The primary logo of Jaxx Liberty, the best app for Bitcoin, Ethereum and 80+ cryptocurrencies.">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="wrapper-menu">

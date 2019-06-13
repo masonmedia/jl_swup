@@ -8,9 +8,10 @@
 // $homeBannerCTA1 = "Download";
 
 $homeBanner1 = "Jaxx Liberty";
-$homeBanner2 = "The leading Bitcoin & cryptocurrency app.";
-$homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - all in one app.";
+$homeBanner2 = "Best App for Bitcoin, Ethereum and 80+ Cryptocurrencies.";
+$homeBanner3 = "Cross-platform Blockchain Wallet, Exchange, Portfolio, Markets and News - all in one app.";
 $homeBannerCTA1 = "Download";
+
 
 $homeWalletTitle = "Manage 80+ cryptocurrencies.";
 $homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";

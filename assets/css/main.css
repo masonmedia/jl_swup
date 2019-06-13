@@ -1066,10 +1066,6 @@ html.is-animating .transition-wipe {
     width: 450px;
 }
 
-#bannerAssets .jaxx {
-
-}
-
 /*lazy loading classes*/
 
 img {
@@ -1459,13 +1455,6 @@ input:checked+.slider:before {
     font-size: 16px;
 }
 
-/* brand assets page =====================*/
-
-#brandAssets .fa {
-    color: #000;
-    font-size: 40px;
-}
-
 
 /*community json blog API data --> columns =========*/
 
@@ -1561,9 +1550,6 @@ nav,
 .collapsing {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
 }
 
 /* mobile menu line animation */
@@ -2044,6 +2030,10 @@ footer li a {
 
 @media screen and (max-width: 601px) {
 
+    .site-title {
+        font-size: 37px;
+    }
+
     .banner-gradient {
         /* left: -326px;
         top: -36px;
@@ -2112,10 +2102,6 @@ footer li a {
         width: 100%;
         left: 0;
         top: 0;
-    }
-
-    .site-title {
-        font-size: 42px;
     }
 
     p {
@@ -2237,7 +2223,10 @@ footer li a {
 
 @media (max-width: 320px) {
     .site-title {
-    font-size: 34px;
+        font-size: 30px;
+    }
+    .site-subtitle {
+        font-size: 22px;
     }
 }
 

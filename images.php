@@ -4,19 +4,19 @@ $homeBannerImg = "/assets/img/jaxx-iphone-X-4-gallery-right-mobile.jpg";
 $homeBannerImgAlt = "Jaxx Liberty is a leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer.";
 
 $homeIconNoLogin = "/assets/img/icon-profile.svg";
-$homeIconNoLoginAlt = "An icon showing how Jaxx Liberty does not require a login, registration, or signup.";
+$homeIconNoLoginAlt = "An icon showing how Jaxx Wallet does not require a login, registration, or signup.";
 
 $homeIconFree = "/assets/img/icon-free.svg";
-$homeIconFreeAlt = "An icon demonstrating how Jaxx Liberty is a free app, available on the app store, google play, and chrome store.";
+$homeIconFreeAlt = "An icon demonstrating how Jaxx Liberty is 100% free, available on the app store, google play, and chrome store.";
 
 $homeIconUsers = "/assets/img/icon-doorway.svg";
-$homeIconUsersAlt = "An icon displaying how Jaxx Liberty is already trusted by millions of users around the world. Join our community.";
+$homeIconUsersAlt = "An icon displaying that Jaxx Wallet is already trusted by millions of users around the world. Join our community.";
 
 $homeImgWallet = "/assets/img/jaxx-feat-phone-case-wallets.png";
-$homeImgWalletAlt = "A phone displaying how Jaxx Liberty allows you to easily store, send, receive and exchange 80+ cryptocurrencies.";
+$homeImgWalletAlt = "A phone displaying how Jaxx Wallet allows you to easily store, send, receive and exchange 80+ cryptocurrencies.";
 
 $homeImgExchange = "/assets/img/jaxx-shapeshift-logo.png";
-$homeImgExchangeAlt = "A diagram showing how integrated third-party apps like ShapeShift add peer-to-peer exchange between supported assets.";
+$homeImgExchangeAlt = "A diagram showing how integrated third-party apps like ShapeShift add peer-to-peer exchange between supported cryptocurrencies.";
 
 $homeImgPort = "/assets/img/jaxx-macbook-coffee-notebook.png";
 $homeImgPortAlt = "A laptop showing how you can check your asset balance, track individual coins and tokens, and follow value changes.";
@@ -34,7 +34,7 @@ $homeImgBlock = "/assets/img/jaxx-feat-phone-case-block.png";
 $homeImgBlockAlt = "A phone showing how you can search balances and transaction data in Jaxx Liberty's block explorer.";
 
 $homeImgLaptop = "/assets/img/jaxx-laptop-hands.jpg";
-$homeImgAltLaptop = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
+$homeImgAltLaptop = "Jaxx Wallet is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
 
 //Downloads
 
@@ -50,7 +50,7 @@ $securityBannerImg = "/assets/img/jaxx-security-knight.jpg";
 $securityBannerImgAlt = "A medieval knight in armour depicting Jaxx Liberty's extensive security features and commitment to user safety.";
 
 $securityImgHandDevice = "/assets/img/jaxx-security-control.png";
-$securityImgHandDeviceAlt = "A man using Jaxx Liberty on Android, showing we never have access to, or knowledge of your digital assets; only you do.";
+$securityImgHandDeviceAlt = "A man using Jaxx Wallet on Android, showing we never have access to, or knowledge of your digital assets; only you do.";
 
 $securityImgShield = "/assets/img/jaxx-shield-orange-redux.png";
 $securityImgShieldAlt = "A graphic of a shield showing how Jaxx Liberty uses industrial standard wallet data generation and derivation processes.";
@@ -64,7 +64,7 @@ $communityBannerImg = "/assets/img/jaxx-partners.jpeg";
 $communityBannerImgAlt = "Jaxx Liberty connects more than 85 partners and friends — all working together to inform and empower people to take control of their digital lives.";
 
 $communityFooterImg = "/assets/img/jaxx-girl-laptop-phone.jpg" ;
-$communityFooterImgAlt = "Jaxx Liberty is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
+$communityFooterImgAlt = "Jaxx Wallet is 100% free and is available for Android, iOS, Mac OS X, Windows, Linux, and Google Chrome extension.";
 
 //Careers
 
@@ -72,7 +72,7 @@ $careersImg1 = "/assets/img/decentral-hacker-expo.jpg";
 $careersImg1Alt = "A photo of Decentral's Product Manager, Chief Technical Officer, and Chief Creative Director preparing for HackerX Toronto.";
 
 $careersImg2 = "/assets/img/decentral-hacker-expo.jpg";
-$careersImg2Alt = "A photo of Jaxx Liberty displayed on a variety of devices including Android, Tablet, and Windows Laptop.";
+$careersImg2Alt = "A photo of Jaxx Wallet displayed on a variety of devices including Android, Tablet, and Windows Laptop.";
 
 // About 
 
@@ -92,7 +92,7 @@ $aboutImg4 = "/assets/img/decentral-buildings-sky.jpeg";
 $aboutImg4Alt = "A photo of buildings in Toronto's financial district representing the growing impact of blockchain and cryptocurrency.";
 
 $aboutImg5 = "/assets/img/jaxx-testimonials.jpeg";
-$aboutImg5Alt = "A laughing crowd looking at a laptop implying the easy, fun process of sending and receiving crypto with Jaxx Liberty.";
+$aboutImg5Alt = "A laughing crowd looking at a laptop implying the easy, fun process of sending and receiving crypto with Jaxx Wallet.";
 
 // Features
 

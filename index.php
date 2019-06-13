@@ -15,14 +15,14 @@ include 'images.php';
         <img class="img-full absolute z--1 left-0 up up-med"
         src="<?php echo $homeBannerImg;?>"
         alt="<?php echo $homeBannerImgAlt;?>">
-        <div class="col-lg-6 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-2 py-5">
+        <div class="col-lg-6 relative z-2 d-flex flex-column justify-content-center align-items-start text-left px-0 py-5">
             <h1 class="h4 mt-5 orange right">
                 <?php echo $homeBanner1; ?>    
             </h1>
-            <h2 class="site-title text-light font-weight-bold py-2 right right-med">
+            <h2 class="site-title text-light font-weight-bold py-2 ts right right-med">
                 <?php echo $homeBanner2; ?>  
             </h2>
-            <h3 class="h4 text-light font-weight-medium py-2 right">
+            <h3 class="h4 site-subtitle text-light font-weight-medium py-2 ts right">
                 <? echo $homeBanner3; ?>
             </h3>
             <a href="/downloads">
