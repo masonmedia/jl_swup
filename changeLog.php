@@ -1,16 +1,17 @@
 <?php
-
 $title = "Jaxx Liberty | Changelog";
-
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
 <!--banner-->
 
     <div id="banner" role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg relative py-5 text-light">
-           <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
+           <img class="img-full absolute z-0 left-0 filter-dark up up-med" 
+           src="<?php echo $changelogBannerImg; ?>"
+           alt="<?php echo $changelogBannerImgAlt; ?>">
             <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
                 <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Change Log</h1>
@@ -37,6 +38,13 @@ include 'includes/header.php';
                         <!--content-->
 
                         <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.0:</h3>
+                        <p class="font-weight-light border-bottom py-3 mb-2">[06/13/19]</p>
+                        <h4 class="pt-2">Fixed:</h4>
+                        <ul>
+                            <li>Address generation failure when updating new wallets: users will no longer receive the TX-001 error when updating new wallets.</li>
+                        </ul>
+
+                        <!--  -->
                         <p class="font-weight-light border-bottom py-3 mb-2">[04/29/19]</p>
                         <h4 class="pt-2">Features:</h4>
                         <ul>
@@ -107,7 +115,6 @@ include 'includes/header.php';
 
                         <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.1.2:</h3>
                         <p class="font-weight-light border-bottom py-3 mb-2">[01/17/19]</p>
-                        <h4 class="pt-2">Features:</h4>
                         <h4 class="pt-2">Fixed:</h4>
                         <ul>
                             <li>Incompatibility as between Shapeshift sign-in and Google OAuth.</li>

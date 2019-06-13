@@ -94,6 +94,11 @@ $aboutImg4Alt = "A photo of buildings in Toronto's financial district representi
 $aboutImg5 = "/assets/img/jaxx-testimonials.jpeg";
 $aboutImg5Alt = "A laughing crowd looking at a laptop implying the easy, fun process of sending and receiving crypto with Jaxx Wallet.";
 
+// Changelog
+
+$changelogBannerImg = "/assets/img/jaxx-changelog.jpg";
+$changelogBannerImgAlt = "A man sitting with his bike exploring the continuous updates and improvements we make to Jaxx Wallet.";
+
 // Features
 
 $featuresImg1 = "/assets/img/jaxx-home-dash.jpg";
