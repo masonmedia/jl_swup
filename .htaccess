@@ -14,6 +14,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /404.php [L]
 
+#redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
+RewriteRule ^(.*)\.html$ $1.php [L]
+
 # Set custom error pages
 ErrorDocument 400 /400.php
 ErrorDocument 403 /403.php
@@ -63,8 +66,9 @@ Redirect 301 /thirdparties-current.html https://www.jaxx.io/legal/thirdparties-c
 # Redirects from https://jaxx.io/betaslack to the jaxx slack channel URL
 RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
 
-# Redirect from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
-RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
+# Redirect jaxx liberty beta from https://jaxx.io/jaxx-liberty-beta.html to jaxx.io
+Redirect 301 /jaxx-liberty-beta.html https://jaxx.io
+Redirect 301 /jaxx-liberty-beta https://jaxx.io
 
 # Redirects from https://jaxx.io/migrate to youtube how-to migrate video
 RewriteRule ^migrate$ https://www.youtube.com/watch?v=A5WYbV7rDDU [R,L]
