@@ -45,6 +45,8 @@ include 'images.php';
                         </ul>
 
                         <!--  -->
+
+                        <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.0:</h3>
                         <p class="font-weight-light border-bottom py-3 mb-2">[04/29/19]</p>
                         <h4 class="pt-2">Features:</h4>
                         <ul>
@@ -561,6 +563,7 @@ include 'images.php';
                                 Keys
                             </p>
                         </div>
+              
                 </div>
             </div>
         </section>
