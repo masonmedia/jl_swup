@@ -37,8 +37,8 @@ include 'images.php';
                         </div>
                         <!--content-->
 
-                        <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.0:</h3>
-                        <p class="font-weight-light border-bottom py-3 mb-2">[06/13/19]</p>
+                        <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.2:</h3>
+                        <p class="font-weight-light border-bottom py-3 mb-2">[06/20/19]</p>
                         <h4 class="pt-2">Fixed:</h4>
                         <ul>
                             <li>Address generation failure when updating new wallets: users will no longer receive the TX-001 error when updating new wallets.</li>
@@ -561,7 +561,6 @@ include 'images.php';
                                 Keys
                             </p>
                         </div>
-              
                 </div>
             </div>
         </section>
