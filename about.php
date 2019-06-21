@@ -1,5 +1,6 @@
 <?php
 $title = "Jaxx Liberty | About Us";
+$metaD = "Decentral is Canada's leading blockchain company and the maker of Jaxx and Jaxx Liberty, two of the most popular blockchain wallets with millions of users.";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

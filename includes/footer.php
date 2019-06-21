@@ -8,10 +8,10 @@
                  <ul class="list-unstyled w-100 slide-down">
                      <li class="h4 font-weight-bold">Jaxx Liberty</li>
                      <hr class="hr-big border-0 bg-secondary">
-                     <li><a href="/legal/terms-current.php">Terms of Service</a></li>
-                     <li><a href="/legal/intellectual-property.php">Intellectual Property</a></li>
-                     <li><a href="/legal/thirdparties-current.php">Third Party Agreements</a></li>
-                     <li><a href="/changeLog.php">Changelog</a></li>
+                     <li><a href="/legal/terms-current">Terms of Service</a></li>
+                     <li><a href="/legal/intellectual-property">Intellectual Property</a></li>
+                     <li><a href="/legal/thirdparties-current">Third Party Agreements</a></li>
+                     <li><a href="/changeLog">Changelog</a></li>
                  </ul>
              </div>
 
@@ -19,7 +19,7 @@
                  <ul class="list-unstyled w-100 slide-down">
                      <li class="h4 font-weight-bold">Company</li>
                      <hr class="hr-big border-0 bg-secondary">
-                     <li><a href="/about.php">About</a></li>
+                     <li><a href="/about">About</a></li>
                      <li><a href="https://support.decentral.ca/hc/en-us" target="_blank"
                              onclick="googleAnalyticsTrigger('Support_Page', 'Footer')">Support</a></li>
                      <li><a href="https://blog.jaxx.io/" target="_blank">Blog</a></li>
@@ -38,7 +38,7 @@
                              target="_blank">iOS</a></li>
                      <li><a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
                              target="_blank">Chrome</a></li>
-                     <li><a href="/downloads.php"
+                     <li><a href="/downloads"
                              onclick="googleAnalyticsTrigger('Downloads_Page', 'Footer')">Desktop</a></li>
                  </ul>
              </div>
@@ -78,21 +78,21 @@
  <script src="/assets/js/jquery.min.js"></script>
  <script src="/assets/js/swup.min.js"></script>
  <script src="/assets/js/bootstrap.min.js"></script>
+<!-- recliner lazy load js-->
+ <script src="/assets/js/recliner.js"></script>
  <!--smooth scroll-->
  <script src="/assets/js/jquery.malihu.PageScroll2id.min.js"></script>
  <!--gsap-->
  <script src="/assets/js/TweenMax.min.js"></script>
  <!--scroll magic-->
- <script src="/assets/js/ScrollMagic.min.js"></script>
- <script src="/assets/js/animation.gsap.min.js"></script>
- <!-- recliner lazy load js-->
- <script src="/assets/js/recliner.js"></script>
+ <!-- <script src="/assets/js/ScrollMagic.min.js"></script> -->
+ <!-- <script src="/assets/js/animation.gsap.min.js"></script> -->
  <!--js tilt 404-->
  <script src="/assets/js/tilt.jquery.min.js"></script>
  <script src="/assets/js/cookieconsent.min.js"></script>
  <script src="/assets/js/main.js?=111"></script>
  <!-- Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
+ <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85893600-1"></script>
 <script>

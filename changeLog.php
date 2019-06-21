@@ -1,5 +1,6 @@
 <?php
 $title = "Jaxx Liberty | Changelog";
+$metaD = "Stay up to date on our continuous effort to improve and expand Jaxx Liberty with advancements and feature updates.";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

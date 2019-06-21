@@ -1,5 +1,6 @@
 <?php
 $title = "Jaxx Liberty | Security";
+$metaD = "Your security is our priority. Jaxx Liberty is a non-custodial blockchain wallet. You own the keys. We never have access to, or knowledge of, your digital assets. Only you do.";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

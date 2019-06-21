@@ -1,5 +1,6 @@
 <?php
 $title = "Jaxx Liberty | Careers";
+$metaD = "As a blockchain pioneer in Canada, we are building cutting-edge, pro-privacy technologies that are at the core of the next Internet. Work with us.";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

@@ -1,6 +1,7 @@
 <?php
 $page = "community";
 $title = "Jaxx Liberty | Community";
+$metaD = "Join the Jaxx Liberty ecosystem of 200+ partners. We work together to promote decentralized technology and unite blockchain projects around the globe.";
 include 'includes/header.php';
 include 'copy.php';
 include 'images.php';

@@ -2,11 +2,6 @@
 
 // Home page
 
-// $homeBanner1 = "Jaxx Liberty";
-// $homeBanner2 = "Your gateway to <span class='line-break-md'>all things cryptocurrency.</span>";
-// $homeBanner3 = "Blockchain Wallet, Portfolio, Markets, News, Exchange, 80+ Cryptocurrencies - All in one app.";
-// $homeBannerCTA1 = "Download";
-
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Best App for Bitcoin, Ethereum and 80+ Cryptocurrencies.";
 $homeBanner3 = "Cross-platform Blockchain Wallet, Exchange, Portfolio, Markets and News - all in one app.";

@@ -71,7 +71,7 @@ $communityFooterImgAlt = "Jaxx Wallet is 100% free and is available for Android,
 $careersImg1 = "/assets/img/decentral-hacker-expo.jpg";
 $careersImg1Alt = "A photo of Decentral's Product Manager, Chief Technical Officer, and Chief Creative Director preparing for HackerX Toronto.";
 
-$careersImg2 = "/assets/img/decentral-hacker-expo.jpg";
+$careersImg2 = "/assets/img/jaxx-group-people.jpg";
 $careersImg2Alt = "A photo of Jaxx Wallet displayed on a variety of devices including Android, Tablet, and Windows Laptop.";
 
 // About 

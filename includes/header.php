@@ -18,7 +18,7 @@
     else { 
        echo "The leading blockchain wallet with built-in Exchange, Portfolio, Crypto News, Market Data and Block Explorer. Jaxx Liberty securely supports 80+ cryptocurrencies including Bitcoin, Ethereum, Litecoin and Dash, and is available on iOS, Android, Desktop, and Chrome."; 
     } ?>" />
-    <meta name="keywords" content="Decentral, Jaxx Liberty, Blockchain, Cryptocurrency, Anthony Di Iorio, Crypto, Bitcoin">
+    <meta name="keywords" content="Blockchain, Cryptocurrency, Bitcoin Wallet, Bitcoin, Ethereum. Anthony Di Iorio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!--icons-->
@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/main.css?=11">
+    <link rel="stylesheet" href="/assets/css/main.css?=22">
     <!--json.ld-->
     <script type="application/ld+json">
         {
