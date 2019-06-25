@@ -27,13 +27,19 @@ Jaxx.io is built with PHP, primarily for its `includes` and `variables` function
 
 #### **header.php**
 
-Zendesk help plugin
-JSON-LD/Schema/Structured Data
-Cookies consent banner
+The header contains all meta and OG social tags, JSON-LD/google structured data, Zendesk Help Widget, the [Cookies Consent Banner](https://cookieconsent.osano.com/download/) for GDPR compliance, as well as the site menu/navigation.
+
+##### **SEO**
+
+The meta `title` and `description` tags are important for SEO and may need ongoing updating contingent on Decentral SEO strategy. The `keyword` meta tag is generally ignored by Google, so while keeping it is advised, it's not essential.
+
+##### **JSON-LD ~ Schema Micro Data ~ Google Structured Data**
+
+This is JSON code located in a script tag in the header. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For reference it's format and syntax can be checked out more [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
 
 #### **footer.php**
-Footer content
-All JS script links
+
+The footer contains all of jaxx.io's internal page links that are not available in the main menu (i.e. about, legal pages, social media accounts). It also houses all scripts and google gtag/analytics tracking code.
 
 ### **copy.php**
 
@@ -53,7 +59,7 @@ This is where all site image links live. Like copy.php, the concept behind this 
 
 All of jaxx.io image assets live in the /assets/img folder. As this repo has housed numerous versions of jaxx.io, there is a wide variety of images, logos, icons, and graphics. While the intention was always to cull the folder of unused content, mamny of the images could be reused and/or swapped out for variety and SEO in the future. Thus the folder has accumulated an extensive library of imagery. In a future state, it would likely be wise to remove any duplicates, delete any original photos that were minified but kept for comparison, and cut any unused device or lifestyle images, or unused coin/token icons.
 
-## **Updating Jaxx Liberty Versions ~ Downloads/Changelog**
+## **Updating Jaxx Liberty Versions ~ Downloads + Changelog**
 
 ### **downloads.php**
 
@@ -159,6 +165,12 @@ Under `<!--content-->` copy and paste the following structure:
 
 1. Multiple .htaccess redirects/301s are employed to point previous .html file extensions to .php, and then to remove .php extensions entirely for pretty urls.
 2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering %2fa malicious script injection via URL.
+
+## **.Development**
+
+1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have either add the extension manually in the browser, or add extensions back in during development.
+2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
+
 
 ## **dev.jaxx.io**
 
