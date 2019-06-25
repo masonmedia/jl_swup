@@ -2,9 +2,7 @@
 
 This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of jaxx.io.
 
-For security, it is recommended that passwords and steps associated with SSH and remote login be recorded elsewhere and deleted in the repo.
-
-For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://decentral.ca).
+Repo: `jaxx.io_reloaded`, `https://bitbucket.org/decentral1/jaxx.io_reloaded/src/Jaxx_Revolutions/`.
 
 ## **SWUP**
 
@@ -166,11 +164,13 @@ Under `<!--content-->` copy and paste the following structure:
 
 1. Multiple .htaccess redirects/301s are employed to point previous .html file extensions to .php, and then to remove .php extensions entirely for pretty urls.
 2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering %2fa malicious script injection via URL.
+3. Geoblocking code attempts to limit access to jaxx.io from otherwise blacklisted IPs/country codes.
 
 ## **.Development**
 
 1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have to either add the extension to the url manually in the browser, or add extensions back into the file during development (and remove them before pushing to production).
 2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
+3. I have been using the `Jaxx_Revolutions` branch in jaxx_reloaded and this branch is still active.
 
 ## **dev.jaxx.io**
 
@@ -179,10 +179,10 @@ This is the Jaxx dev site, used for staging and testing.
 ### It is accessed via SSH using the following:
 
     1. Commit and push all changes to branch, then login to ssh:
-    2. `ssh dev.jaxx.io` --> will prompt for password
-    3. `DpmbGPwe` --> current password: write down and eventually delete from README.
-    4. `cd dev.jaxx.io `
-    5. `git pull` --> will prompt for password
+    2. ssh dev.jaxx.io --> will prompt for password
+    3. DpmbGPwe --> current password: write down and eventually delete from README.
+    4. cd dev.jaxx.io
+    5. git pull --> will prompt for password
     6. enter personal Bitbucket password
     7. Crack a beer and enjoy.
 
