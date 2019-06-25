@@ -144,13 +144,19 @@ Under `<!--content-->` copy and paste the following structure:
     - to accomodate continued use of `min-height: 100vh;` for full page images, I made a flexible `@media` class (`.min--100`) that allowd the `vh` unit to be used on desktop and higher, but changed to a fixed height on mobile to avoid the repaint issue.
     - primarily, heights are controlled by reusable `.min-` classes. Base heights are now `.min-700`, with an `-lg` class added to make 700px ~ 500px `@media max-width: 768px`, `.min-500`, `.min-400`, and `.min-300`, the latter primarily for images. This solves the jank issue and offers good scroll UX.
 
+6. SWUP CSS Animations
+
+As mentioned, SWUP adds an `.is-animating` class that is employed in making elements move when entering and exiting the viewport on page transition.
+
+You'll see in the stylesheet under `animations` the various classes that are used, including: `.down`, `.up`, `.left`, `.right`, `.zoom` and more. I've also left a number of CSS keyframe animations that can be cool additions to banner text, images, etc. in the future (`.fade-in-fwd`, `.fade-in-top`, etc).
+
 ## **JS**
 
-1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content out without page reload. It creates an app style view-change experience akin to the angular router, significantly improving "page-load" or view change speed and overall site performance, in addition to allowing for entrance and exit animations.
+1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content out without page reload. It creates an app style view-change experience akin to the angular router, significantly improving "page-load" or view change speed and overall site performance. It also allows for entrance and exit animations.
 
-2. **No longer in production use** GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
+2. ***No longer in production use** GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
 
-3. **No longer in production use** Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
+3. ***No longer in production use** Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
 
 4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
 
