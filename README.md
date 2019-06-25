@@ -24,7 +24,7 @@ Jaxx.io is built with PHP, primarily for its `includes` and `variables` function
 
 The header (`header.php`) and footer (`footer.php`) files are contained in the `includes` folder.
 
-#### **header.php**
+### **header.php**
 
 The header contains all meta and OG social tags, JSON-LD/google structured data, Zendesk Help Widget, the [Cookies Consent Banner](https://cookieconsent.osano.com/download/) for GDPR compliance, as well as the site menu/navigation.
 
@@ -36,7 +36,7 @@ The meta `title` and `description` tags are important for SEO and may need ongoi
 
 This is JSON code located in a script tag in the header. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For reference it's format and syntax can be checked out more [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
 
-#### **footer.php**
+### **footer.php**
 
 The footer contains all of jaxx.io's internal page links that are not available in the main menu (i.e. about, legal pages, social media accounts). It also houses all scripts and google gtag/analytics tracking code.
 
@@ -50,7 +50,7 @@ This is where all site image links live. Like copy.php, the concept behind this 
 
 *A note on archived features page images: at the bottom of `images.php` you'll find `// Features` --> which is an archive of the now defunct features.php page. I left these in the file for potential re-use if jaxx.io/features is ever reactivated.
 
-### **Lazy Loading**
+#### **Lazy Loading**
 
 *Included here is a note on lazy loading. Below I outline the use of `recliner.js`, a lazy loading library. It works by adding the class `.lazy` to any `<img>` tag, and adding `data-src` to the img `src` attribute. With the `.lazy` and `.lazy-loaded` CSS classes that recliner adds, **ALL** images by default have their `opacity` set to 0. This is obviously unwanted default behaviour, but since 95% of the site images are indeed intended to be lazy-loaded, it was easier to create a css class to counter this behaviour: i.e. `.opacity-full`.  Add this to any image you DO NOT want to be lazy loaded. See below and/or their [home website](https://sourcey.com/recliner/) for more info.
 
@@ -65,9 +65,10 @@ All of jaxx.io image assets live in the /assets/img folder. As this repo has hou
 `downloads.php` and `changeLog.php` are required to be updated whenever Jaxx Liberty is updated to a new version. For `downloads.php`, where the code is commented `<!--download links modal-->` you'll find all the checksums and download links to be updated, again commented for each OS. 
 
 Order
-    1. `$ shasum -a 256 Jaxx.Liberty-2.2.2.dmg` --> update current (i.e. 2.2.2) to new version #
-    2. Update checksum i.e. `012c10ed305bff56684c867a8f24fcfcc0892ae05033404e8f57e09c2dd6957c` to current
-    3. Update download link: `https://download-liberty.jaxx.io/Jaxx.Liberty-2.2.2.dmg` --> at the moment, only the version number (i.e. 2.2.2) needs to be updated.
+
+    1. $ shasum -a 256 Jaxx.Liberty-2.2.2.dmg --> update current (i.e. 2.2.2) to new version number
+    2. Update checksum i.e. 012c10ed305bff56684c867a8f24fcfcc0892ae05033404e8f57e09c2dd6957c to current
+    3. Update download link: https://download-liberty.jaxx.io/Jaxx.Liberty-2.2.2.dmg --> at the moment, only the version number (i.e. 2.2.2) needs to be updated.
 
 ### **changeLog.php**
 
@@ -75,7 +76,6 @@ The changelog requires the addition of text outlining any fixes or new features 
 
 Under `<!--content-->` copy and paste the following structure:
 
-`
 <!-- version # -->
 <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.2:</h3>
 <!-- date -->
@@ -99,7 +99,7 @@ Under `<!--content-->` copy and paste the following structure:
 <!-- separator btw sections -->
 
 <!--  -->
-`
+
 ## **CSS**
 
 1. Functional [Atomic] css: the site employs the atomic css approach where small, single purpose classes are used based on visual function. Classes are referenced once in the CSS then used repeatedly in the HTML for DRY code and the lightest possible stylesheets. See #4 for class order convention.
