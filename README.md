@@ -45,10 +45,56 @@ This is where all site image links live. Like copy.php, the concept behind this 
 
 *A note on archived features page images: at the bottom of `images.php` you'll find `// Features` --> which is an archive of the now defunct features.php page. I left these in the file for potential re-use if jaxx.io/features is ever reactivated.
 
+### **Lazy Loading**
+
+*Included here is a note on lazy loading. Below I outline the use of `recliner.js`, a lazy loading library. It works by adding the class `.lazy` to any `<img>` tag, and adding `data-src` to the img `src` attribute. With the `.lazy` and `.lazy-loaded` CSS classes that recliner adds, **ALL** images by default have their `opacity` set to 0. This is obviously unwanted default behaviour, but since 95% of the site images are indeed intended to be lazy-loaded, it was easier to create a css class to counter this behaviour: i.e. `.opacity-full`.  Add this to any image you DO NOT want to be lazy loaded. See below and/or their [home website](https://sourcey.com/recliner/) for more info.
+
 ## **Images**
 
 All of jaxx.io image assets live in the /assets/img folder. As this repo has housed numerous versions of jaxx.io, there is a wide variety of images, logos, icons, and graphics. While the intention was always to cull the folder of unused content, mamny of the images could be reused and/or swapped out for variety and SEO in the future. Thus the folder has accumulated an extensive library of imagery. In a future state, it would likely be wise to remove any duplicates, delete any original photos that were minified but kept for comparison, and cut any unused device or lifestyle images, or unused coin/token icons.
 
+## **Updating Jaxx Liberty Versions ~ Downloads/Changelog**
+
+### **downloads.php**
+
+`downloads.php` and `changeLog.php` are required to be updated whenever Jaxx Liberty is updated to a new version. For `downloads.php`, where the code is commented `<!--download links modal-->` you'll find all the checksums and download links to be updated, again commented for each OS. 
+
+Order
+    1. `$ shasum -a 256 Jaxx.Liberty-2.2.2.dmg` --> update current (i.e. 2.2.2) to new version #
+    2. Update checksum i.e. `012c10ed305bff56684c867a8f24fcfcc0892ae05033404e8f57e09c2dd6957c` to current
+    3. Update download link: `https://download-liberty.jaxx.io/Jaxx.Liberty-2.2.2.dmg` --> at the moment, only the version number (i.e. 2.2.2) needs to be updated.
+
+### **changeLog.php**
+
+The changelog requires the addition of text outlining any fixes or new features added in the upcoming release. This can be obtained from Anik or Jon. Code is sectioned/commented for ease of copy/pasting i.e.:
+
+Under `<!--content-->` copy and paste the following structure:
+
+`
+<!-- version # -->
+<h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.2:</h3>
+<!-- date -->
+<p class="font-weight-light border-bottom py-3 mb-2">[06/20/19]</p>
+<!-- if new features -->
+<h4 class="pt-2">Features:</h4>
+<ul>
+    <li>Paper wallet import.</li>
+    <li>In-app notifications: upgrade prompt when new version is available.</li>
+    <li>Added animation for widget title on the home screen.</li>
+    <li>Keyboard shortcuts to minimize and hide app on macOS desktop edition.</li>
+</ul>
+<!-- if new fixes -->
+<h4 class="pt-2">Fixed:</h4>
+<ul>
+    <li>Lorem ipsum...</li>
+    <li>Lorem ipsum...</li>
+    <li>Lorem ipsum...</li>
+</ul>
+
+<!-- separator btw sections -->
+
+<!--  -->
+`
 ## **CSS**
 
 1. Functional [Atomic] css: the site employs the atomic css approach where small, single purpose classes are used based on visual function. Classes are referenced once in the CSS then used repeatedly in the HTML for DRY code and the lightest possible stylesheets. See #4 for class order convention.
@@ -99,7 +145,7 @@ All of jaxx.io image assets live in the /assets/img folder. As this repo has hou
 
 3. Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
 
-4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds an entrance fade animation for smooth UX.
+4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
 
 4. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
 
