@@ -14,11 +14,11 @@ SWUP allows for the use of other libraries, however they need to be reinitialize
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, and [atomic css](https://css-tricks.com/lets-define-exactly-atomic-css/). "Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function." Bootstrap began this approach with version 4, including the use of flexbox. Classes are reusable and allow for fast scaffolding, consistency in layout/design, low code repetition, and minimal stylesheet bloat. The downside is that the HTML can get dense with classes, and - a point that is constantly debated - can make editing or changing styles less global.
+The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, and [atomic css](https://css-tricks.com/lets-define-exactly-atomic-css/). "Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function." Bootstrap began this approach with version 4, including the use of flexbox. Classes are reusable and allow for fast scaffolding, consistency in layout/design, low code repetition, and minimal stylesheet bloat. The downside is that the HTML can get dense with classes, and can make editing or changing styles less global.
 
 ## **PHP**
 
-Jaxx.io is built with PHP, primarily for its `includes` and `variables` functionality. It also was employed so as to make copy and images especially able to be updated in a future state by a non-coder i.e. Maggie/Di. Another consideration was as an alternative to static HTML (the previous jaxx.io architecture) where header, menu, and footer content existed on every page, and required inefficient manual editing.
+Jaxx.io is built with PHP, primarily for its `includes` and `variables` functionality. It was also employed to make it easier for a non-coder (i.e. Maggie/Di) to make edits to copy and images. Another consideration was as an alternative to static HTML: in the previous jaxx.io architecture, header, menu, and footer content existed on every page. This required inefficient and repetitive manual editing.
 
 ### **includes folder**
 
@@ -34,7 +34,7 @@ The meta `title` and `description` tags are important for SEO and may need ongoi
 
 ##### **JSON-LD ~ Schema Micro Data ~ Google Structured Data**
 
-This is JSON code located in a script tag in the header. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For reference it's format and syntax can be checked out more [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
+This is JSON code located in a script tag in the `header.php` file. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For more information on format and syntax check [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
 
 ### **footer.php**
 
