@@ -26,7 +26,7 @@ The header (`header.php`) and footer (`footer.php`) files are contained in the `
 
 ### **header.php**
 
-The header contains all meta and OG social tags, JSON-LD/google structured data, Zendesk Help Widget, the [Cookies Consent Banner](https://cookieconsent.osano.com/download/) for GDPR compliance, as well as the site menu/navigation.
+The header contains all meta and OG social tags, JSON-LD/google structured data, [Zendesk Help Widget](https://support.zendesk.com/hc/en-us/articles/229167008-Advanced-customization-of-the-Web-Widget), the [Cookies Consent Banner](https://cookieconsent.osano.com/download/) for GDPR compliance, as well as the site menu/navigation.
 
 ##### **SEO**
 
@@ -56,9 +56,9 @@ This is where all site image links live. Like copy.php, the concept behind this 
 
 ## **Images**
 
-All of jaxx.io image assets live in the /assets/img folder. As this repo has housed numerous versions of jaxx.io, there is a wide variety of images, logos, icons, and graphics. While the intention was always to cull the folder of unused content, mamny of the images could be reused and/or swapped out for variety and SEO in the future. Thus the folder has accumulated an extensive library of imagery. In a future state, it would likely be wise to remove any duplicates, delete any original photos that were minified but kept for comparison, and cut any unused device or lifestyle images, or unused coin/token icons.
+All of jaxx.io image assets live in the /assets/img folder. As this repo has housed numerous versions of jaxx.io, there is a wide variety of images, logos, icons, and graphics. While the intention was always to cull the folder of unused content, many of the images have either never been used, can be reused/recycled, and/or swapped out for variety and SEO improvement in the future. Thus the folder has accumulated an extensive library of imagery. In a future state, it would likely be wise to remove any duplicates, delete any original photos that were minified but kept for comparison, and cut any unused device or lifestyle images, or unused coin/token icons.
 
-## **Updating Jaxx Liberty Versions ~ Downloads + Changelog**
+## **Updating Jaxx Liberty Versions: Downloads + Changelog**
 
 ### **downloads.php**
 
@@ -66,8 +66,8 @@ All of jaxx.io image assets live in the /assets/img folder. As this repo has hou
 
 Order
 
-    1. $ shasum -a 256 Jaxx.Liberty-2.2.2.dmg --> update current (i.e. 2.2.2) to new version number
-    2. Update checksum i.e. 012c10ed305bff56684c867a8f24fcfcc0892ae05033404e8f57e09c2dd6957c to current
+    1. $ shasum -a 256 Jaxx.Liberty-2.2.2.dmg --> update current (i.e. 2.2.2) to new version number (2.2.3).
+    2. Update checksum i.e. 012c10ed305bff56684c867a8f24fcfcc0892ae05033404e8f57e09c2dd6957c to current.
     3. Update download link: https://download-liberty.jaxx.io/Jaxx.Liberty-2.2.2.dmg --> at the moment, only the version number (i.e. 2.2.2) needs to be updated.
 
 ### **changeLog.php**
@@ -76,6 +76,7 @@ The changelog requires the addition of text outlining any fixes or new features 
 
 Under `<!--content-->` copy and paste the following structure:
 
+```html
 <!-- version # -->
 <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.2:</h3>
 <!-- date -->
@@ -99,6 +100,7 @@ Under `<!--content-->` copy and paste the following structure:
 <!-- separator btw sections -->
 
 <!--  -->
+```
 
 ## **CSS**
 
@@ -166,7 +168,7 @@ Under `<!--content-->` copy and paste the following structure:
 2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering %2fa malicious script injection via URL.
 3. Geoblocking code attempts to limit access to jaxx.io from otherwise blacklisted IPs/country codes.
 
-## **.Development**
+## **Development**
 
 1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have to either add the extension to the url manually in the browser, or add extensions back into the file during development (and remove them before pushing to production).
 2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
