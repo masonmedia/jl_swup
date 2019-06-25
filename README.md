@@ -24,6 +24,7 @@ Jaxx.io is built with PHP, primarily for its `includes` and `variables` function
 
 ### **includes folder**
 
+The header (`header.php`) and footer (`footer.php`) files are contained in the `includes` folder.
 
 #### **header.php**
 
@@ -147,9 +148,9 @@ Under `<!--content-->` copy and paste the following structure:
 
 1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content out without page reload. It creates an app style view-change experience akin to the angular router, significantly improving "page-load" or view change speed and overall site performance, in addition to allowing for entrance and exit animations.
 
-2. GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
+2. **No longer in production use** GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
 
-3. Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
+3. **No longer in production use** Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
 
 4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
 
@@ -168,21 +169,20 @@ Under `<!--content-->` copy and paste the following structure:
 
 ## **.Development**
 
-1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have either add the extension manually in the browser, or add extensions back in during development.
+1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have to either add the extension to the url manually in the browser, or add extensions back into the file during development (and remove them before pushing to production).
 2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
-
 
 ## **dev.jaxx.io**
 
-This is the Jaxx dev test site, used for staging and testing.
+This is the Jaxx dev site, used for staging and testing.
 
 ### It is accessed via SSH using the following:
 
     1. Commit and push all changes to branch, then login to ssh:
     2. `ssh dev.jaxx.io` --> will prompt for password
-    3. `DpmbGPwe` --> write this down and delete from README
-    4. cd dev.jaxx.io 
-    5. git pull --> will prompt for password
+    3. `DpmbGPwe` --> current password: write down and eventually delete from README.
+    4. `cd dev.jaxx.io `
+    5. `git pull` --> will prompt for password
     6. enter personal Bitbucket password
     7. Crack a beer and enjoy.
 
