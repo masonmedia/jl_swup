@@ -897,28 +897,27 @@ include 'images.php';
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
                     <!--jaxx liberty google store-->
-                    <a onclick="googleAnalyticsTrigger('Android', 'Home_Section2'" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank">
                         <img class="home-store-badge mt-2 right"
                         src="/assets/img/jaxx-google-play.png"
                         alt="Google Play Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty itunes-->
-                    <a onclick="googleAnalyticsTrigger('iOS', 'Home_Section2')"
-                        href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                    <a href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
                         target="_blank">
                         <img class="home-store-badge mt-2 right right-med"
                         src="/assets/img/jaxx-app-store.png"
                         alt="iTunes App Store button to download Jaxx Liberty" />
                     </a>
                     <!--jaxx liberty chrome-->
-                    <a onclick="googleAnalyticsTrigger('Chrome', 'Home_Section2'" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
+                    <a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank">
                         <img class="home-store-badge mt-2 right right-slow"
                         src="/assets/img/jaxx-chrome-store.png"
                         alt="Chrome Web Store to download Jaxx Liberty" />
                     </a>
                     <!--end button nest row-->
                     <div id="desktop_download" class="right right-med p-0">
-                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Home_Section2')">
+                        <a href="/downloads">
                             <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
                                 <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
                                 Desktop
