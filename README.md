@@ -150,17 +150,23 @@ As mentioned, SWUP adds an `.is-animating` class that is employed in making elem
 
 You'll see in the stylesheet under `animations` the various classes that are used, including: `.down`, `.up`, `.left`, `.right`, `.zoom` and more. I've also left a number of CSS keyframe animations that can be cool additions to banner text, images, etc. in the future (`.fade-in-fwd`, `.fade-in-top`, etc).
 
+7. Unused files
+
+Currently I have aos.css (animate on scroll library) still in the CSS folder. Previously this was used on the site for scroll animations, but was removed in line with management desire for less animation.  As it is an excellent and easy to use library that was left in the folder if future need arises. If desired it can be deleted with no impact on the site.
+
 ## **JS**
 
 1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content out without page reload. It creates an app style view-change experience akin to the angular router, significantly improving "page-load" or view change speed and overall site performance. It also allows for entrance and exit animations.
 
-2. ***No longer in production use** GSAP: Greensock animation platform is a powerful js library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source.
+2. ***No longer in production use** GSAP: Greensock animation platform is a powerful JS library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source. This file is still in the js folder should future need arise. It can be deleted with no impact on the current site.
 
-3. ***No longer in production use** Animation approach and syntax: the site uses GSAP and Scroll Magic for scroll animations, and SWUP css classes for page entrances and exits. Sections receive a GSAP trigger class (`.stagger-right`), which then triggers individual text element animations (i.e. `.slide-right`) on entry into the viewport. Structural elements (and page banner text elements) are assigned css SWUP classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle exit animations during page/view changes.
+3. ***No longer in production use** Scroll Magic: Scroll Magic is a JS library for creating scroll based animations. Combined with GSAP, simple to very complex timeline animations can be achieved. This animation was removed from the site, but the file is still in the js folder should future need arise. It can be deleted with no impact on the current site. 
 
-4. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
+4. Animation approach and syntax: the site uses CSS classes (+ the SWUP .is-animating class) for page entrances and exits. Structural elements (and page banner text elements) are assigned CSS classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle entrance/exit animations during page/view changes.
 
-4. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
+5. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
+
+6. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
 
 ## **Google Analytics**
     
