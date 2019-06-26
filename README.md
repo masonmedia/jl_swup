@@ -238,9 +238,7 @@ Eg.
 
 ### **dev.jaxx.io**
 
-This is the Jaxx dev site, used for staging and testing.
-
-### It is accessed via SSH using the following:
+This is the Jaxx dev site, used for staging and testing. It is accessed via SSH using the following:
 
     1. Commit and push all changes to branch, then login to ssh:
     2. ssh dev.jaxx.io --> will prompt for password
@@ -256,8 +254,8 @@ I have been using the `Jaxx_Revolutions` branch in jaxx_reloaded. It is still ac
 
 ## A note on caching
 
-Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) hard caching. This causes updates to jaxx.io to generally not be viewable unless you/a user does a hard reload, or clears their cache.
+Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) **hard caching**. This causes updates to jaxx.io to generally not be viewable unless you/a user does a hard reload, or clears their cache.
 
-To avoid this, I started a practice of adding/updating a random string to the css file in the header.php which breaks the hard caching and enables changes:
+To avoid this, I started a practice of adding/updating a random string to the css file in the header.php **with every update to the site**. This breaks the cache and more easily allows changes to be viewed without page refresh:
 
 i.e. `<link rel="stylesheet" href="/assets/css/main.css?=21">`
