@@ -226,7 +226,7 @@ Eg.
 ## **.htaccess**
 
 1. Multiple .htaccess redirects/301s are employed to point previous .html file extensions to .php, and then to remove .php extensions entirely for pretty urls.
-2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering %2fa malicious script injection via URL.
+2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering `%2fa` malicious script injection via URL.
 3. Geoblocking code attempts to limit access to jaxx.io from otherwise blacklisted IPs/country codes.
 
 ## **Development**
@@ -251,7 +251,7 @@ This is the Jaxx dev site, used for staging and testing.
 
 ### A note on caching
 
-Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) hard caching. This causes updates to jaxx.io to generally not be viewable unless you/a user does a hard reload of the page, or clears their cache.
+Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) hard caching. This causes updates to jaxx.io to generally not be viewable unless you/a user does a hard reload, or clears their cache.
 
 To avoid this, I started a practice of adding/updating a random string to the css file in the header.php which breaks the hard caching and enables changes:
 
