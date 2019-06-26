@@ -1,8 +1,6 @@
 # **Jaxx.io Version 4.0**
 
-This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of jaxx.io.
-
-Repo: `jaxx.io_reloaded`.
+This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of [jaxx.io](https://jaxx.io).
 
 ## **SWUP**
 
@@ -10,11 +8,11 @@ This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library 
 
 SWUP works by wrapping the main page content with an `id="swup"`. This alone works to swap content in and out without reload via ajax. The addition of `.transition-` and `.is-animating` classes then offers wide flexibility in creating custom animation options for page transitions and individual element animations (refer the SWUP API). The base class for fading in and out is `.transition-fade`. See more below under **CSS**.
 
-SWUP allows for the use of other libraries, however they need to be reinitialized via `document.addEventListener('swup:contentReplaced', function () { -- functions, inits, etc. here -- }`. Previously, GSAP, Scroll Magic, and AOS libraries were used for scroll based and timeline animations. Those scripts are still in the `footer.php` file, however are not currently active due to management decision to remove all scroll based animation.  Should these be required in the future, all that is needed is CSS classes and JS initialization.  See individual library home sites for more info.
+SWUP allows for the use of other JS libraries, however they need to be reinitialized via `document.addEventListener('swup:contentReplaced', function () { -- functions, inits, etc. here -- }`. Previously, GSAP, Scroll Magic, and AOS libraries were used for scroll-based and timeline animations. These scripts are still in the `footer.php` file, however are not currently active due to management requirement to remove scroll animations.  Should these be required in the future, GSAP JS functions and config are still in the `main.js` file [see `function gsapScrollAnimations(); `], and all that is needed is the addition of CSS classes (and/or new animations can be easily developed).  See individual library home sites for more info.
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, and [atomic css](https://css-tricks.com/lets-define-exactly-atomic-css/). "Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function." Bootstrap began this approach with version 4, including the use of flexbox. Classes are reusable and allow for fast scaffolding, consistency in layout/design, low code repetition, and minimal stylesheet bloat. The downside is that the HTML can get dense with classes, and can make editing or changing styles less global.
+The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, and [atomic css](https://css-tricks.com/lets-define-exactly-atomic-css/). "Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function." Bootstrap began this approach with version 4, including the use of flexbox. Classes are reusable and target most every styling and layout component individually (alignment, spacing, color, bg-color, width, height, etc.) and allow for fast scaffolding, consistency in layout/design, low code repetition, and minimal stylesheet bloat. The downside is that the HTML can get dense with classes, and can make editing or changing styles less global. See **CSS** below for more details.
 
 ## **PHP**
 
@@ -28,18 +26,57 @@ The header (`header.php`) and footer (`footer.php`) files are contained in the `
 
 The header contains all meta and OG social tags, JSON-LD/google structured data, [Zendesk Help Widget](https://support.zendesk.com/hc/en-us/articles/229167008-Advanced-customization-of-the-Web-Widget), the [Cookies Consent Banner](https://cookieconsent.osano.com/download/) for GDPR compliance, as well as the site menu/navigation.
 
-##### **SEO**
+##### **> SEO**
 
 The meta `title` and `description` tags are important for SEO and may need ongoing updating contingent on Decentral SEO strategy. The `keyword` meta tag is generally ignored by Google, so while keeping it is advised, it's not essential.
 
-##### **JSON-LD ~ Schema Micro Data ~ Google Structured Data**
+##### **> JSON-LD ~ Schema Micro Data ~ Google Structured Data**
 
 This is JSON code located in a script tag in the `header.php` file. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For more information on format and syntax check [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
+
+##### **> Cookies Consent Widget**
+
+As GSPR requires, jaxx.io has a [cookies consent widget](https://cookieconsent.osano.com/download/) that requires user ineraction to remove. Currently it is configured to inform users that we collect cookies/info for tracking (google analytics for example), but users cannot decline the use of these cookies. It requires its own css and js files (in the header and footer respectively), and it can be thoroughly customizable via options:
+
+```html
+    <script>            
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#fff",
+              "text": "#000"
+            },
+            "button": {
+              "background": "transparent",
+              "text": "#000",
+              "border": "#000"
+            }
+          },
+          "position": "bottom-left",
+            "content": {
+            "message": "Like most websites, we use analytics cookies to understand how this site is used — as long as your browser is set to accept them.",
+            "dismiss": "Start exploring",
+            "link": "Find out more.",
+            "href": "https://jaxx.io/legal/thirdparties-current"
+          },
+        })});
+    </script>
+```
 
 ### **footer.php**
 
 The footer contains all of jaxx.io's internal page links that are not available in the main menu (i.e. about, legal pages, social media accounts). It also houses all scripts and google gtag/analytics tracking code.
 
+##### **> Zendesk Help Widget**
+
+In the bottom right of all pages on jaxx.io is the company's support widget, an embeddable popup from zendesk. It is configurable to a degree, with API and options available on the Zendesk home site, also [here](https://support.zendesk.com/hc/en-us/articles/229167008-Advanced-customization-of-the-Web-Widget).
+
+This script can be found in the `footer.php` file near the bottom:
+```html
+<!-- Zendesk Widget script -->
+ <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1511d491-71d2-4a00-ab84-5d6b388b482d"></script>
+```
 ### **copy.php**
 
 This is where all site copy lives. The concept behind this page was to centralize all text on the site, allow the HTML to be cleaner, and decouple the copy from the HTML to make it: a) easier to read, b) easier to see in context (being able to view an entire page's worth of copy at a glance), and c) easier to update for a non-coder. While you still need HTML tags to style this text, it is still easier to sift through than raw HTML.
@@ -146,9 +183,8 @@ Under `<!--content-->` copy and paste the following structure:
 
 6. SWUP + CSS Animations
 
-As mentioned, SWUP adds an `.is-animating` class that is employed in making elements move when entering and exiting the viewport on page transition.
-
-You'll see in the stylesheet under `animations` the various classes that are used, including: `.down`, `.up`, `.left`, `.right`, `.zoom` and more. I've also left a number of CSS keyframe animations that can be cool additions to banner text, images, etc. in the future (`.fade-in-fwd`, `.fade-in-top`, etc).
+    - As mentioned, SWUP adds an `.is-animating` class that is employed in making elements move when entering and exiting the viewport on page transition.
+    - You'll see in the stylesheet under `animations` the various classes that are used, including: `.down`, `.up`, `.left`, `.right`, `.zoom` and more. I've also left a number of CSS keyframe animations that can be cool additions to banner text, images, etc. in the future (`.fade-in-fwd`, `.fade-in-top`, etc).
 
 ## **JS**
 
