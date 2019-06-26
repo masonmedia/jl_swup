@@ -95,6 +95,10 @@ This is where all site image links live. Like copy.php, the concept behind this 
 
 All of jaxx.io image assets live in the /assets/img folder. As this repo has housed numerous versions of jaxx.io, there is a wide variety of images, logos, icons, and graphics. While the intention was always to cull the folder of unused content, many of the images have either never been used, can be reused/recycled, and/or swapped out for variety and SEO improvement in the future. Thus the folder has accumulated an extensive library of imagery. In a future state, it would likely be wise to remove any duplicates, delete any original photos that were minified but kept for comparison, and cut any unused device or lifestyle images, or unused coin/token icons.
 
+#### **> Image Optimizing + Performance**
+
+For best performance, all images are optimized in both dimensions and file size (using photoshop). Ideal width for main/large/banner images is `=> 1500px`, and ideal file size is `<= 150kb`.  With recliner.js (lazy load library), we can get away with larger file sizes as they are only loaded when in the viewport. Still however, it is best if these sizes not exceed `250-300kb` max. I generally reserve these for page banner images that require best resolution.
+
 ## **Updating Jaxx Liberty Versions: Downloads + Changelog**
 
 ### **downloads.php**
@@ -198,7 +202,9 @@ Under `<!--content-->` copy and paste the following structure:
 
 5. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
 
-6. Page Scroll to ID: For anchor-scrolling, the [Page Scroll to ID](http://manos.malihu.gr/page-scroll-to-id/) library is used. Any ID set as an `href` attribute will smoothly scroll to that ID on the page. File is located at `/assets/js/jquery.malihu.PageScroll2id.min.js` and config is in the main.js file.
+6. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
+
+7. Page Scroll to ID: For anchor-scrolling, the [Page Scroll to ID](http://manos.malihu.gr/page-scroll-to-id/) library is used. Any ID set as an `href` attribute will smoothly scroll to that ID on the page. File is located at `/assets/js/jquery.malihu.PageScroll2id.min.js` and config is in the main.js file.
 
 Eg.
 
@@ -207,8 +213,6 @@ Eg.
 
 <div id="sec-1">Scrolls to me</div>
 ```
-
-6. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
 
 ## **Google Analytics**
     
