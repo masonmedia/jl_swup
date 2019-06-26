@@ -229,7 +229,7 @@ Eg.
 2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering `%2fa` malicious script injection via URL.
 3. Geoblocking code attempts to limit access to jaxx.io from otherwise blacklisted IPs/country codes.
 
-## **Development**
+## **Development Server**
 
 1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have to either add the extension to the url manually in the browser, or add extensions back into the file during development (and remove them before pushing to production).
 2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
