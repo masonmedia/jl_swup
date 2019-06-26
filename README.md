@@ -218,8 +218,11 @@ Eg.
     
 1. GA gtag script is added in footer for general analytics, traffic, page views, bounce rate, etc.
 
-2. Onclick events will be been added to all <a>, <button>, and nav links (like jaxx.io) to track user flow through the site.  Tags will be added once a more permanent URL/domain structure is adopted by Decentral (subdomains vs. subdirectories). Tags will be organized by category (destination and/or item i.e. Downloads page or Android), and given a label (location on page i.e. menu, section, footer) for analysis: <onclick="googleAnalyticsTrigger('Downloads_Page', 'Footer')">
+2. Onclick events are added to all download links on the downloads page, links/badges in the downloads section of the homepage (`index.php`), and to links in the `footer.php`. This allows tracking of number and location of download clicks, and the OS users are selecting. Tags are organized by category (destination and/or item i.e. Downloads page or Android), and label (location on page i.e. menu, section, footer) for analysis:
 
+```html
+<a href="https://appstore.com" onclick="googleAnalyticsTrigger('Downloads_Page', 'Footer')">
+```
 ## **.htaccess**
 
 1. Multiple .htaccess redirects/301s are employed to point previous .html file extensions to .php, and then to remove .php extensions entirely for pretty urls.
