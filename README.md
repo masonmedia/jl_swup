@@ -8,7 +8,7 @@ Repo: `jaxx.io_reloaded`.
 
 This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions, and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, load time and view changes are fast, and it is easily extensible with simple (or complex) css and js animations.
 
-SWUP works by wrapping the main page content with an `id="swup"`. This alone works to swap content in and out without reload via ajax. The addition of `.transition-` and `.is-animating` classes then offers wide flexibility in creating custom animation options for page transitions and individual element animations (refer the SWUP API). The base class for fading in and out is `.transition-fade`.
+SWUP works by wrapping the main page content with an `id="swup"`. This alone works to swap content in and out without reload via ajax. The addition of `.transition-` and `.is-animating` classes then offers wide flexibility in creating custom animation options for page transitions and individual element animations (refer the SWUP API). The base class for fading in and out is `.transition-fade`. See more below under **CSS**.
 
 SWUP allows for the use of other libraries, however they need to be reinitialized via `document.addEventListener('swup:contentReplaced', function () { -- functions, inits, etc. here -- }`. Previously, GSAP, Scroll Magic, and AOS libraries were used for scroll based and timeline animations. Those scripts are still in the `footer.php` file, however are not currently active due to management decision to remove all scroll based animation.  Should these be required in the future, all that is needed is CSS classes and JS initialization.  See individual library home sites for more info.
 
@@ -131,10 +131,10 @@ Under `<!--content-->` copy and paste the following structure:
         
     - With individual tags or text elements, classes generally proceed as:
         - size (`.h1, .h4, .p-big`)
-        - color (`.text-dark`)
+        - color (`.text-dark`, `.orange`)
         - borders (if any)
         - spacing (margin and padding)
-        - text shadow (`.ts`)
+        - text shadow or drop shadow (`.ts`, or `.ds`)
         - animation classes
 
          *Please see [Boostrap's home site](https://getbootstrap.com/) for more details.
@@ -144,27 +144,33 @@ Under `<!--content-->` copy and paste the following structure:
     - to accomodate continued use of `min-height: 100vh;` for full page images, I made a flexible `@media` class (`.min--100`) that allowd the `vh` unit to be used on desktop and higher, but changed to a fixed height on mobile to avoid the repaint issue.
     - primarily, heights are controlled by reusable `.min-` classes. Base heights are now `.min-700`, with an `-lg` class added to make 700px ~ 500px `@media max-width: 768px`, `.min-500`, `.min-400`, and `.min-300`, the latter primarily for images. This solves the jank issue and offers good scroll UX.
 
-6. SWUP CSS Animations
+6. SWUP + CSS Animations
 
 As mentioned, SWUP adds an `.is-animating` class that is employed in making elements move when entering and exiting the viewport on page transition.
 
 You'll see in the stylesheet under `animations` the various classes that are used, including: `.down`, `.up`, `.left`, `.right`, `.zoom` and more. I've also left a number of CSS keyframe animations that can be cool additions to banner text, images, etc. in the future (`.fade-in-fwd`, `.fade-in-top`, etc).
 
-7. Unused files
-
-Currently I have aos.css (animate on scroll library) still in the CSS folder. Previously this was used on the site for scroll animations, but was removed in line with management desire for less animation.  As it is an excellent and easy to use library that was left in the folder if future need arises. If desired it can be deleted with no impact on the site.
-
 ## **JS**
 
-1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content out without page reload. It creates an app style view-change experience akin to the angular router, significantly improving "page-load" or view change speed and overall site performance. It also allows for entrance and exit animations.
+1. SWUP: swup is an ajax plugin that hijacks http requests, swapping page content in/out without page reload. It creates an app-style, view-change experience akin to the Angular router, significantly improving "page-load" or view change speed and overall site performance. It also allows for entrance and exit animations.
 
 2. ***No longer in production use** GSAP: Greensock animation platform is a powerful JS library for creating timeline and other complex animations. Initially AOS and then Scroll Reveal were used, but GSAP offers more versatility and is open source. This file is still in the js folder should future need arise. It can be deleted with no impact on the current site.
 
 3. ***No longer in production use** Scroll Magic: Scroll Magic is a JS library for creating scroll based animations. Combined with GSAP, simple to very complex timeline animations can be achieved. This animation was removed from the site, but the file is still in the js folder should future need arise. It can be deleted with no impact on the current site. 
 
-4. Animation approach and syntax: the site uses CSS classes (+ the SWUP .is-animating class) for page entrances and exits. Structural elements (and page banner text elements) are assigned CSS classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle entrance/exit animations during page/view changes.
+4. Animation approach and syntax: the site uses CSS classes (+ the SWUP `.is-animating` class) for page entrances and exits. Structural elements (and page banner text elements) are assigned CSS classes (i.e. `.right`, `.right-med`, `.right-slow`) to handle entrance/exit animations during page/view changes.
 
 5. Recliner.js: Recliner is a lazy load library for better performance with images. A css `.lazy` class is added to img tags which loads the image only when it comes into the viewport, and also adds a css class (`.lazy-loaded`) which creates an entrance fade animation for smooth UX (via JS).
+
+6. Page Scroll to ID: For anchor-scrolling, the [Page Scroll to ID](http://manos.malihu.gr/page-scroll-to-id/) library is used. Any ID set as an `href` attribute will smoothly scroll to that ID on the page. File is located at `/assets/js/jquery.malihu.PageScroll2id.min.js` and config is in the main.js file.
+
+Eg.
+
+```html
+<a href="#sec-1">Click Me</a>
+
+<div id="sec-1">Scrolls to me</div>
+```
 
 6. Tilt.js: Tilt is a small js library that produces a perspective-like tilting effect on mouseover. It is used on the site 404 and 403 pages. See more [here](https://gijsroge.github.io/tilt.js/).
 
