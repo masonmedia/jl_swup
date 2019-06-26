@@ -229,13 +229,14 @@ Eg.
 2. Consult Shu Wang on htaccess code (at top of .htaccess file) for countering `%2fa` malicious script injection via URL.
 3. Geoblocking code attempts to limit access to jaxx.io from otherwise blacklisted IPs/country codes.
 
-## **Development Server**
+## **Development**
+
+### **Local Server**
 
 1. **NOTE FOR LOCAL DEVELOPMENT**: Because `.php` extensions are removed, pages with not load locally. You'll have to either add the extension to the url manually in the browser, or add extensions back into the file during development (and remove them before pushing to production).
 2. Mac has a built in php server: `$ php -S localhost:8000` (or use whichever port is desired).
-3. I have been using the `Jaxx_Revolutions` branch in jaxx_reloaded and this branch is still active.
 
-## **dev.jaxx.io**
+### **dev.jaxx.io**
 
 This is the Jaxx dev site, used for staging and testing.
 
@@ -249,7 +250,11 @@ This is the Jaxx dev site, used for staging and testing.
     6. enter personal Bitbucket password
     7. Crack a beer and enjoy.
 
-### A note on caching
+### **Dev branch**
+
+I have been using the `Jaxx_Revolutions` branch in jaxx_reloaded. It is still active.
+
+## A note on caching
 
 Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) hard caching. This causes updates to jaxx.io to generally not be viewable unless you/a user does a hard reload, or clears their cache.
 
