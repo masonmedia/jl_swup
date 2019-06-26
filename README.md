@@ -2,7 +2,7 @@
 
 This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of jaxx.io.
 
-Repo: `jaxx.io_reloaded`, `https://bitbucket.org/decentral1/jaxx.io_reloaded/src/Jaxx_Revolutions/`.
+Repo: `jaxx.io_reloaded`.
 
 ## **SWUP**
 
