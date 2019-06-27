@@ -1,10 +1,10 @@
-# **Jaxx.io Version 4.0**
+# **Jaxx.io**
 
 This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of [jaxx.io](https://jaxx.io).
 
 ## **SWUP**
 
-This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions, and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, load time and view changes are fast, and it is easily extensible with simple (or complex) css and js animations.
+This version of jaxx.io uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions, and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload/http requests are not made (unless a page is actively refreshed), initial site load time and individual page view changes are fast, and it is easily extensible with simple (or complex) css and js animations.
 
 SWUP works by wrapping the main page content with an `id="swup"`. This alone works to swap content in and out without reload via ajax. The addition of `.transition-` and `.is-animating` classes then offers wide flexibility in creating custom animation options for page transitions and individual element animations (refer the SWUP API). The base class for fading in and out is `.transition-fade`. See more below under **CSS**.
 
@@ -32,11 +32,11 @@ The meta `title` and `description` tags are important for SEO and may need ongoi
 
 ##### **> JSON-LD ~ Schema Micro Data ~ Google Structured Data**
 
-This is JSON code located in a script tag in the `header.php` file. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For more information on format and syntax check [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html) , and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
+This is JSON code located in a script tag in the `header.php` file. It is added data which supposedly allows for rich-snippet search results (image and post carousels, videos, social accounts/icons, images, etc). As of yet this data has been extremely slow to show or make an impact on jaxx.io search results. For more information on format and syntax check [here](https://developers.google.com/search/docs/guides/intro-structured-data) and [here](https://schema.org/docs/gs.html), and it can be validated using [this tool](https://search.google.com/structured-data/testing-tool/u/0/).
 
 ##### **> Cookies Consent Widget**
 
-As GSPR requires, jaxx.io has a [cookies consent widget](https://cookieconsent.osano.com/download/) that requires user ineraction to remove. Currently it is configured to inform users that we collect cookies/info for tracking (google analytics for example), but users cannot decline the use of these cookies. It requires its own css and js files (in the header and footer respectively), and it can be thoroughly customizable via options:
+As GDPR requires, jaxx.io has a [cookies consent widget](https://cookieconsent.osano.com/download/) that requires user ineraction to remove. Currently it is configured to inform users that we collect cookies/info for tracking (google analytics for example), but users cannot decline the use of these cookies. It requires its own css and js files (in the header and footer respectively), and it can be thoroughly customizable via options:
 
 ```html
     <script>            
@@ -251,6 +251,10 @@ This is the Jaxx dev site, used for staging and testing. It is accessed via SSH 
 ### **Dev branch**
 
 I have been using the `Jaxx_Revolutions` branch in jaxx_reloaded. It is still active.
+
+### **PRs + Deployment**
+
+When staged and tested, send PR to Jon and Shu for approval, merging, and deployment to jaxx.io.
 
 ## A note on caching
 

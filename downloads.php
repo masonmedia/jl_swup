@@ -59,7 +59,7 @@ include 'images.php';
                     </button>
                   </div>
                    
-                  <!--modal-->
+                  <!--download links modal-->
                     
                   <div class="modal-body bg-light px-5 pb-5">
                        <div class="container-fluid">
@@ -86,7 +86,7 @@ include 'images.php';
                                <div class="col-xl-6 d-flex flex-column justify-content-start align-items-start text-left p-3">
                                     <h3 class="h1 w-100 font-weight-light text-secondary py-3 mb-3 border-bottom border-top">Windows</h3>
                                     <h5 class="pb-4 m-0 border-bottom">Jaxx Liberty requires Windows 8 (or later)</h5>
-                                    <p class="pt-3 font-weight-bold">$ certutil -hashfile Jaxx.Liberty-setup-2.2.2.exe sha256</p>
+                                    <p class="pt-3 font-weight-bold">$ certutil -hashfile Jaxx.Liberty-setup-2.2.0.exe sha256</p>
                                     <p class="word-break">246d9e27dab171b1c28a61f04560cc8137b6b04cddbb602aaccfbd850e40675c</p>
                                     <a role="button" class="btn btn-orange mt-3" onclick="googleAnalyticsTrigger('Windows_Modal', 'Downloads_Desktop_Liberty_Windows')" href="https://download-liberty.jaxx.io/Jaxx.Liberty-setup-2.2.2.exe">Download for Windows</a>
                                </div><!--end windows-->
