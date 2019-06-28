@@ -20,11 +20,9 @@
                      <li class="h4 font-weight-bold">Company</li>
                      <hr class="hr-big border-0 bg-secondary">
                      <li><a href="/about">About</a></li>
-                     <li><a href="https://support.decentral.ca/hc/en-us" target="_blank"
-                             onclick="googleAnalyticsTrigger('Support_Page', 'Footer')">Support</a></li>
+                     <li><a href="brand-assets.zip" download="Jaxx_Liberty_Brand_Assets">Brand Assets</a></li>
                      <li><a href="https://blog.jaxx.io/" target="_blank">Blog</a></li>
-                     <li><a href="https://decentral.ca"
-                             onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">Decentral</a></li>
+                     <li><a href="https://decentral.ca" onclick="googleAnalyticsTrigger('decentral.ca', 'Home_Footer')">Decentral</a></li>
                  </ul>
              </div>
 
