@@ -4,18 +4,17 @@
 
 $homeBanner1 = "Jaxx Liberty";
 $homeBanner2 = "Best App for Bitcoin, Ethereum and 80+ Cryptocurrencies.";
-$homeBanner3 = "Cross-platform Blockchain Wallet, Exchange, Portfolio, Markets and News - all in one app.";
+$homeBanner3 = "Cross-platform <a class='orange font-weight-bold' href='#wallet'>Blockchain Wallet</a>, <a class='orange font-weight-bold' href='#exchange'>Exchange,</a> <a class='orange font-weight-bold' href='#portfolio'>Portfolio,</a> <a class='orange font-weight-bold' href='#markets'>Markets</a> and <a class='orange font-weight-bold' href='#news'>News</a> - all in one app.";
 $homeBannerCTA1 = "Download";
 
-
-$homeWalletTitle = "Manage 80+ cryptocurrencies.";
-$homeWalletDesc = "Easily send, receive and even exchange 80+ cryptocurrencies right in your wallet. View balance, see transaction history and view detailed coin information.";
+$homeWalletTitle = "<a href='/community'>Manage 80+ cryptocurrencies.</a>";
+$homeWalletDesc = "Easily send, receive and even exchange <a class='orange font-weight-bold' href='/community'>80+ cryptocurrencies</a> right in your wallet. View balance, see transaction history and view detailed coin information.";
 
 $homePortTitle = "Access your cryptocurrency portfolio.";
 $homePortDesc = "Check out your asset balance, track individual coins and tokens, and follow value changes over the last hour, day, week and month.";
 
 $homeExchangeTitle = "Trade cryptocurrencies.";
-$homeExchangeDesc = "Third-party apps like ShapeShift are built in your wallet. Instantly buy and sell supported digital assets including Bitcoin, Ethereum, Litecoin and many others.";
+$homeExchangeDesc = "Third-party apps like <a class='orange font-weight-bold' href='https://shapeshift.io/' target='_blank'>ShapeShift</a> are built in your wallet. Instantly buy and sell supported digital assets including <a class='orange font-weight-bold' href='https://bitcoin.org' target='_blank'>Bitcoin,</a> <a class='orange font-weight-bold' href='https://www.ethereum.org' target='_blank'> Ethereum,</a> <a class='orange font-weight-bold' href='https://litecoin.org' target='_blank'>Litecoin</a> and many others.";
 
 $homeMarketsTitle = "Track market data.";
 $homeMarketsDesc = "Follow the top 100 assets, compare price changes, see market caps, and follow trends.";
@@ -23,8 +22,8 @@ $homeMarketsDesc = "Follow the top 100 assets, compare price changes, see market
 $homeNewsTitle = "Follow blockchain news.";
 $homeNewsDesc = "Get daily blockchain headline news and updates from a range of trusted sources. All at your fingertips, in Jaxx Liberty's news module.";
 
-$homeSupportTitle = "Enjoy world-class support.";
-$homeSupportDesc = "Get fast, friendly customer support from our User Success Team 7 days a week, via email or social media. We're here to help!";
+$homeSupportTitle = "<a href='https://support.decentral.ca' target='_blank'>Enjoy world-class support.</a>";
+$homeSupportDesc = "Get fast, friendly <a class='orange font-weight-bold' href='https://support.decentral.ca' target='_blank'>customer support</a> from our User Success Team 7 days a week, via email or <a class='orange font-weight-bold' href='/community'>social media.</a> We're here to help!";
 
 $homeBlockTitle = "Search the blockchain.";
 $homeBlockDesc = "Check balances and transaction data across multiple blockchains in Jaxx Liberty's easy-to-use block explorer.";
@@ -55,6 +54,8 @@ $communityBannerTitle = "Community is in our DNA.";
 
 $communityTitle1 = "Connect with us.";
 $communityDesc1 = "Join our ecosystem of 200+ partners, where we work together to promote decentralized technology and unite blockchain projects around the globe.";
+
+$communityCoinSectionTitle = "Supported Coins & Tokens";
 
 // Careers page
 

@@ -70,14 +70,16 @@ include 'images.php';
         
         <!--wallet-->
        
-        <section>
-            <div id="sec-1" class="row relative min-500 bg-light py-4 border-bottom m-0">
+        <section id="wallet">
+            <div class="row relative min-500 bg-light py-4 border-bottom m-0">
                 <div class="offset-lg-2"></div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
                     <div class="device-wrapper absolute z-0 top-0">
-                        <img class="feat-phone m-auto up opacity-full"
-                        src="<?php echo $homeImgWallet; ?>"
-                        alt="<?php echo $homeImgWalletAlt; ?>">
+                        <a href="/community">
+                            <img class="feat-phone m-auto up opacity-full"
+                            src="<?php echo $homeImgWallet; ?>"
+                            alt="<?php echo $homeImgWalletAlt; ?>">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 banner-left px-5 pt-5">
@@ -95,7 +97,7 @@ include 'images.php';
 
          <!--exchange-->
        
-         <section>
+         <section id="exchange">
             <div class="row relative d-flex min-500 bg-navy-gradient text-light py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
@@ -103,7 +105,7 @@ include 'images.php';
                         <?php echo $homeExchangeTitle; ?>
                     </h2>
                     <hr class="hr-big border-0 bg-orange m-0 up up-med">
-                    <p class="p-big py-3 mb-0 up up-slow">
+                    <p class="p-big py-3 mb-0 up up-slow relative z-1">
                         <?php echo $homeExchangeDesc; ?>
                     </p>
                 </div>
@@ -120,7 +122,7 @@ include 'images.php';
 
         <!--port-->
        
-        <section>
+        <section id="portfolio">
             <div class="row relative d-flex min-500 bg-white py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-4 o-12 up">
@@ -143,7 +145,7 @@ include 'images.php';
 
          <!--markets-->
        
-         <section>
+         <section id="markets">
             <div class="row relative d-flex min-500 bg-light py-4 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 banner-left px-5 pt-5">
@@ -168,7 +170,7 @@ include 'images.php';
         
         <!--news-->
         
-        <section>
+        <section id="news">
             <div class="row relative d-flex min-500 bg-white p-0 border-bottom m-0">
                <div class="offset-lg-2"></div>
                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 px-3 o-12 up">
@@ -204,9 +206,11 @@ include 'images.php';
                     </p>
                 </div>
                 <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center p-0 o-12 up">
-                    <img class="img-home-support ds up opacity-full"
-                    src="<?PHP echo $homeImgSupport; ?>"
-                    alt="<?PHP echo $homeImgSupportAlt; ?>">
+                    <a href='https://support.decentral.ca' target='_blank'>
+                        <img class="img-home-support ds up opacity-full"
+                        src="<?php echo $homeImgSupport; ?>"
+                        alt="<?php echo $homeImgSupportAlt; ?>">
+                    </a>
                 </div>
                <div class="offset-lg-2"></div>
             </div>
