@@ -10,6 +10,18 @@ RewriteRule ^(.*)\.html$ $1.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
+
+#redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
+RewriteRule ^(.*)\.html$ $1.php [L]
+
+# Set custom error pages
+ErrorDocument 400 /400.php
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
 Options -Indexes
 
 ## EXPIRES CACHING ##
@@ -29,10 +41,11 @@ ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
 
-# Redirect support to zendesk
+# Redirect /support to zendesk
 
-# Redirects from https://jaxx.io/support to the Zendesk URL for quicker referencing
 RewriteRule ^support.html$ https://decentral.zendesk.com/hc/en-us [R,L]
+Redirect 301 /support.html https://decentral.zendesk.com/hc/en-us
+Redirect 301 /support https://decentral.zendesk.com/hc/en-us
 
 # Redirect legal to terms-current
 
@@ -53,12 +66,20 @@ Redirect 301 /thirdparties-current.html https://www.jaxx.io/legal/thirdparties-c
 # Redirects from https://jaxx.io/betaslack to the jaxx slack channel URL
 RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
 
-# Redirects people from https://jaxx.io/jaxx-liberty.html to jaxx.io/downloads.html
-RewriteRule ^jaxx-liberty-beta$ https://jaxx.io/downloads [R,L]
+# Redirect jaxx liberty beta from https://jaxx.io/jaxx-liberty-beta.html to jaxx.io
+Redirect 301 /jaxx-liberty-beta.html https://jaxx.io
+Redirect 301 /jaxx-liberty-beta https://jaxx.io
 
-# Set custom 404 error page
-ErrorDocument 404 /404.php
-ErrorDocument 403 /403.php
+# Redirects from https://jaxx.io/migrate to youtube how-to migrate video
+RewriteRule ^migrate$ https://www.youtube.com/watch?v=A5WYbV7rDDU [R,L]
+
+# 301 /migrate redirect
+Redirect 301 /migrate https://www.youtube.com/watch?v=A5WYbV7rDDU
+
+# 301 /features --> index redirect
+RewriteRule ^features$ https://jaxx.io [R,L]
+Redirect 301 /features.php https://www.jaxx.io
+Redirect 301 /features https://www.jaxx.io
 
 # GeoBlocking
 # Since jaxx.io is on shared hosting on DreamHost it wasn't possible to install ip module

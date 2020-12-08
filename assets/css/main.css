@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -91,7 +91,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background: black;
+    /* background: black; */
     font-family: 'Helvetica Neue', Helvetica, Avenir, sans-serif;
     overflow-x: hidden;
     max-width: 1500px;
@@ -108,8 +108,11 @@ a:focus,
 a:visited {
     color: inherit;
     text-decoration: none;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .2 ease-in-out;
+    transition: all .2 ease-in-out;
+    -moz-transition: all .2 ease-in-out;
+    -ms-transition: all .2 ease-in-out;
+    -o-transition: all .2 ease-in-out;
 }
 
 a:hover {
@@ -138,6 +141,10 @@ footer a:hover {
 
 .min-500 {
     min-height: 500px;
+}
+
+.min-600 {
+    min-height: 600px;
 }
 
 .min-700-lg {
@@ -215,6 +222,10 @@ footer a:hover {
 
 .border-grey {
     border-color: lightgrey !important;
+}
+
+.border-darkgrey {
+    border-color: grey !important;
 }
 
 .rounded-right-top {
@@ -325,6 +336,10 @@ p {
     word-break: break-all;
 }
 
+.font-weight-medium {
+    font-weight: 400;
+}
+
 /* fonts + text effects */
 
 .knockout-gradient {
@@ -335,6 +350,7 @@ p {
     background: -o-linear-gradient(transparent, transparent);
     background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .line-height {
@@ -475,6 +491,226 @@ p {
     animation-delay: 2s;
 }
 
+/* home page star rating */
+.checked {
+    color: orange;
+}
+
+/* animista css animations */
+
+.gradient-background {
+    -webkit-animation: gradient-background 5s linear infinite alternate both;
+    animation: gradient-background 5s linear infinite alternate both;
+}
+
+.fade-in {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-top {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-left {
+    -webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-bottom {
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-fwd {
+    -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation gradient-background
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes gradient-background {
+    0% {
+        background: #f5af19;
+    }
+
+    100% {
+        background: #f12711;
+    }
+}
+
+@keyframes gradient-background {
+    0% {
+        background: #f5af19;
+    }
+
+    100% {
+        background: #f12711;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-top {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-top {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-left {
+    0% {
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-left {
+    0% {
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
 /*SWUP transition animations*/
 
 /*main page transition fade*/
@@ -610,8 +846,8 @@ p {
 /* overlay animation: add div with transition-wipe for animation and the overlay to be revealed and moved
 <div class="transition-wipe overlay"></div> */
 
-/*
-.overlay {
+
+/* .overlay {
     position: absolute;
     background: #ff6902;
     top: 0;
@@ -630,8 +866,8 @@ html.is-animating .transition-wipe {
     transform: scaleX(1);
     width: 3000px;
     height: 10000px;
-}
-*/
+} */
+
 
 /* colors ===================*/
 
@@ -672,25 +908,39 @@ html.is-animating .transition-wipe {
     background: linear-gradient(to right, #2F80ED, #56CCF2);
 }
 
+.bg-navy-gradient {
+    background: rgb(9, 29, 67);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(9, 29, 67, 1)), color-stop(50%, rgba(41, 84, 171, 1)), to(rgba(9, 29, 67, 1)));
+    background: linear-gradient(90deg, rgba(9, 29, 67, 1) 0%, rgba(41, 84, 171, 1) 50%, rgba(9, 29, 67, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#091d43", endColorstr="#091d43", GradientType=1);
+}
+
 .bg-navy {
     background-color: rgb(38, 65, 118);
     background-color: rgb(38, 66, 119);
 }
 
-.bg-lightblue {
-    background-color: lightblue !important;
+/* liberty colors */
+
+.border-navy {
+    border-color: #264277 !important;
+    border-color: rgb(38, 66, 119) !important;
+}
+
+.border-box-navy {
+    border-color: #576FA2 !important;
+}
+
+.bg-dark-navy {
+    background: #091D43;
+}
+
+.bg-box-navy {
+    background: #233B6B;
 }
 
 .bg-slategray {
     background: lightslategray;
-}
-
-.bg-steelblue {
-    background: lightsteelblue;
-}
-
-.bg-pink {
-    background: lightpink;
 }
 
 .bg-lightgrey {
@@ -718,6 +968,59 @@ html.is-animating .transition-wipe {
     transform: skew(0, -4.7deg);
 }
 
+/*  Home ================================*/
+
+.banner-gradient {
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    position: absolute;
+    z-index: 2;
+    height: 900px;
+    width: 900px;
+    max-width: 100%;
+    -webkit-transform: rotate(51.8deg);
+            transform: rotate(51.8deg);
+    /* left: -100px;
+    top: -300px; */
+    left: -120px;
+    top: -296px;
+    border-radius: 20px 20px 40% 20px;
+}
+
+.banner-gradient-cover {
+    height: 900px;
+    width: 600px;
+    max-width: 100%;
+    left: -200px;
+    left: -600px;
+}
+
+/* background images ======================*/
+
+.bg--home-banner {
+    background: url(/assets/img/jaxx-iphone-isometric-gallery.jpg) center top;
+    background-size: cover;
+}
+
+.bg--home-testimonials {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(245, 175, 25, 0.8)), to(rgba(241, 39, 17, 0.8))), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
+    background: linear-gradient(to right, rgba(245, 175, 25, 0.8), rgba(241, 39, 17, 0.8)), url(/assets/img/jaxx-app-homescreen-min.jpg) center;
+    background-size: cover;
+}
+
+.bg--careers-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/assets/img/decentral-soccer.jpg) center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/decentral-soccer.jpg) center top;
+    background-size: cover;
+}
+
+/* security */
+
+.bg--ipad-wood-table {
+    background: url(/assets/img/jaxx-ipad-black-wood-table.jpg) center 44%;
+    background-size: cover;
+}
+
 /* images + logos ======================*/
 
 .img {
@@ -732,6 +1035,35 @@ html.is-animating .transition-wipe {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
+}
+
+.jazzy {
+    width: 600px;
+}
+
+.img-port-desktop {
+    width: 1200px;
+    left: -500px;
+}
+
+.img-portfolio-hand {
+    width: 800px;
+    left: -200px;
+}
+
+.img-shield {
+    width: 450px;
+    left: -100px;
+}
+
+.img-iphone-password {
+    width: 600px;
+    left: -73px;
+    top: -45px;
+}
+
+.img-home-support {
+    width: 450px;
 }
 
 /*lazy loading classes*/
@@ -761,19 +1093,23 @@ img.decentral-logo,
 /* community page coin logo imgs */
 
 .coin-logo {
-    width: 120px;
+    width: 80px;
+    width: 40px;
+}
+
+/* community page coin table */
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
 }
 
 /*features phone case imgs*/
 
 .feat-phone {
     width: 300px;
-}
-
-@media (min-width: 1200px) {
-    .feat-phone {
-        width: 400px;
-    }
 }
 
 /* decentral logo ======================*/
@@ -794,6 +1130,13 @@ img.decentral-logo,
 .decentral-logo {
     height: auto;
     width: 185px;
+}
+
+.jaxx-liberty-logo {
+    height: auto;
+    width: 150px;
+    filter: drop-shadow(2px 2px 23px #fff);
+    -webkit-filter: drop-shadow(2px 2px 23px #fff);
 }
 
 .decentral-D {
@@ -997,9 +1340,37 @@ input:checked+.slider:before {
 
 /*download badges*/
 
-.store-badge {
+.store-badge,
+.banner-store-badge,
+.home-store-badge {
     opacity: 1;
+}
+
+.store-badge {
     width: 150px;
+}
+
+.banner-store-badge {
+    width: 125px;
+}
+
+.home-store-badge {
+    width: 200px;
+}
+
+.desktop-download-btn {
+    padding: 10px 28px 10px 0;
+    padding: 10px 55px 10px 0px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 1.5px solid grey;
+}
+
+.desktop-download-btn:hover {
+    border: 1.5px solid grey;
 }
 
 /* about page history timeline ======================*/
@@ -1043,6 +1414,48 @@ input:checked+.slider:before {
     width: 200px;
 }
 
+/*  community page ============= */
+
+#socialIcons li {
+    color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+#socialIcons li:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    text-shadow: 2px 5px 20px #000;
+    color: #ff6902;
+}
+
+/* #socialIcons li:nth-of-type(1):hover {
+    color: #007bff;
+}
+#socialIcons li:nth-of-type(2):hover {
+    color: hotpink;
+}
+#socialIcons li:nth-of-type(3):hover {
+    color: #FF5700;
+}
+#socialIcons li:nth-of-type(4):hover {
+    color:#FF0000;
+}
+#socialIcons li:nth-of-type(5):hover {
+    color: #0088CC;
+} */
+
+#coinLogos h5 {
+    font-size: 16px;
+}
+
+
 /*community json blog API data --> columns =========*/
 
 .columns--blog {
@@ -1064,10 +1477,16 @@ input:checked+.slider:before {
     margin: 0 0 10px;
 }
 
+.columns--blog:nth-of-type(2) {
+    background: #d6d6d6;
+}
+
 .columns--blog h2 {
     border-top: 1px dotted lightgrey;
-    /*    border-bottom: 1px dotted lightgrey;*/
-    color: #ff6902;
+    color: grey;
+    font-weight: bold;
+    line-height: 95%;
+    letter-spacing: -2px;
     margin: 20px 0 20px;
     padding: 20px 0 10px;
 }
@@ -1091,13 +1510,35 @@ input:checked+.slider:before {
     display: none;
 }
 
+/* careers ======================*/
+
+#careers .fa-code,
+#careersModal .fa-code,
+#careersIntroList .fa-code {
+    color: grey;
+    font-size: 17px;
+}
+
+/* .card-body */
+#accordionExample ul,
+.code {
+    color: #28a745;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#careers ul li:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+.list-group-flush .list-group-item {
+    font-weight: bold;
+}
+
 /* nav ======================*/
 
 nav,
 .navbar {
-    background: rgba(0, 0, 0, 0.9);
-    /*	background: transparent;*/
-    /*	border-bottom: 1px solid lightgrey;*/
+    background: #000;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     padding: 1.5rem 1rem;
@@ -1198,15 +1639,16 @@ nav,
 
 /*  icons */
 
-.icon {
-    font-size: 50px;
-}
 
 .fa {
     font-size: 10vmin;
     font-size: 6vmin;
     font-size: 35px;
     padding: 30px 20px;
+}
+
+.icon {
+    font-size: 50px;
 }
 
 #testimonials .fa {
@@ -1246,6 +1688,40 @@ footer li a {
 /* media queries ======================*/
 
 @media (min-width: 1900px) {
+
+    .banner-gradient {
+        border-radius: 20px 20px 40% 20px;
+        -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+        position: absolute;
+        z-index: 2;
+        /* og=== */
+        /* height: 1000px;
+        width: 1200px;
+        max-width: 100%;
+        transform: rotate(52.25deg);
+        left: -300px;
+        top: -300px; */
+        /*big====*/
+        /*height: 1300px;
+        width: 1200px;
+        max-width: 100%;
+        transform: rotate(51.8deg);
+        left: -392px;
+        top: -349px;
+        */
+        height: 1200px;
+        width: 1200px;
+        max-width: 100%;
+        transform: rotate(51.8deg);
+        left: -401px;
+        top: -337px;
+        -webkit-transform: rotate(51.8deg);
+        -moz-transform: rotate(51.8deg);
+        -ms-transform: rotate(51.8deg);
+        -o-transform: rotate(51.8deg);
+    }
+
     .min-700-lg {
         min-height: 1000px;
     }
@@ -1253,9 +1729,76 @@ footer li a {
     .page-title {
         font-size: 96px;
     }
+
+    .jaxx-liberty-logo {
+        width: 160px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner-gradient {
+        left: -172px;
+        top: -285px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .feat-phone {
+        width: 400px;
+    }
+
+    .img-port-desktop {
+        width: 1100px;
+        left: -500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .jazzy {
+        width: 470px;
+    }
+
+    .img-port-desktop {
+        width: 900px;
+        left: -400px;
+    }
+
+    .img-portfolio-hand {
+        width: 800px;
+        left: -238px;
+    }
+
+    .img-shield {
+        width: 400px;
+        left: -110px;
+    }
+
+    .banner-gradient {
+        height: 900px;
+        width: 900px;
+        max-width: 100%;
+        left: -350px;
+        /* top: -252px; */
+        top: -255px;
+    }
+
+    .jaxx-liberty-logo {
+        width: 110px;
+    }
 }
 
 @media (max-width: 992px) {
+
+    body,
+    html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .btn-lg {
+        padding: 7px 11px !important;
+    }
 
     /* nav */
     nav,
@@ -1339,6 +1882,24 @@ footer li a {
         display: table;
     }
 
+    /* imgs */
+    .img-iphone-password {
+        width: 100%;
+        left: 0px;
+        top: -45px;
+    }
+
+    .feat-phone--port {
+        padding-top: 60px;
+    }
+
+
+    /* API blog layout */
+    .columns--blog {
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+
     /* hide desktop download button on tablet and mobile */
     #desktop_download {
         display: none;
@@ -1388,12 +1949,47 @@ footer li a {
     }
 }
 
+/* ipad pro small */
+@media (max-width: 834px) {
+    .banner-gradient {
+        left: -20%;
+        top: -32%;
+    }
+
+    .img-port-desktop {
+        width: 800px;
+        left: -40px;
+    }
+
+    .img-portfolio-hand {
+        width: 750px;
+        left: 0;
+    }
+
+    .img-shield {
+        /* width: 400px;
+        left: 180px; */
+        width: 100%;
+        left: 0;
+        padding: 22%;
+    }
+}
+
 @media (max-width: 768px) {
 
-    body,
-    html {
-        width: 100%;
-        overflow-x: hidden;
+    .banner-gradient {
+        height: 916px;
+        width: 754px;
+        max-width: 100%;
+        left: -358px;
+        top: -200px;
+        left: -18%;
+        top: -29%;
+        border-radius: 20px 20px 50% 20px;
+        -webkit-border-radius: 20px 20px 50% 20px;
+        -moz-border-radius: 20px 20px 50% 20px;
+        -ms-border-radius: 20px 20px 50% 20px;
+        -o-border-radius: 20px 20px 50% 20px;
     }
 
     /* homepage front title */
@@ -1404,13 +2000,51 @@ footer li a {
         line-height: 85%;
     }
 
+    /* utility class for breaking sentences @mobile */
+    .line-break-md {
+        display: table;
+    }
+
     /*   utility class to reduce 100vh on mobile */
     .min--100 {
         min-height: 700px;
     }
+
+    /* API blog layout */
+    .columns--blog {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+
+    .img-port-desktop {
+        width: 900px;
+        bottom: -170px;
+        left: -150px;
+    }
+
+    .img-portfolio-hand {
+        width: 800px;
+        left: -80px;
+    }
 }
 
 @media screen and (max-width: 601px) {
+
+    .site-title {
+        font-size: 37px;
+    }
+    .site-subtitle {
+        font-size: 22px;
+    }
+
+    .banner-gradient {
+        /* left: -326px;
+        top: -36px;
+        padding: 250px; */
+        left: -304px;
+        top: -27px;
+        padding: 266px;
+    }
 
     /*utilities*/
     .d-sm-flex-column {
@@ -1420,9 +2054,9 @@ footer li a {
         flex-flow: column;
     }
 
-    /*force homepage banner span elements to wrap onto separate lines @mobile*/
-    #banner span {
-        display: inline-block;
+    /* utility class for breaking sentences @mobile */
+    .line-break-md {
+        display: inline;
     }
 
     /*reduce navbar logo and mobile menu size*/
@@ -1432,8 +2066,45 @@ footer li a {
         width: 77px;
     }
 
-    .site-title {
-        font-size: 42px;
+    /* API blog layout */
+    .columns--blog {
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+
+    .jazzy {
+        width: 455px;
+        right: -50px;
+    }
+
+    .img-port-desktop {
+        width: 900px;
+        bottom: -173px;
+        left: -300px;
+    }
+
+    .img-home-support {
+        width: 350px;
+    }
+
+    .img-portfolio-hand {
+        width: 700px;
+        left: -240px;
+    }
+
+    .img-shield {
+        width: 100%;
+        left: 0;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .img-iphone-password {
+        /* width: 400px;
+        left: -45px; */
+        width: 100%;
+        left: 0;
+        top: 0;
     }
 
     p {
@@ -1550,6 +2221,12 @@ footer li a {
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .site-title {
+        font-size: 30px;
     }
 }
 

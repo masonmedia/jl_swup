@@ -1,16 +1,18 @@
 <?php
-
 $title = "Jaxx Liberty | Changelog";
-
+$metaD = "Stay up to date on our continuous effort to improve and expand Jaxx Liberty with advancements and feature updates.";
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
 <!--banner-->
 
     <div id="banner" role="banner" class="container-fluid p-0">
         <div class="row d-flex min-700-lg relative py-5 text-light">
-           <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/jaxx-changelog.jpg" alt="Jaxx Liberty changes, updates, and improvements.">
+           <img class="img-full absolute z-0 left-0 filter-dark up up-med" 
+           src="<?php echo $changelogBannerImg; ?>"
+           alt="<?php echo $changelogBannerImgAlt; ?>">
             <div class="offset-lg-2"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center ts p-5">
                 <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Change Log</h1>
@@ -35,6 +37,60 @@ include 'includes/header.php';
                             <h1 class="section-title font-weight-bold pb-2 m-0">Change Log</h1>
                         </div>
                         <!--content-->
+
+                        <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.2:</h3>
+                        <p class="font-weight-light border-bottom py-3 mb-2">[06/20/19]</p>
+                        <h4 class="pt-2">Fixed:</h4>
+                        <ul>
+                            <li>Address generation failure when updating new wallets: users will no longer receive the TX-001 error when updating new wallets.</li>
+                        </ul>
+
+                        <!--  -->
+
+                        <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.2.0:</h3>
+                        <p class="font-weight-light border-bottom py-3 mb-2">[04/29/19]</p>
+                        <h4 class="pt-2">Features:</h4>
+                        <ul>
+                            <li>Paper wallet import.</li>
+                            <li>In-app notifications: upgrade prompt when new version is available.</li>
+                            <li>Added animation for widget title on the home screen.</li>
+                            <li>Keyboard shortcuts to minimize and hide app on macOS desktop edition.</li>
+                        </ul>
+                        <h4 class="pt-2">Fixed:</h4>
+                        <ul>
+                            <li>Refactored wallet core engine to make pair/restore workflow more fault-tolerant.</li>
+                            <li>Refactored portfolio module and implemented caching for faster and smoother loading.</li>
+                            <li>ETC consolidation bug.</li>
+                            <li>Ticker display errors in token send page.</li>
+                            <li>MyJaxx bug preventing resending confirmation email upon expiry. </li>
+                            <li>Pricing inconsistencies between Markets module and Wallet info page.</li>
+                            <li>False positive for offline banner notification.</li>
+                            <li>Fault tolerance issues during offline events.</li>
+                            <li>Crypto-to-fiat conversion calculation and fault tolerance during fiat reference data unavailability.</li>
+                            <li>Accuracy gaps when wallet modules fetch balance and unconfirmed transactions.</li>
+                            <li>“Copy all” button in private keys not formatting data in CSV format. 
+                            <li>Wallet initialization failure from portfolio module.</li>
+                            <li>UI touch up in backup-wallet page.</li>
+                            <li>Removed alert to back wallet up after pair/restore.</li>
+                            <li>Coin selection display text issue in block explorer module.</li>
+                            <li>Missing asset for LOOM in Block Explorer drop-down menu.</li>
+                            <li>Added padding to Block Explorer transaction list to avoid overflow for large values.</li>
+                            <li>UI halting issue during workflow for creating new wallet.</li>
+                            <li>Scrolling behaviour inconsistencies in Global Settings menu.</li>
+                            <li>Text overflow issue in pair/restore orange screen for smaller viewports.</li>
+                            <li>Loading icon and text alignment issue in widget loading animation.</li>
+                            <li>Logo and text overlap issue in Markets module.</li>
+                            <li>Daily percentage change formatting issue in Portfolio.</li>
+                            <li>Missing balance for ETH, ETC, and RSK in display private keys dialogue.</li>
+                            <li>Non-removal of promo banner call to action after action has been performed from Global Settings.</li>
+                            <li>Issue where, selecting “max” does not activate button to advance to the next screen when connected to ShapeShift.</li>
+                            <li>Missing asset ticker next to asset balance in Block Explorer lookup page and wallet list page.</li>
+                            <li>Lack of truncation and text overflow issue for large fiat values in home-screen Wallet widget.</li>
+                            <li>Set input type to numbers-only in send pages, to ensure invocation only of numeric keyboard.</li>
+                            <li>Issue where pressing return key was clearing input field in pair/restore input form.</li>
+                        </ul>
+
+                        <!---->
 
                         <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.1.3:</h3>
                         <p class="font-weight-light border-bottom py-3 mb-2">[02/21/19]</p>
@@ -62,7 +118,6 @@ include 'includes/header.php';
 
                         <h3 class="orange border-bottom w-100 py-3 m-0">Jaxx Liberty 2.1.2:</h3>
                         <p class="font-weight-light border-bottom py-3 mb-2">[01/17/19]</p>
-                        <h4 class="pt-2">Features:</h4>
                         <h4 class="pt-2">Fixed:</h4>
                         <ul>
                             <li>Incompatibility as between Shapeshift sign-in and Google OAuth.</li>

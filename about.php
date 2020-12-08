@@ -1,20 +1,31 @@
 <?php
-
 $title = "Jaxx Liberty | About Us";
-
+$metaD = "Decentral is Canada's leading blockchain company and the maker of Jaxx and Jaxx Liberty, two of the most popular blockchain wallets with millions of users.";
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
     <!--jumbotron-->
        
        <div id="banner" role="banner" class="container-fluid bg-black p-0">
         <div class="row d-flex min-700-lg relative py-5 ts stagger-right">
-            <img class="img-full absolute z-0 left-0 filter-dark up up-med" src="/assets/img/decentral-toronto-skyline.jpeg" alt="About Decentral">
+            <img 
+            class="img-full absolute z-0 left-0 filter-dark up up-med" 
+            src="<?php echo $aboutBannerImg; ?>" 
+            alt="<?php echo $aboutBannerImgAlt; ?>">
             <div class="col-lg-9 d-flex flex-column justify-content-end align-items-start text-left text-light p-5">
-                <h1 class="h4 mt-5 zoom">About Decentral</h1>
-                <h2 class="site-title text-light ds-black font-weight-bold zoom zoom-med">On a mission to create opportunity and empower individuals around the world.</h2>
-                <a href="#sec-1"><button class="p-btn bg-trans orange border-0 mb-1 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a>
+                <h1 class="h4 mt-5 zoom">
+                    <?php echo $aboutBannerTitle; ?>
+                </h1>
+                <h2 class="site-title text-light ds-black font-weight-bold zoom zoom-med">
+                    <?php echo $aboutBannerSubtitle; ?>
+                </h2>
+                <a href="#sec-1">
+                    <button class="p-btn bg-trans orange border-0 mb-1 p-0 zoom zoom-slow">
+                        Learn more <i class="fa fa-angle-right fa-btn orange"></i>
+                    </button>
+                </a>
             </div>
              <div class="offset-lg-3"></div>
         </div>
@@ -26,16 +37,26 @@ include 'includes/header.php';
 
        <!--intro-->
        
-       <section>
-           <div id="sec-1" class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
+       <section id="sec-1">
+           <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 orange slide-down">Company</h2>
-                    <h3 class="section-title text-dark mb-0 slide-down">Working together to unite blockchain projects around the globe.</h3>
+                    <h2 class="h4 orange slide-down">
+                        <?php echo $aboutSection1Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-down">
+                        <?php echo $aboutSection1Subtitle; ?>
+                    </h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is an innovation hub for disruptive and decentralized technologies. Decentral was home to Canada’s first two-way Bitcoin ATM and from time to time hosts community-driven events in the domains of fintech, blockchain, cryptocurrencies and decentralized technologies. Our <span class="font-weight-bold text-dark">purpose</span> is to champion the decentralized movement by building the technology that empowers and creates wins for all.</p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $aboutSection1Desc2; ?>
+                    </p>
                     <!-- Button trigger modal -->
-                    <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#values"><p class="p-btn mt-3 slide-down">Explore our values <i class="fa fa-angle-right fa-btn orange"></i></p></button>
+                    <button class="bg-trans border-0 p-0 down down-slow" data-toggle="modal" data-target="#values">
+                        <p class="p-btn mt-3 slide-down">
+                            <?php echo $aboutSection1CTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                        </p>
+                    </button>
                 </div>
             </div><!--end row-->
 
@@ -58,57 +79,53 @@ include 'includes/header.php';
                        <div class="row">
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">1. Think big. Be bold.</h3>
-                                <!--<p class="py-2">The ability to think big and to be bold are vital to success. It’s what motivates you. We want you to step outside of your comfort zone.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">2. Challenge equals opportunity.</h3>
-                                <!--<p class="pt-2">We see challenges as opportunities in disguise. We can definitely turn each challenge into an opportunity.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">3. Normal sucks. Be strange.</h3>
-                                <!--<p class="py-2">We live and thrive outside the lines. Are you ready to be strange?</p>-->
                            </div>
 
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">4. Perfect for some. Not for everyone.</h3>
-                                <!--<p class="py-2">And that’s perfectly okay.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">5. Improve, improve, improve. Waste is a villain.</h3>
-                                <!--<p class="py-2">We adopt a focused approach at work, centering on the most important things that increase our efficiency.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">6. Question everything. There's a solution to every problem.</h3>
-                                <!--<p class="py-2">Problems arise from making assumptions. Ask questions, and seek answers.</p>-->
                            </div>
 
                             <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">7. Present minded. Future driven. Long term focused.</h3>
-                                <!--<p class="py-2">We strive to continuously adapt and evolve, constantly improving our products, services, and processes, while maintaining an eye on the future.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right border-bottom">
                                 <h3 class="h2 font-weight-bold pt-2">8. Come and say hi. We've got nothing to hide.</h3>
-                                <!--<p class="py-2">We adopt a focused approach at work, centering on the most important things that increase our efficiency.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-bottom">
                                <h3 class="h2 font-weight-bold pt-2">9. We're sidekicks in a world of Heroes.</h3>
-                                <!--<p class="py-2">Our customers, partners, and community are the heroes. We’re here to be the guides and provide them with the tools they need to be empowered.</p>-->
                            </div>
 
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right">
                                 <h3 class="h2 font-weight-bold pt-2">10. Life's a game. Keep leveling up.</h3>
-                                <!--<p class="py-2">We strive to always improve the way we do things, making sure we never plateau. We work smarter, not harder.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-5 border-right">
                                 <h3 class="h2 font-weight-bold pt-2">11. Change happens. Embrace it.</h3>
-                                <!--<p class="py-2">We know that change is inevitable in life. We choose to embrace it. Change is an opportunity for growth.</p>-->
                            </div>
+
                            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center text-left p-5">
                                <img src="/assets/img/decentral_D_logo_white.png" class="decentral-D" alt="">
-                                <!--<h3 class="h2 font-weight-bold pt-2">12. Our purpose.</h3>-->
-                                <!--<p class="py-2">We champion the decentralized movement by building the technology that empowers and creates wins for all.</p>-->
                            </div>
                        </div>
+                       
                    </div><!--end container-->
                   </div><!--end modal body-->
                   <div class="modal-footer">
@@ -122,7 +139,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphones-clay-3-black.jpg" alt="About Decentral">
+                    <img 
+                    class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg1; ?>" 
+                    alt="<?php echo $aboutImg1Alt; ?>">
                 </div>
             </div>
         </section>
@@ -132,12 +152,27 @@ include 'includes/header.php';
         <section>  
             <div class="row d-flex p-5 min-500 text-secondary bg-white relative z-1 stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 orange slide-right">Anthony Di Iorio</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">A message from the founder.</h3>
-                    <p class="p-big pt-3 m-0 slide-right">Decentralization is a buzzword with bite. It is the future of computing, finance, and the Internet. Decentralization is changing the very fabric of the global economy.</p>
+                    <h2 class="h4 orange slide-right">
+                        <?php echo $aboutSection2Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">
+                        <?php echo $aboutSection2Subtitle; ?>
+                    </h3>
+                    <p class="p-big pt-3 m-0 slide-right">
+                        <?php echo $aboutSection2Desc1; ?>
+                    </p>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Decentralized technologies power trust-less, frictionless, efficient networks and markets by enabling people to create, store, transfer and receive value from anyone, anywhere — friends, strangers, colleagues, businesses — without the assistance or cost of traditional middlemen. As a result, every sector—from marketing to manufacturing, from healthcare to energy, from law to accounting — is being disrupted. Join us in our mission to create opportunity and empower individuals around the world.</p>
+                    <p class="p-big pt-3 m-0 slide-right">
+                        <?php echo $aboutSection2Desc2; ?>
+                    </p>
+                    <div class="right right-slow">
+                        <a href="#decentralHistory">
+                            <p class="p-btn mt-3 slide-right">
+                                <?php echo $aboutSection2CTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>
+                    </div>
                 </div>
             </div><!--end row-->
         </section>
@@ -145,23 +180,36 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 top-0 lazy" data-src="/assets/img/decentral-anthony-1.jpg" alt="Anthony Di Iorio">
+                    <img 
+                    class="img-full absolute z-0 left-0 top-0 lazy" 
+                    data-src="<?php echo $aboutImg2; ?>" 
+                    alt="<?php echo $aboutImg2Alt; ?>">
                 </div>
             </div>
         </section>
         
         <!--history-->   
         
-        <section>   
+        <section id="decentralHistory">   
             <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 orange slide-down">Decentral history</h2>
-                    <h3 class="section-title text-dark mb-0 slide-down">Decentral opened its doors in 2014 and has become Canada’s leading blockchain company.</h3>
+                    <h2 class="h4 orange slide-down">
+                        <?php echo $aboutSection3Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-down">
+                        <?php echo $aboutSection3Subtitle; ?>
+                    </h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">In late 2013 Anthony Di Iorio funded & co-founded Ethereum, the decentralized smart contract platform that at its peak hit $150 billion in market cap. In 2014 he founded <span class="font-weight-bold">Decentral Inc.</span>, an innovation hub & software development company focused on decentralized technologies. Decentral is the maker of Jaxx Classic & Jaxx Liberty, digital asset platforms that empower millions of people with the tools they need to control their digital lives.</p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $aboutSection3Desc1; ?>
+                    </p>
                     <!-- Button trigger modal -->
-                    <button class="bg-white border-0 p-0 down down-slow" data-toggle="modal" data-target="#history"><p class="p-btn mt-3 slide-down">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></button>
+                    <button class="bg-white border-0 p-0 down down-slow" data-toggle="modal" data-target="#history">
+                        <p class="p-btn mt-3 slide-down"> 
+                            <?php echo $aboutSection3CTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                        </p>
+                    </button>
                 </div>
             </div><!--end row-->
             
@@ -295,7 +343,9 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative">
                 <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-vintage-collage.jpg" alt="Decentral is the maker of Jaxx Classic & Jaxx Liberty, digital asset platforms that empower millions of people with the tools they need to control their digital lives.">
+                    <img class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg3; ?>"
+                    alt="<?php echo $aboutImg3Alt; ?>">
                 </div>
             </div>
         </section>
@@ -305,13 +355,23 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex p-5 min-500 bg-white stagger-right">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 orange slide-right">Innovation</h2>
-                    <h3 class="section-title text-dark mb-0 slide-right">Leading the blockchain market into 2019.</h3>
+                    <h2 class="h4 orange slide-right">
+                        <?php echo $aboutSection4Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-right">
+                        <?php echo $aboutSection4Subtitle; ?>
+                    </h3>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-right">Located in downtown Toronto, Decentral is an innovation hub for disruptive and decentralized technologies. We are building relationships with a range of companies in a wide variety of sectors that collectively are creating economic opportunity, and empowering individuals worldwide with financial liberty.</p>
+                    <p class="p-big pt-3 m-0 slide-right">
+                        <?php echo $aboutSection4Desc1; ?>
+                    </p>
                     <div class="right right-slow">
-                        <a href="https://decentral.ca" target="_blank"><p class="p-btn mt-3 slide-right">Find out more <i class="fa fa-angle-right fa-btn orange"></i></p></a>
+                        <a href="https://decentral.ca" target="_blank">
+                            <p class="p-btn mt-3 slide-right">
+                                <?php echo $aboutSection4CTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div><!--end row-->
@@ -320,7 +380,9 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative down-down-med">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/decentral-buildings-sky.jpeg" alt="Meet the Decentral Team">
+                    <img class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg4; ?>" 
+                    alt="<?php echo $aboutImg4Alt; ?>">
                 </div>
             </div>
         </section>
@@ -330,14 +392,26 @@ include 'includes/header.php';
         <section>  
             <div class="row d-flex p-5 min-500 text-secondary bg-white stagger-down">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left down">
-                    <h2 class="h4 orange slide-down">Careers</h2>
-                    <h3 class="section-title text-dark mb-0 slide-down">Informing. Empowering. Uniting.</h3>
-                    <p class="p-big pt-3 m-0 slide-down">Decentral is leading the blockchain movement in Canada and around the world. We're changing the way people think about the exchange of value.</p>
+                    <h2 class="h4 orange slide-down">
+                        <?php echo $aboutSection5Title; ?>
+                    </h2>
+                    <h3 class="section-title text-dark mb-0 slide-down">
+                        <?php echo $aboutSection5Subtitle; ?>
+                    </h3>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $aboutSection5Desc1; ?>
+                    </p>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left o-12 down down-med">
-                    <p class="p-big pt-3 m-0 slide-down">We're looking to meet talented and motivated people to join us in our Toronto offices. Our business is growing rapidly and we're actively seeking a variety of candidates for various roles. If you would like to work for the startup at the heart of blockchain in Canada, submit your resume below.</p>
+                    <p class="p-big pt-3 m-0 slide-down">
+                        <?php echo $aboutSection5Desc2; ?>
+                    </p>
                     <div class="down down-slow">
-                        <a href="mailto:careers@decentral.ca"><p class="p-btn mt-3 slide-down">Get in touch <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
+                        <a href="/careers">
+                            <p class="p-btn mt-3 slide-down">
+                                <?php echo $aboutSection5CTA; ?> <i class="fa fa-angle-right fa-btn orange"></i>
+                            </p>
+                        </a>  
                     </div>
                 </div>
             </div><!--end row-->
@@ -346,7 +420,10 @@ include 'includes/header.php';
         <section>
             <div class="row d-flex bg-light relative down down-med">
                 <div class="col-lg-12 min-700-lg">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-testimonials.jpeg" alt="Work for Decentral">
+                    <img 
+                    class="img-full absolute z-0 left-0 lazy" 
+                    data-src="<?php echo $aboutImg5; ?>" 
+                    alt="<?php echo $aboutImg5Alt; ?>">
                 </div>
             </div>
         </section>

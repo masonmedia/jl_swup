@@ -1,19 +1,28 @@
 <?php
-
 $title = "Jaxx Liberty | Security";
-
+$metaD = "Your security is our priority. Jaxx Liberty is a non-custodial blockchain wallet. You own the keys. We never have access to, or knowledge of, your digital assets. Only you do.";
 include 'includes/header.php';
-
+include 'copy.php';
+include 'images.php';
 ?>
 
 <!--banner-->
 
 <div id="banner" role="banner" class="container-fluid p-0">
     <div class="row d-flex min-700-lg py-5 text-light relative">
-       <img class="img-full absolute z-0 left-0 up up-med" src="/assets/img/jaxx-group-people.jpg" alt="We built Jaxx Liberty with security in mind.">
-        <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left ts p-5">
-            <h1 class="h4 mt-3 ds-black zoom">Jaxx Liberty Security</h1>
-            <h2 class="site-title font-weight-bold ds-black zoom zoom-med">Your security is our priority.</h2><a href="#sec-1"><button class="p-btn orange ds-black bg-trans mb-1 border-0 p-0 zoom zoom-slow">Learn more <i class="fa fa-angle-right fa-btn orange"></i></button></a> 
+       <img class="img-full absolute z-0 left-0 up up-med"
+       src="<?php echo $securityBannerImg; ?>"
+       alt="<?php echo $securityBannerImgAlt; ?>">
+       <div class="offset-lg-1"></div>
+        <div class="col-lg-6 banner-left ts p-5">
+            <h1 class="site-title font-weight-bold ds-black mt-5 zoom zoom-med">
+                <?php echo $securityBannerTitle; ?>
+            </h1>
+            <a href="#sec-1">
+                <button class="btn btn-lg btn-outline-light my-2 zoom zoom-med">
+                    Learn more
+                </button>
+            </a> 
         </div>
         <div class="offset-lg-5"></div>
     </div>
@@ -27,162 +36,126 @@ include 'includes/header.php';
         <!--intro-->
         
         <section>
-            <div id="sec-1" class="row d-flex min-500 relative bg-white p-5 stagger-up">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-up">Security features</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Secure by Default.</h3>
+            <div id="sec-1" class="row d-flex min-500 relative bg-navy-gradient text-light p-0">
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-5 banner-left p-5 right">
+                    <h2 class="section-title text-light mb-0">
+                        <?php echo $security1Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange up up-med">
+                    <p class="p-big pt-2 m-0">
+                        <?php echo $security1Desc1; ?>
+                    </p>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-up">We built Jaxx Liberty with security in mind - to keep your digital assets safe when using it.  Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.</p>
-                    <div class="right right-slow">
-                        <a href="#sec-3"><p class="p-btn mt-3 slide-up">Explore <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
-                    </div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-portfolio-hand absolute z-0 bottom-0 opacity-full"
+                        src="<?php echo $securityImgHandDevice; ?>" 
+                        alt="<?php echo $securityImgHandDeviceAlt; ?>">
                 </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 bottom-0 up up-med lazy" data-src="/assets/img/jaxx-ipad-desk-closeup-port.jpg" alt="Security is a priority from the design stage right through to development, including a rigorous and ongoing code review process. Security is in our DNA.">
-                </div>
+                <div class="offset-lg-2"></div>
             </div>
         </section>
         
-        <!--sec features-->
+        <!--sec-->
         
         <section>
-            <div id="sec-3" class="row d-flex p-5 min-500 bg-white stagger-up">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-up">12-word backup</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">It starts with a seed.</h3>
+            <div id="sec-3" class="row d-flex p-5 min-500 bg-white">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-shield absolute z-0 opacity-full ds"
+                        src="<?php echo $securityImgShield; ?>" 
+                        alt="<?php echo $securityImgShieldAlt; ?>">
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-up">When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.</p>
-                    <div class="right right-slow">
-                        <a href="#sec-4"><p class="p-btn mt-3 slide-up">You're in control <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
-                    </div>
+                <div class="col-lg-5 banner-left right">
+                    <h2 class="section-title text-dark mb-0">
+                        <?php echo $security2Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange up up-med">
+                    <p class="p-big pt-3 m-0">
+                        <?php echo $security2Desc1; ?>
+                    </p>
                 </div>
+                <div class="offset-lg-1"></div>
             </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!-- <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-multi-device-2-security.jpg" alt="With Jaxx Liberty you'll enjoy industry leading security features including a 12-word backup phrase, password protection, password strength checker, facial recognition, and state-of-the-art encryption."> -->
-                    <img class="img-full absolute z-0 left-0 up up-med lazy" data-src="assets/img/jaxx-ipad-iphone-X-closeup.jpg" alt="When you first launch the application, Jaxx Liberty creates a 12-word backup phrase, which is then used to generate and manage all of the private keys to your digital assets. Do not share these words with anyone, write them down on a piece of paper and keep them in a secure place, such as a safety deposit box.">
-                </div>
-            </div>
-        </section>     
-
-        <!--everything stays on device-->
-        
-        <section>
-            <div id="sec-4" class="row d-flex p-5 min-500 bg-white stagger-up">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-up">You're in control</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Everything stays on-device.</h3>
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-up">Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server. We believe you should be in complete control.</p>
-                    <div class="right right-slow">
-                        <a href="#sec-5"><p class="p-btn mt-3 slide-up">Password protection <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-iphone-X-multiscreen.jpg" alt="Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-android-tablet-pc.jpg" alt="Your 12-word backup phrase is encrypted and stored only on your device. We don’t have access to it nor is it stored on any server.">
-                </div>
-            </div>
-        </section>
+        </section>  
 
         <!--Password-->
         
         <section>
-            <div id="sec-5" class="row d-flex p-5 min-500 bg-white stagger-up">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-up">Password protection</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Now add a second layer of encryption.</h3>
+            <div id="sec-4" class="row relative d-flex p-5 min-500 bg-light">
+                <div class="offset-lg-1"></div>
+                <div class="col-lg-5 banner-left right">
+                    <h2 class="section-title text-dark mb-0">
+                        <?php echo $security3Title; ?>
+                    </h2>
+                    <hr class="hr-big border-0 bg-orange up up-med">
+                    <p class="p-big pt-3 m-0">
+                        <?php echo $security3Desc1; ?>
+                    </p>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-up">Jaxx Liberty allows you to set a password to further enhance the security of your backup phrase, which encrypts everything within it. This gives you a second layer of security should your device ever be lost or stolen.</p>
-                    <div class="right right-slow">
-                        <a href="#sec-6"><p class="p-btn mt-3 slide-up">Multi-platform <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
-                    </div>
+                <div class="col-lg-4 min-400 d-flex flex-column justify-content-center align-items-center o-12 right right-med">
+                    <img class="img-iphone-password absolute z-0 top-0 left-0 opacity-full ds"
+                    src="<?php echo $securityImgPassword; ?>"
+                    alt="">
                 </div>
+                <div class="offset-lg-2"></div>
+
             </div>
+        </section>
+
+        <!-- download -->
+
+        <section>
+            <div id="homeDownload" class="row d-flex relative p-5 min-500 bg-navy-gradient text-light">
+                <div class="offset-lg-2"></div>
+                <div class="col-lg-4 banner-left down">
+                    <h3 class="section-title py-3 text-light">
+                        <?php echo $homeDownload2; ?>
+                    </h3>
+                    <hr class="hr-big border-0 bg-orange m-0 up up-med">
+                    <p class="p-big py-3 m-0">
+                        <?php echo $homeDownload3; ?>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center text-center py-3 o-12 down down-med">
+                    <!--jaxx liberty google store-->
+                    <a href="https://play.google.com/store/apps/details?id=com.liberty.jaxx"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right"
+                            src="/assets/img/jaxx-google-play.png"
+                            alt="Google Play Store button to download Jaxx Liberty" />
+                    </a>
+                    <!--jaxx liberty itunes-->
+                    <a href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right right-med"
+                            src="/assets/img/jaxx-app-store.png"
+                            alt="iTunes App Store button to download Jaxx Liberty" />
+                    </a>
+                    <!--jaxx liberty chrome-->
+                    <a href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne"
+                        target="_blank">
+                            <img class="home-store-badge mt-2 right right-slow"
+                            src="/assets/img/jaxx-chrome-store.png"
+                            alt="Chrome Web Store button to download Jaxx Liberty" />
+                    </a>
+                    <!--end button nest row-->
+                    <div id="desktop_download" class="right right-med p-0">
+                        <a href="/downloads">
+                            <button class="desktop-download-btn btn btn-lg btn-dark bg-black mt-2 text-light">
+                                <i class="fa fa-desktop pl-3 pr-2 py-0 align-middle text-light"></i>
+                                Desktop
+                            </button>
+                        </a>
+                    </div>
+                <div class="offset-lg-2"></div>
+            </div>
+            <!--end row-->
         </section>
 
         <section>
             <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <!--<img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-imac-white.jpg" alt="Decentral is Canada's leading blockchain company.">-->
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-laptop-hands.jpg" alt="Jaxx Liberty allows you to set a password to further enhance the security of your backup phrase, which encrypts everything within it. This gives you a second layer of security should your device ever be lost or stolen.">
-                </div>
-            </div>
-        </section>
-
-        <!--Password-->
-        
-        <section>
-            <div id="sec-6" class="row d-flex p-5 min-500 bg-white stagger-up">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left right">
-                    <h2 class="h4 slide-up">Multi-platform</h2>
-                    <h3 class="section-title text-dark mb-0 slide-up">Secure across platforms.</h3>
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left text-secondary o-12 right right-med">
-                    <p class="p-big pt-3 m-0 slide-up">Sync Jaxx Liberty across all platforms and devices. Your 12-word backup phrase is all you’ll need to manage your digital assets on all your devices. Whether it’s iOS, Android, Mac, Windows, Linux or Google Chrome Extension, we’ve got you covered.</p>
-                    <div class="right right-slow">
-                        <a href="#sec-7"><p class="p-btn mt-3 slide-up">Download <i class="fa fa-angle-right fa-btn orange"></i></p></a>  
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" data-src="/assets/img/jaxx-ipad-macbook-closeup-desk.jpg" alt="Sync Jaxx Liberty across all platforms and devices. Whether it's iOS, Android, Mac, Windows, Linux or our Google Chrome Extension, we’ve got you covered.">
-                </div>
-            </div>
-        </section>
-
-        <!--multidevice + download-->
-        
-        <section>
-            <div id="sec-7" class="row bg-white min-500 py-5 stagger-up">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 right">
-                    <h2 class="h4 slide-up">Download</h2>
-                    
-                    <div class="right right-med">
-                        <h3 class="section-title font-weight-bold slide-up">Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.</h3>
-                    </div>
-                    <div class="row downloads-badge-container pt-2 pl-3 slide-up">
-                        <!--jaxx liberty google store-->
-                        <a onclick="googleAnalyticsTrigger('Android/Tablet', 'Security_Page')" href="https://play.google.com/store/apps/details?id=com.liberty.jaxx" target="_blank"><img title="Play Play Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-google-play.png" alt="Google Play Button"/></a>
-                        <!--jaxx liberty itunes-->
-                        <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8" target="_blank"><img title="iTunes App Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-app-store.png" alt="iTunes App Store Button"/></a>
-                        <!--jaxx liberty chrome-->
-                        <a onclick="googleAnalyticsTrigger('iOS', 'Security_Page')" href="https://chrome.google.com/webstore/detail/jaxx-liberty/cjelfplplebdjjenllpjcblmjkfcffne" target="_blank"><img title="iTunes Store Button" class="store-badge mr-1 mt-1" src="/assets/img/jaxx-chrome-store.png" alt="Chrome Web Store"/></a>
-                    </div><!--end button nest row--> 
-                    <div id="desktop_download" class="right right-med">
-                        <a href="/downloads" onclick="googleAnalyticsTrigger('Desktop', 'Security_Page')"><p class="p-btn pt-3 mt-2 slide-up">Desktop versions <i class="fa fa-angle-right fa-btn orange"></i></p></a> 
-                    </div>
-               </div>
-               <div class="offset-lg-4"></div>
-            </div>
-        </section>
-
-        <section>
-            <div class="row d-flex bg-light relative">
-                <div class="col-lg-12 min-700-lg down down-med">
-                    <img class="img-full absolute z-0 left-0 lazy" src="/assets/img/jaxx-ipad-black-wood-table.jpg" alt="Join thousands of users who already trust Jaxx Liberty. Download it for free on Android, iOS, Mac OS X, Windows, Linux, or Google Chrome extension.">
-                </div>
+                <div class="col-lg-12 min-500 bg--ipad-wood-table down down-med"></div>
             </div>
         </section>
 
