@@ -11,13 +11,13 @@ $(document).ready(function () {
   });
 
   //GSAP menu timeline
-  gsapMenuTimeline();
+  // gsapMenuTimeline();
 
   //smooth scroll
   smoothScroll();
 
   //GSAP + Scroll Magic
-  gsapScrollAnimations();
+  // gsapScrollAnimations();
 
   //lazy load
   lazyLoad();
