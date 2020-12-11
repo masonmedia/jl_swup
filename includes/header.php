@@ -271,16 +271,16 @@
                         <a class="nav-link" href="/features">Features</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/downloads" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
+                        <a class="nav-link" href="/downloads.php" onclick="googleAnalyticsTrigger('Downloads_Page', 'Menu')">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/security">Security</a>
+                        <a class="nav-link" href="/security.php">Security</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/community">Community</a>
+                        <a class="nav-link" href="/community.php">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/careers">Careers</a>
+                        <a class="nav-link" href="/careers.php">Careers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://support.decentral.ca/" target="_blank" onclick="googleAnalyticsTrigger('Support_Page', 'Menu')">Support</a>

@@ -1,6 +1,10 @@
 # **Jaxx.io**
 
-This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of [jaxx.io](https://jaxx.io).
+<img src="img/jaxx_browser_screen2.png"
+     alt="janicemasonsteeves.com homepage banner photo"
+     style="width: 100%; float: left; margin: 0 auto;" />
+
+This README outlines the various frameworks, languages, approaches, and steps used in the building and maintenance of [jaxx.io](https://jaxx.io). *I no longer maintain this site.
 
 ## **SWUP**
 
