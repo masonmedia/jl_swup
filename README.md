@@ -267,3 +267,7 @@ Decentral's Dreamhost and/or Cloudflare services make use of (or have enabled) *
 To avoid this, I started a practice of adding/updating a random string to the css file in the header.php **with every update to the site**. This breaks the cache and more easily allows changes to be viewed without page refresh:
 
 i.e. `<link rel="stylesheet" href="/assets/css/main.css?=21">`
+
+## License
+
+This repo is protected by copyright. Please see `License.md` for more information.
