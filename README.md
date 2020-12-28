@@ -270,4 +270,4 @@ i.e. `<link rel="stylesheet" href="/assets/css/main.css?=21">`
 
 ## License
 
-This repo is protected by copyright. Please see `License.md` for more information.
+This repo is protected by copyright. Contact [Andrew Mason](mailto:andrewmasonmedia@gmail.com) for more information.
